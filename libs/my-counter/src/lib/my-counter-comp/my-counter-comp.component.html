@@ -1,0 +1,11 @@
+
+<ng-container>
+  <div>Current Count: {{ count$ | async }}</div>
+
+    <button id="increment" (click)="increment()">Increment</button>
+
+    <button id="decrement" (click)="decrement()">Decrement</button>
+
+    <button id="reset" (click)="reset()">Reset Counter</button>
+
+</ng-container>

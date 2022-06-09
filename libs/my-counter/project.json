@@ -1,0 +1,25 @@
+{
+  "projectType": "library",
+  "sourceRoot": "libs/my-counter/src",
+  "prefix": "pranay",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/my-counter"],
+      "options": {
+        "jestConfig": "libs/my-counter/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/my-counter/**/*.ts",
+          "libs/my-counter/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}
