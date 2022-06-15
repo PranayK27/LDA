@@ -31,7 +31,6 @@ export class BooksComponent {
   ) {}
 
   ngOnInit() {
-    console.log(selectBookCollection);
     this.booksService
       .getBooks()
       .subscribe((books) => this.store.dispatch(retrievedBookList({ books })));
