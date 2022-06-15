@@ -10,11 +10,14 @@ import {BrowserModule} from "@angular/platform-browser";
 import {BooksComponent} from "./books.component";
 
 @NgModule({
-  imports: [CommonModule,
-    BrowserModule,
-    StoreModule.forRoot({ books: booksReducer, collection: collectionReducer }),
-    HttpClientModule,
-  ],
-  declarations: [BooksComponent, BookCollectionComponent, BookListComponent],
+    imports: [CommonModule,
+        BrowserModule,
+        StoreModule.forRoot({books: booksReducer, collection: collectionReducer}),
+        HttpClientModule,
+    ],
+    declarations: [BooksComponent, BookCollectionComponent, BookListComponent],
+    exports: [
+        BooksComponent
+    ]
 })
 export class BooksModule {}
