@@ -1,0 +1,19 @@
+{
+  "migrations": [
+    {
+      "cli": "nx",
+      "version": "14.3.4-beta.1",
+      "description": "Replace targetDependencies with targetDefaults",
+      "implementation": "./src/migrations/update-14-3-4/create-target-defaults",
+      "package": "nx",
+      "name": "14.3.4-create-target-defaults"
+    },
+    {
+      "description": "The road to v14",
+      "version": "14-beta",
+      "factory": "./14_0_0/index",
+      "package": "@ngrx/router-store",
+      "name": "ngrx-router-store-migration-04"
+    }
+  ]
+}

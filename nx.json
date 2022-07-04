@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
-  "npmScope": "pranay",
+  "npmScope": "LDA",
   "affected": {
     "defaultBase": "master"
   },

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, TemplateRef, ViewChild} from '@angular/core';
 
 @Component({
   selector: 'pranay-root',
@@ -6,5 +6,4 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'lda';
 }
