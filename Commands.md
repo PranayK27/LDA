@@ -2,7 +2,7 @@
 npx nx run lda:serve
 
 ### To create library
-nx g @nrwl/angular:lib ui
+nx g @nrwl/angular:lib <lib-name>
 
 
 ### NPM - NX
