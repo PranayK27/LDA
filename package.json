@@ -7,7 +7,9 @@
     "postinstall": "node ./decorate-angular-cli.js && ngcc --properties es2020 browser module main",
     "start": "nx serve",
     "build": "nx build",
-    "test": "nx test"
+    "test": "nx test",
+    "mock:server": "nodemon apps/lda-e2e/src/server/server.js --ext js,ts,json,html",
+    "serverAPI": "json-server --watch apps/lda-e2e/src/server/data/users/json/data.json --port 4200"
   },
   "private": true,
   "dependencies": {
@@ -17,7 +19,7 @@
     "@angular/compiler": "^14.0.4",
     "@angular/core": "^14.0.4",
     "@angular/forms": "^14.0.4",
-    "@angular/material": "^14.0.4",
+    "@angular/material": "^14.1.0",
     "@angular/platform-browser": "^14.0.4",
     "@angular/platform-browser-dynamic": "^14.0.4",
     "@angular/router": "^14.0.4",
@@ -27,7 +29,10 @@
     "@ngrx/router-store": "14.0.1",
     "@ngrx/store": "14.0.1",
     "@nrwl/angular": "14.2.4",
+    "@types/chart.js": "^2.9.37",
+    "@types/chartjs": "^0.0.31",
     "rxjs": "~6.5.3",
+    "rxjs-compat": "^6.6.7",
     "tslib": "^2.0.0",
     "zone.js": "^0.11.6"
   },
@@ -50,7 +55,7 @@
     "@nrwl/nx-cloud": "14.2.0",
     "@nrwl/workspace": "14.4.0",
     "@types/jest": "27.4.1",
-    "@types/node": "16.11.7",
+    "@types/node": "^16.11.7",
     "@typescript-eslint/eslint-plugin": "5.29.0",
     "@typescript-eslint/parser": "5.29.0",
     "cypress": "^9.1.0",
@@ -59,6 +64,8 @@
     "eslint-plugin-cypress": "^2.10.3",
     "jest": "27.5.1",
     "jest-preset-angular": "~11.1.2",
+    "json-server": "^0.17.0",
+    "nodemon": "^2.0.19",
     "nx": "14.4.0",
     "prettier": "^2.7.1",
     "ts-jest": "27.1.4",

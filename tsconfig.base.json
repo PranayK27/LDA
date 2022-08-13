@@ -14,7 +14,9 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
+    "allowSyntheticDefaultImports": true,
     "paths": {
+      "@pranay/shopping-app": ["libs/shopping-app/src/index.ts"],
       "@pranay/books": ["libs/books/src/index.ts"],
       "@pranay/my-counter": ["libs/my-counter/src/index.ts"]
     }
