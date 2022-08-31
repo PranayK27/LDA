@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@LDA/technologies": ["libs/technologies/src/index.ts"],
       "@pranay/books": ["libs/books/src/index.ts"],
       "@pranay/my-counter": ["libs/my-counter/src/index.ts"]
     }

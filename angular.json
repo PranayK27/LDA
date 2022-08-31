@@ -5,6 +5,7 @@
     "books": "libs/books",
     "lda": "apps/lda",
     "lda-e2e": "apps/lda-e2e",
-    "my-counter": "libs/my-counter"
+    "my-counter": "libs/my-counter",
+    "technologies": "libs/technologies"
   }
 }

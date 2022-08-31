@@ -1,0 +1,25 @@
+{
+  "projectType": "library",
+  "sourceRoot": "libs/technologies/src",
+  "prefix": "LDA",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/technologies"],
+      "options": {
+        "jestConfig": "libs/technologies/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/technologies/**/*.ts",
+          "libs/technologies/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}
