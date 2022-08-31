@@ -5,8 +5,8 @@ const server = jsonServer.create();
 server.use(middleware);
 server.use(jsonServer.bodyParser);
 
-const userData = require('../server/data/users')
-const productsData = require('../server/data/users')
+const userData = require('./data/products')
+const productsData = require('./data/products')
 
 server.get('/api/users', (req, res, next) => {
   res.status(200).send(userData.getUsers);
