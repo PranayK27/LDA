@@ -1,1 +1,38 @@
-<p>list works!</p>
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    <h2>Technology List</h2>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <div class="panel-body">
+        <table class="table table-striped">
+          <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>CategoryId</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr *ngFor="let list of lists | async">
+            <td>{{list.id}}</td>
+            <td>{{list.name}}</td>
+            <td>{{list.description}}</td>
+            <td>{{list.categoryId}}</td>
+            <td><button (click)="deleteEmployee(list.id)" class="btn btn-danger">Delete</button>
+              <button (click)="employeeDetails(list.id)" class="btn btn-info" style="margin-left: 10px">Details</button>
+            </td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="card-footer">
+      <p>
+        &copy;  All Rights Reserved By
+        <a href="#">Pranay Kekre</a><br><br>
+      </p>
+    </div>
+  </div>
+</div>

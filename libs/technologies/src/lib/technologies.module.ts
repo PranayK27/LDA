@@ -1,9 +1,10 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ListComponent } from './list/list.component';
+import {TechnologiesRoutingModule} from "./technologies/technologies-routing.module";
 
 @NgModule({
-  imports: [CommonModule],
-  declarations: [ListComponent],
+  imports: [CommonModule, TechnologiesRoutingModule],
+  declarations: [],
+  exports: [],
 })
 export class TechnologiesModule {}
