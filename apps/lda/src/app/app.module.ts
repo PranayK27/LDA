@@ -19,7 +19,7 @@ import {MatInputModule} from "@angular/material/input";
 import {MatButtonModule} from "@angular/material/button";
 import {
   TechnologiesRoutingModule
-} from "../../../../libs/technologies/src/lib/technologies/technologies-routing.module";
+} from "../../../../libs/technologies/src/lib/technologies-routing.module";
 
 @NgModule({
   declarations: [

@@ -10,45 +10,25 @@
   <meta name="keywords" content="" />
   <meta name="description" content="" />
   <meta name="author" content="" />
-  <link rel="shortcut icon" href="images/favicon.png" type="">
+  <link rel="shortcut icon" href="images/icon-book.jpeg" type="">
 
   <title> LDA </title>
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
 
-  <!--owl slider stylesheet -->
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
-  <!-- nice select  -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css" integrity="sha512-CruCP+TD3yXzlvvijET8wV5WxxEh5H8P4cmz0RFbKK6FlZ2sYl3AEsKlLPHbniXKSrDdFewhbmBK5skbdsASbQ==" crossorigin="anonymous" />
-  <!-- font awesome style -->
-  <link href="css/font-awesome.min.css" rel="stylesheet" />
-
   <!-- Custom styles for this template -->
-  <link href="css/style.css" rel="stylesheet" />
+  <link href="css/style.scss" rel="stylesheet" />
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
 
 </head>
 
-<body class="sub_page">
-<!--<nav class="navbar navbar-expand-sm bg-primary navbar-dark">-->
-<!--  &lt;!&ndash; Links &ndash;&gt;-->
-<!--  <ul class="navbar-nav">-->
-<!--    <li class="nav-item">-->
-<!--      <a routerLink="bovine" class="nav-link" routerLinkActive="active">Bovine List</a>-->
-<!--    </li>-->
-<!--    <li class="nav-item">-->
-<!--      <a routerLink="add" class="nav-link" routerLinkActive="active">Add Bovine</a>-->
-<!--    </li>-->
-<!--    <li class="nav-item">-->
-<!--      <a routerLink="search" class="nav-link" routerLinkActive="active">Search</a>-->
-<!--    </li>-->
-<!--  </ul>-->
-<!--</nav>-->
-<div class="container">
+<body>
+<div class="hero_area">
   <div class="bg-box">
-    <img src="images/icon-book2.webp" alt="image">
+    <img src="images/hero-bg.jpg" alt>
+
   </div>
 <!--   header section starts-->
   <header class="header_section">
@@ -60,39 +40,21 @@
             </span>
         </a>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class=""> </span>
-        </button>
-
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav  mx-auto ">
             <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home </a>
+              <a class="nav-link" routerLink="list" routerLinkActive="active">Home </a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="menu.html">Menu</a>
+              <a class="nav-link" routerLink="list" routerLinkActive="active">Menu</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="about.html">About <span class="sr-only">(current)</span> </a>
+              <a class="nav-link" routerLink="list" routerLinkActive="active">About <span class="sr-only">(current)</span> </a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="book.html">Book Table</a>
+              <a class="nav-link" routerLink="list" routerLinkActive="active">Book Table</a>
             </li>
           </ul>
-<!-- there is a button already configured here that is to be used later        -->
-<!--          <div class="user_option active">-->
-<!--            <a href="" class="user_link">-->
-<!--              <i class="fa fa-user" aria-hidden="true"></i>-->
-<!--            </a>-->
-<!--            <form class="form-inline">-->
-<!--              <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">-->
-<!--                <i class="fa fa-search" aria-hidden="true"></i>-->
-<!--              </button>-->
-<!--            </form>-->
-<!--            <a href="" class="order_online">-->
-<!--              Order Online-->
-<!--            </a>-->
-<!--          </div>-->
         </div>
       </nav>
     </div>
@@ -106,18 +68,7 @@
   <div class="container  ">
 
     <div class="row">
-      <div class="col-md-6 ">
-<!--        <div class="card">-->
-<!--          <div class="card-header text-info">-->
-<!--            <p>Search for the Tech you need</p>-->
-<!--          </div>-->
-<!--          <mat-form-field class="example-form-field" appearance="fill">-->
-<!--            <mat-label>Clearable input</mat-label>-->
-<!--            <input type="text" [(ngModel)]="value" >-->
-<!--          </mat-form-field>-->
-<!--        </div>-->
-      </div>
-      <div class="col-md-6">
+      <div class="col-md-12">
         <div class="detail-box">
           <div class="heading_container">
             <h2>
@@ -181,27 +132,6 @@
   </div>
 </footer>
 <!-- footer section -->
-
-<!-- jQery -->
-<script src="js/jquery-3.4.1.min.js"></script>
-<!-- popper js -->
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-</script>
-<!-- bootstrap js -->
-<script src="js/bootstrap.js"></script>
-<!-- owl slider -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
-</script>
-<!-- isotope js -->
-<script src="https://unpkg.com/isotope-layout@3.0.4/dist/isotope.pkgd.min.js"></script>
-<!-- nice select -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js"></script>
-<!-- custom js -->
-<script src="js/custom.js"></script>
-<!-- Google Map -->
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
-</script>
-<!-- End Google Map -->
 
 </body>
 

@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import {ListComponent} from "../list/list.component";
-import {TechnologiesComponent} from "../technologies/technologies.component";
+import {ListComponent} from "./list/list.component";
+import {TechnologiesComponent} from "./technologies/technologies.component";
 
 const routes: Routes = [
   { path: '', redirectTo: 'tech', pathMatch: 'full' },
