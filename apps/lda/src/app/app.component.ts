@@ -9,7 +9,7 @@ export interface Tile {
 
 
 @Component({
-  selector: 'pranay-root',
+  selector: 'lda-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })

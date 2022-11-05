@@ -1,7 +1,7 @@
 {
   "projectType": "application",
   "sourceRoot": "apps/lda/src",
-  "prefix": "pranay",
+  "prefix": "lda",
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:browser",
