@@ -10,13 +10,15 @@ import {BannerComponent} from "./shared/banner/banner.component";
 import {BannerNavigationComponent} from "./shared/banner-navigation/banner-navigation.component";
 import {FooterComponent} from "./shared/footer/footer.component";
 import {RouterLinkActive, RouterOutlet} from "@angular/router";
+import {PagesRoutingModule} from "./pages-routing.module";
 
 @NgModule({
   imports: [CommonModule, RouterLinkActive, RouterOutlet],
   exports: [
     FullComponent,
     FooterComponent,
-    BannerComponent
+    BannerComponent,
+    PagesRoutingModule
   ],
   declarations: [
     BlogComponent,
