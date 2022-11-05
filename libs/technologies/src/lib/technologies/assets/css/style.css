@@ -56,7 +56,7 @@ h2 {
 }
 
 .heading_container h2 span {
-  color: #005cbf;
+  color: #ffbe33;
 }
 
 .heading_container p {
@@ -176,7 +176,7 @@ a:focus {
 }
 
 .custom_nav-container .navbar-nav .nav-item:hover .nav-link, .custom_nav-container .navbar-nav .nav-item.active .nav-link {
-  color: #005cbf;
+  color: #ffbe33;
 }
 
 .custom_nav-container .nav_search-btn {
@@ -189,7 +189,7 @@ a:focus {
 }
 
 .custom_nav-container .nav_search-btn:hover {
-  color: #005cbf;
+  color: #ffbe33;
 }
 
 .user_option {
@@ -354,7 +354,7 @@ a:focus {
 .slider_section .detail-box a {
   display: inline-block;
   padding: 10px 45px;
-  background-color: #005cbf;
+  background-color: #ffbe33;
   color: #ffffff;
   border-radius: 45px;
   -webkit-transition: all 0.3s;
@@ -364,7 +364,7 @@ a:focus {
 }
 
 .slider_section .detail-box a:hover {
-  background-color: #005cbf;
+  background-color: #e69c00;
 }
 
 .slider_section .img-box img {

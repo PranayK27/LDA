@@ -1,6 +1,6 @@
 $white: #ffffff;
 $black: #000000;
-$primary1: #005cbf;
+$primary1: #ffbe33;
 $primary2: #222831;
 $textCol: #1f1f1f;
 
@@ -37,7 +37,7 @@ $textCol: #1f1f1f;
 
 body {
   @include main-font;
-  color: #007bff;
+  color: #0c0c0c;
   background-color: #ffffff;
   overflow-x: hidden;
 }
@@ -197,7 +197,7 @@ a:focus {
       &:hover,
       &.active {
         .nav-link {
-          color: $primary2;
+          color: $primary1;
         }
       }
     }

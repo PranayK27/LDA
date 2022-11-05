@@ -28,6 +28,8 @@
     "@ngrx/store": "14.0.1",
     "@nrwl/angular": "14.2.4",
     "@types/googlemaps": "^3.43.3",
+    "bootstrap": "^5.2.2",
+    "jquery": "^3.6.1",
     "rxjs": "~6.5.3",
     "tslib": "^2.0.0",
     "zone.js": "^0.11.6"

@@ -12,8 +12,11 @@
         "main": "apps/lda/src/main.ts",
         "polyfills": "apps/lda/src/polyfills.ts",
         "tsConfig": "apps/lda/tsconfig.app.json",
-        "assets": ["apps/lda/src/favicon.ico", "apps/lda/src/assets"],
-        "styles": ["apps/lda/src/styles.css"],
+        "assets": ["apps/lda/src/assets/images", "apps/lda/src/assets/fonts"],
+        "styles": ["apps/lda/src/styles.css", "apps/lda/src/assets/css/bootstrap.css",
+          "apps/lda/src/assets/css/font-awesome.min.css", "apps/lda/src/assets/css/responsive.css",
+          "apps/lda/src/assets/css/style.scss"
+        ],
         "scripts": []
       },
       "configurations": {
