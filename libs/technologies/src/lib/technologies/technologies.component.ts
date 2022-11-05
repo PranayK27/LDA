@@ -4,11 +4,11 @@ import { Component, OnInit } from '@angular/core';
   selector: 'lda-technologies',
   templateUrl: './technologies.component.html',
   styleUrls: ['./technologies.component.css',
-    './css/bootstrap.css',
-    './css/style.css',
-    './css/responsive.css',
-    './css/style.scss',
-    './css/font-awesome.min.css'],
+    './assets/css/bootstrap.css',
+    './assets/css/style.css',
+    './assets/css/responsive.css',
+    './assets/css/style.scss',
+    './assets/css/font-awesome.min.css']
 })
 export class TechnologiesComponent implements OnInit {
   constructor() {}
