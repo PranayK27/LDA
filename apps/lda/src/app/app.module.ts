@@ -9,7 +9,7 @@ import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {MatCardModule} from "@angular/material/card";
 import {MatGridListModule} from "@angular/material/grid-list";
 import {AppRoutingModule} from "./app-routing.module";
-import {ListComponent} from "../../../../libs/technologies/src/lib/list/list.component";
+import {ListComponent} from "../../../../libs/technologies/src/lib/technologies/list/list.component";
 import {RouterModule} from "@angular/router";
 import {TechnologiesComponent} from "../../../../libs/technologies/src/lib/technologies/technologies.component";
 import {MatFormFieldModule} from "@angular/material/form-field";
@@ -20,6 +20,8 @@ import {MatButtonModule} from "@angular/material/button";
 import {
   TechnologiesRoutingModule
 } from "../../../../libs/technologies/src/lib/technologies-routing.module";
+import {MatTableModule} from "@angular/material/table";
+import {MatPaginatorModule} from "@angular/material/paginator";
 
 @NgModule({
   declarations: [
@@ -28,22 +30,24 @@ import {
     ListComponent,
     TechnologiesComponent
   ],
-    imports: [
-        BrowserModule,
-        MyCounterModule,
-        BooksModule,
-        BrowserAnimationsModule,
-        MatCardModule,
-        MatGridListModule,
-        AppRoutingModule,
-        RouterModule,
-        MatFormFieldModule,
-        MatIconModule,
-        FormsModule,
-        MatInputModule,
-        MatButtonModule,
-        TechnologiesRoutingModule,
-    ],
+  imports: [
+    BrowserModule,
+    MyCounterModule,
+    BooksModule,
+    BrowserAnimationsModule,
+    MatCardModule,
+    MatGridListModule,
+    AppRoutingModule,
+    RouterModule,
+    MatFormFieldModule,
+    MatIconModule,
+    FormsModule,
+    MatInputModule,
+    MatButtonModule,
+    TechnologiesRoutingModule,
+    MatTableModule,
+    MatPaginatorModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })
