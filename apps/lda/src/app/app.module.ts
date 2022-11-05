@@ -27,7 +27,6 @@ import {
   CategoryDetailsComponent
 } from "../../../../libs/technologies/src/lib/technologies/category-details/category-details.component";
 import {PagesModule} from "../../../../libs/pages/src/lib/pages.module";
-import {PagesRoutingModule} from "../../../../libs/pages/src/lib/pages-routing.module";
 
 @NgModule({
   declarations: [
@@ -56,7 +55,6 @@ import {PagesRoutingModule} from "../../../../libs/pages/src/lib/pages-routing.m
     MatTableModule,
     MatPaginatorModule,
     PagesModule,
-    // PagesRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent],
