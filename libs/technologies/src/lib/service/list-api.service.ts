@@ -11,23 +11,23 @@ export class ListApiService {
 
   constructor(private http: HttpClient) { }
 
-  getEmployee(id: number): Observable<any> {
+  getData(id: number): Observable<any> {
     return this.http.get(`${this.baseUrl}/${id}`);
   }
 
-  createEmployee(employee: Object): Observable<Object> {
-    return this.http.post(`${this.baseUrl}`, employee);
+  createData(data: Object): Observable<Object> {
+    return this.http.post(`${this.baseUrl}`, data);
   }
 
-  updateEmployee(id: number, value: any): Observable<Object> {
+  updateData(id: number, value: any): Observable<Object> {
     return this.http.put(`${this.baseUrl}/${id}`, value);
   }
 
-  deleteEmployee(id: number | undefined): Observable<any> {
+  deleteData(id: number | undefined): Observable<any> {
     return this.http.delete(`${this.baseUrl}/${id}`, { responseType: 'text' });
   }
 
-  getEmployeesList(): Observable<any> {
+  getDataList(): Observable<any> {
     return this.http.get(`${this.baseUrl}`);
   }
 }
