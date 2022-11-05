@@ -12,8 +12,5 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TechnologiesComponent implements OnInit {
   constructor() {}
-
-  ngOnInit(): void {}
-
-  value = 'Clear me';
+  ngOnInit() {}
 }
