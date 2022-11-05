@@ -2,7 +2,7 @@ import {Component, EventEmitter, Input, Output} from '@angular/core';
 import {Book} from "../model/books.model";
 
 @Component({
-  selector: 'pranay-book-collection',
+  selector: 'lda-book-collection',
   templateUrl: './book-collection.component.html',
   styleUrls: ['./book-collection.component.css'],
 })

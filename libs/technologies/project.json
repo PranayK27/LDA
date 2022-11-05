@@ -1,7 +1,7 @@
 {
   "projectType": "library",
   "sourceRoot": "libs/technologies/src",
-  "prefix": "LDA",
+  "prefix": "lda",
   "targets": {
     "test": {
       "executor": "@nrwl/jest:jest",

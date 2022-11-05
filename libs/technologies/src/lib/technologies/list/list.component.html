@@ -1,6 +1,8 @@
 <div class="panel panel-primary">
   <div class="panel-heading">
+
     <h2>Technology List</h2>
+
   </div>
   <div class="card">
     <div class="card-body">
@@ -26,7 +28,9 @@
           <!-- Description Column -->
           <ng-container matColumnDef="description">
             <th mat-header-cell *matHeaderCellDef> Description </th>
-            <td mat-cell *matCellDef="let element"> {{element.description}} </td>
+            <td mat-cell *matCellDef="let element">
+              <a href="{{ element.description }}"> {{element.description}} </a>
+            </td>
           </ng-container>
 
           <!-- Symbol Column -->
@@ -49,10 +53,17 @@
         </table>
       </div>
     </div>
+
+    <div class="panel">
+
+      <button mat-stroked-button> <a href="tech"> Home </a> </button>
+
+    </div>
+
     <div class="card-footer">
       <p>
-        &copy;  All Rights Reserved By
-        <a href="#">Pranay Kekre</a><br><br>
+        &copy;  All Rights Reserved by
+        Pranay Kekre<br><br>
       </p>
     </div>
   </div>

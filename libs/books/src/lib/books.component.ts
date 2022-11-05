@@ -10,7 +10,7 @@ import {
 import { GoogleBooksService } from './service/books.service';
 
 @Component({
-  selector: 'pranay-books',
+  selector: 'lda-books',
   templateUrl: './books.component.html',
 })
 export class BooksComponent {

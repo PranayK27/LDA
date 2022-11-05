@@ -6,6 +6,7 @@
     "lda": "apps/lda",
     "lda-e2e": "apps/lda-e2e",
     "my-counter": "libs/my-counter",
+    "pages": "libs/pages",
     "technologies": "libs/technologies"
   }
 }

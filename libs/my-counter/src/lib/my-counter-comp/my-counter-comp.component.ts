@@ -4,7 +4,7 @@ import { Observable } from 'rxjs';
 import { increment, decrement, reset } from '../counter.action';
 
 @Component({
-  selector: 'pranay-my-counter',
+  selector: 'lda-my-counter',
   templateUrl: './my-counter-comp.component.html',
   styleUrls: [],
 })

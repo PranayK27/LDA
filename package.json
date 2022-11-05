@@ -29,7 +29,10 @@
     "@nrwl/angular": "14.2.4",
     "@types/googlemaps": "^3.43.3",
     "bootstrap": "^5.2.2",
+    "commitizen": "^4.2.5",
     "jquery": "^3.6.1",
+    "primeicons": "^6.0.1",
+    "primeng": "^14.1.2",
     "rxjs": "~6.5.3",
     "tslib": "^2.0.0",
     "zone.js": "^0.11.6"

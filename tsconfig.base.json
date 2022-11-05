@@ -15,9 +15,10 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@LDA/technologies": ["libs/technologies/src/index.ts"],
-      "@pranay/books": ["libs/books/src/index.ts"],
-      "@pranay/my-counter": ["libs/my-counter/src/index.ts"]
+      "@lda/pages": ["libs/pages/src/index.ts"],
+      "@lda/technologies": ["libs/technologies/src/index.ts"],
+      "@lda/books": ["libs/books/src/index.ts"],
+      "@lda/my-counter": ["libs/my-counter/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

@@ -13,9 +13,15 @@
         "polyfills": "apps/lda/src/polyfills.ts",
         "tsConfig": "apps/lda/tsconfig.app.json",
         "assets": ["apps/lda/src/assets/images", "apps/lda/src/assets/fonts"],
-        "styles": ["apps/lda/src/styles.css", "apps/lda/src/assets/css/bootstrap.css",
-          "apps/lda/src/assets/css/font-awesome.min.css", "apps/lda/src/assets/css/responsive.css",
-          "apps/lda/src/assets/css/style.scss"
+        "styles": [
+          "apps/lda/src/styles.css",
+          "apps/lda/src/assets/css/bootstrap.css",
+          "apps/lda/src/assets/css/font-awesome.min.css",
+          "apps/lda/src/assets/css/responsive.css",
+          "apps/lda/src/assets/css/style.scss",
+          "node_modules/primeicons/primeicons.css",
+          "node_modules/primeng/resources/themes/lara-light-blue/theme.css",
+          "node_modules/primeng/resources/primeng.min.css"
         ],
         "scripts": []
       },

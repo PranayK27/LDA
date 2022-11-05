@@ -22,6 +22,7 @@ import {
 } from "../../../../libs/technologies/src/lib/technologies-routing.module";
 import {MatTableModule} from "@angular/material/table";
 import {MatPaginatorModule} from "@angular/material/paginator";
+import {ButtonModule} from "primeng/button";
 
 @NgModule({
   declarations: [
@@ -30,24 +31,25 @@ import {MatPaginatorModule} from "@angular/material/paginator";
     ListComponent,
     TechnologiesComponent
   ],
-  imports: [
-    BrowserModule,
-    MyCounterModule,
-    BooksModule,
-    BrowserAnimationsModule,
-    MatCardModule,
-    MatGridListModule,
-    AppRoutingModule,
-    RouterModule,
-    MatFormFieldModule,
-    MatIconModule,
-    FormsModule,
-    MatInputModule,
-    MatButtonModule,
-    TechnologiesRoutingModule,
-    MatTableModule,
-    MatPaginatorModule,
-  ],
+    imports: [
+        BrowserModule,
+        MyCounterModule,
+        BooksModule,
+        BrowserAnimationsModule,
+        MatCardModule,
+        MatGridListModule,
+        AppRoutingModule,
+        RouterModule,
+        MatFormFieldModule,
+        MatIconModule,
+        FormsModule,
+        MatInputModule,
+        MatButtonModule,
+        TechnologiesRoutingModule,
+        MatTableModule,
+        MatPaginatorModule,
+        ButtonModule,
+    ],
   providers: [],
   bootstrap: [AppComponent],
 })
