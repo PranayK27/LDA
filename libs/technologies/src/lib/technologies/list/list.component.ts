@@ -32,11 +32,11 @@ export class ListComponent implements OnInit {
   }
 
   getData() {
-    this.lists = this.listApiService.getEmployeesList();
+    this.lists = this.listApiService.getDataList();
   }
 
-  deleteEmployee(id: number | undefined) {
-    this.listApiService.deleteEmployee(id)
+  deleteData(id: number | undefined) {
+    this.listApiService.deleteData(id)
       .subscribe(
         data => {
           console.log(data);
@@ -45,7 +45,7 @@ export class ListComponent implements OnInit {
         error => console.log(error));
   }
 
-  employeeDetails(id: number | undefined){
+  getDetails(id: number | undefined){
     this.router.navigate(['details', id]);
   }
 }
