@@ -18,8 +18,7 @@
           "apps/lda/src/assets/css/bootstrap.css",
           "apps/lda/src/assets/css/font-awesome.min.css",
           "apps/lda/src/assets/css/responsive.css",
-          "apps/lda/src/assets/css/style.scss",
-          "apps/lda/src/assets/scss"
+          "apps/lda/src/assets/css/style.scss"
         ],
         "scripts": []
       },
@@ -28,8 +27,8 @@
           "budgets": [
             {
               "type": "initial",
-              "maximumWarning": "500kb",
-              "maximumError": "1mb"
+              "maximumWarning": "5mb",
+              "maximumError": "10mb"
             },
             {
               "type": "anyComponentStyle",
