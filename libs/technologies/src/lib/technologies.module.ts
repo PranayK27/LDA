@@ -12,7 +12,6 @@ import {FormsModule} from "@angular/forms";
 import {MatInputModule} from "@angular/material/input";
 import {MatButtonModule} from "@angular/material/button";
 import {ButtonModule} from "primeng/button";
-import {TechnologiesComponent} from "./technologies/technologies.component";
 
 @NgModule({
   imports: [
@@ -30,7 +29,6 @@ import {TechnologiesComponent} from "./technologies/technologies.component";
     PagesModule
   ],
   declarations: [
-    TechnologiesComponent,
     CategoryDetailsComponent,
   ],
   exports: [],
