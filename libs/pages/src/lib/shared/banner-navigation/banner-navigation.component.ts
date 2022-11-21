@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'lda-banner-navigation',
@@ -8,8 +9,9 @@ import { Component, OnInit } from '@angular/core';
 export class BannerNavigationComponent implements OnInit {
 
   logoutStatus = false;
+  routerStatus = "tech/details";
 
-  constructor() {
+  constructor(private router: Router) {
 
   }
 
