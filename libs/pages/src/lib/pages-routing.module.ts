@@ -11,12 +11,12 @@ import { FullComponent } from './layout/full/full.component';
 
 const routes: Routes = [
   {
-    path: '',
+    path: "",
     component: FullComponent,
     children: [
-      { path: '', component: BlogComponent },
-      { path: 'blogDetail/:id', component: BlogDetailComponent },
-      { path: 'about', component: AboutComponent },
+      { path: "", component: BlogComponent },
+      { path: "blogDetail/:id", component: BlogDetailComponent },
+      { path: "about", component: AboutComponent },
     ]
   }
 ];
