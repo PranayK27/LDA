@@ -12,7 +12,10 @@
         "main": "apps/lda/src/main.ts",
         "polyfills": "apps/lda/src/polyfills.ts",
         "tsConfig": "apps/lda/tsconfig.app.json",
-        "assets": ["apps/lda/src/assets/images", "apps/lda/src/assets/fonts"],
+        "assets": [
+          "apps/lda/src/assets/images",
+          "apps/lda/src/assets/fonts"
+        ],
         "styles": [
           "apps/lda/src/styles.css",
           "apps/lda/src/assets/css/bootstrap.css",
