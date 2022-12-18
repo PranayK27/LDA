@@ -20,7 +20,6 @@ import {MatTableModule} from "@angular/material/table";
 import {MatPaginatorModule} from "@angular/material/paginator";
 import {TechnologiesModule} from "@lda/technologies";
 import {PagesModule} from "@lda/pages";
-import {ExtraModule} from "./extra.module";
 
 @NgModule({
   declarations: [
@@ -28,13 +27,24 @@ import {ExtraModule} from "./extra.module";
     NxWelcomeComponent,
   ],
   imports: [
+    BrowserModule,
     MyCounterModule,
     BooksModule,
+    BrowserAnimationsModule,
+    MatCardModule,
+    MatGridListModule,
     AppRoutingModule,
     RouterModule,
+    MatFormFieldModule,
+    MatIconModule,
+    FormsModule,
+    MatInputModule,
+    MatButtonModule,
+    ButtonModule,
+    MatTableModule,
+    MatPaginatorModule,
     TechnologiesModule,
     PagesModule,
-    ExtraModule
   ],
   providers: [],
   bootstrap: [AppComponent],
