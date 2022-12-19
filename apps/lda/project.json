@@ -14,14 +14,31 @@
         "tsConfig": "apps/lda/tsconfig.app.json",
         "assets": [
           "apps/lda/src/assets/images",
-          "apps/lda/src/assets/fonts"
+          "apps/lda/src/assets/fonts",
+          "apps/lda/src/assets/scss/font",
+          "apps/lda/src/assets/scss/font/Webfont",
+          "apps/lda/src/assets/scss/icons",
+          "apps/lda/src/assets/scss/icons/font-awesome"
         ],
         "styles": [
           "apps/lda/src/styles.css",
           "apps/lda/src/assets/css/bootstrap.css",
           "apps/lda/src/assets/css/font-awesome.min.css",
           "apps/lda/src/assets/css/responsive.css",
-          "apps/lda/src/assets/css/style.scss"
+          "apps/lda/src/assets/css/style.scss",
+          "node_modules/bootstrap/dist/css/bootstrap.min.css",
+          "apps/lda/src/assets/scss/style.scss",
+          "apps/lda/src/assets/scss/animate.css",
+          "apps/lda/src/assets/scss/app.scss",
+          "apps/lda/src/assets/scss/variable.scss",
+          "apps/lda/src/assets/scss/responsive.scss",
+          "apps/lda/src/assets/scss/extra.scss",
+          "apps/lda/src/assets/scss/common.scss",
+          "apps/lda/src/assets/scss/authentication.scss",
+          "apps/lda/src/assets/scss/icons/themify-icons/themify-icons.css",
+          "apps/lda/src/assets/scss/icons/simple-line-icons/css/simple-line-icons.css",
+          "apps/lda/src/assets/scss/icons/simple-line-icons/scss/simple-line-icons.scss"
+
         ],
         "scripts": []
       },
@@ -56,7 +73,7 @@
           "namedChunks": true
         }
       },
-      "defaultConfiguration": "production"
+      "defaultConfiguration": "development"
     },
     "serve": {
       "executor": "@angular-devkit/build-angular:dev-server",
