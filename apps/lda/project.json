@@ -14,11 +14,15 @@
         "tsConfig": "apps/lda/tsconfig.app.json",
         "assets": [
           "apps/lda/src/assets/images",
+          "apps/lda/src/assets/images/background",
+          "apps/lda/src/assets/images/landingpage",
           "apps/lda/src/assets/fonts",
           "apps/lda/src/assets/scss/font",
           "apps/lda/src/assets/scss/font/Webfont",
           "apps/lda/src/assets/scss/icons",
-          "apps/lda/src/assets/scss/icons/font-awesome"
+          "apps/lda/src/assets/scss/icons/font-awesome",
+          "apps/lda/src/assets/scss/icons/simple-line-icons",
+          "apps/lda/src/assets/scss/icons/themify-icons"
         ],
         "styles": [
           "apps/lda/src/styles.css",
@@ -35,10 +39,13 @@
           "apps/lda/src/assets/scss/extra.scss",
           "apps/lda/src/assets/scss/common.scss",
           "apps/lda/src/assets/scss/authentication.scss",
-          "apps/lda/src/assets/scss/icons/themify-icons/themify-icons.css",
           "apps/lda/src/assets/scss/icons/simple-line-icons/css/simple-line-icons.css",
-          "apps/lda/src/assets/scss/icons/simple-line-icons/scss/simple-line-icons.scss"
-
+          "apps/lda/src/assets/scss/icons/simple-line-icons/scss/simple-line-icons.scss",
+          "apps/lda/src/assets/scss/icons/font-awesome/css/font-awesome.css",
+          "apps/lda/src/assets/scss/icons/font-awesome/old/css/font-awesome.css",
+          "apps/lda/src/assets/scss/icons/themify-icons/themify-icons.less",
+          "apps/lda/src/assets/scss/icons/themify-icons/themify-icons.css",
+          "apps/lda/src/assets/scss/icons/themify-icons/ie7/ie7.css"
         ],
         "scripts": []
       },
