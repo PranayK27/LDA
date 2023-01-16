@@ -117,14 +117,16 @@
     "storybook": {
       "builder": "@storybook/angular:start-storybook",
       "options": {
-        "browserTarget": "angular-cli:build",
-        "port": 6006
+        "browserTarget": "lda:build",
+        "port": 6006,
+        "tsConfig": "apps/lda/tsconfig.app.json"
       }
     },
     "build-storybook": {
       "builder": "@storybook/angular:build-storybook",
       "options": {
-        "browserTarget": "angular-cli:build"
+        "browserTarget": "lda:build",
+        "tsConfig": "apps/lda/tsconfig.app.json"
       }
     },
   "tags": []
