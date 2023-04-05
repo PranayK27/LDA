@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TopContentComponent implements OnInit {
 
-  imagePath='libs/pages/src/lib/assets/images/innerpage/about-us.jpg';
+  imagePath='apps/lda/src/assets/images/innerpage/about-us.jpg';
 
   constructor() { }
 
