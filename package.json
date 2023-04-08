@@ -8,9 +8,9 @@
     "start": "nx run lda:serve",
     "build": "npx nx run lda:build",
     "test": "nx test",
-    "docs:json": "compodoc -p ./tsconfig.json -e json -d .",
+    "docs:json": "compodoc -p tsconfig.base.json -e json -d .",
     "storybook": "npm run docs:json && start-storybook -p 6006",
-    "build-storybook": "npm run docs:json && build-storybook",
+    "build-storybook": "npm run docs:json",
     "chromatic": "chromatic --exit-zero-on-changes"
   },
   "private": true,
