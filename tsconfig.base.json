@@ -19,7 +19,8 @@
       "@lda/pages": ["libs/pages/src/index.ts"],
       "@lda/technologies": ["libs/technologies/src/index.ts"],
       "@lda/books": ["libs/books/src/index.ts"],
-      "@lda/my-counter": ["libs/my-counter/src/index.ts"]
+      "@lda/my-counter": ["libs/my-counter/src/index.ts"],
+      "@lda/components": ["libs/components/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

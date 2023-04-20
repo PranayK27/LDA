@@ -1,6 +1,9 @@
 ### To run the dev
 npx nx run lda:serve
 
+### storybook
+nx run lda:storybook
+
 ### To create library
 nx g @nrwl/angular:lib <lib-name>
 
