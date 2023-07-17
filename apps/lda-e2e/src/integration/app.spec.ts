@@ -1,13 +1,15 @@
 import { getGreeting } from '../support/app.po';
 
 describe('lda', () => {
-  beforeEach(() => cy.visit('/'));
+  beforeEach(() => cy.visit('http://localhost:4200/tech'));
 
   it('should display welcome message', () => {
     // Custom command example, see `../support/commands.ts` file
-    cy.login('my-email@something.com', 'myPassword');
+    //cy.login('my-email@something.com', 'myPassword');
 
     // Function helper example, see `../support/app.po.ts` file
-    getGreeting().contains('Welcome lda');
+    getGreeting().contains('LDA');
+
+    cy.get('#navbarSupportedContent > ul > li:nth-child(1) > a').should('contain', 'Tech List');
   });
 });

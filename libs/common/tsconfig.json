@@ -1,5 +1,5 @@
 {
-  "extends": "../shared/tsconfig.libs",
+  "extends": "../../tsconfig.base.json",
   "include": ["src", "spec"],
   "exclude": ["node_modules", "dist"]
 }

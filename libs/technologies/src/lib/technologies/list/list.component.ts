@@ -19,7 +19,7 @@ export class ListComponent implements OnInit {
 
   lists: Observable<List[]> | undefined;
 
-  constructor(private listApiService: ListApiService,
+  constructor(public listApiService: ListApiService,
               private router: Router) {}
 
   ngOnInit() {

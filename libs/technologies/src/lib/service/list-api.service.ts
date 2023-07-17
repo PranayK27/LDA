@@ -9,7 +9,7 @@ export class ListApiService {
 
   private baseUrl = 'http://localhost:8080/api/v1/list';
 
-  constructor(private http: HttpClient) { }
+  constructor(public http: HttpClient) { }
 
   getData(id: number): Observable<any> {
     return this.http.get(`${this.baseUrl}/${id}`);

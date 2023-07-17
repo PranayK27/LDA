@@ -17,8 +17,13 @@ declare namespace Cypress {
 }
 //
 // -- This is a parent command --
-Cypress.Commands.add('login', (email, password) => {
-  console.log('Custom command example: Login', email, password);
+// Cypress.Commands.add('login', (email, password) => {
+//   console.log('Custom command example: Login', email, password);
+// });
+
+Cypress.Commands.add('Home Page is visible', () => {
+  cy.visit('http://localhost:4200/tech');
+  console.log('Custom command example: Home Page');
 });
 //
 // -- This is a child command --

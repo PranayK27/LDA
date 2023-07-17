@@ -1,5 +1,4 @@
 import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
 import { Observable, of } from 'rxjs';
 import { blogs } from './blog-data';
 
@@ -16,7 +15,7 @@ export class ServiceblogService {
   showEdit = false;
 
 
-  constructor(public http: HttpClient) {
+  constructor() {
   }
 
   public getBlog(): Observable<any> {

@@ -14,8 +14,7 @@ export class BlogComponent implements OnInit {
 
   constructor(
     public service: ServiceblogService,
-    public router: Router,
-    public http: HttpClient
+    public router: Router
   ) {
     this.service.showEdit = false;
   }

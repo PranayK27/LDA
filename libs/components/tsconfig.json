@@ -1,4 +1,5 @@
 {
+  "extends": "../../tsconfig.base.json",
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
@@ -19,8 +20,8 @@
     "module": "es2020",
     "lib": ["es2020", "dom"],
     "paths": {
-      "@bitwarden/common/*": ["../common/src/*"],
-      "@bitwarden/angular/*": ["../angular/src/*"]
+      "@lda/common/*": ["../common/src/*"],
+      "@lda/angular/*": ["../angular/src/*"]
     }
   },
   "angularCompilerOptions": {

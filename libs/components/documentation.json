@@ -8654,16 +8654,6 @@
                 "name": "Danger",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/banner/banner.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "",
-                "defaultValue": "Template.bind({})"
-            },
-            {
-                "name": "Danger",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
                 "file": "src/badge/badge.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
@@ -8675,6 +8665,16 @@
                 "ctype": "miscellaneous",
                 "subtype": "variable",
                 "file": "src/button/button.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "",
+                "defaultValue": "Template.bind({})"
+            },
+            {
+                "name": "Danger",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/banner/banner.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "",
@@ -8744,7 +8744,7 @@
                 "name": "Default",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/icon-button/icon-button.stories.ts",
+                "file": "src/table/table.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "",
@@ -8754,7 +8754,7 @@
                 "name": "Default",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/table/table.stories.ts",
+                "file": "src/icon-button/icon-button.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "",
@@ -9054,7 +9054,7 @@
                 "name": "Info",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/banner/banner.stories.ts",
+                "file": "src/badge/badge.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "",
@@ -9064,7 +9064,7 @@
                 "name": "Info",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/badge/badge.stories.ts",
+                "file": "src/banner/banner.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "",
@@ -9705,16 +9705,6 @@
                 "name": "Template",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/banner/banner.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "Story<BannerComponent>",
-                "defaultValue": "(args: BannerComponent) => ({\n  props: args,\n  template: `\n    <bit-banner [bannerType]=\"bannerType\" (onClose)=\"onClose($event)\">\n        Content Really Long Text Lorem Ipsum Ipsum Ipsum\n        <button>Button</button>\n    </bit-banner>\n  `,\n})"
-            },
-            {
-                "name": "Template",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
                 "file": "src/badge/badge.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
@@ -9735,21 +9725,21 @@
                 "name": "Template",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/callout/callout.stories.ts",
+                "file": "src/banner/banner.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
-                "type": "Story<CalloutComponent>",
-                "defaultValue": "(args: CalloutComponent) => ({\n  props: args,\n  template: `\n    <bit-callout [type]=\"type\" [title]=\"title\">Content</bit-callout>\n  `,\n})"
+                "type": "Story<BannerComponent>",
+                "defaultValue": "(args: BannerComponent) => ({\n  props: args,\n  template: `\n    <bit-banner [bannerType]=\"bannerType\" (onClose)=\"onClose($event)\">\n        Content Really Long Text Lorem Ipsum Ipsum Ipsum\n        <button>Button</button>\n    </bit-banner>\n  `,\n})"
             },
             {
                 "name": "Template",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/color-password/color-password.stories.ts",
+                "file": "src/callout/callout.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
-                "type": "Story<ColorPasswordComponent>",
-                "defaultValue": "(args: ColorPasswordComponent) => ({\n  props: args,\n  template: `\n  <bit-color-password class=\"tw-text-base\" [password]=\"password\" [showCount]=\"showCount\"></bit-color-password>\n  `,\n})"
+                "type": "Story<CalloutComponent>",
+                "defaultValue": "(args: CalloutComponent) => ({\n  props: args,\n  template: `\n    <bit-callout [type]=\"type\" [title]=\"title\">Content</bit-callout>\n  `,\n})"
             },
             {
                 "name": "Template",
@@ -9805,11 +9795,11 @@
                 "name": "Template",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/icon-button/icon-button.stories.ts",
+                "file": "src/color-password/color-password.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
-                "type": "Story<BitIconButtonComponent>",
-                "defaultValue": "(args: BitIconButtonComponent) => ({\n  props: { ...args, buttonTypes },\n  template: `\n  <table class=\"tw-border-spacing-2 tw-text-center tw-text-main\">\n    <thead>\n      <tr>\n        <td></td>\n        <td *ngFor=\"let buttonType of buttonTypes\" class=\"tw-capitalize tw-font-bold tw-p-4\"\n          [class.tw-text-contrast]=\"buttonType === 'contrast'\"\n          [class.tw-bg-primary-500]=\"buttonType === 'contrast'\">{{buttonType}}</td>\n      </tr>\n    </thead>\n\n    <tbody>\n      <tr>\n        <td class=\"tw-font-bold tw-p-4 tw-text-left\">Default</td>\n          <td *ngFor=\"let buttonType of buttonTypes\" class=\"tw-p-2\" [class.tw-bg-primary-500]=\"buttonType === 'contrast'\">\n            <button\n              [bitIconButton]=\"bitIconButton\"\n              [buttonType]=\"buttonType\"\n              [size]=\"size\"\n              title=\"Example icon button\"\n              aria-label=\"Example icon button\"></button>\n          </td>\n      </tr>\n\n      <tr>\n        <td class=\"tw-font-bold tw-p-4 tw-text-left\">Disabled</td>\n          <td *ngFor=\"let buttonType of buttonTypes\" class=\"tw-p-2\" [class.tw-bg-primary-500]=\"buttonType === 'contrast'\">\n            <button\n              [bitIconButton]=\"bitIconButton\"\n              [buttonType]=\"buttonType\"\n              [size]=\"size\"\n              disabled\n              title=\"Example icon button\"\n              aria-label=\"Example icon button\"></button>\n          </td>\n      </tr>\n\n      <tr>\n        <td class=\"tw-font-bold tw-p-4 tw-text-left\">Loading</td>\n          <td *ngFor=\"let buttonType of buttonTypes\" class=\"tw-p-2\" [class.tw-bg-primary-500]=\"buttonType === 'contrast'\">\n            <button\n              [bitIconButton]=\"bitIconButton\"\n              [buttonType]=\"buttonType\"\n              [size]=\"size\"\n              loading=\"true\"\n              title=\"Example icon button\"\n              aria-label=\"Example icon button\"></button>\n          </td>\n      </tr>\n    </tbody>\n  </table>\n  `,\n})"
+                "type": "Story<ColorPasswordComponent>",
+                "defaultValue": "(args: ColorPasswordComponent) => ({\n  props: args,\n  template: `\n  <bit-color-password class=\"tw-text-base\" [password]=\"password\" [showCount]=\"showCount\"></bit-color-password>\n  `,\n})"
             },
             {
                 "name": "Template",
@@ -9830,6 +9820,16 @@
                 "deprecationMessage": "",
                 "type": "Story",
                 "defaultValue": "(args) => ({\n  props: args,\n  template: `\n    <bit-table>\n      <ng-container header>\n        <tr>\n          <th bitCell>Header 1</th>\n          <th bitCell>Header 2</th>\n          <th bitCell>Header 3</th>\n        </tr>\n      </ng-container>\n      <ng-container body>\n        <tr bitRow [alignContent]=\"alignRowContent\">\n          <td bitCell>Cell 1</td>\n          <td bitCell>Cell 2 <br> Multiline Cell</td>\n          <td bitCell>Cell 3</td>\n        </tr>\n        <tr bitRow [alignContent]=\"alignRowContent\">\n          <td bitCell>Cell 4</td>\n          <td bitCell>Cell 5</td>\n          <td bitCell>Cell 6</td>\n        </tr>\n        <tr bitRow [alignContent]=\"alignRowContent\">\n          <td bitCell>Cell 7 <br> Multiline Cell</td>\n          <td bitCell>Cell 8</td>\n          <td bitCell>Cell 9</td>\n        </tr>\n      </ng-container>\n    </bit-table>\n\n    `,\n})"
+            },
+            {
+                "name": "Template",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/icon-button/icon-button.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story<BitIconButtonComponent>",
+                "defaultValue": "(args: BitIconButtonComponent) => ({\n  props: { ...args, buttonTypes },\n  template: `\n  <table class=\"tw-border-spacing-2 tw-text-center tw-text-main\">\n    <thead>\n      <tr>\n        <td></td>\n        <td *ngFor=\"let buttonType of buttonTypes\" class=\"tw-capitalize tw-font-bold tw-p-4\"\n          [class.tw-text-contrast]=\"buttonType === 'contrast'\"\n          [class.tw-bg-primary-500]=\"buttonType === 'contrast'\">{{buttonType}}</td>\n      </tr>\n    </thead>\n\n    <tbody>\n      <tr>\n        <td class=\"tw-font-bold tw-p-4 tw-text-left\">Default</td>\n          <td *ngFor=\"let buttonType of buttonTypes\" class=\"tw-p-2\" [class.tw-bg-primary-500]=\"buttonType === 'contrast'\">\n            <button\n              [bitIconButton]=\"bitIconButton\"\n              [buttonType]=\"buttonType\"\n              [size]=\"size\"\n              title=\"Example icon button\"\n              aria-label=\"Example icon button\"></button>\n          </td>\n      </tr>\n\n      <tr>\n        <td class=\"tw-font-bold tw-p-4 tw-text-left\">Disabled</td>\n          <td *ngFor=\"let buttonType of buttonTypes\" class=\"tw-p-2\" [class.tw-bg-primary-500]=\"buttonType === 'contrast'\">\n            <button\n              [bitIconButton]=\"bitIconButton\"\n              [buttonType]=\"buttonType\"\n              [size]=\"size\"\n              disabled\n              title=\"Example icon button\"\n              aria-label=\"Example icon button\"></button>\n          </td>\n      </tr>\n\n      <tr>\n        <td class=\"tw-font-bold tw-p-4 tw-text-left\">Loading</td>\n          <td *ngFor=\"let buttonType of buttonTypes\" class=\"tw-p-2\" [class.tw-bg-primary-500]=\"buttonType === 'contrast'\">\n            <button\n              [bitIconButton]=\"bitIconButton\"\n              [buttonType]=\"buttonType\"\n              [size]=\"size\"\n              loading=\"true\"\n              title=\"Example icon button\"\n              aria-label=\"Example icon button\"></button>\n          </td>\n      </tr>\n    </tbody>\n  </table>\n  `,\n})"
             },
             {
                 "name": "Template",
@@ -9985,7 +9985,7 @@
                 "name": "Warning",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/banner/banner.stories.ts",
+                "file": "src/badge/badge.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "",
@@ -9995,7 +9995,7 @@
                 "name": "Warning",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/badge/badge.stories.ts",
+                "file": "src/banner/banner.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "",
@@ -11300,58 +11300,6 @@
                     "defaultValue": "(args: SimpleDialogComponent) => ({\n  props: args,\n  template: `\n  <bit-simple-dialog>\n      <i bit-dialog-icon class=\"bwi bwi-star tw-text-3xl tw-text-success\" aria-hidden=\"true\"></i>\n      <span bitDialogTitle>Premium Subscription Available</span>\n      <span bitDialogContent> Message Content</span>\n      <div bitDialogFooter class=\"tw-flex tw-flex-row tw-gap-2\">\n        <button bitButton buttonType=\"primary\">Yes</button>\n        <button bitButton buttonType=\"secondary\">No</button>\n      </div>\n  </bit-simple-dialog>\n  `,\n})"
                 }
             ],
-            "src/banner/banner.stories.ts": [
-                {
-                    "name": "Danger",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/banner/banner.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "",
-                    "defaultValue": "Template.bind({})"
-                },
-                {
-                    "name": "Info",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/banner/banner.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "",
-                    "defaultValue": "Template.bind({})"
-                },
-                {
-                    "name": "Premium",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/banner/banner.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "",
-                    "defaultValue": "Template.bind({})"
-                },
-                {
-                    "name": "Template",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/banner/banner.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "Story<BannerComponent>",
-                    "defaultValue": "(args: BannerComponent) => ({\n  props: args,\n  template: `\n    <bit-banner [bannerType]=\"bannerType\" (onClose)=\"onClose($event)\">\n        Content Really Long Text Lorem Ipsum Ipsum Ipsum\n        <button>Button</button>\n    </bit-banner>\n  `,\n})"
-                },
-                {
-                    "name": "Warning",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/banner/banner.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "",
-                    "defaultValue": "Template.bind({})"
-                }
-            ],
             "src/badge/badge.stories.ts": [
                 {
                     "name": "Danger",
@@ -11418,6 +11366,58 @@
                     "ctype": "miscellaneous",
                     "subtype": "variable",
                     "file": "src/badge/badge.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "defaultValue": "Template.bind({})"
+                }
+            ],
+            "src/banner/banner.stories.ts": [
+                {
+                    "name": "Danger",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/banner/banner.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "defaultValue": "Template.bind({})"
+                },
+                {
+                    "name": "Info",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/banner/banner.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "defaultValue": "Template.bind({})"
+                },
+                {
+                    "name": "Premium",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/banner/banner.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "defaultValue": "Template.bind({})"
+                },
+                {
+                    "name": "Template",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/banner/banner.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story<BannerComponent>",
+                    "defaultValue": "(args: BannerComponent) => ({\n  props: args,\n  template: `\n    <bit-banner [bannerType]=\"bannerType\" (onClose)=\"onClose($event)\">\n        Content Really Long Text Lorem Ipsum Ipsum Ipsum\n        <button>Button</button>\n    </bit-banner>\n  `,\n})"
+                },
+                {
+                    "name": "Warning",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/banner/banner.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "",

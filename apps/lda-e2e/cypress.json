@@ -1,12 +1,13 @@
 {
+  "baseUrl": "http://localhost:4200/tech",
   "fileServerFolder": ".",
   "fixturesFolder": "./src/fixtures",
   "integrationFolder": "./src/integration",
   "modifyObstructiveCode": false,
   "supportFile": "./src/support/index.ts",
   "pluginsFile": false,
-  "video": true,
-  "videosFolder": "../../dist/cypress/apps/lda-e2e/videos",
+  "testFiles": ["**/*.feature"],
+  "video": false,
   "screenshotsFolder": "../../dist/cypress/apps/lda-e2e/screenshots",
   "chromeWebSecurity": false
 }
