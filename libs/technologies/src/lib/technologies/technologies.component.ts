@@ -8,7 +8,8 @@ import { Component, OnInit } from '@angular/core';
     './assets/css/style.css',
     './assets/css/responsive.css',
     './assets/css/style.scss',
-    './assets/css/font-awesome.min.css']
+    './assets/css/font-awesome.min.css'
+  ]
 })
 export class TechnologiesComponent implements OnInit {
   constructor() {}

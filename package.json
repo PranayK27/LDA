@@ -29,6 +29,8 @@
     "@badeball/cypress-cucumber-preprocessor": "^18.0.1",
     "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
     "@icon/themify-icons": "^1.0.1-alpha.3",
+    "@material-ui/core": "^4.12.4",
+    "@mui/icons-material": "^5.14.1",
     "@ng-bootstrap/ng-bootstrap": "^8.0.4",
     "@ngrx/component-store": "14.0.1",
     "@ngrx/effects": "14.0.1",

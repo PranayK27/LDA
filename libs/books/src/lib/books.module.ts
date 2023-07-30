@@ -8,12 +8,13 @@ import {HttpClientModule} from "@angular/common/http";
 import {StoreModule} from "@ngrx/store";
 import {BrowserModule} from "@angular/platform-browser";
 import {BooksComponent} from "./books.component";
+import {PagesModule} from "@lda/pages";
 
 @NgModule({
     imports: [CommonModule,
         BrowserModule,
         StoreModule.forRoot({books: booksReducer, collection: collectionReducer}),
-        HttpClientModule,
+        HttpClientModule, PagesModule
     ],
     declarations: [BooksComponent, BookCollectionComponent, BookListComponent],
     exports: [
