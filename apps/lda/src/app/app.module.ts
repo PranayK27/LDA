@@ -29,7 +29,7 @@ import {PagesModule} from "@lda/pages";
   imports: [
     BrowserModule,
     MyCounterModule,
-    BooksModule,
+    // BooksModule,
     BrowserAnimationsModule,
     MatCardModule,
     MatGridListModule,

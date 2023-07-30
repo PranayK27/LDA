@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { HeaderComponent } from './shared/components/header/header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material.module';
@@ -10,7 +9,6 @@ import {HttpClientModule } from '@angular/common/http';
 import { CartComponent } from './shared/components/cart/cart.component';
 import {ShoppingappRoutingModule} from "./shoppingapp-routing.module";
 import {ShoppingComponent} from "./shopping.component";
-//import {AppModule} from "../../../../apps/lda/src/app/app.module";
 
 
 @NgModule({
@@ -36,4 +34,4 @@ import {ShoppingComponent} from "./shopping.component";
     ],
   bootstrap: []
 })
-export class ShoppingModule { }
+export class ShoppingModule {}

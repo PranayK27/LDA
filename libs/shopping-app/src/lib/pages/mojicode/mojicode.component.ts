@@ -1,7 +1,7 @@
 import { Component, OnInit } from "@angular/core";
 
 @Component({
-    selector: 'pranay-mojicode',
+    selector: 'lda-mojicode',
     templateUrl: './mojicode.component.html',
     styleUrls: ['./mojicode.component.scss']
 

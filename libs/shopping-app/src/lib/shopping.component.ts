@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'pranay-sc',
+  selector: 'lda-sc',
   templateUrl: './shopping.component.html',
   styleUrls: ['./shopping.component.scss']
 })
 export class ShoppingComponent {
-  title = 'KK';
+  title = 'LDA Shopping';
   case = 'Shopping Cart';
 }

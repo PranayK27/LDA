@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { ShoppingCartService } from '../../../shared/components/services/shopping-cart.service';
 
 @Component({
-  selector: 'pranay-details',
+  selector: 'lda-details',
   templateUrl: './details.component.html',
   styleUrls: ['./details.component.scss']
 })

@@ -3,7 +3,7 @@ import { Router } from '@angular/router';
 
 
 @Component({
-  selector: 'pranay-header',
+  selector: 'lda-header',
   template: `
   <mat-toolbar color="primary">
     <a [routerLink]="['/']">

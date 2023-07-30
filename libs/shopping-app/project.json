@@ -1,7 +1,7 @@
 {
   "projectType": "library",
   "sourceRoot": "libs/products/src",
-  "prefix": "pranay",
+  "prefix": "lda",
   "targets": {
     "test": {
       "executor": "@nrwl/jest:jest",

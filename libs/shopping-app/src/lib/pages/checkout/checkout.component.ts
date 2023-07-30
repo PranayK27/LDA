@@ -4,7 +4,7 @@ import { Store } from '../../shared/components/interfaces/stores.interface';
 import { DataService } from '../../shared/components/services/data.service';
 
 @Component({
-  selector: 'pranay-checkout',
+  selector: 'lda-checkout',
   templateUrl: './checkout.component.html',
   styleUrls: ['./checkout.component.scss']
 })

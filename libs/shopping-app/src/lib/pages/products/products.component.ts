@@ -5,10 +5,10 @@ import { Product } from './interfaces/product.interface';
 import { ProductsService } from './services/products.service';
 
 @Component({
-  selector: 'pranay-products',
+  selector: 'lda-products',
   template: `
   <section class="products">
-    <pranay-product (addToCartClick)="addTocart($event)" [product] = "product" *ngFor="let product of products"></pranay-product>
+    <lda-product (addToCartClick)="addTocart($event)" [product] = "product" *ngFor="let product of products"></lda-product>
 </section>
   `,
   styleUrls: ['./products.component.scss']
