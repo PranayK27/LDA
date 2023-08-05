@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import {isDevMode, NgModule} from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
@@ -20,6 +20,9 @@ import {MatTableModule} from "@angular/material/table";
 import {MatPaginatorModule} from "@angular/material/paginator";
 import {TechnologiesModule} from "@lda/technologies";
 import {PagesModule} from "@lda/pages";
+import {StoreModule} from "@ngrx/store";
+import {counterReducer} from "../../../../libs/my-counter/src/lib/counter.reducer";
+import {StoreDevtoolsModule} from "@ngrx/store-devtools";
 
 @NgModule({
   declarations: [
@@ -27,6 +30,15 @@ import {PagesModule} from "@lda/pages";
     NxWelcomeComponent,
   ],
   imports: [
+    StoreModule.forRoot(counterReducer),
+    // Instrumentation must be imported after importing StoreModule (config is optional)
+    StoreDevtoolsModule.instrument({
+      maxAge: 25, // Retains last 25 states
+      logOnly: !isDevMode(), // Restrict extension to log-only mode
+      autoPause: true, // Pauses recording actions and state changes when the extension window is not open
+      // trace: false, //  If set to true, will include stack trace for every dispatched action, so you can see it in trace tab jumping directly to that part of code
+      // traceLimit: 75, // maximum stack trace frames to be stored (in case trace option was provided as true)
+    }),
     BrowserModule,
     MyCounterModule,
     // BooksModule,
