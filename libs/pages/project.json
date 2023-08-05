@@ -1,4 +1,6 @@
 {
+  "name": "pages",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "projectType": "library",
   "sourceRoot": "libs/pages/src",
   "prefix": "lda",
@@ -9,10 +11,7 @@
       "options": {
         "jestConfig": "libs/pages/jest.config.ts",
         "passWithNoTests": true,
-        "assets": [
-          "src/lib/assets/images/favicon.ico",
-          "src/lib/assets"
-        ],
+        "assets": ["src/lib/assets/images/favicon.ico", "src/lib/assets"],
         "styles": [
           "node_modules/bootstrap/dist/css/bootstrap.min.css",
           "src/lib/assets/scss/style.scss"

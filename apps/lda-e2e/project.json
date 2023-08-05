@@ -1,4 +1,5 @@
 {
+  "name": "lda-e2e",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "apps/lda-e2e/src",
   "projectType": "application",
