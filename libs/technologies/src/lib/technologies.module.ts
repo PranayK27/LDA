@@ -14,6 +14,7 @@ import {MatButtonModule} from "@angular/material/button";
 import {ButtonModule} from "primeng/button";
 import {ListComponent} from "./technologies/list/list.component";
 import {TechnologiesComponent} from "./technologies/technologies.component";
+import {HttpClientModule} from "@angular/common/http";
 
 @NgModule({
   imports: [
@@ -28,7 +29,8 @@ import {TechnologiesComponent} from "./technologies/technologies.component";
     MatInputModule,
     MatButtonModule,
     ButtonModule,
-    PagesModule
+    PagesModule,
+    HttpClientModule
   ],
   declarations: [
     TechnologiesComponent,

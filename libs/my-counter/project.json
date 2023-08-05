@@ -1,4 +1,6 @@
 {
+  "name": "my-counter",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "projectType": "library",
   "sourceRoot": "libs/my-counter/src",
   "prefix": "lda",

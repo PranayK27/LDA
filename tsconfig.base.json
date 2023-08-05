@@ -16,13 +16,13 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@lda/pages": ["libs/pages/src/index.ts"],
-      "@lda/technologies": ["libs/technologies/src/index.ts"],
-      "@lda/books": ["libs/books/src/index.ts"],
-      "@lda/my-counter": ["libs/my-counter/src/index.ts"],
-      "@lda/components": ["libs/components/src/index.ts"],
       "@lda/angular": ["libs/components/src/index.ts"],
-      "@lda/common": ["libs/components/src/index.ts"]
+      "@lda/books": ["libs/books/src/index.ts"],
+      "@lda/common": ["libs/components/src/index.ts"],
+      "@lda/components": ["libs/components/src/index.ts"],
+      "@lda/my-counter": ["libs/my-counter/src/index.ts"],
+      "@lda/pages": ["libs/pages/src/index.ts"],
+      "@lda/technologies": ["libs/technologies/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

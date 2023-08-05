@@ -1,13 +1,14 @@
 {
   "extends": "../tsconfig.base.json",
-  "compilerOptions": {
-    "types": ["node", "jest", "chrome"],
-    "allowSyntheticDefaultImports": true
-  },
-  "exclude": ["../src/test.setup.ts", "../apps/src/**/*.spec.ts", "../libs/**/*.spec.ts"],
-  "files": [
-    "./typings.d.ts",
-    "../libs/components/src/main.ts",
-    "../libs/components/src/polyfills.ts"
-  ]
+  "exclude": [
+    "../**/*.spec.js",
+    "../**/*.test.js",
+    "../**/*.spec.ts",
+    "../**/*.test.ts",
+    "../**/*.spec.tsx",
+    "../**/*.test.tsx",
+    "../**/*.spec.jsx",
+    "../**/*.test.jsx"
+  ],
+  "include": ["../**/*"]
 }
