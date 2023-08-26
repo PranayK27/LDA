@@ -151,6 +151,18 @@
       "options": {
         "command": "test-storybook -c apps/lda/.storybook --url=http://localhost:4400"
       }
+    },
+    "static-storybook": {
+      "executor": "@nx/web:file-server",
+      "options": {
+        "buildTarget": "lda:build-storybook",
+        "staticFilePath": "dist/storybook/lda"
+      },
+      "configurations": {
+        "ci": {
+          "buildTarget": "lda:build-storybook:ci"
+        }
+      }
     }
   }
 }
