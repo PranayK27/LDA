@@ -25,7 +25,8 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
-        cache: 'npm'   
+        cache: 'npm'
+    - run: npm install
     - run: npx nx run lda:build
     - run: npx nx run lda:serve
     - run: npm test
