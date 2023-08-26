@@ -26,7 +26,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: npm install @nrwl/node
+    - run: npm install @nrwl/nx-linux-x64-gnu
     - run: npx nx run lda:build
     - run: npx nx run lda:serve
     - run: npm test
