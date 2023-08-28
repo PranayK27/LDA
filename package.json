@@ -62,7 +62,7 @@
     "@compodoc/compodoc": "^1.1.21",
     "@ngrx/schematics": "14.0.1",
     "@ngrx/store-devtools": "14.0.1",
-    "@nrwl/angular": "^16.6.0",
+    "@nrwl/angular": "^14.2.4",
     "@nrwl/cli": "^15.9.3",
     "@nrwl/cypress": "14.4.0",
     "@nrwl/eslint-plugin-nx": "^16.6.0",
