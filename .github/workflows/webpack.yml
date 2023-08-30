@@ -24,4 +24,5 @@ jobs:
 
     - name: Build
       run: |
+        NX_NON_NATIVE_HASHER=true
         npm install
