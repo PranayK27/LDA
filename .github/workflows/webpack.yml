@@ -24,5 +24,6 @@ jobs:
 
     - name: Build
       run: |
-        npm install --force
+        npm i @nx/nx-linux-arm64-gnu --force
+        npm install
         npx webpack
