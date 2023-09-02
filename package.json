@@ -6,7 +6,7 @@
     "ng": "nx",
     "prettier": "prettier --write .",
     "postinstall": "node ./decorate-angular-cli.js && ngcc --properties es2020 browser module main",
-    "start": "nx run lda:serve",
+    "start": "npx nx run lda:serve",
     "build": "npx nx run lda:build",
     "test": "nx test",
     "docs:json": "compodoc -p ./tsconfig.base.json -e json -d .",
