@@ -23,11 +23,21 @@ import {PagesModule} from "@lda/pages";
 import {StoreModule} from "@ngrx/store";
 import {counterReducer} from "../../../../libs/my-counter/src/lib/counter.reducer";
 import {StoreDevtoolsModule} from "@ngrx/store-devtools";
+import FrameworkButtonComponent from "./button.component";
+import HeaderComponent from "./header.component";
+import PageComponent from "./page.component";
+import {
+  MultipleClassSelectorComponent
+} from "@storybook/angular/template/stories/basics/component-with-complex-selectors/multiple-selector.component";
 
 @NgModule({
   declarations: [
     AppComponent,
+    FrameworkButtonComponent,
     NxWelcomeComponent,
+    HeaderComponent,
+    PageComponent,
+    MultipleClassSelectorComponent
   ],
   imports: [
     StoreModule.forRoot(counterReducer),

@@ -6,7 +6,7 @@
   "prefix": "lda",
   "targets": {
     "test": {
-      "executor": "@nrwl/jest:jest",
+      "executor": "@nx/jest:jest",
       "outputs": ["coverage/libs/pages"],
       "options": {
         "jestConfig": "libs/pages/jest.config.ts",
