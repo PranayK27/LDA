@@ -27,7 +27,7 @@ import type { User } from './User';
       <div>
         <div *ngIf="user">
           <span class="welcome">
-            Welcome, <b>{{ user }}</b
+            Welcome, <b>{{ user.name }}</b
             >!
           </span>
           <storybook-button
