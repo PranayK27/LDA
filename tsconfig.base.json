@@ -1,5 +1,5 @@
 {
-  "compileOnSave": false,
+  "compileOnSave": true,
   "compilerOptions": {
     "rootDir": ".",
     "sourceMap": true,
@@ -17,10 +17,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@lda/angular": ["libs/components/src/index.ts"],
       "@lda/books": ["libs/books/src/index.ts"],
       "@lda/common": ["libs/components/src/index.ts"],
-      "@lda/components": ["libs/components/src/index.ts"],
       "@lda/my-counter": ["libs/my-counter/src/index.ts"],
       "@lda/pages": ["libs/pages/src/index.ts"],
       "@lda/technologies": ["libs/technologies/src/index.ts"]
