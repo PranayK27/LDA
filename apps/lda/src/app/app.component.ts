@@ -21,5 +21,5 @@ export class AppComponent {
     {text: 'Four', cols: 2, rows: 1, color: '#DDBDF1'},
   ];
 
-  title = "DevStore";
+  title = "LDA";
 }
