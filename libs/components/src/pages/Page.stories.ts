@@ -3,8 +3,8 @@ import { moduleMetadata } from '@storybook/angular';
 import { within, userEvent } from '@storybook/testing-library';
 import { CommonModule } from '@angular/common';
 
-import Button from './button.component';
-import Header from './header.component';
+import Button from '../button/button.component';
+import Header from '../header/header.component';
 import Page from './page.component';
 
 const meta: Meta<Page> = {

@@ -2,7 +2,7 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
     // Needs to be a different name to the CLI template button
-    selector: 'storybook-framework-button',
+    selector: 'storybook-button',
     template: ` <button
     type="button"
     (click)="onClick.emit($event)"
@@ -13,7 +13,7 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
   </button>`,
     styleUrls: ['./button.css'],
 })
-export default class FrameworkButtonComponent {
+export default class ButtonComponent {
     /**
      * Is this the principal call to action on the page?
      */
