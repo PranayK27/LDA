@@ -14,18 +14,7 @@
         "main": "apps/lda/src/main.ts",
         "polyfills": "apps/lda/src/polyfills.ts",
         "tsConfig": "apps/lda/tsconfig.app.json",
-        "assets": [
-          "apps/lda/src/assets/images",
-          "apps/lda/src/assets/images/background",
-          "apps/lda/src/assets/images/landingpage",
-          "apps/lda/src/assets/fonts",
-          "apps/lda/src/assets/scss/font",
-          "apps/lda/src/assets/scss/font/Webfont",
-          "apps/lda/src/assets/scss/icons",
-          "apps/lda/src/assets/scss/icons/font-awesome",
-          "apps/lda/src/assets/scss/icons/simple-line-icons",
-          "apps/lda/src/assets/scss/icons/themify-icons"
-        ],
+        "assets": ["apps/lda/src/assets/images"],
         "styles": [
           "apps/lda/src/styles.css",
           "apps/lda/src/assets/css/bootstrap.css",
@@ -40,14 +29,7 @@
           "apps/lda/src/assets/scss/responsive.scss",
           "apps/lda/src/assets/scss/extra.scss",
           "apps/lda/src/assets/scss/common.scss",
-          "apps/lda/src/assets/scss/authentication.scss",
-          "apps/lda/src/assets/scss/icons/simple-line-icons/css/simple-line-icons.css",
-          "apps/lda/src/assets/scss/icons/simple-line-icons/scss/simple-line-icons.scss",
-          "apps/lda/src/assets/scss/icons/font-awesome/css/font-awesome.css",
-          "apps/lda/src/assets/scss/icons/font-awesome/old/css/font-awesome.css",
-          "apps/lda/src/assets/scss/icons/themify-icons/themify-icons.less",
-          "apps/lda/src/assets/scss/icons/themify-icons/themify-icons.css",
-          "apps/lda/src/assets/scss/icons/themify-icons/ie7/ie7.css"
+          "apps/lda/src/assets/scss/authentication.scss"
         ],
         "scripts": []
       },
@@ -109,7 +91,7 @@
       }
     },
     "test": {
-      "executor": "@nrwl/jest:jest",
+      "executor": "@nx/jest:jest",
       "outputs": ["coverage/apps/lda"],
       "options": {
         "jestConfig": "apps/lda/jest.config.ts",
@@ -121,7 +103,7 @@
       "options": {
         "port": 4400,
         "configDir": "apps/lda/.storybook",
-        "browserTarget": "lda:build",
+        "browserTarget": "lda:storybook",
         "compodoc": false
       },
       "configurations": {
@@ -136,7 +118,7 @@
       "options": {
         "outputDir": "dist/storybook/lda",
         "configDir": "apps/lda/.storybook",
-        "browserTarget": "lda:build",
+        "browserTarget": "lda:build-storybook",
         "compodoc": false
       },
       "configurations": {
@@ -145,23 +127,10 @@
         }
       }
     },
-    "tags": [],
     "test-storybook": {
       "executor": "nx:run-commands",
       "options": {
         "command": "test-storybook -c apps/lda/.storybook --url=http://localhost:4400"
-      }
-    },
-    "static-storybook": {
-      "executor": "@nx/web:file-server",
-      "options": {
-        "buildTarget": "lda:build-storybook",
-        "staticFilePath": "dist/storybook/lda"
-      },
-      "configurations": {
-        "ci": {
-          "buildTarget": "lda:build-storybook:ci"
-        }
       }
     }
   }

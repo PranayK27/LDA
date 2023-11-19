@@ -5,12 +5,13 @@
   },
   "exclude": ["../**/*.spec.ts"],
   "include": [
-    "../src/**/*.stories.ts",
-    "../src/**/*.stories.js",
-    "../src/**/*.stories.jsx",
-    "../src/**/*.stories.tsx",
-    "../src/**/*.stories.mdx",
     "*.js",
-    "*.ts"
+    "*.ts",
+    "/Users/pranay/IdeaProjects/LDA/libs/components/src/shared/*",
+    "/Users/pranay/IdeaProjects/LDA/libs/components/src/button/*",
+    "/Users/pranay/IdeaProjects/LDA/libs/components/src/header/*",
+    "/Users/pranay/IdeaProjects/LDA/libs/components/src/pages/*",
+    "/Users/pranay/IdeaProjects/LDA/libs/components/src/**/*.stories.mdx",
+    "/Users/pranay/IdeaProjects/LDA/libs/components/src/**/*.stories.@(js|jsx|ts|tsx)"
   ]
 }

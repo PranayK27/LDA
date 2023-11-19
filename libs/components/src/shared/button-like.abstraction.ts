@@ -1,4 +1,4 @@
 export abstract class ButtonLikeAbstraction {
-  loading: boolean;
-  disabled: boolean;
+  loading: boolean | undefined;
+  disabled: boolean | undefined;
 }

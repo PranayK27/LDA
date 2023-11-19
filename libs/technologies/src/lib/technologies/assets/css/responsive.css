@@ -89,7 +89,7 @@
 }
 
 
-@media (min-width:576px) and (max-width:991px) {
+@media (min-width:100px) and (max-width:991px) {
   .rent_solution_container .col-md-4.col-sm-6 {
     float: left;
     width: 50%;
