@@ -77,6 +77,9 @@
 }
 
 @media (max-width: 376px) {
+  .hero_area{
+    min-height: auto;
+  }
   .slider_section .detail-box h1 {
     font-size: 3rem;
   }
@@ -90,6 +93,9 @@
 
 
 @media (min-width:100px) and (max-width:991px) {
+  .hero_area{
+    min-height: auto;
+  }
   .rent_solution_container .col-md-4.col-sm-6 {
     float: left;
     width: 50%;
