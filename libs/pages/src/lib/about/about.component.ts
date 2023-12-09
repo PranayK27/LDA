@@ -7,11 +7,17 @@ import { ServiceblogService } from '../blog/blog-service.service';
   styleUrls: ['./about.component.css']
 })
 export class AboutComponent {
-  
+
 
   constructor(public service:ServiceblogService) {
     this.service.showEdit=false;
-    
+
+  }
+
+  infoPanelVisible = false;
+
+  toggleInfoPanel() {
+    this.infoPanelVisible = !this.infoPanelVisible;
   }
 
 }
