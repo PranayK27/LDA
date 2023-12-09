@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
-import { blogs } from './blog-data';
+import { blogs } from '../../../../../apps/lda-e2e/src/mock/blog-data';
 
 
 @Injectable({

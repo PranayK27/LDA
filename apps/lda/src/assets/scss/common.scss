@@ -589,7 +589,7 @@ position
         }
         a:hover {
             background: $dark;
-            color: $white;
+            //color: $white;
         }
     }
 }
@@ -679,7 +679,7 @@ list and media
 ******************/
 
 .list-group a.list-group-item:hover {
-    background: $light;
+    //background: $light;
 }
 
 .list-group-item.active,
@@ -824,7 +824,7 @@ Vertical tabs
                 color: $white;
             }
             &:hover {
-                color: $white;
+                //color: $white;
                 background: $themecolor;
             }
         }
