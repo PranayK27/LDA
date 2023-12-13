@@ -8,7 +8,8 @@ import {Router} from "@angular/router";
 })
 export class BannerNavigationComponent implements OnInit {
 
-  logoutStatus = false;
+  navOptions = false;
+  public isCollapsed = true;
   routerStatus = "tech/details";
 
   constructor(private router: Router) {
@@ -17,4 +18,9 @@ export class BannerNavigationComponent implements OnInit {
 
   ngOnInit(): void {
   }
+
+  toggleNavOptions(){
+    this.navOptions = !this.navOptions;
+  }
+  protected screenX = screenX;
 }
