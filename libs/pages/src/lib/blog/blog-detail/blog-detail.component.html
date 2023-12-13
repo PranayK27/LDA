@@ -7,7 +7,7 @@
     <div class="row justify-content-center">
       <!-- Column -->
       <div class="col-lg-9 col-md-6 align-self-center text-center">
-        <h1 class="title">BLOG DETAIL PAGE</h1>
+        <h1 class="title">BLOG DETAILS</h1>
         <h5 class="subtitle op-5">
           Just a dev trying to explore the tech on his own.
         </h5>
@@ -22,7 +22,6 @@
   <div class="row justify-content-center">
     <div class="col-md-8 no-trans">
       <div class="mini-spacer">
-        <img [src]="blogDetail?.image" class="img-fluid" />
         <div
           class="d-flex align-items-center text-uppercase m-t-40 font-13 font-medium"
         >
@@ -42,12 +41,11 @@
         </p>
 
         <div class="m-t-30">
-          <button type="button" class="btn bg-facebook btn-rounded mr-3">
-            <i class="fa fa-facebook"></i> Facebook
-          </button>
-          <button type="button" class="btn bg-twitter btn-rounded">
-            <i class="fa fa-twitter"></i> Twitter
-          </button>
+          <a href="{{blogDetail?.link}}">
+            <button type="button" class="btn bg-facebook btn-rounded mr-3">
+              Explore
+            </button>
+          </a>
         </div>
       </div>
     </div>

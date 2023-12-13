@@ -83,7 +83,7 @@ h2 {
     font-weight: bold;
 
     span {
-      color: $primary1;
+      color: white;
     }
   }
 
@@ -349,7 +349,7 @@ a:focus {
     }
 
     a {
-      @include hero_btn($primary1, $white, 10px, 45px, 45px);
+      // @include hero_btn($primary1, $white, 10px, 45px, 45px);
       margin-top: 10px;
     }
 
@@ -379,7 +379,7 @@ a:focus {
       &.active {
         width: 20px;
         height: 20px;
-        background-color: $primary1;
+        // background-color: $primary1;
       }
     }
   }
@@ -440,7 +440,7 @@ a:focus {
       p {}
 
       a {
-        @include hero_btn($primary1, $white, 10px, 30px, 45px);
+        // @include hero_btn($primary1, $white, 10px, 30px, 45px);
 
         svg {
           width: 20px;
@@ -541,7 +541,7 @@ a:focus {
         width: 40px;
         height: 40px;
         border-radius: 100%;
-        background: $primary1;
+        // background: $primary1;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -569,7 +569,7 @@ a:focus {
     margin-top: 45px;
 
     a {
-      @include hero_btn($primary1, $white, 10px, 55px, 45px);
+      // @include hero_btn($primary1, $white, 10px, 55px, 45px);
     }
   }
 }
@@ -605,7 +605,7 @@ a:focus {
     }
 
     a {
-      @include hero_btn($primary1, $white, 10px, 45px, 45px);
+      // @include hero_btn($primary1, $white, 10px, 45px, 45px);
       margin-top: 15px;
     }
   }
@@ -652,7 +652,7 @@ a:focus {
       margin-top: 15px;
       border: none;
       text-transform: uppercase;
-      @include hero_btn($primary1, $white, 10px, 55px, 45px);
+      // @include hero_btn($primary1, $white, 10px, 55px, 45px);
     }
   }
 
@@ -851,7 +851,7 @@ a:focus {
         }
 
         &:hover {
-          color: $primary1;
+          // color: $primary1;
         }
       }
     }
@@ -885,7 +885,7 @@ a:focus {
       font-size: 18px;
 
       &:hover {
-        color: $primary1;
+        // color: $primary1;
       }
     }
   }

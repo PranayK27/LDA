@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {animate} from "@angular/animations";
 
 @Component({
   selector: 'lda-footer',
@@ -11,5 +12,4 @@ export class FooterComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
 }

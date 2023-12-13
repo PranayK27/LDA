@@ -41,5 +41,8 @@ export class BlogDetailComponent implements OnInit {
   //   this.router.navigate([('/editPost'), this.service?.detailId]);
 
   // }
+  redirect(){
+    this.blogDetail?.link
+  }
 
 }

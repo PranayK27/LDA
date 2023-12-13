@@ -1,3 +1,10 @@
-.active {
-    color: yellow;
+@media(max-width: 2048px) {
+  button.navbar-toggler {
+    padding-top: 35px;
+    display: inline-block;
+    float: right;
   }
+  .navbar-expand-sm{
+    float: right;
+  }
+}
