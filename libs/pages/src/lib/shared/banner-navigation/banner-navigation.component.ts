@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {Router} from "@angular/router";
+import { ToastService } from '../../blog/toast-service.service';
 
 @Component({
   selector: 'lda-banner-navigation',
@@ -10,17 +11,24 @@ export class BannerNavigationComponent implements OnInit {
 
   navOptions = false;
   public isCollapsed = true;
-  routerStatus = "tech/details";
-
-  constructor(private router: Router) {
+  constructor(
+    private router: Router,
+    private toastService: ToastService
+    ) {
 
   }
 
-  ngOnInit(): void {
+  // eslint-disable-next-line @typescript-eslint/no-empty-function
+  ngOnInit() {
+    // this.showToast();
   }
+
+  // showToast() {
+  //   this.toastService.showInfo('You are on the Same page', 'Apologies!');
+  //   console.log(this.toastService.showInfo('You are on the Same page', 'Apologies!'));
+  // }
 
   toggleNavOptions(){
     this.navOptions = !this.navOptions;
   }
-  protected screenX = screenX;
 }

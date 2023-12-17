@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { ServiceblogService } from '../blog/blog-service.service';
+import { ToastService } from '../blog/toast-service.service';
 
 @Component({
   selector: 'app-about',
@@ -8,16 +9,18 @@ import { ServiceblogService } from '../blog/blog-service.service';
 })
 export class AboutComponent {
 
-
-  constructor(public service:ServiceblogService) {
-    this.service.showEdit=false;
-
-  }
-
   infoPanelVisible = false;
+
+  constructor(public service:ServiceblogService, public toastService: ToastService) {
+    this.service.showEdit=false;
+  }
 
   toggleInfoPanel() {
     this.infoPanelVisible = !this.infoPanelVisible;
   }
 
+  showToast() {
+    this.toastService.showInfo('You are on the Same page', 'Apologies!');
+    console.log(this.toastService.showInfo('You are on the Same page', 'Apologies!'));
+  }
 }

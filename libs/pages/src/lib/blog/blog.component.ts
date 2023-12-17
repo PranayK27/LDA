@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Blog } from './blog-type';
 import { ServiceblogService } from './blog-service.service';
 import { Router } from '@angular/router';
-import { HttpClient } from '@angular/common/http';
+import { ToastService } from './toast-service.service';
 
 @Component({
   selector: 'lda-blog',
@@ -11,10 +11,10 @@ import { HttpClient } from '@angular/common/http';
 })
 export class BlogComponent implements OnInit {
   blogsDetail: Blog[] = [];
-
   constructor(
     public service: ServiceblogService,
-    public router: Router
+    public router: Router,
+    public toastService: ToastService
   ) {
     this.service.showEdit = false;
   }
@@ -38,5 +38,10 @@ export class BlogComponent implements OnInit {
     if (this.service.loginStatusService) this.service.showEdit = true;
 
     this.router.navigate(['/blogDetail', id]);
+  }
+
+  showToast() {
+    this.toastService.showInfo('You are on the Same page', 'Apologies!');
+    console.log(this.toastService.showInfo('You are on the Same page', 'Apologies!'));
   }
 }

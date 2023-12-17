@@ -12,9 +12,14 @@ import {FooterComponent} from "./shared/footer/footer.component";
 import {RouterLinkActive, RouterOutlet} from "@angular/router";
 import {PagesRoutingModule} from "./pages-routing.module";
 import {BannerContentComponent} from "./shared/banner-content/banner-content.component";
+import { SimpleNotificationsModule } from 'angular2-notifications';
+import { timeout } from 'rxjs';
 
 @NgModule({
-  imports: [CommonModule, RouterLinkActive, RouterOutlet],
+  imports: [CommonModule, RouterLinkActive,
+    RouterOutlet,
+    SimpleNotificationsModule
+  ],
   exports: [
     FullComponent,
     FooterComponent,

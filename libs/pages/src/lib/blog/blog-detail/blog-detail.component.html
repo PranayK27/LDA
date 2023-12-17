@@ -1,6 +1,5 @@
 <div
   class="banner-innerpage"
-  style="background-image: url('apps/lda/src/assets/images/landingpage/banner-bg2.jpg');"
 >
   <div class="container">
     <!-- Row  -->
@@ -9,7 +8,7 @@
       <div class="col-lg-9 col-md-6 align-self-center text-center">
         <h1 class="title">BLOG DETAILS</h1>
         <h5 class="subtitle op-5">
-          Just a dev trying to explore the tech on his own.
+          Just a dev trying to explore the tech on my own.
         </h5>
       </div>
       <!-- Column -->
@@ -41,11 +40,16 @@
         </p>
 
         <div class="m-t-30">
-          <a href="{{blogDetail?.link}}">
-            <button type="button" class="btn bg-facebook btn-rounded mr-3">
-              Explore
-            </button>
-          </a>
+          <a
+            class="linking font-medium text-blue m-t-10 cursor-pointer"
+            data-toggle="collapse"
+          ><span (click)="toggleInfoPanel()">Explore<i class="ti-arrow-down"></i></span
+          ></a>
+          <div *ngIf="infoPanelVisible">
+            <span></span>
+            <br/>
+            <a href="{{ blogDetail?.link }}" class="link"><i class="ti-link"></i>{{ blogDetail?.link }}</a>
+          </div>
         </div>
       </div>
     </div>

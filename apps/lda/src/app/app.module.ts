@@ -26,6 +26,7 @@ import {
   MultipleClassSelectorComponent
 } from "@storybook/angular/template/stories/basics/component-with-complex-selectors/multiple-selector.component";
 import {ComponentsModule} from "@lda/common";
+import { SimpleNotificationsModule } from 'angular2-notifications';
 
 @NgModule({
   declarations: [
@@ -59,9 +60,9 @@ import {ComponentsModule} from "@lda/common";
     MatTableModule,
     MatPaginatorModule,
     TechnologiesModule,
-    PagesModule,
+    // PagesModule,
     ComponentsModule,
-
+    SimpleNotificationsModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent],

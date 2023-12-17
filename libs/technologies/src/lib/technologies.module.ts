@@ -15,6 +15,7 @@ import {ButtonModule} from "primeng/button";
 import {ListComponent} from "./technologies/list/list.component";
 import {TechnologiesComponent} from "./technologies/technologies.component";
 import {HttpClientModule} from "@angular/common/http";
+import { SimpleNotificationsModule } from 'angular2-notifications';
 
 @NgModule({
   imports: [
@@ -30,7 +31,8 @@ import {HttpClientModule} from "@angular/common/http";
     MatButtonModule,
     ButtonModule,
     PagesModule,
-    HttpClientModule
+    HttpClientModule,
+    SimpleNotificationsModule
   ],
   declarations: [
     TechnologiesComponent,
