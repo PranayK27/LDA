@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {Router} from "@angular/router";
+import { Router } from '@angular/router';
 import { ToastService } from '../../blog/toast-service.service';
 
 @Component({
@@ -10,23 +10,30 @@ import { ToastService } from '../../blog/toast-service.service';
 export class BannerNavigationComponent implements OnInit {
 
   navOptions = false;
+  currentPage: string;
   public isCollapsed = true;
   constructor(
-    private router: Router,
-    private toastService: ToastService
+    protected router: Router,
+    private toastService: ToastService,
     ) {
-
+    this.currentPage = this.router.url;
   }
 
   // eslint-disable-next-line @typescript-eslint/no-empty-function
   ngOnInit() {
-    // this.showToast();
   }
 
-  // showToast() {
-  //   this.toastService.showInfo('You are on the Same page', 'Apologies!');
-  //   console.log(this.toastService.showInfo('You are on the Same page', 'Apologies!'));
-  // }
+  sameUrlNavigation(){
+    if (this.currentPage === "/tech/blog"){
+      this.showToast();
+    } else if (this.currentPage === "/tech/about"){
+      this.showToast();
+    }
+  }
+
+  showToast() {
+    this.toastService.showInfo('You are on the Same page', 'Apologies!');
+  }
 
   toggleNavOptions(){
     this.navOptions = !this.navOptions;

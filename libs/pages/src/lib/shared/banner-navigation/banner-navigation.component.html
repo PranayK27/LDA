@@ -17,13 +17,12 @@
       <a class="nav-link" href="tech"> Home </a>
     </li>
     <li class="nav-item" [routerLinkActive]="['active']">
-      <a class="nav-link" href="tech/blog"> Blog </a>
-<!--      <simple-notifications></simple-notifications>-->
+      <a class="nav-link" href="tech/blog" (click)="sameUrlNavigation()"> Blog </a>
     </li>
     <li class="nav-item" [routerLinkActive]="['active']">
-      <a class="nav-link" href="tech/about"> About </a>
-<!--      <simple-notifications></simple-notifications>-->
+      <a class="nav-link" href="tech/about" (click)="sameUrlNavigation()"> About </a>
     </li>
   </ul>
+  <simple-notifications></simple-notifications>
 </div>
 <!--<simple-notifications></simple-notifications>-->

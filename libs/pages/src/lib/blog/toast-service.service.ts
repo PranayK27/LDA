@@ -1,10 +1,14 @@
 import { Injectable } from '@angular/core';
 import { NotificationsService } from 'angular2-notifications';
+import { Notification } from 'angular2-notifications/lib/interfaces/notification.type';
 
 @Injectable({
   providedIn: 'root',
 })
 export class ToastService {
+
+  notification: Notification | undefined;
+
   constructor(private notificationsService: NotificationsService) {}
 
   showSuccess(message: string, title: string = 'Success') {
@@ -17,6 +21,9 @@ export class ToastService {
 
   showInfo(message: string, title: string = 'Info') {
     this.notificationsService.info(title, message);
+    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+    // @ts-ignore
+    this.notification.timeOut = 2000;
   }
 
   showWarning(message: string, title: string = 'Warning') {

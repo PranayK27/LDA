@@ -39,9 +39,4 @@ export class BlogComponent implements OnInit {
 
     this.router.navigate(['/blogDetail', id]);
   }
-
-  showToast() {
-    this.toastService.showInfo('You are on the Same page', 'Apologies!');
-    console.log(this.toastService.showInfo('You are on the Same page', 'Apologies!'));
-  }
 }
