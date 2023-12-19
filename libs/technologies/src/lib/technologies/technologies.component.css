@@ -174,10 +174,7 @@
   background-color: transparent;
   border: 1px solid transparent;
   border-radius: 0.25rem;
-}
-
-.navbar-toggler:hover, .navbar-toggler:focus {
-  text-decoration: none;
+  transform: rotate(90deg);
 }
 
 .navbar-toggler-icon {
@@ -188,6 +185,7 @@
   content: "";
   background: no-repeat center center;
   background-size: 100% 100%;
+  transform: rotate(90deg);
 }
 
 @media (max-width: 575.98px) {

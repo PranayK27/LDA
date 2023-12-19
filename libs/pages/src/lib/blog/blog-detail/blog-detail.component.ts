@@ -11,6 +11,7 @@ import { Blog } from '../blog-type';
 export class BlogDetailComponent implements OnInit {
 
   id: any;
+  label = "Explore";
   blogDetail: Blog | null = null;
   infoPanelVisible = false;
   respectiveSource = this.blogDetail?.link;

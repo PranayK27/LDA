@@ -50,7 +50,7 @@ export class BannerNavigationComponent implements OnInit {
 
 
   showToast(title: string) {
-    this.toastService.showWarning('Please select other tab!', title);
+    this.toastService.showWarning('Click to close!', title);
     this.toastService.notificationTimeout();
   }
 

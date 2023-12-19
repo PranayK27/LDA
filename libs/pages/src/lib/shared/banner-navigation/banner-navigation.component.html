@@ -1,27 +1,14 @@
-<nav class="custom_nav-container">
-  <a class="navbar-brand" href="#">
-                <span>
-                  LDA
-                </span>
-  </a>
-  <button class="navbar-toggler" type="button"
-          (click)="toggleNavOptions()"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false" aria-label="Toggle navigation">
-    <span class=""> </span>
-  </button>
-</nav>
-<div *ngIf="navOptions" class="navbar-expand-sm" id="navbarSupportedContent" style="" aria-expanded="true">
+<div class="navbar-expand-sm" aria-expanded="true">
   <ul class="navbar-nav">
-    <li class="nav-item">
+<!--    <li class="nav-item">-->
       <a class="nav-link" [href]="home" (click)="sameUrlHome()"> Home </a>
-    </li>
-    <li class="nav-item">
+<!--    </li>-->
+<!--    <li class="nav-item">-->
       <a class="nav-link" [href]=blog (click)="sameUrlBlog()"> Blog </a>
-    </li>
-    <li class="nav-item" >
+<!--    </li>-->
+<!--    <li class="nav-item" >-->
       <a class="nav-link" [href]=about (click)="sameUrlAbout()"> About </a>
-    </li>
+<!--    </li>-->
   </ul>
   <simple-notifications></simple-notifications>
 </div>
