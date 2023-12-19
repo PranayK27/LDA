@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { ButtonModule } from '../button';
 
 @NgModule({
-  imports: [CommonModule, ButtonModule],
+  imports: [CommonModule],
   exports: [
     ButtonModule
   ]
