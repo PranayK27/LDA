@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import { ServiceblogService } from '../blog-service.service';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Blog } from '../blog-type';
-import { ToastService } from '../toast-service.service';
 
 @Component({
   selector: 'lda-blog-detail',
@@ -14,6 +13,7 @@ export class BlogDetailComponent implements OnInit {
   id: any;
   blogDetail: Blog | null = null;
   infoPanelVisible = false;
+  respectiveSource = this.blogDetail?.link;
 
   constructor(activatedRouter: ActivatedRoute,
               public service: ServiceblogService,

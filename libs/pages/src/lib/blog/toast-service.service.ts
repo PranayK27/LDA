@@ -21,12 +21,15 @@ export class ToastService {
 
   showInfo(message: string, title: string = 'Info') {
     this.notificationsService.info(title, message);
-    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-    // @ts-ignore
-    this.notification.timeOut = 2000;
   }
 
   showWarning(message: string, title: string = 'Warning') {
     this.notificationsService.warn(title, message);
+  }
+
+  notificationTimeout(){
+    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+    // @ts-ignore
+    this.notification.timeOut = 1000;
   }
 }

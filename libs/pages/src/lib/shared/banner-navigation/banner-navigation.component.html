@@ -13,14 +13,14 @@
 </nav>
 <div *ngIf="navOptions" class="navbar-expand-sm" id="navbarSupportedContent" style="" aria-expanded="true">
   <ul class="navbar-nav">
-    <li class="nav-item" [routerLinkActive]="['active']">
-      <a class="nav-link" href="tech"> Home </a>
+    <li class="nav-item">
+      <a class="nav-link" [href]="home" (click)="sameUrlHome()"> Home </a>
     </li>
-    <li class="nav-item" [routerLinkActive]="['active']">
-      <a class="nav-link" href="tech/blog" (click)="sameUrlNavigation()"> Blog </a>
+    <li class="nav-item">
+      <a class="nav-link" [href]=blog (click)="sameUrlBlog()"> Blog </a>
     </li>
-    <li class="nav-item" [routerLinkActive]="['active']">
-      <a class="nav-link" href="tech/about" (click)="sameUrlNavigation()"> About </a>
+    <li class="nav-item" >
+      <a class="nav-link" [href]=about (click)="sameUrlAbout()"> About </a>
     </li>
   </ul>
   <simple-notifications></simple-notifications>

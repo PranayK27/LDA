@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Blog } from './blog-type';
 import { ServiceblogService } from './blog-service.service';
 import { Router } from '@angular/router';
-import { ToastService } from './toast-service.service';
+import { Sources } from './source-type';
 
 @Component({
   selector: 'lda-blog',
@@ -11,10 +11,11 @@ import { ToastService } from './toast-service.service';
 })
 export class BlogComponent implements OnInit {
   blogsDetail: Blog[] = [];
+  sources: Sources | null = null;
+  downloadLocation: string | undefined;
   constructor(
     public service: ServiceblogService,
-    public router: Router,
-    public toastService: ToastService
+    public router: Router
   ) {
     this.service.showEdit = false;
   }
@@ -22,6 +23,9 @@ export class BlogComponent implements OnInit {
   ngOnInit(): void {
     if (this.service.Blogs.length === 0)
       this.service.getBlog().subscribe((d: any) => (this.service.Blogs = d));
+    if (this.service.Sources.length === 0)
+      this.service.getSources().subscribe((d: Sources[]) => (this.service.Sources=d));
+    this.downloadLocation = this.service.Sources[0].downloadLocation;
   }
 
   loginClick() {

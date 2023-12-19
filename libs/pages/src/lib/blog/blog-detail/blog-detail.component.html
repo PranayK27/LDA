@@ -48,7 +48,7 @@
           <div *ngIf="infoPanelVisible">
             <span></span>
             <br/>
-            <a href="{{ blogDetail?.link }}" class="link"><i class="ti-link"></i>{{ blogDetail?.link }}</a>
+            <a [href]="respectiveSource" target="_blank" class="link"><i class="ti-link"></i>{{ blogDetail?.heading }}</a>
           </div>
         </div>
       </div>

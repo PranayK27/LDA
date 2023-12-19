@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
 import { blogs } from '../../../../../apps/lda-e2e/src/mock/blog-data';
+import { sourcesData } from '../../../../../apps/lda-e2e/src/mock/sources-data';
 
 
 @Injectable({
@@ -9,6 +10,7 @@ import { blogs } from '../../../../../apps/lda-e2e/src/mock/blog-data';
 export class ServiceblogService {
 
   Blogs: any[] = [];
+  Sources: any = '';
   loginStatusService = false;
 
   detailId: number = -1;
@@ -28,6 +30,10 @@ export class ServiceblogService {
 
   public deletePost(id: number) {
     this.Blogs = this.Blogs.filter(b => b.id !== id);
+  }
+
+  public getSources(): Observable<any> {
+    return of(sourcesData);
   }
 
 }
