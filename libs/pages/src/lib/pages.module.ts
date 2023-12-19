@@ -13,12 +13,13 @@ import {RouterLinkActive, RouterOutlet} from "@angular/router";
 import {PagesRoutingModule} from "./pages-routing.module";
 import {BannerContentComponent} from "./shared/banner-content/banner-content.component";
 import { SimpleNotificationsModule } from 'angular2-notifications';
-import { timeout } from 'rxjs';
+import { ComponentsModule } from '@lda/common';
 
 @NgModule({
   imports: [CommonModule, RouterLinkActive,
     RouterOutlet,
-    SimpleNotificationsModule
+    SimpleNotificationsModule,
+    ComponentsModule
   ],
   exports: [
     FullComponent,
@@ -36,7 +37,7 @@ import { timeout } from 'rxjs';
     BannerComponent,
     BannerContentComponent,
     BannerNavigationComponent,
-    FooterComponent,
+    FooterComponent
   ]
 })
 export class PagesModule {}

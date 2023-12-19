@@ -3,7 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { MyCounterModule } from "@lda/my-counter";
-import {BooksModule} from "@lda/books";
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {MatCardModule} from "@angular/material/card";
 import {MatGridListModule} from "@angular/material/grid-list";
@@ -18,14 +17,12 @@ import {ButtonModule} from "primeng/button";
 import {MatTableModule} from "@angular/material/table";
 import {MatPaginatorModule} from "@angular/material/paginator";
 import {TechnologiesModule} from "@lda/technologies";
-import {PagesModule} from "@lda/pages";
 import {StoreModule} from "@ngrx/store";
 import {counterReducer} from "../../../../libs/my-counter/src/lib/counter.reducer";
 import {StoreDevtoolsModule} from "@ngrx/store-devtools";
 import {
   MultipleClassSelectorComponent
 } from "@storybook/angular/template/stories/basics/component-with-complex-selectors/multiple-selector.component";
-import {ComponentsModule} from "@lda/common";
 import { SimpleNotificationsModule } from 'angular2-notifications';
 
 @NgModule({
@@ -60,8 +57,6 @@ import { SimpleNotificationsModule } from 'angular2-notifications';
     MatTableModule,
     MatPaginatorModule,
     TechnologiesModule,
-    // PagesModule,
-    ComponentsModule,
     SimpleNotificationsModule.forRoot()
   ],
   providers: [],
