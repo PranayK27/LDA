@@ -11,7 +11,6 @@ import { Sources } from './source-type';
 })
 export class BlogComponent implements OnInit {
   blogsDetail: Blog[] = [];
-  sources: Sources | null = null;
   downloadLocation: string | undefined;
   constructor(
     public service: ServiceblogService,
