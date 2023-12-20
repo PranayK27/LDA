@@ -15,6 +15,7 @@ export class BannerNavigationComponent implements OnInit {
   home = '/tech';
   blog = '/tech/blog';
   about = '/tech/about';
+  login = '/tech/login';
   currentPage: string;
   public isCollapsed = true;
   constructor(
@@ -45,6 +46,12 @@ export class BannerNavigationComponent implements OnInit {
   sameUrlAbout(){
     if (this.currentPage === this.about){
       this.showToast('About Page');
+    }
+  }
+
+  sameUrlLogin(){
+    if (this.currentPage === this.about){
+      this.showToast('Login Page');
     }
   }
 
