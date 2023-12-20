@@ -4,11 +4,11 @@ import { Directive, HostBinding } from "@angular/core";
 let nextId = 0;
 
 @Directive({
-  selector: "bit-hint",
+  selector: "lda-hint",
   host: {
     class: "tw-text-muted tw-font-normal tw-inline-block tw-mt-1",
   },
 })
-export class BitHintComponent {
+export class LdaHintComponent {
   @HostBinding() id = `bit-hint-${nextId++}`;
 }

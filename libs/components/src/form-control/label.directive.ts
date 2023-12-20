@@ -1,6 +1,6 @@
 import { Directive } from "@angular/core";
 
 @Directive({
-  selector: "bit-label",
+  selector: "lda-label",
 })
-export class BitLabel {}
+export class LdaLabel {}

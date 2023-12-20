@@ -3,7 +3,6 @@ import { CommonModule } from '@angular/common';
 import { TechnologiesRoutingModule } from './technologies-routing.module';
 import { CategoryDetailsComponent } from './technologies/category-details/category-details.component';
 import {MatCardModule} from "@angular/material/card";
-// eslint-disable-next-line @nrwl/nx/enforce-module-boundaries
 import {PagesModule} from "@lda/pages";
 import {MatTableModule} from "@angular/material/table";
 import {MatPaginatorModule} from "@angular/material/paginator";

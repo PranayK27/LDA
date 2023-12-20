@@ -10,16 +10,38 @@ import {
 } from "@angular/core";
 import { NgControl, Validators } from "@angular/forms";
 
-import { BitFormFieldControl, InputTypes } from "../form-field/form-field-control";
+export type InputTypes =
+  | "text"
+  | "password"
+  | "number"
+  | "datetime-local"
+  | "email"
+  | "checkbox"
+  | "search"
+  | "file"
+  | "date"
+  | "time";
+
+export abstract class LdaFormFieldControl {
+  ariaDescribedBy: string| undefined;
+  id: string | undefined;
+  labelForId: string| undefined;
+  required: boolean| undefined;
+  hasError: boolean | undefined;
+  error: [string, any]| undefined;
+  type?: InputTypes;
+  spellcheck?: boolean;
+  focus?: () => void;
+}
 
 // Increments for each instance of this component
 let nextId = 0;
 
 @Directive({
   selector: "input[bitInput], select[bitInput], textarea[bitInput]",
-  providers: [{ provide: BitFormFieldControl, useExisting: BitInputDirective }],
+  providers: [{ provide: LdaFormFieldControl, useExisting: LdaInputDirective }],
 })
-export class BitInputDirective implements BitFormFieldControl {
+export class LdaInputDirective {
   @HostBinding("class") @Input() get classList() {
     return [
       "tw-block",
@@ -50,7 +72,7 @@ export class BitInputDirective implements BitFormFieldControl {
 
   @HostBinding() @Input() id = `bit-input-${nextId++}`;
 
-  @HostBinding("attr.aria-describedby") ariaDescribedBy: string;
+  @HostBinding("attr.aria-describedby") ariaDescribedBy: string | undefined;
 
   @HostBinding("attr.aria-invalid") get ariaInvalid() {
     return this.hasError ? true : undefined;
@@ -68,7 +90,7 @@ export class BitInputDirective implements BitFormFieldControl {
   set required(value: any) {
     this._required = value != null && value !== false;
   }
-  private _required: boolean;
+  private _required: boolean | undefined;
 
   @Input() hasPrefix = false;
   @Input() hasSuffix = false;
@@ -97,7 +119,11 @@ export class BitInputDirective implements BitFormFieldControl {
   }
 
   get error(): [string, any] {
+    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+    // @ts-ignore
     const key = Object.keys(this.ngControl.errors)[0];
+    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+    // @ts-ignore
     return [key, this.ngControl.errors[key]];
   }
 
