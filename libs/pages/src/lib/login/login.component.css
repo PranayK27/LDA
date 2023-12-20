@@ -5,6 +5,8 @@ mat-card{
 mat-card-title{
   color: #0c5460;
   padding: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 .mat-form-field {
@@ -12,7 +14,6 @@ mat-card-title{
   min-width: 300px;
 }
 
-mat-card-title,
 mat-card-content {
   display: flex;
   justify-content: center;
