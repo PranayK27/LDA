@@ -19,6 +19,7 @@ import {MatFormFieldModule} from "@angular/material/form-field";
 import {MatCardModule} from "@angular/material/card";
 import {ReactiveFormsModule} from "@angular/forms";
 import {MatInputModule} from "@angular/material/input";
+import {FormControlModule} from "../../../components/src/form-control";
 
 @NgModule({
   imports: [
@@ -30,7 +31,8 @@ import {MatInputModule} from "@angular/material/input";
     MatFormFieldModule,
     MatCardModule,
     ReactiveFormsModule,
-    MatInputModule
+    MatInputModule,
+    FormControlModule
   ],
   exports: [
     FullComponent,

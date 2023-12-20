@@ -4,7 +4,6 @@ mat-card{
 
 mat-card-title{
   color: #0c5460;
-  padding: 20px;
   display: flex;
   justify-content: center;
 }
@@ -15,6 +14,13 @@ mat-card-title{
 }
 
 mat-card-content {
+  display: flex;
+  justify-content: center;
+}
+
+lda-label{
+  color: #0c5461;
+  padding: 30px;
   display: flex;
   justify-content: center;
 }

@@ -10,5 +10,5 @@ let nextId = 0;
   },
 })
 export class LdaHintComponent {
-  @HostBinding() id = `bit-hint-${nextId++}`;
+  @HostBinding() id = `lda-hint-${nextId++}`;
 }

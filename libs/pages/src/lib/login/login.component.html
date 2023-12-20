@@ -6,6 +6,11 @@
   </mat-card-title>
   <mat-card-content>
     <form [formGroup]="form" (ngSubmit)="submit()">
+
+      <lda-label>
+        Please enter your credentials
+      </lda-label>
+
       <p>
         <mat-form-field>
           <input type="text" matInput placeholder="Username" formControlName="username">

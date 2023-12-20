@@ -38,7 +38,7 @@ export abstract class LdaFormFieldControl {
 let nextId = 0;
 
 @Directive({
-  selector: "input[bitInput], select[bitInput], textarea[bitInput]",
+  selector: "input[ldaInput], select[ldaInput], textarea[ldaInput]",
   providers: [{ provide: LdaFormFieldControl, useExisting: LdaInputDirective }],
 })
 export class LdaInputDirective {
