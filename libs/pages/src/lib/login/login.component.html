@@ -5,7 +5,7 @@
     </div>
   </mat-card-title>
   <mat-card-content>
-    <form [formGroup]="form" (ngSubmit)="submit()">
+    <form [formGroup]="form" (click)="submit()">
 
       <lda-label>
         Please enter your credentials
@@ -13,13 +13,15 @@
 
       <p>
         <mat-form-field>
-          <input type="text" matInput placeholder="Username" formControlName="username">
+          <label>Username</label>
+          <input type="text" matInput formControlName="username">
         </mat-form-field>
       </p>
 
       <p>
         <mat-form-field>
-          <input type="password" matInput placeholder="Password" formControlName="password">
+          <label>Password</label>
+          <input type="password" matInput formControlName="password">
         </mat-form-field>
       </p>
 
@@ -34,3 +36,7 @@
     </form>
   </mat-card-content>
 </mat-card>
+
+<div class="card" *ngIf="displayCred">
+  <p>entered val: {{ logins }}</p>
+</div>

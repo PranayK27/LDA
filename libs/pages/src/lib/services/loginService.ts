@@ -1,13 +1,14 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
+import {Login} from "../login/login";
 
 @Injectable({
   providedIn: 'root'
 })
 export class LoginService {
 
-  private baseUrl = 'http://localhost:8080/api/v1/login';
+  private baseUrl = 'http://localhost:8080/tech/api/v2/cred';
 
   constructor(public http: HttpClient) { }
 
@@ -15,19 +16,19 @@ export class LoginService {
     return this.http.get(`${this.baseUrl}/${id}`);
   }
 
-  createData(data: Object): Observable<Object> {
+  registerUser(data: any): Observable<any> {
     return this.http.post(`${this.baseUrl}`, data);
   }
 
-  updateData(id: number, value: any): Observable<Object> {
+  updateUser(id: number, value: any): Observable<any> {
     return this.http.put(`${this.baseUrl}/${id}`, value);
   }
 
-  deleteData(id: number | undefined): Observable<any> {
+  deleteUser(id: number | undefined): Observable<any> {
     return this.http.delete(`${this.baseUrl}/${id}`, { responseType: 'text' });
   }
 
-  getDataList(): Observable<any> {
-    return this.http.get(`${this.baseUrl}`);
+  getDataList(): Observable<Login[]> {
+    return this.http.get<Login[]>(`${this.baseUrl}`);
   }
 }
