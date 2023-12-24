@@ -15,11 +15,12 @@ import { BannerContentComponent } from './shared/banner-content/banner-content.c
 import { SimpleNotificationsModule } from 'angular2-notifications';
 import { ComponentsModule } from '@lda/common';
 import { LoginComponent } from './login/login.component';
-import {MatFormFieldModule} from "@angular/material/form-field";
-import {MatCardModule} from "@angular/material/card";
-import {ReactiveFormsModule} from "@angular/forms";
-import {MatInputModule} from "@angular/material/input";
-import {FormControlModule} from "../../../components/src/form-control";
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatCardModule } from '@angular/material/card';
+import { ReactiveFormsModule } from '@angular/forms';
+import { MatInputModule } from '@angular/material/input';
+import { FormControlModule } from '../../../components/src/form-control';
+import { RegistrationComponent } from './registration/registration.component';
 
 @NgModule({
   imports: [
@@ -32,7 +33,7 @@ import {FormControlModule} from "../../../components/src/form-control";
     MatCardModule,
     ReactiveFormsModule,
     MatInputModule,
-    FormControlModule
+    FormControlModule,
   ],
   exports: [
     FullComponent,
@@ -52,6 +53,7 @@ import {FormControlModule} from "../../../components/src/form-control";
     BannerNavigationComponent,
     FooterComponent,
     LoginComponent,
+    RegistrationComponent,
   ],
 })
 export class PagesModule {}
