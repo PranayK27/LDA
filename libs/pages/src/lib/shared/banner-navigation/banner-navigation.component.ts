@@ -15,6 +15,7 @@ export class BannerNavigationComponent implements OnInit {
   home = '/tech';
   blog = '/tech/blog';
   about = '/tech/about';
+  login = '/tech/login';
   register = '/tech/register';
   currentPage: string;
   public isCollapsed = true;
