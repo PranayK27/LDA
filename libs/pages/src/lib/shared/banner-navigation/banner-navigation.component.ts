@@ -3,6 +3,7 @@ import { Router } from '@angular/router';
 import { ToastService } from '../../blog/toast-service.service';
 import { Sources } from '../../blog/source-type';
 import { ServiceblogService } from '../../blog/blog-service.service';
+import {sourcesData} from "../../../../../../apps/lda-e2e/src/mock/sources-data";
 
 @Component({
   selector: 'lda-banner-navigation',
@@ -11,12 +12,13 @@ import { ServiceblogService } from '../../blog/blog-service.service';
 })
 export class BannerNavigationComponent implements OnInit {
 
+  sourceData: Sources[] = sourcesData;
   navOptions = false;
-  home = '/tech';
-  blog = '/tech/blog';
-  about = '/tech/about';
-  login = '/tech/login';
-  register = '/tech/register';
+  home = sourcesData.map(v=> v.home);
+  blog = sourcesData.map(v=> v.blog);
+  about = sourcesData.map(v=> v.about);
+  login = sourcesData.map(v=> v.login);
+  register = sourcesData.map(v=> v.register);
   currentPage: string;
   public isCollapsed = true;
   constructor(
@@ -34,24 +36,30 @@ export class BannerNavigationComponent implements OnInit {
   }
 
   sameUrlHome(){
-    if (this.currentPage === this.home){
+    if (this.currentPage === this.home[0]){
       this.showToast('Home Page');
     }
   }
 
   sameUrlBlog(){
-    if (this.currentPage === this.blog){
+    if (this.currentPage === this.blog[0]){
       this.showToast('Blog Page');
     }
   }
   sameUrlAbout(){
-    if (this.currentPage === this.about){
+    if (this.currentPage === this.about[0]){
       this.showToast('About Page');
     }
   }
 
   sameUrlLogin(){
-    if (this.currentPage === this.about){
+    if (this.currentPage === this.login[0]){
+      this.showToast('Login Page');
+    }
+  }
+
+  sameUrlRegister(){
+    if (this.currentPage === this.register[0]){
       this.showToast('Login Page');
     }
   }

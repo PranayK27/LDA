@@ -40,6 +40,7 @@ import { RegistrationComponent } from './registration/registration.component';
     FooterComponent,
     BannerComponent,
     PagesRoutingModule,
+    BannerNavigationComponent,
   ],
   declarations: [
     BlogComponent,

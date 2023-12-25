@@ -1,8 +1,9 @@
 import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
-import {FormControl, FormGroup} from "@angular/forms";
+import {FormBuilder, FormGroup, Validators} from "@angular/forms";
+import {ListApiService} from "../../../../technologies/src/lib/service/list-api.service";
 import {LoginService} from "../services/loginService";
-import {Observable, Subscription} from "rxjs";
-import {Login} from "./login";
+import {Subscription} from "rxjs";
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'lda-login',
@@ -11,33 +12,33 @@ import {Login} from "./login";
 })
 export class LoginComponent implements OnInit {
 
-  @Input() error: string | null | undefined;
-
-  @Output() submitEM = new EventEmitter();
-
+  loginForm: FormGroup | any;
   displayCred = false;
   logins= this.loginService.getDataList();
   values: Subscription | undefined;
 
-  constructor(private loginService: LoginService) {
+  constructor(private fb: FormBuilder,
+              private readonly router: Router,
+              private readonly listService: ListApiService,
+              private readonly loginService: LoginService) {
   }
 
   ngOnInit() {
+    this.loginForm = this.fb.group({
+      username: ['', Validators.required],
+      password: ['', Validators.required],
+    });
   }
 
-
-
-  form: FormGroup = new FormGroup({
-    username: new FormControl(''),
-    password: new FormControl(''),
-  });
-
-  submit() {
-    if (this.form.valid) {
-      this.submitEM.emit(this.form.value);
+  onSubmit() {
+    if (this.loginForm.valid) {
+      // Implement your login logic here
+      this.router.navigate(['tech/list']);
+      this.listService.getDataList();
+      console.log('Login successful!', this.loginForm.value);
+    } else {
+      console.log('Invalid form');
     }
-    this.displayCred = true;
-    this.logins.subscribe(value => value[0]);
   }
 
 }

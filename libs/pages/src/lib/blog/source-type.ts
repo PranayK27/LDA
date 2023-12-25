@@ -3,4 +3,6 @@ export class Sources {
   home= '';
   blog= '';
   about= '';
+  login = '';
+  register = '';
 }

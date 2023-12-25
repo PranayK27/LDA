@@ -1,42 +1,41 @@
-<mat-card class="login-from">
-  <mat-card-title>
-    <div class="col-lg-9 col-md-6 align-self-center text-center">
-      <h2 class="title">Login</h2>
+<div class="container no-trans layout_padding">
+
+  <div class="row">
+    <div class="col-md-10 col-md-offset-3">
+      <h1>Login page</h1>
+      <form [formGroup]="loginForm">
+        <div>
+          <div *ngIf="!loginForm.valid" class="alert alert-danger">Invalid username or
+            password.</div>
+        </div>
+        <div>
+          <div *ngIf="!loginForm.valid" class="alert alert-info">You have been logged out.</div>
+        </div>
+        <div class="form-group">
+          <label for="username">Username</label>: <input type="text"
+                                                         formControlName="username"
+                                                         id="username" name="username" class="form-control"
+                                                         autofocus="autofocus" placeholder="Username" />
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>: <input type="password"
+                                                         formControlName="password"
+                                                         id="password" name="password" class="form-control"
+                                                         placeholder="Password" />
+        </div>
+        <div class="form-group">
+          <div class="row">
+            <div class="col-sm-6 col-sm-offset-3">
+              <storybook-button (onClick)="onSubmit()" [primary]="true" type="submit">Login</storybook-button>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+      <span>New user? <a href="/" href="/tech/register">Register
+        here</a></span>
+        </div>
+      </form>
     </div>
-  </mat-card-title>
-  <mat-card-content>
-    <form [formGroup]="form" (click)="submit()">
+  </div>
 
-      <lda-label>
-        Please enter your credentials
-      </lda-label>
-
-      <p>
-        <mat-form-field>
-          <label>Username</label>
-          <input type="text" matInput formControlName="username">
-        </mat-form-field>
-      </p>
-
-      <p>
-        <mat-form-field>
-          <label>Password</label>
-          <input type="password" matInput formControlName="password">
-        </mat-form-field>
-      </p>
-
-<!--      <p *ngIf="error" class="error">-->
-<!--        {{ error }}-->
-<!--      </p>-->
-
-      <div class="button">
-        <storybook-button type="submit" >Login</storybook-button>
-      </div>
-
-    </form>
-  </mat-card-content>
-</mat-card>
-
-<div class="card" *ngIf="displayCred">
-  <p>entered val: {{ logins }}</p>
 </div>

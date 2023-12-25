@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import {Login} from "../login/login";
+import {Router} from "@angular/router";
 
 @Injectable({
   providedIn: 'root'
@@ -10,7 +11,7 @@ export class LoginService {
 
   private baseUrl = 'http://localhost:8081/tech/api/v2/cred';
 
-  constructor(public http: HttpClient) { }
+  constructor(public http: HttpClient, private readonly router: Router) { }
 
   getData(id: number): Observable<any> {
     return this.http.get(`${this.baseUrl}/${id}`);
