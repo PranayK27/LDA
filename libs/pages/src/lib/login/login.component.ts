@@ -37,7 +37,7 @@ export class LoginComponent implements OnInit {
       // this.router.navigate(['tech/list']);
       // this.listService.getDataList();
       // this.userLoggedIn = this.loginForm.value;
-      this.loginService.login(1, this.loginForm.value.username, this.loginForm.value.password);
+      this.loginService.login(this.loginForm.value.username, this.loginForm.value.password);
       console.log('Login successful!');
     } else {
       console.log('Invalid form');

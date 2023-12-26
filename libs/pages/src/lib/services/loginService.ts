@@ -21,9 +21,9 @@ export class LoginService {
     return this.http.post(`${this.baseUrl}`, data);
   }
 
-  login(id: number, username: string, password: string): void {
+  login(username: string, password: string): void {
     // Send login request to backend
-    this.http.post(`${this.baseUrl}/login`, {id, username, password}).subscribe((res) => {
+    this.http.post(`${this.baseUrl}/login`, {username, password}).subscribe((res) => {
       if (res === "OK"){
         this.router.navigate(["/tech/list"]);
       }
