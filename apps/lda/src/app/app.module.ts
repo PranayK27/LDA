@@ -13,7 +13,6 @@ import {MatIconModule} from "@angular/material/icon";
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {MatInputModule} from "@angular/material/input";
 import {MatButtonModule} from "@angular/material/button";
-import {ButtonModule} from "primeng/button";
 import {MatTableModule} from "@angular/material/table";
 import {MatPaginatorModule} from "@angular/material/paginator";
 import {TechnologiesModule} from "@lda/technologies";
@@ -53,7 +52,6 @@ import { SimpleNotificationsModule } from 'angular2-notifications';
     FormsModule,
     MatInputModule,
     MatButtonModule,
-    ButtonModule,
     MatTableModule,
     MatPaginatorModule,
     TechnologiesModule,
