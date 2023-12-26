@@ -11,7 +11,8 @@ import { Blog } from '../blog-type';
 export class BlogDetailComponent implements OnInit {
 
   id: any;
-  label = "Explore";
+  explore = "Explore";
+  back = "back";
   blogDetail: Blog | null = null;
   infoPanelVisible = false;
   respectiveSource = this.blogDetail?.link;
@@ -49,6 +50,10 @@ export class BlogDetailComponent implements OnInit {
 
   toggleInfoPanel() {
     this.infoPanelVisible = !this.infoPanelVisible;
+  }
+
+  backToBlog() {
+    this.router.navigate(['/tech/blog']);
   }
 
 }

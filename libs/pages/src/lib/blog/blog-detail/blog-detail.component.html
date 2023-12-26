@@ -41,9 +41,15 @@
 
         <div class="m-t-30">
           <storybook-button
-            class="btn btn-info-gradiant"
-            [label]="label"
+            [primary]=true
+            [label]="explore"
             (click)="toggleInfoPanel()">
+          </storybook-button>
+          &nbsp;
+          <storybook-button
+            [primary]=true
+            [label]="back"
+            (click)="backToBlog()">
           </storybook-button>
           <div *ngIf="infoPanelVisible">
             <span></span>

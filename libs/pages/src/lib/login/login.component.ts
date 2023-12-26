@@ -1,5 +1,5 @@
-import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
-import {FormBuilder, FormGroup, Validators} from "@angular/forms";
+import {Component, EventEmitter, OnInit, Output} from '@angular/core';
+import {FormControl, FormGroup, Validators} from "@angular/forms";
 import {ListApiService} from "../../../../technologies/src/lib/service/list-api.service";
 import {LoginService} from "../services/loginService";
 import {Subscription} from "rxjs";
@@ -16,17 +16,17 @@ export class LoginComponent implements OnInit {
   displayCred = false;
   logins= this.loginService.getDataList();
   values: Subscription | undefined;
+  @Output() userLoggedIn: string | undefined;
 
-  constructor(private fb: FormBuilder,
-              private readonly router: Router,
+  constructor(private readonly router: Router,
               private readonly listService: ListApiService,
               private readonly loginService: LoginService) {
   }
 
   ngOnInit() {
-    this.loginForm = this.fb.group({
-      username: ['', Validators.required],
-      password: ['', Validators.required],
+    this.loginForm = new FormGroup({
+      username: new FormControl('', [Validators.required]),
+      password: new FormControl('', [Validators.required]),
     });
   }
 
@@ -35,9 +35,8 @@ export class LoginComponent implements OnInit {
       // Implement your login logic here
       this.router.navigate(['tech/list']);
       this.listService.getDataList();
-      console.log('Login successful!', this.loginForm.value);
+      this.userLoggedIn = this.loginForm.value;
     } else {
-      console.log('Invalid form');
     }
   }
 

@@ -5,4 +5,5 @@ export class Sources {
   about= '';
   login = '';
   register = '';
+  list = '';
 }

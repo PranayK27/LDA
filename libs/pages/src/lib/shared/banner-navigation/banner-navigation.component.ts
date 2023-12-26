@@ -19,6 +19,7 @@ export class BannerNavigationComponent implements OnInit {
   about = sourcesData.map(v=> v.about);
   login = sourcesData.map(v=> v.login);
   register = sourcesData.map(v=> v.register);
+  list = sourcesData.map(v=> v.list);
   currentPage: string;
   public isCollapsed = true;
   constructor(
@@ -29,7 +30,6 @@ export class BannerNavigationComponent implements OnInit {
     this.currentPage = this.router.url;
   }
 
-  // eslint-disable-next-line @typescript-eslint/no-empty-function
   ngOnInit() {
     if (this.service.Sources.length === 0)
       this.service.getSources().subscribe((d: Sources) => (this.service.Sources=d));
@@ -60,7 +60,7 @@ export class BannerNavigationComponent implements OnInit {
 
   sameUrlRegister(){
     if (this.currentPage === this.register[0]){
-      this.showToast('Login Page');
+      this.showToast('Registration Page');
     }
   }
 

@@ -21,6 +21,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { MatInputModule } from '@angular/material/input';
 import { FormControlModule } from '../../../components/src/form-control';
 import { RegistrationComponent } from './registration/registration.component';
+import ButtonComponent from "../../../components/src/button/button.component";
 
 @NgModule({
   imports: [
@@ -41,6 +42,7 @@ import { RegistrationComponent } from './registration/registration.component';
     BannerComponent,
     PagesRoutingModule,
     BannerNavigationComponent,
+    ButtonComponent,
   ],
   declarations: [
     BlogComponent,
