@@ -64,7 +64,8 @@
         <a
           class="btn btn-info-gradiant btn-md btn-arrow m-t-20"
           data-toggle="collapse"
-          ><span (click)="toggleInfoPanel()">View Details <i class="ti-arrow-circle-down"></i></span
+          (click)="toggleInfoPanel()"
+          ><span>View Details <i class="ti-arrow-circle-down"></i></span
         ></a>
         <div *ngIf="infoPanelVisible">
           <span></span>

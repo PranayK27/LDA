@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
-import { NotificationsService } from 'angular2-notifications';
-import { Notification } from 'angular2-notifications/lib/interfaces/notification.type';
+import {NotificationsService} from 'angular2-notifications';
 
 @Injectable({
   providedIn: 'root',
