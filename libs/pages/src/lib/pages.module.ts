@@ -22,6 +22,8 @@ import { MatInputModule } from '@angular/material/input';
 import { FormControlModule } from '../../../components/src/form-control';
 import { RegistrationComponent } from './registration/registration.component';
 import ButtonComponent from "../../../components/src/button/button.component";
+import {Page404Component} from "./page404/page404.component";
+import {Page500Component} from "./page500/page500.component";
 
 @NgModule({
   imports: [
@@ -42,7 +44,7 @@ import ButtonComponent from "../../../components/src/button/button.component";
     BannerComponent,
     PagesRoutingModule,
     BannerNavigationComponent,
-    ButtonComponent,
+    ButtonComponent
   ],
   declarations: [
     BlogComponent,
@@ -57,6 +59,8 @@ import ButtonComponent from "../../../components/src/button/button.component";
     FooterComponent,
     LoginComponent,
     RegistrationComponent,
+    Page404Component,
+    Page500Component,
   ],
 })
 export class PagesModule {}

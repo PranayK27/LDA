@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs';
+import {catchError, Observable, retry, throwError} from 'rxjs';
 import {Login} from "../login/login";
 import {Router} from "@angular/router";
 
@@ -23,10 +23,23 @@ export class LoginService {
 
   login(username: string, password: string): void {
     // Send login request to backend
-    this.http.post(`${this.baseUrl}/login`, {username, password}).subscribe((res) => {
+    this.http.post(`${this.baseUrl}/login`, {username, password})
+      .pipe(
+        retry(3), // Retry the request up to 3 times
+        catchError((error) => {
+          this.router.navigate(["/tech/internalserver"]);
+          console.error('Error:', error);
+          return throwError(error);
+        }),
+        )
+      .subscribe((res) => {
       if (res === "OK"){
         this.router.navigate(["/tech/list"]);
       }
+      // else {
+      //   this.router.navigate(["/tech/pagenotfound"]);
+      // }
+
     });
   }
 

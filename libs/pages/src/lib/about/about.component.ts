@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ServiceblogService } from '../blog/blog-service.service';
-import { ToastService } from '../blog/toast-service.service';
+import { ToastService } from '../services/toast-service.service';
 import { Router } from '@angular/router';
 
 @Component({

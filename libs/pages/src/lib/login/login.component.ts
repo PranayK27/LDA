@@ -32,15 +32,9 @@ export class LoginComponent implements OnInit {
 
   onSubmit() {
     if (this.loginForm.valid) {
-      console.log(this.loginForm.value.username, this.loginForm.value.password);
-      // Implement your login logic here
-      // this.router.navigate(['tech/list']);
-      // this.listService.getDataList();
-      // this.userLoggedIn = this.loginForm.value;
       this.loginService.login(this.loginForm.value.username, this.loginForm.value.password);
-      console.log('Login successful!');
     } else {
-      console.log('Invalid form');
+      this.router.navigate(["/tech/internalserver"]);
     }
   }
 

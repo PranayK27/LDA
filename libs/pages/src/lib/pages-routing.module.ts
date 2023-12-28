@@ -6,6 +6,8 @@ import { BlogDetailComponent } from './blog/blog-detail/blog-detail.component';
 import { FullComponent } from './layout/full/full.component';
 import {RegistrationComponent} from "./registration/registration.component";
 import {LoginComponent} from "./login/login.component";
+import {Page404Component} from "./page404/page404.component";
+import {Page500Component} from "./page500/page500.component";
 
 const routes: Routes = [
   {
@@ -17,6 +19,9 @@ const routes: Routes = [
       { path: "tech/about", component: AboutComponent },
       { path: "tech/login", component: LoginComponent },
       { path: "tech/register", component: RegistrationComponent },
+      { path: "tech/pagenotfound", component: Page404Component },
+      { path: "tech/internalserver", component: Page500Component },
+      { path: "**", component: Page404Component}
     ]
   }
 ];
