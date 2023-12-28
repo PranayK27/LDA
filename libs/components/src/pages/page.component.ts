@@ -4,17 +4,11 @@ import type { User } from '../shared/User';
 @Component({
     selector: 'storybook-page',
     template: `<article>
-    <storybook-header
-      [user]="user"
-      (onLogout)="doLogout()"
-      (onLogin)="doLogin()"
-      (onCreateAccount)="doCreateAccount()"
-    ></storybook-header>
     <section class="storybook-page">
       <h2>Pages in Storybook</h2>
       <p>
-        We recommend building UIs with a
-        <a href="https://componentdriven.org" target="_blank" rel="noopener noreferrer">
+        I recommend building UIs with a
+        <a target="_blank" rel="noopener noreferrer">
           <strong>component-driven</strong>
         </a>
         process starting with atomic components and ending with pages.
@@ -34,15 +28,6 @@ import type { User } from '../shared/User';
           using Storybook.
         </li>
       </ul>
-      <p>
-        Get a guided tutorial on component-driven development at
-        <a href="https://storybook.js.org/tutorials/" target="_blank" rel="noopener noreferrer">
-          Storybook tutorials
-        </a>
-        . Read more in the
-        <a href="https://storybook.js.org/docs" target="_blank" rel="noopener noreferrer"> docs </a>
-        .
-      </p>
       <div class="tip-wrapper">
         <span class="tip">Tip</span> Adjust the width of the canvas with the
         <svg width="10" height="10" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">

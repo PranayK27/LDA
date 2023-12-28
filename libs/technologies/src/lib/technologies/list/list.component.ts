@@ -14,6 +14,9 @@ export class ListComponent implements OnInit {
 
   columns: string[] = ["id", "name", "description", "categoryId"];
   dataSource: any;
+  user = {
+    name: "Pranay Kekre"
+  };
   logout = sourcesData.map(v=> v.login)[0];
   label = 'Logout';
   lists: Observable<List[]> | undefined;
@@ -23,7 +26,6 @@ export class ListComponent implements OnInit {
               private router: Router) {}
 
   ngOnInit() {
-    console.log(this.logout);
     this.getData();
     this.dataSource = this.lists;
   }
