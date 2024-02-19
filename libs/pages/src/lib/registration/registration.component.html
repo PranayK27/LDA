@@ -1,0 +1,118 @@
+
+<head>
+  <title>Registration</title>
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed"
+              data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+              aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span> <span
+        class="icon-bar"></span> <span class="icon-bar"></span> <span
+        class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#" href="@{/}">Registration and
+        Login Module</a>
+    </div>
+  </div>
+</nav>
+
+<br>
+<br>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-3">
+
+      <div if="${param.success}">
+        <div class="alert alert-info">You've successfully registered
+          to our awesome app!</div>
+      </div>
+
+      <h1>Registration</h1>
+      <form action="@{/registration}" object="${user}" method="post">
+
+        <p class="error-message" if="${#fields.hasGlobalErrors()}"
+           each="error : ${#fields.errors('global')}" text="${error}">Validation
+          error</p>
+
+        <div class="form-group"
+             classappend="${#fields.hasErrors('firstName')}? 'has-error':''">
+          <label for="firstName" class="control-label">First name</label> <input
+          id="firstName" class="form-control" field="*{firstName}" />
+          <p class="error-message"
+             each="error: ${#fields.errors('firstName')}"
+             text="${error}">Validation error</p>
+        </div>
+        <div class="form-group"
+             classappend="${#fields.hasErrors('lastName')}? 'has-error':''">
+          <label for="lastName" class="control-label">Last name</label> <input
+          id="lastName" class="form-control" field="*{lastName}" />
+          <p class="error-message"
+             each="error : ${#fields.errors('lastName')}"
+             text="${error}">Validation error</p>
+        </div>
+        <div class="form-group"
+             classappend="${#fields.hasErrors('email')}? 'has-error':''">
+          <label for="email" class="control-label">E-mail</label> <input
+          id="email" class="form-control" field="*{email}" />
+          <p class="error-message"
+             each="error : ${#fields.errors('email')}" text="${error}">Validation
+            error</p>
+        </div>
+        <div class="form-group"
+             classappend="${#fields.hasErrors('confirmEmail')}? 'has-error':''">
+          <label for="confirmEmail" class="control-label">Confirm
+            e-mail</label> <input id="confirmEmail" class="form-control"
+                                  field="*{confirmEmail}" />
+          <p class="error-message"
+             each="error : ${#fields.errors('confirmEmail')}"
+             text="${error}">Validation error</p>
+        </div>
+        <div class="form-group"
+             classappend="${#fields.hasErrors('password')}? 'has-error':''">
+          <label for="password" class="control-label">Password</label> <input
+          id="password" class="form-control" type="password"
+          field="*{password}" />
+          <p class="error-message"
+             each="error : ${#fields.errors('password')}"
+             text="${error}">Validation error</p>
+        </div>
+        <div class="form-group"
+             classappend="${#fields.hasErrors('confirmPassword')}? 'has-error':''">
+          <label for="confirmPassword" class="control-label">Confirm
+            password</label> <input id="confirmPassword" class="form-control"
+                                    type="password" field="*{confirmPassword}" />
+          <p class="error-message"
+             each="error : ${#fields.errors('confirmPassword')}"
+             text="${error}">Validation error</p>
+        </div>
+        <div class="form-group"
+             classappend="${#fields.hasErrors('terms')}? 'has-error':''">
+          <input id="terms" type="checkbox" field="*{terms}" />   <label
+          class="control-label" for="terms"> I agree with the <a
+          href="#">terms and conditions</a> for Registration.
+        </label>
+          <p class="error-message"
+             each="error : ${#fields.errors('terms')}" text="${error}">Validation
+            error</p>
+        </div>
+        <div class="form-group">
+          <button type="submit" class="btn btn-success">Register</button>
+          <br/>
+          <span>Already registered? <a href="/" href="/tech/login">Login
+        here</a></span>
+        </div>
+
+      </form>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript"
+        src="@{/webjars/jquery/3.2.1/jquery.min.js/}"></script>
+<script type="text/javascript"
+        src="@{/webjars/bootstrap/3.3.7/js/bootstrap.min.js}"></script>
+</body>

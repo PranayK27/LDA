@@ -11,15 +11,21 @@ import { Blog } from '../blog-type';
 export class BlogDetailComponent implements OnInit {
 
   id: any;
+  explore = "Explore";
+  back = "back";
   blogDetail: Blog | null = null;
+  infoPanelVisible = false;
+  respectiveSource = this.blogDetail?.link;
 
-  constructor(activatedRouter: ActivatedRoute, public service: ServiceblogService, public router: Router) {
+  constructor(activatedRouter: ActivatedRoute,
+              public service: ServiceblogService,
+              public router: Router
+  ) {
     this.id = activatedRouter.snapshot.paramMap.get('id');
   }
 
   ngOnInit(): void {
     this.blogDetail = this.service.Blogs.filter(x => x.id === +this.id)[0];
-
   }
 
   loginClick() {
@@ -41,8 +47,13 @@ export class BlogDetailComponent implements OnInit {
   //   this.router.navigate([('/editPost'), this.service?.detailId]);
 
   // }
-  redirect(){
-    this.blogDetail?.link
+
+  toggleInfoPanel() {
+    this.infoPanelVisible = !this.infoPanelVisible;
+  }
+
+  backToBlog() {
+    this.router.navigate(['/tech/blog']);
   }
 
 }

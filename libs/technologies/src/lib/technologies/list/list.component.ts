@@ -4,6 +4,7 @@ import { List } from "../model/lists";
 import {Component, OnInit, ViewChild} from "@angular/core";
 import { Router } from '@angular/router';
 import {MatPaginator} from "@angular/material/paginator";
+import {sourcesData} from "../../../../../../apps/lda-e2e/src/mock/sources-data";
 @Component({
   selector: 'lda-list',
   templateUrl: './list.component.html',
@@ -12,12 +13,14 @@ import {MatPaginator} from "@angular/material/paginator";
 export class ListComponent implements OnInit {
 
   columns: string[] = ["id", "name", "description", "categoryId"];
-
   dataSource: any;
-
-  @ViewChild(MatPaginator) paginator: MatPaginator | undefined;
-
+  user = {
+    name: "Pranay Kekre"
+  };
+  logout = sourcesData.map(v=> v.login)[0];
+  label = 'Logout';
   lists: Observable<List[]> | undefined;
+  @ViewChild(MatPaginator) paginator: MatPaginator | undefined;
 
   constructor(public listApiService: ListApiService,
               private router: Router) {}
@@ -47,5 +50,9 @@ export class ListComponent implements OnInit {
 
   getDetails(id: number | undefined){
     this.router.navigate(['details', id]);
+  }
+
+  redirect(){
+    this.router.navigate(['/tech/login']);
   }
 }

@@ -1,0 +1,41 @@
+<div class="container no-trans layout_padding">
+
+  <div class="row">
+    <div class="col-md-10 col-md-offset-3">
+      <h1>Login page</h1>
+      <form [formGroup]="loginForm">
+        <div>
+          <div *ngIf="!loginForm.valid" class="alert alert-danger">Invalid username or
+            password.</div>
+        </div>
+        <div>
+          <div *ngIf="!loginForm.valid" class="alert alert-info">You have been logged out.</div>
+        </div>
+        <div class="form-group">
+          <label for="username">Username</label>: <input type="text"
+                                                         formControlName="username"
+                                                         id="username" name="username" class="form-control"
+                                                         autofocus="autofocus" placeholder="Username" />
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>: <input type="password"
+                                                         formControlName="password"
+                                                         id="password" name="password" class="form-control"
+                                                         placeholder="Password" />
+        </div>
+        <div class="form-group">
+          <div class="row">
+            <div class="col-sm-6 no-trans col-sm-offset-3">
+              <storybook-button (click)="onSubmit()" [primary]="true" type="submit">Login</storybook-button>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+      <span>New user? <a href="/" href="/tech/register">Register
+        here</a></span>
+        </div>
+      </form>
+    </div>
+  </div>
+
+</div>

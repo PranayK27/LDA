@@ -6,15 +6,11 @@ import {MatCardModule} from "@angular/material/card";
 import {PagesModule} from "@lda/pages";
 import {MatTableModule} from "@angular/material/table";
 import {MatPaginatorModule} from "@angular/material/paginator";
-import {MatFormFieldModule} from "@angular/material/form-field";
-import {MatIconModule} from "@angular/material/icon";
-import {FormsModule} from "@angular/forms";
-import {MatInputModule} from "@angular/material/input";
-import {MatButtonModule} from "@angular/material/button";
-import {ButtonModule} from "primeng/button";
 import {ListComponent} from "./technologies/list/list.component";
 import {TechnologiesComponent} from "./technologies/technologies.component";
 import {HttpClientModule} from "@angular/common/http";
+import { SimpleNotificationsModule } from 'angular2-notifications';
+import {ComponentsModule} from "@lda/common";
 
 @NgModule({
   imports: [
@@ -23,14 +19,10 @@ import {HttpClientModule} from "@angular/common/http";
     MatCardModule,
     MatTableModule,
     MatPaginatorModule,
-    MatFormFieldModule,
-    MatIconModule,
-    FormsModule,
-    MatInputModule,
-    MatButtonModule,
-    ButtonModule,
     PagesModule,
-    HttpClientModule
+    HttpClientModule,
+    SimpleNotificationsModule,
+    ComponentsModule
   ],
   declarations: [
     TechnologiesComponent,

@@ -8,7 +8,7 @@ const routes: Routes = [
   { path:"tech", component:TechnologiesComponent, pathMatch: "full" },
   { path:"tech/list", component:ListComponent, pathMatch: "full" },
   //{ path:"tech/counter", component:MyCounterComponent, pathMatch: "full" }, or BooksComponent
-  { path:"tech/details",
+  { path:"tech/blog",
     children: [
       { path: "", loadChildren: () => import('../../../pages/src/lib/pages.module').then(m => m.PagesModule) }
     ]}

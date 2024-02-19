@@ -1,13 +1,14 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
+import {Router} from "@angular/router";
 
 @Injectable({
   providedIn: 'root'
 })
 export class ListApiService {
 
-  private baseUrl = 'http://localhost:8080/api/v1/list';
+  private baseUrl = 'http://localhost:8081/tech/api/v1/list';
 
   constructor(public http: HttpClient) { }
 

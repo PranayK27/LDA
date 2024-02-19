@@ -3,7 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { MyCounterModule } from "@lda/my-counter";
-import {BooksModule} from "@lda/books";
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {MatCardModule} from "@angular/material/card";
 import {MatGridListModule} from "@angular/material/grid-list";
@@ -11,21 +10,19 @@ import {AppRoutingModule} from "./app-routing.module";
 import {RouterModule} from "@angular/router";
 import {MatFormFieldModule} from "@angular/material/form-field";
 import {MatIconModule} from "@angular/material/icon";
-import {FormsModule} from "@angular/forms";
+import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {MatInputModule} from "@angular/material/input";
 import {MatButtonModule} from "@angular/material/button";
-import {ButtonModule} from "primeng/button";
 import {MatTableModule} from "@angular/material/table";
 import {MatPaginatorModule} from "@angular/material/paginator";
 import {TechnologiesModule} from "@lda/technologies";
-import {PagesModule} from "@lda/pages";
 import {StoreModule} from "@ngrx/store";
 import {counterReducer} from "../../../../libs/my-counter/src/lib/counter.reducer";
 import {StoreDevtoolsModule} from "@ngrx/store-devtools";
 import {
   MultipleClassSelectorComponent
 } from "@storybook/angular/template/stories/basics/component-with-complex-selectors/multiple-selector.component";
-import {ComponentsModule} from "@lda/common";
+import { SimpleNotificationsModule } from 'angular2-notifications';
 
 @NgModule({
   declarations: [
@@ -55,13 +52,11 @@ import {ComponentsModule} from "@lda/common";
     FormsModule,
     MatInputModule,
     MatButtonModule,
-    ButtonModule,
     MatTableModule,
     MatPaginatorModule,
     TechnologiesModule,
-    PagesModule,
-    ComponentsModule,
-
+    ReactiveFormsModule,
+    SimpleNotificationsModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent],

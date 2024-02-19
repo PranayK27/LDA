@@ -1,26 +1,25 @@
-<nav class="custom_nav-container">
-  <a class="navbar-brand" href="#">
-                <span>
-                  LDA
-                </span>
-  </a>
-  <button class="navbar-toggler" type="button"
-          (click)="toggleNavOptions()"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false" aria-label="Toggle navigation">
-    <span class=""> </span>
-  </button>
+<nav class="navbar navbar-expand-sm">
+  <div class="container-fluid">
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" [href]="home" (click)="sameUrlHome()">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [href]=blog (click)="sameUrlBlog()">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [href]=about (click)="sameUrlAbout()">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [href]=login (click)="sameUrlLogin()">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [href]=register (click)="sameUrlRegister()">Register</a>
+        </li>
+      </ul>
+    </div>
+  </div>
 </nav>
-<div *ngIf="navOptions" class="navbar-expand-sm" id="navbarSupportedContent" style="" aria-expanded="true">
-  <ul class="navbar-nav">
-    <li class="nav-item" [routerLinkActive]="['active']">
-      <a class="nav-link" href="tech">Home </a>
-    </li>
-    <li class="nav-item" [routerLinkActive]="['active']">
-      <a class="nav-link" href="tech/details">Blog </a>
-    </li>
-    <li class="nav-item" [routerLinkActive]="['active']">
-      <a class="nav-link" href="tech/about">About</a>
-    </li>
-  </ul>
-</div>
+<simple-notifications></simple-notifications>
