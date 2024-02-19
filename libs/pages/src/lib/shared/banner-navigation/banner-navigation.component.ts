@@ -4,7 +4,6 @@ import { ToastService } from '../../services/toast-service.service';
 import { Sources } from '../../blog/source-type';
 import { ServiceblogService } from '../../blog/blog-service.service';
 import {sourcesData} from "../../../../../../apps/lda-e2e/src/mock/sources-data";
-import {timeout} from "rxjs";
 
 @Component({
   selector: 'lda-banner-navigation',
