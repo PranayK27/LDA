@@ -1,10 +1,25 @@
-<div class="navbar-expand-sm" aria-expanded="true">
-  <ul class="navbar-nav">
-      <a class="nav-link" [href]="home" (click)="sameUrlHome()"> Home </a>
-      <a class="nav-link" [href]=blog (click)="sameUrlBlog()"> Blog </a>
-      <a class="nav-link" [href]=about (click)="sameUrlAbout()"> About </a>
-      <a class="nav-link" [href]=login (click)="sameUrlLogin()"> Login </a>
-      <a class="nav-link" [href]=register (click)="sameUrlRegister()"> Register </a>
-  </ul>
-  <simple-notifications></simple-notifications>
-</div>
+<nav class="navbar navbar-expand-sm">
+  <div class="container-fluid">
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" [href]="home" (click)="sameUrlHome()">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [href]=blog (click)="sameUrlBlog()">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [href]=about (click)="sameUrlAbout()">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [href]=login (click)="sameUrlLogin()">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [href]=register (click)="sameUrlRegister()">Register</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<simple-notifications></simple-notifications>
