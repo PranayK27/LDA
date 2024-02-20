@@ -14,7 +14,14 @@
         "main": "apps/lda/src/main.ts",
         "polyfills": "apps/lda/src/polyfills.ts",
         "tsConfig": "apps/lda/tsconfig.app.json",
-        "assets": ["apps/lda/src/assets/images"],
+        "assets": [
+          "apps/lda/src/assets/images",
+          {
+            "glob": "**/*",
+            "input": "libs/technologies/src/lib/technologies/assets",
+            "output": "/src/assets"
+          }
+        ],
         "styles": [
           "apps/lda/src/styles.css",
           "apps/lda/src/assets/css/bootstrap.css",
@@ -30,7 +37,7 @@
           "apps/lda/src/assets/scss/extra.scss",
           "apps/lda/src/assets/scss/common.scss",
           "apps/lda/src/assets/scss/authentication.scss"
-        ],
+          ],
         "scripts": []
       },
       "configurations": {
