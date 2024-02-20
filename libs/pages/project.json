@@ -11,10 +11,9 @@
       "options": {
         "jestConfig": "libs/pages/jest.config.ts",
         "passWithNoTests": true,
-        "assets": ["src/lib/assets/images/favicon.ico", "src/lib/assets"],
+        "assets": [],
         "styles": [
-          "node_modules/bootstrap/dist/css/bootstrap.min.css",
-          "src/lib/assets/scss/style.scss"
+          "node_modules/bootstrap/dist/css/bootstrap.min.css"
         ]
       }
     },
