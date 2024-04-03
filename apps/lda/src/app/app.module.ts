@@ -21,15 +21,11 @@ import {StoreModule} from "@ngrx/store";
 // eslint-disable-next-line @nrwl/nx/enforce-module-boundaries
 import {counterReducer} from "../../../../libs/my-counter/src/lib/counter.reducer";
 import {StoreDevtoolsModule} from "@ngrx/store-devtools";
-// import {
-//   MultipleClassSelectorComponent
-// } from "@storybook/angular/template/stories/basics/component-with-complex-selectors/multiple-selector.component";
 import { SimpleNotificationsModule } from 'angular2-notifications';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    // MultipleClassSelectorComponent
+    AppComponent
   ],
   imports: [
     StoreModule.forRoot(counterReducer),

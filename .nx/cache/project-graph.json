@@ -435,44 +435,6 @@
               ]
             },
             "configurations": {}
-          },
-          "storybook": {
-            "executor": "@storybook/angular:start-storybook",
-            "options": {
-              "port": 4400,
-              "configDir": "apps/lda/.storybook",
-              "browserTarget": "lda:storybook",
-              "compodoc": false
-            },
-            "configurations": {
-              "ci": {
-                "quiet": true
-              }
-            }
-          },
-          "build-storybook": {
-            "executor": "@storybook/angular:build-storybook",
-            "outputs": [
-              "{options.outputDir}"
-            ],
-            "options": {
-              "outputDir": "dist/storybook/lda",
-              "configDir": "apps/lda/.storybook",
-              "browserTarget": "lda:build-storybook",
-              "compodoc": false
-            },
-            "configurations": {
-              "ci": {
-                "quiet": true
-              }
-            }
-          },
-          "test-storybook": {
-            "executor": "nx:run-commands",
-            "options": {
-              "command": "test-storybook -c apps/lda/.storybook --url=http://localhost:4400"
-            },
-            "configurations": {}
           }
         },
         "$schema": "../../node_modules/nx/schemas/project-schema.json",
@@ -24692,11 +24654,6 @@
     "lda": [
       {
         "source": "lda",
-        "target": "npm:@storybook/angular",
-        "type": "static"
-      },
-      {
-        "source": "lda",
         "target": "npm:@angular/core",
         "type": "static"
       },
@@ -24718,16 +24675,6 @@
       {
         "source": "lda",
         "target": "components",
-        "type": "static"
-      },
-      {
-        "source": "lda",
-        "target": "npm:@storybook/testing-library",
-        "type": "static"
-      },
-      {
-        "source": "lda",
-        "target": "npm:@storybook/jest",
         "type": "static"
       },
       {
