@@ -37,7 +37,7 @@
           "apps/lda/src/assets/scss/extra.scss",
           "apps/lda/src/assets/scss/common.scss",
           "apps/lda/src/assets/scss/authentication.scss"
-          ],
+        ],
         "scripts": []
       },
       "configurations": {
