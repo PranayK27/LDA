@@ -68,10 +68,10 @@ export default class PageComponent {
   }
 
   doLogin() {
-    this.user = { name: 'Jane Doe' };
+    this.user = { name: 'Pranay Kekre' };
   }
 
   doCreateAccount() {
-    this.user = { name: 'Jane Doe' };
+    this.user = { name: 'Pranay Kekre' };
   }
 }

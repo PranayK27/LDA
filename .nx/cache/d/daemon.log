@@ -373,3 +373,38 @@ Use "namedInputs" instead. You can run "nx repair" to automatically migrate your
 For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
 
 [NX Daemon Server] - 2024-04-03T18:51:55.206Z - Time taken for 'hash changed files from watcher' 0.9788750000298023ms
+[NX Daemon Server] - 2024-04-03T18:55:55.048Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-03T18:55:58.684Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-03T18:56:12.857Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-03T18:56:58.978Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-03T18:57:06.001Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-03T18:57:54.560Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-03T18:57:54.569Z - [WATCHER]: 0 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-04-03T18:57:55.302Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-03T18:57:57.009Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-03T18:58:00.978Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-04-03T18:58:00.979Z - [REQUEST]: libs/taskbox/documentation.json,libs/taskbox/src/stories/page.component.ts
+[NX Daemon Server] - 2024-04-03T18:58:00.979Z - [REQUEST]: 
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2024-04-03T18:58:01.065Z - Time taken for 'hash changed files from watcher' 5.8912090002559125ms
+[NX Daemon Server] - 2024-04-03T18:58:11.930Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-03T18:58:34.573Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-03T18:58:41.444Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-03T18:58:59.549Z - [WATCHER]: 0 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-04-03T18:58:59.550Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-03T18:58:59.930Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-03T18:59:05.956Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-04-03T18:59:05.958Z - [REQUEST]: libs/taskbox/documentation.json,libs/taskbox/src/stories/header.component.ts
+[NX Daemon Server] - 2024-04-03T18:59:05.958Z - [REQUEST]: 
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2024-04-03T18:59:06.098Z - Time taken for 'hash changed files from watcher' 3.8725829999893904ms

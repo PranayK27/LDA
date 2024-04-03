@@ -22,7 +22,7 @@ import type { User } from './User';
             />
           </g>
         </svg>
-        <h1>Acme</h1>
+        <h1>LDA</h1>
       </div>
       <div>
         <div *ngIf="user">
