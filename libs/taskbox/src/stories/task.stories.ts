@@ -43,7 +43,8 @@ export const Default: Story = {
 export const Pinned: Story = {
   args: {
     task: {
-      ...Default.args?.task,
+      id: '2',
+      title: 'Test Task',
       state: 'TASK_PINNED',
     },
   },
@@ -52,7 +53,8 @@ export const Pinned: Story = {
 export const Archived: Story = {
   args: {
     task: {
-      ...Default.args?.task,
+      id: '3',
+      title: 'Test Task',
       state: 'TASK_ARCHIVED',
     },
   },
