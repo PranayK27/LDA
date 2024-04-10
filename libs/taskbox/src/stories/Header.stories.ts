@@ -2,8 +2,8 @@ import { moduleMetadata } from '@storybook/angular';
 import type { Meta, StoryObj } from '@storybook/angular';
 import { CommonModule } from '@angular/common';
 
-import Button from './button.component';
-import Header from './header.component';
+import Button from '../component/button.component';
+import Header from '../component/header.component';
 
 const meta: Meta<Header> = {
   title: 'Example/Header',

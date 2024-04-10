@@ -3,9 +3,9 @@ import { moduleMetadata } from '@storybook/angular';
 import { expect, userEvent, within } from '@storybook/test';
 import { CommonModule } from '@angular/common';
 
-import Button from './button.component';
-import Header from './header.component';
-import Page from './page.component';
+import Button from '../component/button.component';
+import Header from '../component/header.component';
+import Page from '../component/page.component';
 
 const meta: Meta<Page> = {
   title: 'Example/Page',

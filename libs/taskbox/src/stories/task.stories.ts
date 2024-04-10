@@ -5,7 +5,7 @@ import { argsToTemplate } from '@storybook/angular';
 
 import { action } from '@storybook/addon-actions';
 
-import TaskComponent from './task.component';
+import TaskComponent from '../component/task.component';
 
 export const actionsData = {
   onPinTask: action('onPinTask'),
@@ -13,7 +13,7 @@ export const actionsData = {
 };
 
 const meta: Meta<TaskComponent> = {
-  title: 'Task',
+  title: 'Example/Task',
   component: TaskComponent,
   excludeStories: /.*Data$/,
   tags: ['autodocs'],
@@ -23,7 +23,7 @@ const meta: Meta<TaskComponent> = {
       onPinTask: actionsData.onPinTask,
       onArchiveTask: actionsData.onArchiveTask,
     },
-    template: `<storybook-task ${argsToTemplate(args)}></storybook-task>`,
+    template: `<app-task ${argsToTemplate(args)}></app-task>`,
   }),
 };
 

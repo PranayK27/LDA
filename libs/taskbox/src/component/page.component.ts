@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import type { User } from './User';
+import type { User } from '../models/User';
 
 @Component({
   selector: 'storybook-page',
@@ -58,7 +58,7 @@ import type { User } from './User';
       </div>
     </section>
   </article>`,
-  styleUrls: ['./page.css'],
+  styleUrls: ['../stories/page.css'],
 })
 export default class PageComponent {
   user: User | null = null;

@@ -12,7 +12,7 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
   >
     {{ label }}
   </button>`,
-  styleUrls: ['./button.css'],
+  styleUrls: ['../stories/button.css'],
 })
 export default class ButtonComponent {
   /**

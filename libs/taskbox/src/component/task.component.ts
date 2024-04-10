@@ -1,9 +1,9 @@
 
 import { Component, Input, Output, EventEmitter } from '@angular/core';
-import { Task } from './task.model';
+import { Task } from '../models/task.model';
 
 @Component({
-  selector: 'storybook-task',
+  selector: 'app-task',
   template: `
     <div class="list-item {{ task?.state }}">
       <label

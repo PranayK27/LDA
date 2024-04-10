@@ -1,5 +1,5 @@
 import { Component, Input, Output, EventEmitter } from '@angular/core';
-import type { User } from './User';
+import type { User } from '../models/User';
 
 @Component({
   selector: 'storybook-header',
@@ -58,7 +58,7 @@ import type { User } from './User';
       </div>
     </div>
   </header>`,
-  styleUrls: ['./header.css'],
+  styleUrls: ['../stories/header.css'],
 })
 export default class HeaderComponent {
   @Input()

@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/angular';
-import Button from './button.component';
+import Button from '../component/button.component';
 
 // More on how to set up stories at: https://storybook.js.org/docs/angular/writing-stories/introduction
 const meta: Meta<Button> = {
