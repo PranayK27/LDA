@@ -17,8 +17,9 @@ export class BannerNavigationComponent implements OnInit {
   home = sourcesData.map(v=> v.home);
   blog = sourcesData.map(v=> v.blog);
   about = sourcesData.map(v=> v.about);
-  login = sourcesData.map(v=> v.login);
-  register = sourcesData.map(v=> v.register);
+  // TODO: Work on Login and Registration
+  login = sourcesData.map(v=> v.home); // v.login for login after development
+  register = sourcesData.map(v=> v.home); // v.register for register after development
   list = sourcesData.map(v=> v.list);
   currentPage: string;
   public isCollapsed = true;
@@ -54,19 +55,23 @@ export class BannerNavigationComponent implements OnInit {
 
   sameUrlLogin(){
     if (this.currentPage === this.login[0].replace('/#/', '/')){
-      this.showToast('Login Page');
+      this.infoToast('Login Page');
     }
   }
 
   sameUrlRegister(){
     if (this.currentPage === this.register[0].replace('/#/', '/')){
-      this.showToast('Registration Page');
+      this.infoToast('Registration Page');
     }
   }
 
 
   showToast(title: string) {
-    this.toastService.showWarning('Click to close!', title);
+    this.toastService.showSuccess('Click to close!', title);
+  }
+
+  infoToast(title: string) {
+    this.toastService.showInfo('Still under development!', title);
   }
 
   toggleNavOptions(){
