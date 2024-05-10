@@ -2,10 +2,12 @@
 npx nx run lda:serve
 
 ## storybook
-### inside the taskbox inside the lib
-npm run taskbox:storybook
 
-npm run test-storybook -- --watch
+### Start the component explorer on port 6006: (inside the taskbox inside the lib)
+ng run taskbox:storybook
+
+# Run the frontend app proper on port 4200:
+ng serve
 
 ### to add new storybook into another app else above lib will do
 nx g @nrwl/storybook:configuration

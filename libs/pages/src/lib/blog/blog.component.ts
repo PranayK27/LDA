@@ -12,6 +12,7 @@ import { Sources } from './source-type';
 export class BlogComponent implements OnInit {
   blogsDetail: Blog[] = [];
   downloadLocation: string | undefined;
+  showTechUsage = false;
   constructor(
     public service: ServiceblogService,
     public router: Router
@@ -41,5 +42,9 @@ export class BlogComponent implements OnInit {
     if (this.service.loginStatusService) this.service.showEdit = true;
 
     this.router.navigate(['/blogDetail', id]);
+  }
+
+  toggleShowTechUsage() {
+    this.showTechUsage = !this.showTechUsage;
   }
 }

@@ -3,7 +3,9 @@ import { Router } from '@angular/router';
 import { ToastService } from '../../services/toast-service.service';
 import { Sources } from '../../blog/source-type';
 import { ServiceblogService } from '../../blog/blog-service.service';
+// eslint-disable-next-line @nrwl/nx/enforce-module-boundaries
 import {sourcesData} from "../../../../../../apps/lda-e2e/src/mock/sources-data";
+import {Store} from "@ngrx/store";
 
 @Component({
   selector: 'lda-banner-navigation',
@@ -11,29 +13,33 @@ import {sourcesData} from "../../../../../../apps/lda-e2e/src/mock/sources-data"
   styleUrls: ['./banner-navigation.component.css']
 })
 export class BannerNavigationComponent implements OnInit {
+  showLoginPage = true;
+  showRegPage = true;
+  currentPage: string;
 
-  sourceData: Sources[] = sourcesData;
-  navOptions = false;
   home = sourcesData.map(v=> v.home);
   blog = sourcesData.map(v=> v.blog);
   about = sourcesData.map(v=> v.about);
   // TODO: Work on Login and Registration
-  login = sourcesData.map(v=> v.home); // v.login for login after development
-  register = sourcesData.map(v=> v.home); // v.register for register after development
+  login = sourcesData.map(v=> v.login);
+  register = sourcesData.map(v=> v.register);
   list = sourcesData.map(v=> v.list);
-  currentPage: string;
-  public isCollapsed = true;
+
   constructor(
     protected router: Router,
     private service: ServiceblogService,
     private toastService: ToastService,
+    private store: Store
     ) {
     this.currentPage = this.router.url;
+    this.store.subscribe((store) => console.log(store));
   }
 
   ngOnInit() {
     if (this.service.Sources.length === 0)
       this.service.getSources().subscribe((d: Sources) => (this.service.Sources=d));
+
+    console.log(this.home);
   }
 
   sameUrlHome(){
@@ -65,7 +71,6 @@ export class BannerNavigationComponent implements OnInit {
     }
   }
 
-
   showToast(title: string) {
     this.toastService.showSuccess('Click to close!', title);
   }
@@ -74,7 +79,8 @@ export class BannerNavigationComponent implements OnInit {
     this.toastService.showInfo('Still under development!', title);
   }
 
-  toggleNavOptions(){
-    this.navOptions = !this.navOptions;
+  toggleShowLoginPage() {
+    this.showLoginPage = !this.showLoginPage;
+    this.showRegPage = !this.showRegPage;
   }
 }

@@ -24,6 +24,10 @@ import { RegistrationComponent } from './registration/registration.component';
 import ButtonComponent from "../../../components/src/button/button.component";
 import {Page404Component} from "./page404/page404.component";
 import {Page500Component} from "./page500/page500.component";
+import {StoreModule} from "@ngrx/store";
+import {loginReducer} from "./+state/login.reducer";
+import {MatCheckbox} from "@angular/material/checkbox";
+import {SubHeadingComponent} from "./blog/sub-heading/sub-heading.component";
 
 @NgModule({
   imports: [
@@ -37,6 +41,7 @@ import {Page500Component} from "./page500/page500.component";
     ReactiveFormsModule,
     MatInputModule,
     FormControlModule,
+    StoreModule.forFeature('login', {loginReducer}),
   ],
   exports: [
     FullComponent,
@@ -50,6 +55,7 @@ import {Page500Component} from "./page500/page500.component";
     BlogComponent,
     AboutComponent,
     BlogDetailComponent,
+    SubHeadingComponent,
     RelayOnComponent,
     TopContentComponent,
     FullComponent,

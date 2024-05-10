@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import {EventEmitter, Injectable, Input, Output} from '@angular/core';
 import { Observable, of } from 'rxjs';
 import { blogs } from '../../../../../apps/lda-e2e/src/mock/blog-data';
 import { sourcesData } from '../../../../../apps/lda-e2e/src/mock/sources-data';
@@ -8,6 +8,9 @@ import { sourcesData } from '../../../../../apps/lda-e2e/src/mock/sources-data';
   providedIn: 'root'
 })
 export class ServiceblogService {
+
+  @Input() showTechUsage: boolean | null = false;
+  @Output() toggleTechSubHeading = new EventEmitter<void>();
 
   Blogs: any[] = [];
   Sources: any = '';
