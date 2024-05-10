@@ -28,18 +28,14 @@ export class BannerNavigationComponent implements OnInit {
   constructor(
     protected router: Router,
     private service: ServiceblogService,
-    private toastService: ToastService,
-    private store: Store
+    private toastService: ToastService
     ) {
     this.currentPage = this.router.url;
-    this.store.subscribe((store) => console.log(store));
   }
 
   ngOnInit() {
     if (this.service.Sources.length === 0)
       this.service.getSources().subscribe((d: Sources) => (this.service.Sources=d));
-
-    console.log(this.home);
   }
 
   sameUrlHome(){

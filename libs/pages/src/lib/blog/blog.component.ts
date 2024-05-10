@@ -3,6 +3,7 @@ import { Blog } from './blog-type';
 import { ServiceblogService } from './blog-service.service';
 import { Router } from '@angular/router';
 import { Sources } from './source-type';
+import {Store} from "@ngrx/store";
 
 @Component({
   selector: 'lda-blog',
@@ -15,9 +16,11 @@ export class BlogComponent implements OnInit {
   showTechUsage = false;
   constructor(
     public service: ServiceblogService,
-    public router: Router
+    public router: Router,
+    private store: Store
   ) {
     this.service.showEdit = false;
+    this.store.subscribe((store) => console.log(store));
   }
 
   ngOnInit(): void {
