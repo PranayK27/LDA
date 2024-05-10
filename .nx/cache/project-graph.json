@@ -24592,6 +24592,11 @@
     "pages": [
       {
         "source": "pages",
+        "target": "npm:@ngrx/store",
+        "type": "static"
+      },
+      {
+        "source": "pages",
         "target": "npm:@angular/core",
         "type": "static"
       },

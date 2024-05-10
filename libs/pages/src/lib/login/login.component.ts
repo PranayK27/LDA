@@ -4,6 +4,7 @@ import {ListApiService} from "../../../../technologies/src/lib/service/list-api.
 import {LoginService} from "../services/loginService";
 import {Subscription} from "rxjs";
 import {Router} from "@angular/router";
+import {Store} from "@ngrx/store";
 
 @Component({
   selector: 'lda-login',
@@ -20,7 +21,9 @@ export class LoginComponent implements OnInit {
 
   constructor(private readonly router: Router,
               private readonly listService: ListApiService,
-              private readonly loginService: LoginService) {
+              private readonly loginService: LoginService,
+              private readonly store: Store) {
+    this.store.subscribe((store) => console.log(store));
   }
 
   ngOnInit() {

@@ -5,7 +5,7 @@ export const blogs: Blog[] = [
     image: 'assets/images/blog/101.jpg',
     heading:
       'Eureka Server',
-    subHeading: 'Use of Netflix component Eureka for service registry and discovery',
+    subHeading: 'Use of Netflix component Eureka is for service registry and discovery',
     blogDate: 'Nov 04, 2023',
     blogDetail:
       'Netflix Eureka is a Java-based open source project that provides a RESTful interface for service discovery and registration. It consists of two main components: Eureka Server and Eureka Client. Eureka Server is a centralized registry that maintains a list of all the registered services and their instances. Eureka Client is a library that interacts with the Eureka Server to register, deregister, and discover other services. Eureka Client also provides a client-side load balancer that can route requests to the best available service instance.',

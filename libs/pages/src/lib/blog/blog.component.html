@@ -36,9 +36,15 @@
     <!-- Column -->
   </div>
   <div class="row m-t-40 justify-content-center">
+    <lda-sub-heading class="col-md-8 no-trans text-center"
+      (toggleTechUsage)="toggleShowTechUsage()"
+      [showTechUsage]="showTechUsage">
+    </lda-sub-heading>
+  </div>
+  <div class="row justify-content-center">
     <!-- Column -->
     <div
-      class="col-md-8 no-trans border-bottom mb-4"
+      class="col-md-8 no-trans border-bottom mb-4 justify-content-center"
       *ngFor="let bl of service.Blogs"
     >
       <div class="card" data-aos="flip-left" data-aos-duration="1200">
@@ -51,14 +57,12 @@
             <h5 class="font-medium cursor-pointer" (click)="viewDetail(bl.id)">
               {{ bl.heading.substring(0, 50) }}..
             </h5>
-            <p class="m-t-20">
+            <p class="m-t-20" *ngIf="showTechUsage">
               {{ bl.subHeading }}
             </p>
           </div>
           <div class="col-md-3 no-trans">
-            <a
-              class="linking font-medium text-themecolor m-t-10 cursor-pointer"
-            >
+            <a class="linking font-medium text-themecolor m-t-10 cursor-pointer">
               <span (click)="viewDetail(bl.id)">Show Detail</span>
               <i class="ti-arrow-right"></i>
             </a>
