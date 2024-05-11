@@ -1,30 +1,30 @@
-import {EventEmitter, Injectable, Input, Output} from '@angular/core';
-import { Observable, of } from 'rxjs';
-import { blogs } from '../../../../../apps/lda-e2e/src/mock/blog-data';
-import { sourcesData } from '../../../../../apps/lda-e2e/src/mock/sources-data';
+import {Injectable} from '@angular/core';
+import {Observable, of} from 'rxjs';
+// eslint-disable-next-line @nrwl/nx/enforce-module-boundaries
+import {blogs} from '../../../../../apps/lda-e2e/src/mock/blog-data';
+// eslint-disable-next-line @nrwl/nx/enforce-module-boundaries
+import {sourcesData} from '../../../../../apps/lda-e2e/src/mock/sources-data';
+import {Blog} from "./blog-type";
+import {Sources} from "./source-type";
 
 
 @Injectable({
   providedIn: 'root'
 })
-export class ServiceblogService {
+export class BlogService {
 
-  @Input() showTechUsage: boolean | null = false;
-  @Output() toggleTechSubHeading = new EventEmitter<void>();
+  Blogs: Blog[] = [];
+  Sources: Sources[] = [];
 
-  Blogs: any[] = [];
-  Sources: any = '';
-  loginStatusService = false;
-
-  detailId: number = -1;
+  detailId = -1;
   showEdit = false;
 
-
-  constructor() {
+  public getBlog(): Observable<Blog[]> {
+    return of(blogs);
   }
 
-  public getBlog(): Observable<any> {
-    return of(blogs);
+  public getBlogById(id: number): Blog {
+    return blogs.filter(x => x.id == +id)[0];
   }
 
   public addPost(bl: any) {
@@ -35,7 +35,7 @@ export class ServiceblogService {
     this.Blogs = this.Blogs.filter(b => b.id !== id);
   }
 
-  public getSources(): Observable<any> {
+  public getSources(): Observable<Sources[]> {
     return of(sourcesData);
   }
 

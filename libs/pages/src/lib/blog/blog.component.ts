@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { Blog } from './blog-type';
-import { ServiceblogService } from './blog-service.service';
-import { Router } from '@angular/router';
+import { BlogService } from './blog-service.service';
 import { Sources } from './source-type';
 import {Store} from "@ngrx/store";
+import {TechState} from "../+state/techUsage.reducer";
 
 @Component({
   selector: 'lda-blog',
@@ -11,43 +11,27 @@ import {Store} from "@ngrx/store";
   styleUrls: ['./blog.component.css'],
 })
 export class BlogComponent implements OnInit {
-  blogsDetail: Blog[] = [];
+  blogs: Blog[] = [];
   downloadLocation: string | undefined;
-  showTechUsage = false;
+  showTechUsage$;
+
   constructor(
-    public service: ServiceblogService,
-    public router: Router,
+    private service: BlogService,
     private store: Store
   ) {
-    this.service.showEdit = false;
-    this.store.subscribe((store) => console.log(store));
+    this.showTechUsage$ = this.store.select((state: any) => state.blogs.showTechUsage);
+    console.log(this.showTechUsage$);
   }
 
   ngOnInit(): void {
     if (this.service.Blogs.length === 0)
-      this.service.getBlog().subscribe((d: any) => (this.service.Blogs = d));
+      this.service.getBlog().subscribe((d: any) => (this.blogs = d));
     if (this.service.Sources.length === 0)
-      this.service.getSources().subscribe((d: Sources[]) => (this.service.Sources=d));
+      this.service.getSources().subscribe((d: Sources[]) => (this.service.Sources = d));
     this.downloadLocation = this.service.Sources[0].downloadLocation;
   }
 
-  loginClick() {
-    this.router.navigate(['/login']);
-  }
-
-  newPost() {
-    this.router.navigate(['/post']);
-  }
-
-  viewDetail(id: number) {
-    this.service.detailId = id;
-
-    if (this.service.loginStatusService) this.service.showEdit = true;
-
-    this.router.navigate(['/blogDetail', id]);
-  }
-
   toggleShowTechUsage() {
-    this.showTechUsage = !this.showTechUsage;
+    this.store.dispatch({ type: '[Tech Usage] Toggle Show Tech Usage' });
   }
 }

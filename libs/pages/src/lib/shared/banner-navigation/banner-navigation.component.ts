@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { ToastService } from '../../services/toast-service.service';
 import { Sources } from '../../blog/source-type';
-import { ServiceblogService } from '../../blog/blog-service.service';
+import {BlogService} from '../../blog/blog-service.service';
 // eslint-disable-next-line @nrwl/nx/enforce-module-boundaries
 import {sourcesData} from "../../../../../../apps/lda-e2e/src/mock/sources-data";
 import {Store} from "@ngrx/store";
@@ -27,7 +27,7 @@ export class BannerNavigationComponent implements OnInit {
 
   constructor(
     protected router: Router,
-    private service: ServiceblogService,
+    private service: BlogService,
     private toastService: ToastService
     ) {
     this.currentPage = this.router.url;
@@ -35,7 +35,7 @@ export class BannerNavigationComponent implements OnInit {
 
   ngOnInit() {
     if (this.service.Sources.length === 0)
-      this.service.getSources().subscribe((d: Sources) => (this.service.Sources=d));
+      this.service.getSources().subscribe((d) => (this.service.Sources = d));
   }
 
   sameUrlHome(){

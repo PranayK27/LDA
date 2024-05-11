@@ -24592,6 +24592,11 @@
     "pages": [
       {
         "source": "pages",
+        "target": "npm:@ngrx/store",
+        "type": "static"
+      },
+      {
+        "source": "pages",
         "target": "npm:@angular/core",
         "type": "static"
       },
@@ -24608,11 +24613,6 @@
       {
         "source": "pages",
         "target": "lda-e2e",
-        "type": "static"
-      },
-      {
-        "source": "pages",
-        "target": "npm:@ngrx/store",
         "type": "static"
       },
       {

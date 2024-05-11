@@ -25,7 +25,7 @@ import ButtonComponent from "../../../components/src/button/button.component";
 import {Page404Component} from "./page404/page404.component";
 import {Page500Component} from "./page500/page500.component";
 import {StoreModule} from "@ngrx/store";
-import {SubHeadingComponent} from "./blog/sub-heading/sub-heading.component";
+import {BlogListComponent} from "./blog/blog-list/blog-list.component";
 import {techUsageReducer} from "./+state/techUsage.reducer";
 
 @NgModule({
@@ -40,7 +40,7 @@ import {techUsageReducer} from "./+state/techUsage.reducer";
     ReactiveFormsModule,
     MatInputModule,
     FormControlModule,
-    StoreModule.forFeature('techUsage', {techUsageReducer}),
+    StoreModule.forFeature('techUsage', techUsageReducer),
   ],
   exports: [
     FullComponent,
@@ -54,7 +54,7 @@ import {techUsageReducer} from "./+state/techUsage.reducer";
     BlogComponent,
     AboutComponent,
     BlogDetailComponent,
-    SubHeadingComponent,
+    BlogListComponent,
     RelayOnComponent,
     TopContentComponent,
     FullComponent,

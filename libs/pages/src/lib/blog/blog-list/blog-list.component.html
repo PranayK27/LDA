@@ -1,0 +1,39 @@
+<div class="row justify-content-center">
+  <!-- Column -->
+  <div
+    class="col-md-8 no-trans border-bottom mb-4 justify-content-center"
+    *ngFor="let bl of blogs"
+  >
+    <div>
+      <input
+        id="showTechUsage"
+        type="checkbox"
+        (change)="toggleTechUsage.emit()"
+        [checked]="showTechUsage"
+      />
+      <label style="padding-left: 10px" for="showTechUsage">Show Tech Usage</label>
+    </div>
+    <div class="card" data-aos="flip-left" data-aos-duration="1200">
+      <div class="row">
+        <div class="col-md-2 no-trans">
+          <span class="text-dark font-medium">{{ bl.blogDate }}</span>
+          <h6 class="card-subtitle font-12 mt-1">By Pranay Kekre</h6>
+        </div>
+        <div class="col-md-7 no-trans">
+          <h5 class="font-medium cursor-pointer" (click)="viewDetail(bl.id)">
+            {{ bl.heading.substring(0, 50) }}..
+          </h5>
+          <p class="m-t-20" *ngIf="showTechUsage">
+            {{ bl.subHeading }}
+          </p>
+        </div>
+        <div class="col-md-3 no-trans">
+          <a class="linking font-medium text-themecolor m-t-10 cursor-pointer">
+            <span (click)="viewDetail(bl.id)">Show Detail</span>
+            <i class="ti-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

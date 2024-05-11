@@ -1,9 +1,9 @@
-export class Sources {
-  downloadLocation = '';
-  home= '';
-  blog= '';
-  about= '';
-  login = '';
-  register = '';
-  list = '';
+export interface Sources {
+  downloadLocation: string;
+  home: string;
+  blog: string;
+  about: string;
+  login: string;
+  register: string;
+  list: string;
 }
