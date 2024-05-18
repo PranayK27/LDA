@@ -25,9 +25,8 @@ import ButtonComponent from "../../../components/src/button/button.component";
 import {Page404Component} from "./page404/page404.component";
 import {Page500Component} from "./page500/page500.component";
 import {StoreModule} from "@ngrx/store";
-import {loginReducer} from "./+state/login.reducer";
-import {MatCheckbox} from "@angular/material/checkbox";
-import {SubHeadingComponent} from "./blog/sub-heading/sub-heading.component";
+import {BlogListComponent} from "./blog/blog-list/blog-list.component";
+import {techUsageReducer} from "./+state/techUsage.reducer";
 
 @NgModule({
   imports: [
@@ -41,7 +40,7 @@ import {SubHeadingComponent} from "./blog/sub-heading/sub-heading.component";
     ReactiveFormsModule,
     MatInputModule,
     FormControlModule,
-    StoreModule.forFeature('login', {loginReducer}),
+    StoreModule.forFeature('blogs', techUsageReducer),
   ],
   exports: [
     FullComponent,
@@ -55,7 +54,7 @@ import {SubHeadingComponent} from "./blog/sub-heading/sub-heading.component";
     BlogComponent,
     AboutComponent,
     BlogDetailComponent,
-    SubHeadingComponent,
+    BlogListComponent,
     RelayOnComponent,
     TopContentComponent,
     FullComponent,

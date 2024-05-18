@@ -1,22 +1,19 @@
-import { Component, OnInit } from '@angular/core';
-import { ServiceblogService } from '../blog/blog-service.service';
+import { Component } from '@angular/core';
+import { BlogService } from '../blog/blog-service.service';
 import { ToastService } from '../services/toast-service.service';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-about',
+  selector: 'lda-about',
   templateUrl: './about.component.html',
   styleUrls: ['./about.component.css']
 })
-export class AboutComponent implements OnInit {
+export class AboutComponent {
 
   infoPanelVisible = false;
 
-  constructor(public router: Router, public service:ServiceblogService, public toastService: ToastService) {
+  constructor(public router: Router, public service:BlogService, public toastService: ToastService) {
     this.service.showEdit=false;
-  }
-
-  ngOnInit(): void {
   }
 
   toggleInfoPanel() {
