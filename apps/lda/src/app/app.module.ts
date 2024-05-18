@@ -1,4 +1,4 @@
-import {isDevMode, NgModule} from '@angular/core';
+import {NgModule} from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
@@ -18,8 +18,6 @@ import {MatPaginatorModule} from "@angular/material/paginator";
 // eslint-disable-next-line @nrwl/nx/enforce-module-boundaries
 import {TechnologiesModule} from "@lda/technologies";
 import {StoreModule} from "@ngrx/store";
-// eslint-disable-next-line @nrwl/nx/enforce-module-boundaries
-// import {counterReducer} from "../../../../libs/my-counter/src/lib/counter.reducer";
 import {StoreDevtoolsModule} from "@ngrx/store-devtools";
 import { SimpleNotificationsModule } from 'angular2-notifications';
 
@@ -28,7 +26,7 @@ import { SimpleNotificationsModule } from 'angular2-notifications';
     AppComponent
   ],
   imports: [
-    StoreModule.forRoot({}),
+    StoreModule.forRoot(),
     // Instrumentation must be imported after importing StoreModule (config is optional)
     StoreDevtoolsModule.instrument({
       maxAge: 25, // Retains last 25 states

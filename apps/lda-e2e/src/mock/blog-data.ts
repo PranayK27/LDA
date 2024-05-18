@@ -1,3 +1,4 @@
+// eslint-disable-next-line @nrwl/nx/enforce-module-boundaries
 import { Blog } from '../../../../libs/pages/src/lib/blog/blog-type';
 export const blogs: Blog[] = [
   {

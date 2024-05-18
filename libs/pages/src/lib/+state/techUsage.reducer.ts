@@ -8,7 +8,7 @@ const initialState: TechState = {
   showTechUsage: false
 }
 
-export const techUsageReducer = createReducer(
+export const techUsageReducer= createReducer(
   initialState,
   on(createAction('[Tech Usage] Toggle Show Tech Usage'), (state) => ({
         ...state,

@@ -40,7 +40,7 @@ import {techUsageReducer} from "./+state/techUsage.reducer";
     ReactiveFormsModule,
     MatInputModule,
     FormControlModule,
-    StoreModule.forFeature('techUsage', techUsageReducer),
+    StoreModule.forFeature('blogs', techUsageReducer),
   ],
   exports: [
     FullComponent,
