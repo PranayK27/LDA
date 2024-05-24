@@ -3,7 +3,9 @@ import { Store } from "@ngrx/store";
 import { Blog } from './blog-type';
 import { BlogService } from './blog-service.service';
 import { Sources } from './source-type';
+import {UntilDestroy} from "@ngneat/until-destroy";
 
+@UntilDestroy()
 @Component({
   selector: 'lda-blog',
   templateUrl: './blog.component.html',
