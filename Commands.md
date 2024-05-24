@@ -6,6 +6,12 @@ npx nx run lda:serve
 ### Start the component explorer on port 6006: (inside the taskbox inside the lib)
 ng run taskbox:storybook
 
+### Unit Test
+npm run test-storybook -- --watch
+
+### Chromatic Deployment (example, no need to hardcode project token)
+npx chromatic --project-token=chpt_9b3f03b92ad80fb
+
 # Run the frontend app proper on port 4200:
 ng serve
 

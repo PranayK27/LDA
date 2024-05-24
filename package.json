@@ -11,7 +11,8 @@
     "test": "nx test",
     "docs:json": "compodoc -p ./tsconfig.base.json -e json -d .",
     "storybook": "npm run docs:json && storybook dev -p 4400",
-    "build-storybook": "npm run docs:json"
+    "build-storybook": "npm run docs:json",
+    "test-storybook": "test-storybook"
   },
   "private": true,
   "dependencies": {
@@ -31,6 +32,7 @@
     "@icon/themify-icons": "^1.0.1-alpha.3",
     "@mui/icons-material": "^5.15.12",
     "@ng-bootstrap/ng-bootstrap": "^16.0.0",
+    "@ngneat/until-destroy": "^10.0.0",
     "@ngrx/component-store": "17.1.1",
     "@ngrx/effects": "17.1.1",
     "@ngrx/entity": "17.1.1",
