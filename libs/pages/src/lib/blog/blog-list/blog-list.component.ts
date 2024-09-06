@@ -19,7 +19,6 @@ export class BlogListComponent {
   ) {}
 
   viewDetail(id: number) {
-    this.service.detailId = id;
     this.router.navigate(['/blogDetail', id]);
   }
 }

@@ -26,17 +26,17 @@
         >
           <a routerLink="" class="link">Pranay</a>
           <div class="ml-auto">
-            <a routerLink="" class="link">{{ blogDetail?.blogDate }} </a>
+            <a routerLink="" class="link">{{ detail?.blogDate }} </a>
           </div>
         </div>
         <h2 class="title font-light">
-          {{ blogDetail?.heading }}
+          {{ detail?.heading }}
         </h2>
         <p class="m-t-30 m-b-30">
-          {{ blogDetail?.subHeading }}
+          {{ detail?.subHeading }}
         </p>
         <p class="m-t-30 m-b-30">
-          {{ blogDetail?.blogDetail }}
+          {{ detail?.blogDetail }}
         </p>
 
         <div class="m-t-30">
@@ -54,7 +54,7 @@
           <div *ngIf="infoPanelVisible">
             <span></span>
             <br/>
-            <a [href]="blogDetail?.link" target="_blank" class="link"><i class="ti-link"></i>{{ blogDetail?.heading }}</a>
+            <a [href]="detail?.link" target="_blank" class="link"><i class="ti-link"></i>{{ detail?.heading }}</a>
           </div>
         </div>
       </div>

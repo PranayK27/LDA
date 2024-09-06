@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-rely-on',
-  templateUrl: './rely-on.component.html',
-  styleUrls: ['./rely-on.component.css']
+  selector: 'app-relay-on',
+  templateUrl: './relay-on.component.html',
+  styleUrls: ['./relay-on.component.css']
 })
-export class RelyOnComponent implements OnInit {
+export class RelayOnComponent implements OnInit {
 
   relayOn = [
     {
