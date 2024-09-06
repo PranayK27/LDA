@@ -39,6 +39,7 @@
     "@ngrx/router-store": "17.1.1",
     "@ngrx/store": "17.1.1",
     "@ngx-translate/core": "^15.0.0",
+    "angular-in-memory-web-api": "^0.18.0",
     "angular2-notifications": "^16.0.1",
     "bootstrap": "^5.3.3",
     "commitizen": "^4.2.5",

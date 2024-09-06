@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 import { BlogService } from '../blog-service.service';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Blog } from '../blog-type';
@@ -15,13 +15,12 @@ export class BlogDetailComponent implements OnInit {
   back = "back";
   blogDetail: Blog | null = null;
   infoPanelVisible = false;
-  respectiveSource = this.blogDetail?.link;
 
-  constructor(activatedRouter: ActivatedRoute,
+  constructor(activatedRoute: ActivatedRoute,
               public service: BlogService,
               public router: Router
   ) {
-    this.id = activatedRouter.snapshot.paramMap.get('id');
+    this.id = activatedRoute.snapshot.paramMap.get('id');
   }
 
   ngOnInit(): void {

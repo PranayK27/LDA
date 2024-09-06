@@ -1,9 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Store } from "@ngrx/store";
-import { Blog } from './blog-type';
 import { BlogService } from './blog-service.service';
-import { Sources } from './source-type';
 import {UntilDestroy} from "@ngneat/until-destroy";
+import {describeTechActions, loadTechAction, sourceLoadedSuccess, techLoadedSuccess} from "../+state/techUsage.actions";
 
 @UntilDestroy()
 @Component({
@@ -12,32 +11,48 @@ import {UntilDestroy} from "@ngneat/until-destroy";
   styleUrls: ['./blog.component.css'],
 })
 export class BlogComponent implements OnInit {
-  blogs: Blog[] = [];
+  // TODO: Pass this to list component such that the details can be opened more efficiently
+  blogs$ = this.store.select((state: any) => state.pages.blogs);
   downloadLocation: string | undefined;
-  showTechUsage$= this.store.select(
-    (state: any) => state.blogs.showTechUsage
+  loading$ = this.store.select((state: any) => state.pages.loading);
+  showTechDesc$= this.store.select(
+    (state: any) => state.pages.showTechDesc
   );
   errorMessage = '';
 
   constructor(
-    private service: BlogService,
-    private store: Store
+    private readonly service: BlogService,
+    private readonly store: Store
   ) {}
 
   ngOnInit(): void {
-    if (this.service.Blogs.length === 0)
-      this.service.getBlog().subscribe({
-        next: (blogs) => {
-          this.blogs = blogs;
-        },
-        error: (error) => (this.errorMessage = error),
-      });
-    if (this.service.Sources.length === 0)
-      this.service.getSources().subscribe((d: Sources[]) => (this.service.Sources = d));
+    this.getBlogs();
+    this.getSources();
     this.downloadLocation = this.service.Sources[0].downloadLocation;
   }
 
-  toggleShowTechUsage() {
-    this.store.dispatch({ type: '[Tech Usage] Toggle Show Tech Usage' });
+  toggleShowTechDesc() {
+    this.store.dispatch({ type: describeTechActions.type });
+  }
+
+  getBlogs(){
+    this.store.dispatch(loadTechAction());
+    this.service.getAllBlogs().subscribe({
+      next: (blogs) => {
+        this.store.dispatch(
+          techLoadedSuccess({ blogs })
+        );
+      },
+      error: (error) => (this.errorMessage = error),
+    });
+  }
+
+  getSources(){
+    this.service.getAllSources().subscribe({
+      next: (sources) => {
+        this.store.dispatch(sourceLoadedSuccess({ sources }))
+      },
+      error: (error) => (this.errorMessage = error),
+    });
   }
 }

@@ -10,8 +10,8 @@ import {Router} from "@angular/router";
 })
 export class BlogListComponent {
   @Input() blogs: Blog[] = [];
-  @Input() showTechUsage= false;
-  @Output() toggleTechUsage= new EventEmitter<void>();
+  @Input() showTechDesc= false;
+  @Output() toggleTechDesc= new EventEmitter<void>();
 
   constructor(
     protected service: BlogService,

@@ -1,11 +1,9 @@
 import {Injectable} from '@angular/core';
-import {Observable, of} from 'rxjs';
-// eslint-disable-next-line @nrwl/nx/enforce-module-boundaries
-import {blogs} from '../../../../../apps/lda-e2e/src/mock/blog-data';
-// eslint-disable-next-line @nrwl/nx/enforce-module-boundaries
-import {sourcesData} from '../../../../../apps/lda-e2e/src/mock/sources-data';
+import {catchError, Observable, throwError} from 'rxjs';
+import {blogs} from '../data/blog-data';
 import {Blog} from "./blog-type";
 import {Sources} from "./source-type";
+import {HttpClient, HttpErrorResponse} from "@angular/common/http";
 
 
 @Injectable({
@@ -13,30 +11,63 @@ import {Sources} from "./source-type";
 })
 export class BlogService {
 
+  private blogAPIUrl = 'api/blogs';
+  private sourcesAPIUrl = 'api/sources';
+
+
+  constructor(private http: HttpClient) {}
+
   Blogs: Blog[] = [];
   Sources: Sources[] = [];
 
   detailId = -1;
   showEdit = false;
 
-  public getBlog(): Observable<Blog[]> {
-    return of(blogs);
-  }
-
   public getBlogById(id: number): Blog {
     return blogs.filter(x => x.id == +id)[0];
   }
 
-  public addPost(bl: any) {
-    this.Blogs.splice(0, 0, bl);
+  // Replaces above structure totally, slow and steadily
+
+  getAllBlogs() {
+    return this.http
+      .get<Blog[]>(this.blogAPIUrl)
+      .pipe(catchError(this.handleError));
   }
 
-  public deletePost(id: number) {
-    this.Blogs = this.Blogs.filter(b => b.id !== id);
+  getAllSources() {
+    return this.http
+      .get<Sources[]>(this.sourcesAPIUrl)
+      .pipe(catchError(this.handleError));
   }
 
-  public getSources(): Observable<Sources[]> {
-    return of(sourcesData);
+  getById(id: number): Observable<Blog>{
+    return this.http
+      .get<Blog>(`${this.blogAPIUrl}/${id}`)
+      .pipe(catchError(this.handleError));
+  }
+
+  add({ heading, blogDetail }: Blog): Observable<Blog> {
+    return this.http
+      .post<Blog>(this.blogAPIUrl, { heading, blogDetail })
+      .pipe(catchError(this.handleError));
+  }
+
+  update(blog: Blog): Observable<Blog> {
+    return this.http
+      .put<Blog>(this.blogAPIUrl, blog)
+      .pipe(catchError(this.handleError));
+  }
+
+  delete(id: number): Observable<unknown> {
+    const url = `${this.blogAPIUrl}/${id}`;
+    return this.http.delete(url).pipe(catchError(this.handleError));
+  }
+
+  private handleError({ status }: HttpErrorResponse) {
+    return throwError(
+      () => `${status}: Something bad happened.`
+    );
   }
 
 }
