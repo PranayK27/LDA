@@ -1,4 +1,4 @@
-import {Component, Input, OnInit} from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import { BlogService } from '../blog-service.service';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Blog } from '../blog-type';
@@ -13,18 +13,26 @@ export class BlogDetailComponent implements OnInit {
   id: any;
   explore = "Explore";
   back = "back";
-  blogDetail: Blog | null = null;
+  detail: Blog | undefined;
   infoPanelVisible = false;
 
   constructor(activatedRoute: ActivatedRoute,
-              public service: BlogService,
-              public router: Router
+              private readonly service: BlogService,
+              private readonly router: Router
   ) {
     this.id = activatedRoute.snapshot.paramMap.get('id');
   }
 
   ngOnInit(): void {
-    this.blogDetail = this.service.getBlogById(this.id);
+    this.getDetailsById();
+  }
+
+  getDetailsById(){
+    this.service.getByBlogId(this.id).subscribe({
+      next: (blog) => {
+        this.detail = blog;
+      }
+    });
   }
 
   toggleInfoPanel() {

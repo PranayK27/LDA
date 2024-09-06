@@ -19,7 +19,7 @@ export class BannerNavigationComponent implements OnInit {
   home = sourcesData.map(v=> v.home);
   blog = sourcesData.map(v=> v.blog);
   about = sourcesData.map(v=> v.about);
-  // TODO For new Feature, not this ngrx: Work on Login and Registration
+  // TODO for new Feature: Work on Login and Registration
   login = sourcesData.map(v=> v.login);
   register = sourcesData.map(v=> v.register);
   list = sourcesData.map(v=> v.list);

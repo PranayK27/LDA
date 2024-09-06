@@ -1,6 +1,5 @@
 import {Injectable} from '@angular/core';
 import {catchError, Observable, throwError} from 'rxjs';
-import {blogs} from '../data/blog-data';
 import {Blog} from "./blog-type";
 import {Sources} from "./source-type";
 import {HttpClient, HttpErrorResponse} from "@angular/common/http";
@@ -17,15 +16,7 @@ export class BlogService {
 
   constructor(private http: HttpClient) {}
 
-  Blogs: Blog[] = [];
-  Sources: Sources[] = [];
-
-  detailId = -1;
   showEdit = false;
-
-  public getBlogById(id: number): Blog {
-    return blogs.filter(x => x.id == +id)[0];
-  }
 
   // Replaces above structure totally, slow and steadily
 
@@ -41,7 +32,7 @@ export class BlogService {
       .pipe(catchError(this.handleError));
   }
 
-  getById(id: number): Observable<Blog>{
+  getByBlogId(id: number): Observable<Blog>{
     return this.http
       .get<Blog>(`${this.blogAPIUrl}/${id}`)
       .pipe(catchError(this.handleError));
