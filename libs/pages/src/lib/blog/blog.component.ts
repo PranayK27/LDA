@@ -11,6 +11,7 @@ import {describeTechActions, loadTechAction, sourceLoadedSuccess, techLoadedSucc
   styleUrls: ['./blog.component.css'],
 })
 export class BlogComponent implements OnInit {
+  // TODO: Pass this to list component such that the details can be opened more efficiently
   blogs$ = this.store.select((state: any) => state.pages.blogs);
   downloadLocation: string | undefined;
   loading$ = this.store.select((state: any) => state.pages.loading);
@@ -36,7 +37,6 @@ export class BlogComponent implements OnInit {
 
   getBlogs(){
     this.store.dispatch(loadTechAction());
-    // TODO 1: Replaced the getBlog() with getAllBlogs(), remove getBlog from blog-service.service.ts
     this.service.getAllBlogs().subscribe({
       next: (blogs) => {
         this.store.dispatch(
@@ -48,7 +48,6 @@ export class BlogComponent implements OnInit {
   }
 
   getSources(){
-    // TODO 2: Replaced the getSources() with getAllSources(), remove getSources from blog-service.service.ts
     this.service.getAllSources().subscribe({
       next: (sources) => {
         this.store.dispatch(sourceLoadedSuccess({ sources }))
