@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { BlogService } from '../blog-service.service';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Blog } from '../blog-type';
+import {filter} from "rxjs";
 
 @Component({
   selector: 'lda-blog-detail',
@@ -15,7 +16,6 @@ export class BlogDetailComponent implements OnInit {
   back = "back";
   blogDetail: Blog | null = null;
   infoPanelVisible = false;
-  respectiveSource = this.blogDetail?.link;
 
   constructor(activatedRouter: ActivatedRoute,
               public service: BlogService,

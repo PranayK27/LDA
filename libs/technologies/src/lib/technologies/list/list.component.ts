@@ -4,7 +4,7 @@ import { List } from "../model/lists";
 import {Component, OnInit, ViewChild} from "@angular/core";
 import { Router } from '@angular/router';
 import {MatPaginator} from "@angular/material/paginator";
-import {sourcesData} from "../../../../../../apps/lda-e2e/src/mock/sources-data";
+import {sourcesData} from "../../../../../pages/src/lib/data/sources-data";
 @Component({
   selector: 'lda-list',
   templateUrl: './list.component.html',

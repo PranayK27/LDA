@@ -27,6 +27,9 @@ import {Page500Component} from "./page500/page500.component";
 import {StoreModule} from "@ngrx/store";
 import {BlogListComponent} from "./blog/blog-list/blog-list.component";
 import {techUsageReducer} from "./+state/techUsage.reducer";
+import {HttpClientModule} from "@angular/common/http";
+import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
+import {InMemoryDataService} from "./services/InMemoryDataService.service";
 
 @NgModule({
   imports: [
@@ -40,7 +43,9 @@ import {techUsageReducer} from "./+state/techUsage.reducer";
     ReactiveFormsModule,
     MatInputModule,
     FormControlModule,
-    StoreModule.forFeature('blogs', techUsageReducer),
+    HttpClientModule,
+    HttpClientInMemoryWebApiModule.forRoot(InMemoryDataService),
+    StoreModule.forFeature('pages', techUsageReducer),
   ],
   exports: [
     FullComponent,
