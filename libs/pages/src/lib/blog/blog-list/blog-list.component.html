@@ -2,10 +2,10 @@
   <input
     id="showTechUsage"
     type="checkbox"
-    (change)="toggleTechUsage.emit()"
-    [checked]="showTechUsage"
+    (change)="toggleTechDesc.emit()"
+    [checked]="showTechDesc"
   />
-  <label style="padding-left: 10px" for="showTechUsage">Show Tech Usage</label>
+  <label style="padding-left: 10px" for="showTechUsage">Show Tech Description</label>
 </div>
 <div class="row justify-content-center">
   <!-- Column -->
@@ -23,7 +23,7 @@
           <h5 class="font-medium cursor-pointer" (click)="viewDetail(bl.id)">
             {{ bl.heading.substring(0, 50) }}..
           </h5>
-          <p class="m-t-20" *ngIf="showTechUsage">
+          <p class="m-t-20" *ngIf="showTechDesc">
             {{ bl.subHeading }}
           </p>
         </div>

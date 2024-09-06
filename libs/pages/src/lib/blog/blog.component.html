@@ -35,12 +35,14 @@
     </div>
     <!-- Column -->
   </div>
-  <div class="row m-t-40 justify-content-center">
+  <div *ngIf="(loading$ | async) === false; else loadingElement" class="row m-t-40 justify-content-center">
     <lda-blog-list
       class="col-md-8 no-trans text-center"
-      [blogs]="blogs"
-      [showTechUsage]="showTechUsage$ | async"
-      (toggleTechUsage)="toggleShowTechUsage()">
+      [blogs]="blogs$ | async"
+      [showTechDesc]="showTechDesc$ | async"
+      (toggleTechDesc)="toggleShowTechDesc()">
     </lda-blog-list>
   </div>
 </div>
+
+<ng-template #loadingElement>Loading...</ng-template>

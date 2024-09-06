@@ -1,17 +1,41 @@
-import {createAction, createReducer, on} from "@ngrx/store";
+import {createReducer, on} from "@ngrx/store";
+import {loadTechAction, describeTechActions, techLoadedSuccess, sourceLoadedSuccess} from "./techUsage.actions";
+import {Blog} from "../blog/blog-type";
+import {Sources} from "../blog/source-type";
 
 export interface TechState {
-  showTechUsage: boolean;
+  showTechDesc: boolean;
+  loading: boolean;
+  blogs: Blog[];
+  sources: Sources[];
 }
 
 const initialState: TechState = {
-  showTechUsage: false
+  showTechDesc: false,
+  loading: false,
+  blogs: [],
+  sources: []
 }
 
 export const techUsageReducer= createReducer(
   initialState,
-  on(createAction('[Tech Usage] Toggle Show Tech Usage'), (state) => ({
-        ...state,
-        showTechUsage: !state.showTechUsage,
-      })
-  ));
+  on(describeTechActions, (state) => ({
+      ...state,
+      showTechDesc: !state.showTechDesc,
+    })
+  ),
+  on(loadTechAction, (state) => ({
+    ...state,
+    loading: true,
+  })),
+  on(techLoadedSuccess, (state, { blogs }) => ({
+    ...state,
+    loading: false,
+    blogs,
+  })),
+  on(sourceLoadedSuccess, (state, { sources }) => ({
+    ...state,
+    loading: false,
+    sources,
+  }))
+);
