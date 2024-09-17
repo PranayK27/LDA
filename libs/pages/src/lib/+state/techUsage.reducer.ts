@@ -3,14 +3,14 @@ import {loadTechAction, describeTechActions, techLoadedSuccess, sourceLoadedSucc
 import {Blog} from "../blog/blog-type";
 import {Sources} from "../blog/source-type";
 
-export interface TechState {
+export interface Tech {
   showTechDesc: boolean;
   loading: boolean;
   blogs: Blog[];
   sources: Sources[];
 }
 
-const initialState: TechState = {
+const initialState: Tech = {
   showTechDesc: false,
   loading: false,
   blogs: [],

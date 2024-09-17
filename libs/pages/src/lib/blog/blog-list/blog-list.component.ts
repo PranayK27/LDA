@@ -9,8 +9,8 @@ import {Router} from "@angular/router";
   styleUrl: './blog-list.component.css'
 })
 export class BlogListComponent {
-  @Input() blogs: Blog[] = [];
-  @Input() showTechDesc= false;
+  @Input() blogs: Blog[] | null = [];
+  @Input() showTechDesc: boolean | null = false;
   @Output() toggleTechDesc= new EventEmitter<void>();
 
   constructor(

@@ -3,6 +3,7 @@ import { Store } from "@ngrx/store";
 import { BlogService } from './blog-service.service';
 import {UntilDestroy} from "@ngneat/until-destroy";
 import {describeTechActions, loadTechAction, techLoadedSuccess} from "../+state/techUsage.actions";
+import {selectTechBlogs, selectTechDesc, selectTechLoading} from "../+state/techUsage.selector";
 
 @UntilDestroy()
 @Component({
@@ -11,12 +12,10 @@ import {describeTechActions, loadTechAction, techLoadedSuccess} from "../+state/
   styleUrls: ['./blog.component.css'],
 })
 export class BlogComponent implements OnInit {
-  blogs$ = this.store.select((state: any) => state.pages.blogs);
+  blogs$ = this.store.select(selectTechBlogs);
   download: string | undefined;
-  loading$ = this.store.select((state: any) => state.pages.loading);
-  showTechDesc$= this.store.select(
-    (state: any) => state.pages.showTechDesc
-  );
+  loading$ = this.store.select(selectTechLoading);
+  showTechDesc$= this.store.select(selectTechDesc);
   errorMessage = '';
 
   constructor(
