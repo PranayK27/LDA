@@ -1,9 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Store } from "@ngrx/store";
-import { BlogService } from './blog-service.service';
 import {UntilDestroy} from "@ngneat/until-destroy";
-import {describeTechActions, loadTechAction, techLoadedSuccess} from "../+state/techUsage.actions";
-import {selectTechBlogs, selectTechDesc, selectTechLoading} from "../+state/techUsage.selector";
+import {describeTech, loadTech} from "../+state/techUsage.actions";
+import {selectTechBlogs, selectTechDesc, selectTechErrorMessage, selectTechLoading} from "../+state/techUsage.selector";
 
 @UntilDestroy()
 @Component({
@@ -16,30 +15,17 @@ export class BlogComponent implements OnInit {
   download: string | undefined;
   loading$ = this.store.select(selectTechLoading);
   showTechDesc$= this.store.select(selectTechDesc);
-  errorMessage = '';
+  errorMessage$ = this.store.select(selectTechErrorMessage);
 
   constructor(
-    private readonly service: BlogService,
     private readonly store: Store
   ) {}
 
   ngOnInit(): void {
-    this.getBlogs();
+    this.store.dispatch(loadTech());
   }
 
   toggleShowTechDesc() {
-    this.store.dispatch({ type: describeTechActions.type });
-  }
-
-  getBlogs(){
-    this.store.dispatch(loadTechAction());
-    this.service.getAllBlogs().subscribe({
-      next: (blogs) => {
-        this.store.dispatch(
-          techLoadedSuccess({ blogs })
-        );
-      },
-      error: (error) => (this.errorMessage = error),
-    });
+    this.store.dispatch(describeTech());
   }
 }

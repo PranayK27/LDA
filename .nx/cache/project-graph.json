@@ -24511,12 +24511,22 @@
       },
       {
         "source": "pages",
-        "target": "npm:@angular/router",
+        "target": "npm:@ngrx/effects",
         "type": "static"
       },
       {
         "source": "pages",
         "target": "npm:rxjs",
+        "type": "static"
+      },
+      {
+        "source": "pages",
+        "target": "npm:@ngrx/router-store",
+        "type": "static"
+      },
+      {
+        "source": "pages",
+        "target": "npm:@angular/router",
         "type": "static"
       },
       {
@@ -24629,6 +24639,16 @@
       {
         "source": "lda",
         "target": "npm:angular2-notifications",
+        "type": "static"
+      },
+      {
+        "source": "lda",
+        "target": "npm:@ngrx/effects",
+        "type": "static"
+      },
+      {
+        "source": "lda",
+        "target": "npm:@ngrx/router-store",
         "type": "static"
       },
       {

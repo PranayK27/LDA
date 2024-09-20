@@ -30,6 +30,8 @@ import {techUsageReducer} from "./+state/techUsage.reducer";
 import {HttpClientModule} from "@angular/common/http";
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import {InMemoryDataService} from "./services/InMemoryDataService.service";
+import {EffectsModule} from "@ngrx/effects";
+import {TechUsageEffects} from "./+state/techUsage.effects";
 
 @NgModule({
   imports: [
@@ -45,7 +47,8 @@ import {InMemoryDataService} from "./services/InMemoryDataService.service";
     FormControlModule,
     HttpClientModule,
     HttpClientInMemoryWebApiModule.forRoot(InMemoryDataService),
-    StoreModule.forFeature('pages', techUsageReducer)
+    StoreModule.forFeature('pages', techUsageReducer),
+    EffectsModule.forFeature([TechUsageEffects])
   ],
   exports: [
     FullComponent,

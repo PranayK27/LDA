@@ -1,7 +1,9 @@
-import {Component, OnInit} from '@angular/core';
-import { BlogService } from '../blog-service.service';
+import {Component, Input, OnInit} from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Blog } from '../blog-type';
+import {Store} from "@ngrx/store";
+import {selectTechBlogById} from "../../+state/techUsage.selector";
+import {BlogService} from "../blog-service.service";
 
 @Component({
   selector: 'lda-blog-detail',
@@ -13,17 +15,20 @@ export class BlogDetailComponent implements OnInit {
   id: any;
   explore = "Explore";
   back = "back";
-  detail: Blog | undefined;
+  @Input() detail: Blog | undefined;
   infoPanelVisible = false;
+  // TODO: make use of below
+  details$ = this.store.select(selectTechBlogById);
 
-  constructor(activatedRoute: ActivatedRoute,
+  constructor(private readonly activatedRoute: ActivatedRoute,
+              private readonly router: Router,
               private readonly service: BlogService,
-              private readonly router: Router
+              private readonly store: Store
   ) {
-    this.id = activatedRoute.snapshot.paramMap.get('id');
   }
 
   ngOnInit(): void {
+    this.id = this.activatedRoute.snapshot.paramMap.get('id');
     this.getDetailsById();
   }
 

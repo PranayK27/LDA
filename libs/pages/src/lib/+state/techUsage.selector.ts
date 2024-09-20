@@ -1,5 +1,6 @@
 import {createFeatureSelector, createSelector} from "@ngrx/store";
 import {Tech} from "./techUsage.reducer";
+import {getRouterSelectors} from "@ngrx/router-store";
 
 
 export const selectTechState =
@@ -20,7 +21,21 @@ export const selectTechBlogs = createSelector(
   ({ blogs }) => blogs
 );
 
+export const selectTechErrorMessage = createSelector(
+  selectTechState,
+  ({ errorMessage }) => errorMessage
+);
+
 export const selectTechSources = createSelector(
   selectTechState,
   ({ sources }) => sources
+);
+
+export const { selectRouteParams } = getRouterSelectors();
+
+export const selectTechBlogById = createSelector(
+  selectRouteParams,
+  selectTechState,
+  ({ id }, { blogs }) =>
+    blogs.find((blog) => blog.id === id)
 );
