@@ -20,6 +20,8 @@ import {TechnologiesModule} from "@lda/technologies";
 import {StoreModule} from "@ngrx/store";
 import {StoreDevtoolsModule} from "@ngrx/store-devtools";
 import { SimpleNotificationsModule } from 'angular2-notifications';
+import {EffectsModule} from "@ngrx/effects";
+import {routerReducer, StoreRouterConnectingModule} from "@ngrx/router-store";
 
 @NgModule({
   declarations: [
@@ -27,6 +29,9 @@ import { SimpleNotificationsModule } from 'angular2-notifications';
   ],
   imports: [
     StoreModule.forRoot(),
+    EffectsModule.forRoot([]),
+    StoreModule.forRoot({router: routerReducer}),
+    StoreRouterConnectingModule.forRoot(),
     // Instrumentation must be imported after importing StoreModule (config is optional)
     StoreDevtoolsModule.instrument({
       maxAge: 25, // Retains last 25 states

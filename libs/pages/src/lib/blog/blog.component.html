@@ -1,3 +1,4 @@
+<div *ngIf="(loading$ | async) === false && (errorMessage$ | async) === ''">
 <div
   class="static-slider-head"
 >
@@ -22,6 +23,7 @@
     </div>
   </div>
 </div>
+
 <!-- Row  -->
 <div class="container">
   <div class="row justify-content-center">
@@ -35,7 +37,7 @@
     </div>
     <!-- Column -->
   </div>
-  <div *ngIf="(loading$ | async) === false; else loadingElement" class="row m-t-40 justify-content-center">
+  <div class="row m-t-40 justify-content-center">
     <lda-blog-list
       class="col-md-8 no-trans text-center"
       [blogs]="blogs$ | async"
@@ -44,5 +46,9 @@
     </lda-blog-list>
   </div>
 </div>
+</div>
 
-<ng-template #loadingElement>Loading...</ng-template>
+<!-- Error Message -->
+<div *ngIf="(errorMessage$ | async) !== ''">
+  <lda-page404></lda-page404>
+</div>
