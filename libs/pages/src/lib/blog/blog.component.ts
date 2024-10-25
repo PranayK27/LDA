@@ -1,7 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { Store } from "@ngrx/store";
 import {UntilDestroy} from "@ngneat/until-destroy";
-import {describeTech, loadTech} from "../+state/techUsage.actions";
+import {describeTech} from "../+state/techUsage.actions";
 import {selectTechBlogs, selectTechDesc, selectTechErrorMessage, selectTechLoading} from "../+state/techUsage.selector";
 
 @UntilDestroy()
@@ -10,7 +10,7 @@ import {selectTechBlogs, selectTechDesc, selectTechErrorMessage, selectTechLoadi
   templateUrl: './blog.component.html',
   styleUrls: ['./blog.component.css'],
 })
-export class BlogComponent implements OnInit {
+export class BlogComponent {
   blogs$ = this.store.select(selectTechBlogs);
   download: string | undefined;
   loading$ = this.store.select(selectTechLoading);
@@ -20,10 +20,6 @@ export class BlogComponent implements OnInit {
   constructor(
     private readonly store: Store
   ) {}
-
-  ngOnInit(): void {
-    this.store.dispatch(loadTech());
-  }
 
   toggleShowTechDesc() {
     this.store.dispatch(describeTech());

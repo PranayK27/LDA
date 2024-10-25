@@ -7,8 +7,8 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
     type="button"
     (click)="onClick.emit($event)"
     [ngClass]="classes"
-    [ngStyle]="{ 'background-color': backgroundColor }"
   >
+    <i *ngIf="icon" class="ti-arrow-left"></i>
     {{ label }}
   </button>`,
     styleUrls: ['./button.css'],
@@ -41,13 +41,20 @@ export default class ButtonComponent {
     label = 'Button';
 
     /**
+     * Button with icon
+     *
+     */
+    @Input()
+    icon = false
+
+    /**
      * Optional click handler
      */
     @Output()
     onClick = new EventEmitter<Event>();
 
     public get classes(): string[] {
-        const mode = this.primary ? 'storybook-button--primary' : 'storybook-button--secondary';
+        const mode = this.primary ? 'btn btn-info-gradiant' : 'btn btn-outline-secondary';
 
         return ['storybook-button', `storybook-button--${this.size}`, mode];
     }

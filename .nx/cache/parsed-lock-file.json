@@ -4284,22 +4284,13 @@
         "hash": "sha512-OQiU+C+Ds5qiH91qh/mg0w+8nwQuLjM4F4M/PbmhDOoYehPh+Fb0bDjtR1sOvy7YKxvj28Y/M0PhP5uVX0kB+g=="
       }
     },
-    "npm:qs@6.11.0": {
-      "type": "npm",
-      "name": "npm:qs@6.11.0",
-      "data": {
-        "version": "6.11.0",
-        "packageName": "qs",
-        "hash": "sha512-MvjoMCJwEarSbUYk5O+nmoSzSutSsTwF85zcHPQ9OrlFoZOYIjaqBAJIqIXjptyD5vThxGq52Xu/MaJzRkIk4Q=="
-      }
-    },
     "npm:qs": {
       "type": "npm",
       "name": "npm:qs",
       "data": {
-        "version": "6.11.2",
+        "version": "6.13.0",
         "packageName": "qs",
-        "hash": "sha512-tDNIz22aBzCDxLtVH++VnTfzxlfeK5CbqohpSqpJgj1Wg/cQbStNAz3NuqCs5vV+pjBsK4x4pN9HlVh7rcYRiA=="
+        "hash": "sha512-+38qI9SOr8tfZ4QmJNplMUxqjbe7LKvvZgWdExBOmd+egZTtjLB67Gu0HRX3u/XOq7UU2Nx6nsjvS16Z9uwfpg=="
       }
     },
     "npm:@cypress/xvfb": {
@@ -10818,15 +10809,6 @@
         "hash": "sha512-YCS/JNFAUyr5vAuhk1DWm1CBxRHW9LbJ2ozWeemrIqpbsqKjHVxYPyi5GC0rjZIT5JxJ3virVTS8wk4i/Z+krw=="
       }
     },
-    "npm:amdefine": {
-      "type": "npm",
-      "name": "npm:amdefine",
-      "data": {
-        "version": "1.0.1",
-        "packageName": "amdefine",
-        "hash": "sha512-S2Hw0TtNkMJhIabBwIojKL9YHO5T0n5eNqWJ7Lrlel/zDbftQpxpapi8tZs3X1HWa+u+QeydGmzzNU0m09+Rcg=="
-      }
-    },
     "npm:angular-in-memory-web-api": {
       "type": "npm",
       "name": "npm:angular-in-memory-web-api",
@@ -11731,9 +11713,9 @@
       "type": "npm",
       "name": "npm:body-parser",
       "data": {
-        "version": "1.20.2",
+        "version": "1.20.3",
         "packageName": "body-parser",
-        "hash": "sha512-ml9pReCu3M61kGlqoTm2umSXTlRTuGTx0bfYj+uIUKKYycG5NtSbeetV3faSU6R7ajOPw0g/J1PvK4qNy7s5bA=="
+        "hash": "sha512-7rAxByjUMqQ3/bHJy7D6OGXvx/MMc4IqBn/X0fcM1QUcAItpZrBEYhWGem+tzXH90c+G01ypMcYJBO9Y30203g=="
       }
     },
     "npm:bytes@3.1.2": {
@@ -14490,6 +14472,15 @@
         "hash": "sha512-TPJXq8JqFaVYm2CWmPvnP2Iyo4ZSM7/QKcSmuMLDObfpH5fi7RUGmd/rTDf+rut/saiDiQEeVTNgAmJEdAOx0w=="
       }
     },
+    "npm:encodeurl@2.0.0": {
+      "type": "npm",
+      "name": "npm:encodeurl@2.0.0",
+      "data": {
+        "version": "2.0.0",
+        "packageName": "encodeurl",
+        "hash": "sha512-Q0n9HRi4m6JuGIV1eFlmvJB7ZEVxu93IrMyiMsGC0lrMJMWzRgx6WGquyfQgZVb31vhGgXnfmPNNXmxnOkRBrg=="
+      }
+    },
     "npm:encoding": {
       "type": "npm",
       "name": "npm:encoding",
@@ -15043,18 +15034,18 @@
       "type": "npm",
       "name": "npm:express",
       "data": {
-        "version": "4.19.2",
+        "version": "4.21.0",
         "packageName": "express",
-        "hash": "sha512-5T6nhjsT+EOMzuck8JjBHARTHfMht0POzlA60WV2pMD3gyXw2LZnZ+ueGdNxG+0calOJcWKbpFcuzLZ91YWq9Q=="
+        "hash": "sha512-VqcNGcj/Id5ZT1LZ/cfihi3ttTn+NJmkli2eZADigjq29qTlWi/hAQ43t/VLPq8+UX06FCEx3ByOYet6ZFblng=="
       }
     },
-    "npm:finalhandler@1.2.0": {
+    "npm:finalhandler@1.3.1": {
       "type": "npm",
-      "name": "npm:finalhandler@1.2.0",
+      "name": "npm:finalhandler@1.3.1",
       "data": {
-        "version": "1.2.0",
+        "version": "1.3.1",
         "packageName": "finalhandler",
-        "hash": "sha512-5uXcUVftlQMFnWC9qu/svkWv3GTd2PfUhK/3PLkYNAe7FbqJMt3515HaxE6eRL74GdsriiwujiawdaB1BpEISg=="
+        "hash": "sha512-6BN9trH7bp3qvnrRyzsBz+g3lZxTNZTbVO2EV1CS0WIcDbawYVdYvGflME/9QP0h0pYlCDBCTjYa9nZzMDpyxQ=="
       }
     },
     "npm:finalhandler": {
@@ -18526,9 +18517,9 @@
       "type": "npm",
       "name": "npm:merge-descriptors",
       "data": {
-        "version": "1.0.1",
+        "version": "1.0.3",
         "packageName": "merge-descriptors",
-        "hash": "sha512-cCi6g3/Zr1iqQi6ySbseM1Xvooa98N0w31jzUYrXPX2xqObmFGHJ0tQ5u74H3mVh7wLouTseZyYIq39g8cNp1w=="
+        "hash": "sha512-gaNvAS7TZ897/rVaZ0nMtAyxNyi/pdbjbAwUpFQpN70GqnVfOiXpeUUMKRBmzXaSQ8DdTX4/0ms62r2K+hE6mQ=="
       }
     },
     "npm:merge-stream": {
@@ -20092,9 +20083,9 @@
       "type": "npm",
       "name": "npm:path-to-regexp",
       "data": {
-        "version": "0.1.7",
+        "version": "0.1.10",
         "packageName": "path-to-regexp",
-        "hash": "sha512-5DFkuoqlv1uYQKxy8omFBeJPQcdoE07Kv2sferDCrAq1ohOU+MSDswDIbnx3YAM60qIOnYa53wBhXW0EbMonrQ=="
+        "hash": "sha512-7lf7qcQidTku0Gu3YDPc8DJ1q7OOucfa/BSsIwjuh56VU7katFvuM8hULfkwB3Fns/rsVF7PwPKVw1sl5KQS9w=="
       }
     },
     "npm:path-type": {
@@ -21595,9 +21586,9 @@
       "type": "npm",
       "name": "npm:send",
       "data": {
-        "version": "0.18.0",
+        "version": "0.19.0",
         "packageName": "send",
-        "hash": "sha512-qqWzuOjSFOuqPjFe4NOsMLafToQQwBSOEpS+FwEt3A2V3vKubTquT3vmLTQpFgMXp8AlFWFuP1qKaJZOtPpVXg=="
+        "hash": "sha512-dW41u5VfLXu8SJh5bwRmyYUbAoSB3c9uQh6L8h/KtsFREPWpbX1lrljJo186Jc4nmci/sGUZ9a0a0J2zgfq2hw=="
       }
     },
     "npm:serialize-error": {
@@ -21649,9 +21640,9 @@
       "type": "npm",
       "name": "npm:serve-static",
       "data": {
-        "version": "1.15.0",
+        "version": "1.16.2",
         "packageName": "serve-static",
-        "hash": "sha512-XGuRDNjXUijsUL0vl6nSD7cwURuzEgglbOaFuZM9g3kwDXOWVTck0jLzjPzGD+TazWbboZYu52/9/XPdUgne9g=="
+        "hash": "sha512-VqpjJZKadQB/PEbEwvFdO43Ax5dFBZ2UECszz8bQ7pi7wt//PWe1P6MN7eCnjsatYtBT6EuiClbjSWP2WrIoTw=="
       }
     },
     "npm:set-blocking": {
@@ -21766,9 +21757,9 @@
       "type": "npm",
       "name": "npm:side-channel",
       "data": {
-        "version": "1.0.4",
+        "version": "1.0.6",
         "packageName": "side-channel",
-        "hash": "sha512-q5XPytqFEIKHkGdiMIrY10mvLRvnQh42/+GoBlFW3b2LXLE2xxJpZFdm94we0BaoV3RwJyGqg5wS7epxTv0Zvw=="
+        "hash": "sha512-fDW/EZ6Q9RiO8eFG8Hj+7u/oW+XrPTIChwCOM2+th2A6OblDtYYIpve9m+KvI9Z4C9qSEXlaGR6bTEYHReuglA=="
       }
     },
     "npm:sigstore": {
@@ -48196,7 +48187,7 @@
     },
     {
       "source": "npm:body-parser",
-      "target": "npm:qs@6.11.0",
+      "target": "npm:qs",
       "type": "static"
     },
     {
@@ -48217,11 +48208,6 @@
     {
       "source": "npm:debug@2.6.9",
       "target": "npm:ms@2.0.0",
-      "type": "static"
-    },
-    {
-      "source": "npm:qs@6.11.0",
-      "target": "npm:side-channel",
       "type": "static"
     },
     {
@@ -53131,7 +53117,7 @@
     },
     {
       "source": "npm:express",
-      "target": "npm:encodeurl",
+      "target": "npm:encodeurl@2.0.0",
       "type": "static"
     },
     {
@@ -53146,7 +53132,7 @@
     },
     {
       "source": "npm:express",
-      "target": "npm:finalhandler@1.2.0",
+      "target": "npm:finalhandler@1.3.1",
       "type": "static"
     },
     {
@@ -53191,7 +53177,7 @@
     },
     {
       "source": "npm:express",
-      "target": "npm:qs@6.11.0",
+      "target": "npm:qs",
       "type": "static"
     },
     {
@@ -53245,43 +53231,38 @@
       "type": "static"
     },
     {
-      "source": "npm:finalhandler@1.2.0",
+      "source": "npm:finalhandler@1.3.1",
       "target": "npm:debug@2.6.9",
       "type": "static"
     },
     {
-      "source": "npm:finalhandler@1.2.0",
-      "target": "npm:encodeurl",
+      "source": "npm:finalhandler@1.3.1",
+      "target": "npm:encodeurl@2.0.0",
       "type": "static"
     },
     {
-      "source": "npm:finalhandler@1.2.0",
+      "source": "npm:finalhandler@1.3.1",
       "target": "npm:escape-html",
       "type": "static"
     },
     {
-      "source": "npm:finalhandler@1.2.0",
+      "source": "npm:finalhandler@1.3.1",
       "target": "npm:on-finished",
       "type": "static"
     },
     {
-      "source": "npm:finalhandler@1.2.0",
+      "source": "npm:finalhandler@1.3.1",
       "target": "npm:parseurl",
       "type": "static"
     },
     {
-      "source": "npm:finalhandler@1.2.0",
+      "source": "npm:finalhandler@1.3.1",
       "target": "npm:statuses",
       "type": "static"
     },
     {
-      "source": "npm:finalhandler@1.2.0",
+      "source": "npm:finalhandler@1.3.1",
       "target": "npm:unpipe",
-      "type": "static"
-    },
-    {
-      "source": "npm:qs@6.11.0",
-      "target": "npm:side-channel",
       "type": "static"
     },
     {
@@ -64141,7 +64122,7 @@
     },
     {
       "source": "npm:serve-static",
-      "target": "npm:encodeurl",
+      "target": "npm:encodeurl@2.0.0",
       "type": "static"
     },
     {
@@ -64272,6 +64253,11 @@
     {
       "source": "npm:side-channel",
       "target": "npm:call-bind",
+      "type": "static"
+    },
+    {
+      "source": "npm:side-channel",
+      "target": "npm:es-errors",
       "type": "static"
     },
     {
