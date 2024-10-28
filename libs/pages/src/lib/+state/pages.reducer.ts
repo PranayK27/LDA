@@ -6,17 +6,10 @@ import {
   sourceLoadedSuccess,
   techLoadFail
 } from "./pages.actions";
-import {Blog} from "../blog/blog-type";
-import {Sources} from "../blog/source-type";
+import {Blog} from "../model/blog-type";
+import {Sources} from "../model/source-type";
 import {createEntityAdapter, EntityAdapter, EntityState} from "@ngrx/entity";
-
-export interface Tech {
-  showTechDesc: boolean;
-  loading: boolean;
-  errorMessage: string;
-  blogs: Blog[];
-  sources: Sources[];
-}
+import {Tech} from "../model/tech.model";
 
 export interface combinedState extends EntityState<Tech>{
   showTechDesc: boolean;

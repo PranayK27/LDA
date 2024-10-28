@@ -1,6 +1,6 @@
 import {createAction, props} from "@ngrx/store";
-import {Blog} from "../blog/blog-type";
-import {Sources} from "../blog/source-type";
+import {Blog} from "../model/blog-type";
+import {Sources} from "../model/source-type";
 
 export const describeTech= createAction('[Describe Tech] Toggle Show Tech Description');
 

@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { InMemoryDbService } from 'angular-in-memory-web-api';
-import { Blog } from '../blog/blog-type';
-import {Sources} from "../blog/source-type";
+import { Blog } from '../model/blog-type';
+import {Sources} from "../model/source-type";
 
 @Injectable({
   providedIn: 'root',
