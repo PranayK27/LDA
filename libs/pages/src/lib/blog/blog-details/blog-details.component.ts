@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {selectTechBlogById, selectTechLoading} from "../../+state/techUsage.selector";
+import {selectTechBlogById, selectTechLoading} from "../../+state/pages.selector";
 import {Store} from "@ngrx/store";
 
 @Component({

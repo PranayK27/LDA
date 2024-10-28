@@ -1,12 +1,12 @@
 import { Injectable } from '@angular/core';
 import {Actions, createEffect, ofType} from "@ngrx/effects";
 import {BlogService} from "../blog/blog-service.service";
-import {loadTech, techLoadFail, techLoadedSuccess} from "./techUsage.actions";
+import {loadTech, techLoadFail, techLoadedSuccess} from "./pages.actions";
 import {catchError, concatMap, map, of} from "rxjs";
 import {Router} from "@angular/router";
 
 @Injectable()
-export class TechUsageEffects {
+export class PagesEffects {
 
   ngrxOnInitEffects() {
     return loadTech();

@@ -1,5 +1,5 @@
 import {createFeatureSelector, createSelector} from "@ngrx/store";
-import {Tech} from "./techUsage.reducer";
+import {Tech} from "./pages.reducer";
 import {getRouterSelectors} from "@ngrx/router-store";
 
 
