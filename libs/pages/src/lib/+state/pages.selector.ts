@@ -1,10 +1,21 @@
 import {createFeatureSelector, createSelector} from "@ngrx/store";
-import {Tech} from "./pages.reducer";
+import * as fromTech from './pages.reducer';
 import {getRouterSelectors} from "@ngrx/router-store";
 
 
 export const selectTechState =
-  createFeatureSelector<Tech>('pages');
+  createFeatureSelector<fromTech.combinedState>('pages');
+
+
+export const selectBlogs = createSelector(
+  selectTechState,
+  fromTech.selectBlogs
+);
+
+export const selectBlogsEntities = createSelector(
+  selectTechState,
+  fromTech.selectBlogEntities
+);
 
 export const selectTechDesc = createSelector(
   selectTechState,
@@ -33,9 +44,16 @@ export const selectTechSources = createSelector(
 
 export const { selectRouteParams } = getRouterSelectors();
 
-export const selectTechBlogById = createSelector(
+// without entity state and adapter in the reducer
+// export const selectTechBlogById = createSelector(
+//   selectRouteParams,
+//   selectTechState,
+//   ({ id }, { blogs }) =>
+//     blogs.find((blog) => blog.id === id)
+// );
+
+export const selectTechBlogById= createSelector(
+  selectBlogsEntities,
   selectRouteParams,
-  selectTechState,
-  ({ id }, { blogs }) =>
-    blogs.find((blog) => blog.id === id)
+  ({blogEntities}, { id }) => blogEntities?.blogs.find(i => i.id === id)
 );
