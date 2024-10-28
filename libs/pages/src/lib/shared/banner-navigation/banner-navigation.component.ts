@@ -3,7 +3,7 @@ import { Router } from '@angular/router';
 import { ToastService } from '../../services/toast-service.service';
 import {BlogService} from '../../blog/blog-service.service';
 import {sourcesData} from "../../data/sources-data";
-import {sourceLoadedSuccess} from "../../+state/techUsage.actions";
+import {sourceLoadedSuccess} from "../../+state/pages.actions";
 import {Store} from "@ngrx/store";
 
 @Component({

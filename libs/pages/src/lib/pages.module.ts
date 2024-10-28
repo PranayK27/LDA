@@ -28,12 +28,12 @@ import {Page404Component} from "./page404/page404.component";
 import {Page500Component} from "./page500/page500.component";
 import {StoreModule} from "@ngrx/store";
 import {BlogListComponent} from "./blog/blog-list/blog-list.component";
-import {techUsageReducer} from "./+state/techUsage.reducer";
+import {pagesReducer} from "./+state/pages.reducer";
 import {HttpClientModule} from "@angular/common/http";
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import {InMemoryDataService} from "./services/InMemoryDataService.service";
 import {EffectsModule} from "@ngrx/effects";
-import {TechUsageEffects} from "./+state/techUsage.effects";
+import {PagesEffects} from "./+state/pages.effects";
 import {BlogDetailsComponent} from "./blog/blog-details/blog-details.component";
 
 @NgModule({
@@ -50,8 +50,8 @@ import {BlogDetailsComponent} from "./blog/blog-details/blog-details.component";
     FormControlModule,
     HttpClientModule,
     HttpClientInMemoryWebApiModule.forRoot(InMemoryDataService),
-    StoreModule.forFeature('pages', techUsageReducer),
-    EffectsModule.forFeature([TechUsageEffects])
+    StoreModule.forFeature('pages', pagesReducer),
+    EffectsModule.forFeature([PagesEffects])
   ],
   exports: [
     FullComponent,

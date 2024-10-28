@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { Store } from "@ngrx/store";
 import {UntilDestroy} from "@ngneat/until-destroy";
-import {describeTech} from "../+state/techUsage.actions";
-import {selectTechBlogs, selectTechDesc, selectTechErrorMessage, selectTechLoading} from "../+state/techUsage.selector";
+import {describeTech} from "../+state/pages.actions";
+import {selectTechBlogs, selectTechDesc, selectTechErrorMessage, selectTechLoading} from "../+state/pages.selector";
 
 @UntilDestroy()
 @Component({

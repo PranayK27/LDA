@@ -5,17 +5,36 @@ import {
   techLoadedSuccess,
   sourceLoadedSuccess,
   techLoadFail
-} from "./techUsage.actions";
+} from "./pages.actions";
 import {Blog} from "../blog/blog-type";
 import {Sources} from "../blog/source-type";
+import {createEntityAdapter, EntityAdapter} from "@ngrx/entity";
 
 export interface Tech {
   showTechDesc: boolean;
   loading: boolean;
-  blogs: Blog[];
   errorMessage: string;
+  blogs: Blog[];
   sources: Sources[];
 }
+
+// export interface combinedState extends EntityAdapter<Tech>{
+//   showTechDesc: boolean;
+//   loading: boolean;
+//   errorMessage: string;
+//   blogs: Blog[];
+//   sources: Sources[];
+// }
+//
+// export const adapter: EntityAdapter<Tech> = createEntityAdapter<Tech>({});
+
+// const initialState= adapter.getInitialState({
+//   showTechDesc: false,
+//   loading: false,
+//   blogs: [],
+//   errorMessage: '',
+//   sources: []
+// });
 
 const initialState: Tech = {
   showTechDesc: false,
@@ -25,7 +44,7 @@ const initialState: Tech = {
   sources: []
 }
 
-export const techUsageReducer= createReducer(
+export const pagesReducer= createReducer(
   initialState,
   on(describeTech, (state) => ({
       ...state,
@@ -51,6 +70,6 @@ export const techUsageReducer= createReducer(
   on(sourceLoadedSuccess, (state, { sources }) => ({
     ...state,
     loading: false,
-    sources,
+    sources
   }))
 );
