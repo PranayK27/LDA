@@ -68,7 +68,7 @@
     "@ngrx/schematics": "17.1.1",
     "@ngrx/store-devtools": "17.1.1",
     "@nrwl/angular": "18.0.7",
-    "@nrwl/cli": "^15.9.3",
+    "@nrwl/cli": "^15.9.7",
     "@nrwl/cypress": "18.0.7",
     "@nrwl/eslint-plugin-nx": "18.0.7",
     "@nrwl/linter": "18.0.7",
