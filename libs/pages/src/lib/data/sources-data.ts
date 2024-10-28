@@ -1,4 +1,4 @@
-import { Sources } from '../blog/source-type';
+import { Sources } from '../model/source-type';
 
 export const sourcesData: Sources[] = [
   {

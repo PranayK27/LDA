@@ -1,7 +1,7 @@
 import {Injectable} from '@angular/core';
 import {catchError, Observable, throwError} from 'rxjs';
-import {Blog} from "./blog-type";
-import {Sources} from "./source-type";
+import {Blog} from "../model/blog-type";
+import {Sources} from "../model/source-type";
 import {HttpClient, HttpErrorResponse} from "@angular/common/http";
 
 
