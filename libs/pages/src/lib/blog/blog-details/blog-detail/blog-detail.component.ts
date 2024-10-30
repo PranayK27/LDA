@@ -1,7 +1,7 @@
 import {Component, Input, OnInit} from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Blog } from '../../../model/blog-type';
-import {BlogService} from "../../blog-service.service";
+import {BlogService} from "../../../services/blog-service.service";
 
 @Component({
   selector: 'lda-blog-detail',

@@ -6,7 +6,6 @@ import {getRouterSelectors} from "@ngrx/router-store";
 export const selectTechState =
   createFeatureSelector<fromTech.combinedState>('pages');
 
-
 export const selectBlogs = createSelector(
   selectTechState,
   fromTech.selectBlogs
