@@ -1,6 +1,6 @@
 import {Component, EventEmitter, Input, Output} from '@angular/core';
 import {Blog} from "../../model/blog-type";
-import {BlogService} from "../blog-service.service";
+import {BlogService} from "../../services/blog-service.service";
 import {Router} from "@angular/router";
 
 @Component({

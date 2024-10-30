@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { BlogService } from '../blog/blog-service.service';
+import { BlogService } from '../services/blog-service.service';
 import { ToastService } from '../services/toast-service.service';
 import { Router } from '@angular/router';
 

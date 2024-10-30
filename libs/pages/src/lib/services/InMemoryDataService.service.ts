@@ -7,7 +7,7 @@ import {Sources} from "../model/source-type";
   providedIn: 'root',
 })
 export class InMemoryDataService implements InMemoryDbService {
-  createDb() {
+  createDb(){
     const blogs: Blog[] = [
       {
         id: 1,
@@ -112,7 +112,7 @@ export class InMemoryDataService implements InMemoryDbService {
       },
     ];
 
-    const sourcesData: Sources[] = [
+    const sources: Sources[] = [
       {
         downloadLocation: 'https://github.com/PranayK27',
         home: '/#/tech',
@@ -123,6 +123,6 @@ export class InMemoryDataService implements InMemoryDbService {
         list: '/#/tech/list',
       }
     ];
-    return { blogs, sourcesData };
+    return { blogs: blogs, sources: sources };
   }
 }

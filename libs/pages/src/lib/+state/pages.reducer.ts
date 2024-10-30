@@ -4,7 +4,7 @@ import {
   describeTech,
   techLoadedSuccess,
   sourceLoadedSuccess,
-  techLoadFail
+  techLoadFail, sourceLoadFail, loadSource
 } from "./pages.actions";
 import {Blog} from "../model/blog-type";
 import {Sources} from "../model/source-type";
@@ -36,6 +36,12 @@ export const pagesReducer= createReducer(
       showTechDesc: !state.showTechDesc,
     })
   ),
+  on(loadSource, (state) => ({
+    ...state,
+    loading: true,
+    sources: [],
+    errorMessage: '',
+  })),
   on(loadTech, (state) => ({
     ...state,
     loading: true,
@@ -56,7 +62,12 @@ export const pagesReducer= createReducer(
     ...state,
     loading: false,
     sources: sources
-  }))
+  })),
+  on(sourceLoadFail, (state, { message }) => ({
+    ...state,
+    loading: false,
+    errorMessage: message,
+  })),
 );
 
 

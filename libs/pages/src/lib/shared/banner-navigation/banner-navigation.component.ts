@@ -1,9 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import {Component} from '@angular/core';
 import { Router } from '@angular/router';
 import { ToastService } from '../../services/toast-service.service';
-import {BlogService} from '../../blog/blog-service.service';
 import {sourcesData} from "../../data/sources-data";
-import {sourceLoadedSuccess} from "../../+state/pages.actions";
 import {Store} from "@ngrx/store";
 
 @Component({
@@ -11,7 +9,7 @@ import {Store} from "@ngrx/store";
   templateUrl: './banner-navigation.component.html',
   styleUrls: ['./banner-navigation.component.css']
 })
-export class BannerNavigationComponent implements OnInit {
+export class BannerNavigationComponent {
   showLoginPage = true;
   showRegPage = true;
   currentPage: string;
@@ -27,20 +25,10 @@ export class BannerNavigationComponent implements OnInit {
 
   constructor(
     protected router: Router,
-    private service: BlogService,
     private toastService: ToastService,
     private readonly store: Store
     ) {
     this.currentPage = this.router.url;
-  }
-
-  ngOnInit() {
-    this.service.getAllSources().subscribe({
-      next: (sources) => {
-        this.store.dispatch(sourceLoadedSuccess({ sources }))
-      },
-      error: (error) => (this.errorMessage = error),
-    });
   }
 
   sameUrlHome(){

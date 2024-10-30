@@ -52,7 +52,7 @@
     "@ngrx/schematics": "17.1.1",
     "@ngrx/store-devtools": "17.1.1",
     "@nrwl/angular": "18.0.7",
-    "@nrwl/cli": "^15.9.3",
+    "@nrwl/cli": "^15.9.7",
     "@nrwl/cypress": "18.0.7",
     "@nrwl/eslint-plugin-nx": "18.0.7",
     "@nrwl/linter": "18.0.7",
@@ -130,208 +130,336 @@
   "fileMap": {
     "nonProjectFiles": [
       {
+        "file": "libs/taskbox/package-lock.json",
+        "hash": "11834239857921505230"
+      },
+      {
         "file": ".github/workflows/jekyll-gh-pages.yml",
         "hash": "2282276520538835066"
       },
       {
-        "file": "libs/taskbox/documentation.json",
-        "hash": "11710227036029424265"
+        "file": "libs/taskbox/setup-jest.ts",
+        "hash": "17711435995618823417"
       },
       {
-        "file": "libs/taskbox/.editorconfig",
-        "hash": "6686520031028425313"
+        "file": "README.md",
+        "hash": "13313949643664986106"
       },
       {
-        "file": ".github/dependabot.yml",
-        "hash": "192641425318039133"
-      },
-      {
-        "file": "libs/taskbox/src/stories/assets/colors.svg",
-        "hash": "70613787918346063"
-      },
-      {
-        "file": "libs/taskbox/src/app/app.component.css",
-        "hash": "3244421341483603138"
-      },
-      {
-        "file": "apps/.gitkeep",
-        "hash": "3244421341483603138"
-      },
-      {
-        "file": "libs/taskbox/src/assets/font/OpenSans-Regular-webfont.ttf",
-        "hash": "8849298556884403679"
-      },
-      {
-        "file": "libs/taskbox/build-storybook.log",
-        "hash": "17412562054383221370"
-      },
-      {
-        "file": "docs/img_2.png",
-        "hash": "9290370410852492298"
-      },
-      {
-        "file": "libs/taskbox/src/stories/.eslintrc.json",
-        "hash": "12125950398489006457"
-      },
-      {
-        "file": "libs/taskbox/src/stories/assets/stackalt.svg",
-        "hash": "1180133531210893970"
-      },
-      {
-        "file": "libs/.gitkeep",
-        "hash": "3244421341483603138"
-      },
-      {
-        "file": "libs/taskbox/src/stories/Introduction.mdx",
-        "hash": "4284128446798832252"
-      },
-      {
-        "file": "libs/taskbox/.storybook/typings.d.ts",
-        "hash": "12793257465398711957"
-      },
-      {
-        "file": "libs/state-management-lifecycle.png",
-        "hash": "1193653798388182329"
-      },
-      {
-        "file": "libs/taskbox/src/stories/header.css",
-        "hash": "17474774144842035713"
-      },
-      {
-        "file": "NX",
-        "hash": "3244421341483603138"
+        "file": "libs/taskbox/src/environments/environment.prod.ts",
+        "hash": "10220522844224226756"
       },
       {
         "file": "libs/taskbox/src/assets/.gitkeep",
         "hash": "3244421341483603138"
       },
       {
-        "file": "libs/taskbox/src/component/pure-task-list.component.ts",
-        "hash": "9261469395647995457"
+        "file": "libs/taskbox/src/stories/header.css",
+        "hash": "17474774144842035713"
       },
       {
-        "file": "documentation.json",
-        "hash": "2667156963467079004"
+        "file": ".prettierignore",
+        "hash": "3356760868306086659"
       },
       {
-        "file": "nx.json",
-        "hash": "16934243729813412271"
+        "file": ".eslintrc.json",
+        "hash": "15388041757782744192"
       },
       {
-        "file": "libs/taskbox/package-lock.json",
-        "hash": "11834239857921505230"
+        "file": "libs/taskbox/build-storybook.log",
+        "hash": "17412562054383221370"
+      },
+      {
+        "file": ".github/ISSUE_TEMPLATE/bug_report.md",
+        "hash": "15424388660508099364"
+      },
+      {
+        "file": "libs/taskbox/src/stories/assets/stackalt.svg",
+        "hash": "1180133531210893970"
+      },
+      {
+        "file": "tools/generators/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "libs/taskbox/src/assets/font/OpenSans-Light-webfont.woff",
+        "hash": "13230354004337104944"
+      },
+      {
+        "file": "libs/taskbox/src/stories/Introduction.mdx",
+        "hash": "4284128446798832252"
       },
       {
         "file": "docs/Screenshot 2023-09-02 at 19.47.18.png",
         "hash": "10686849058296690588"
       },
       {
-        "file": "libs/taskbox/tsconfig.app.json",
-        "hash": "11674506502668556549"
+        "file": "SECURITY.md",
+        "hash": "16303909172738556757"
       },
       {
-        "file": "libs/taskbox/src/assets/font/OpenSans-Light-webfont.eot",
-        "hash": "3532527554520708655"
+        "file": "libs/taskbox/src/index.html",
+        "hash": "14723553221074313730"
       },
       {
-        "file": "libs/taskbox/src/assets/font/OpenSans-Regular-webfont.svg",
-        "hash": "5617473100767146446"
-      },
-      {
-        "file": "libs/taskbox/jest.config.js",
-        "hash": "12056795808107990645"
-      },
-      {
-        "file": "CONTRIBUTING.md",
-        "hash": "7292422667862952624"
-      },
-      {
-        "file": "jest.preset.js",
-        "hash": "9084884494335109525"
-      },
-      {
-        "file": "libs/taskbox/src/app/app.component.html",
-        "hash": "9751251144335046794"
-      },
-      {
-        "file": "libs/taskbox/src/component/task-list.component.ts",
-        "hash": "14431163303189693471"
-      },
-      {
-        "file": "libs/taskbox/src/stories/task.stories.ts",
-        "hash": "1451894069737922369"
-      },
-      {
-        "file": "libs/taskbox/src/component/inbox-screen.component.ts",
-        "hash": "16983051632738839818"
-      },
-      {
-        "file": "docs/img_5.png",
-        "hash": "15936755910953363838"
-      },
-      {
-        "file": "migrations.json",
-        "hash": "13769521948122205560"
-      },
-      {
-        "file": "libs/taskbox/src/stories/assets/direction.svg",
-        "hash": "2992177702218565737"
-      },
-      {
-        "file": ".github/workflows/chromatic.yml",
-        "hash": "3686165267100462510"
-      },
-      {
-        "file": "libs/taskbox/src/assets/font/OpenSans-Light-webfont.svg",
-        "hash": "1390191217771912412"
-      },
-      {
-        "file": "libs/taskbox/angular.json",
-        "hash": "13526939996040544903"
-      },
-      {
-        "file": "tools/tsconfig.tools.json",
-        "hash": "16088922570277978783"
-      },
-      {
-        "file": "libs/taskbox/src/polyfills.ts",
-        "hash": "15091689921193650669"
-      },
-      {
-        "file": "libs/taskbox/src/app/app.component.ts",
-        "hash": "13346827446276254150"
-      },
-      {
-        "file": "libs/taskbox/src/component/button.component.ts",
-        "hash": "10937097209727237254"
+        "file": "libs/taskbox/src/component/task.module.ts",
+        "hash": "11609820578515484856"
       },
       {
         "file": "libs/taskbox/src/component/page.component.ts",
         "hash": "10029251599460891853"
       },
       {
-        "file": "docs/img_3.png",
-        "hash": "46462135247364071"
+        "file": "libs/taskbox/src/stories/Header.stories.ts",
+        "hash": "5194099333399842256"
       },
       {
-        "file": "package-lock.json",
-        "hash": "11735843073555468046"
+        "file": "docs/img_5.png",
+        "hash": "15936755910953363838"
       },
       {
-        "file": ".github/workflows/node.js.yml",
-        "hash": "6949666454790292611"
+        "file": "jest.preset.js",
+        "hash": "9084884494335109525"
       },
       {
-        "file": ".editorconfig",
-        "hash": "5443105041930014821"
+        "file": "decorate-angular-cli.js",
+        "hash": "9396980645667025874"
+      },
+      {
+        "file": "libs/taskbox/src/models/task.model.ts",
+        "hash": "12175197155876681929"
+      },
+      {
+        "file": "libs/taskbox/src/state/task.state.ts",
+        "hash": "10586480013847525651"
+      },
+      {
+        "file": "apps/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "libs/taskbox/src/assets/icon/percolate.ttf",
+        "hash": "8800119679438948561"
+      },
+      {
+        "file": "libs/taskbox/jest-global-mocks.ts",
+        "hash": "2181111143968802888"
+      },
+      {
+        "file": "libs/taskbox/src/environments/environment.ts",
+        "hash": "17793792023430508628"
+      },
+      {
+        "file": "libs/taskbox/src/assets/icon/percolate.svg",
+        "hash": "17640990790396274581"
+      },
+      {
+        "file": "libs/taskbox/src/assets/font/OpenSans-Regular-webfont.eot",
+        "hash": "7642037625623817606"
+      },
+      {
+        "file": "libs/taskbox/src/app/app.component.css",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "libs/taskbox/src/assets/font/OpenSans-Light-webfont.svg",
+        "hash": "1390191217771912412"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "9290651314386082910"
       },
       {
         "file": "libs/taskbox/src/styles.css",
         "hash": "2640460961096832717"
       },
       {
-        "file": "libs/taskbox/src/assets/icon/percolate.woff",
-        "hash": "16797934502539331207"
+        "file": "CODE_OF_CONDUCT.md",
+        "hash": "362924274649002263"
+      },
+      {
+        "file": "libs/taskbox/src/stories/assets/repo.svg",
+        "hash": "15497985304567474255"
+      },
+      {
+        "file": ".npmrc",
+        "hash": "18085261541358865259"
+      },
+      {
+        "file": "NX",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "docs/img_3.png",
+        "hash": "46462135247364071"
+      },
+      {
+        "file": "libs/taskbox/src/assets/font/OpenSans-Regular-webfont.svg",
+        "hash": "5617473100767146446"
+      },
+      {
+        "file": "libs/taskbox/src/assets/font/OpenSans-Regular-webfont.woff",
+        "hash": "6197762826517582924"
+      },
+      {
+        "file": ".github/dependabot.yml",
+        "hash": "192641425318039133"
+      },
+      {
+        "file": "CONTRIBUTING.md",
+        "hash": "7292422667862952624"
+      },
+      {
+        "file": "libs/taskbox/src/app/app.component.html",
+        "hash": "9751251144335046794"
+      },
+      {
+        "file": "libs/taskbox/src/stories/assets/direction.svg",
+        "hash": "2992177702218565737"
+      },
+      {
+        "file": ".github/workflows/node.js.yml",
+        "hash": "6949666454790292611"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "12396684845175296326"
+      },
+      {
+        "file": "libs/taskbox/src/app/app.component.spec.ts",
+        "hash": "12888756559149429168"
+      },
+      {
+        "file": "Commands.md",
+        "hash": "16948933742312889833"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": "libs/taskbox/LICENSE",
+        "hash": "3428849368670987869"
+      },
+      {
+        "file": "libs/taskbox/package.json",
+        "hash": "3471649818544337497"
+      },
+      {
+        "file": "libs/taskbox/tsconfig.app.json",
+        "hash": "11674506502668556549"
+      },
+      {
+        "file": "libs/taskbox/src/assets/font/OpenSans-Regular-webfont.ttf",
+        "hash": "8849298556884403679"
+      },
+      {
+        "file": "libs/taskbox/src/stories/assets/colors.svg",
+        "hash": "70613787918346063"
+      },
+      {
+        "file": "libs/taskbox/src/app/app.component.ts",
+        "hash": "13346827446276254150"
+      },
+      {
+        "file": "docs/img_6.png",
+        "hash": "7483267552362712180"
+      },
+      {
+        "file": "libs/taskbox/jest.config.js",
+        "hash": "12056795808107990645"
+      },
+      {
+        "file": "libs/taskbox/src/stories/assets/flow.svg",
+        "hash": "18413723651031157086"
+      },
+      {
+        "file": "docs/img_4.png",
+        "hash": "4511888658319960845"
+      },
+      {
+        "file": "libs/taskbox/.editorconfig",
+        "hash": "6686520031028425313"
+      },
+      {
+        "file": "libs/taskbox/src/stories/assets/plugin.svg",
+        "hash": "17508760966257502997"
+      },
+      {
+        "file": "libs/state-management-lifecycle.png",
+        "hash": "1193653798388182329"
+      },
+      {
+        "file": "libs/taskbox/src/stories/assets/code-brackets.svg",
+        "hash": "1112009941262053247"
+      },
+      {
+        "file": "libs/taskbox/src/polyfills.ts",
+        "hash": "15091689921193650669"
+      },
+      {
+        "file": "docs/img_1.png",
+        "hash": "5515288466683885995"
+      },
+      {
+        "file": "libs/taskbox/src/app/app.module.ts",
+        "hash": "18383306943855670612"
+      },
+      {
+        "file": "libs/taskbox/src/component/header.component.ts",
+        "hash": "12073321058895621805"
+      },
+      {
+        "file": "libs/taskbox/src/stories/assets/comments.svg",
+        "hash": "9521503280802117255"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "15904881119927760751"
+      },
+      {
+        "file": ".github/workflows/chromatic.yml",
+        "hash": "3686165267100462510"
+      },
+      {
+        "file": "libs/taskbox/src/stories/Button.stories.ts",
+        "hash": "4458449964889960971"
+      },
+      {
+        "file": "migrations.json",
+        "hash": "13769521948122205560"
+      },
+      {
+        "file": "libs/taskbox/src/stories/pure-inbox-screen.stories.ts",
+        "hash": "4084381721302669223"
+      },
+      {
+        "file": "libs/taskbox/.storybook/typings.d.ts",
+        "hash": "12793257465398711957"
+      },
+      {
+        "file": "libs/taskbox/README.md",
+        "hash": "8096802999119147848"
+      },
+      {
+        "file": "libs/taskbox/.storybook/preview.ts",
+        "hash": "6498295468661793429"
+      },
+      {
+        "file": "libs/taskbox/src/stories/button.css",
+        "hash": "11442119154654082062"
+      },
+      {
+        "file": "nx.json",
+        "hash": "16934243729813412271"
+      },
+      {
+        "file": "libs/taskbox/.storybook/main.ts",
+        "hash": "10781105310313785479"
       },
       {
         "file": ".github/workflows/webpack.yml",
@@ -342,271 +470,592 @@
         "hash": "12969160823748411578"
       },
       {
-        "file": "libs/taskbox/tsconfig.spec.json",
-        "hash": "4359485005703740431"
-      },
-      {
-        "file": "libs/taskbox/src/stories/page.css",
-        "hash": "9171863330815678835"
-      },
-      {
-        "file": "decorate-angular-cli.js",
-        "hash": "9396980645667025874"
-      },
-      {
-        "file": "libs/taskbox/setup-jest.ts",
-        "hash": "17711435995618823417"
-      },
-      {
-        "file": "libs/taskbox/src/stories/Button.stories.ts",
-        "hash": "4458449964889960971"
-      },
-      {
-        "file": ".eslintrc.json",
-        "hash": "15388041757782744192"
-      },
-      {
-        "file": "libs/taskbox/src/models/User.ts",
-        "hash": "9988775987256797551"
-      },
-      {
-        "file": "libs/taskbox/src/app/app.component.spec.ts",
-        "hash": "12888756559149429168"
-      },
-      {
-        "file": "libs/taskbox/package.json",
-        "hash": "3471649818544337497"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "11870854792216396251"
-      },
-      {
-        "file": "docs/img.png",
-        "hash": "11176018837917209388"
-      },
-      {
-        "file": "libs/taskbox/src/stories/assets/flow.svg",
-        "hash": "18413723651031157086"
-      },
-      {
-        "file": "SECURITY.md",
-        "hash": "16303909172738556757"
-      },
-      {
-        "file": "libs/taskbox/src/assets/icon/percolate.eot",
-        "hash": "8658131508729243255"
-      },
-      {
-        "file": "libs/taskbox/src/assets/font/OpenSans-Regular-webfont.eot",
-        "hash": "7642037625623817606"
-      },
-      {
-        "file": "jest.config.ts",
-        "hash": "12333515226966617182"
-      },
-      {
-        "file": "libs/taskbox/src/assets/font/OpenSans-Light-webfont.woff",
-        "hash": "13230354004337104944"
-      },
-      {
-        "file": "libs/taskbox/src/stories/Header.stories.ts",
-        "hash": "5194099333399842256"
-      },
-      {
-        "file": "docs/img_4.png",
-        "hash": "4511888658319960845"
+        "file": "libs/taskbox/src/component/task.component.ts",
+        "hash": "2338552481887359952"
       },
       {
         "file": "package.json",
-        "hash": "13008948703543298120"
-      },
-      {
-        "file": "libs/taskbox/src/app/app.module.ts",
-        "hash": "18383306943855670612"
-      },
-      {
-        "file": "docs/img_1.png",
-        "hash": "5515288466683885995"
-      },
-      {
-        "file": "libs/taskbox/.gitignore",
-        "hash": "13044518069027839699"
+        "hash": "18228229077192153660"
       },
       {
         "file": "libs/taskbox/src/stories/pure-task-list.stories.ts",
         "hash": "7833483241828728022"
       },
       {
-        "file": ".github/ISSUE_TEMPLATE/bug_report.md",
-        "hash": "15424388660508099364"
+        "file": "docs/img_2.png",
+        "hash": "9290370410852492298"
       },
       {
-        "file": "Commands.md",
-        "hash": "16948933742312889833"
-      },
-      {
-        "file": "libs/taskbox/src/stories/pure-inbox-screen.stories.ts",
-        "hash": "4084381721302669223"
-      },
-      {
-        "file": ".prettierignore",
-        "hash": "3356760868306086659"
-      },
-      {
-        "file": ".npmrc",
-        "hash": "18085261541358865259"
-      },
-      {
-        "file": "libs/taskbox/.storybook/tsconfig.json",
-        "hash": "8925834623798574605"
-      },
-      {
-        "file": "libs/taskbox/src/assets/font/OpenSans-Regular-webfont.woff",
-        "hash": "6197762826517582924"
-      },
-      {
-        "file": "libs/taskbox/src/component/task.component.ts",
-        "hash": "2338552481887359952"
-      },
-      {
-        "file": "libs/taskbox/src/assets/icon/percolate.ttf",
-        "hash": "8800119679438948561"
-      },
-      {
-        "file": "libs/taskbox/src/stories/button.css",
-        "hash": "11442119154654082062"
-      },
-      {
-        "file": "libs/taskbox/src/stories/assets/code-brackets.svg",
-        "hash": "1112009941262053247"
-      },
-      {
-        "file": "libs/taskbox/src/assets/icon/percolate.svg",
-        "hash": "17640990790396274581"
-      },
-      {
-        "file": "libs/taskbox/.storybook/main.ts",
-        "hash": "10781105310313785479"
-      },
-      {
-        "file": "libs/taskbox/src/state/task.state.ts",
-        "hash": "10586480013847525651"
-      },
-      {
-        "file": "libs/taskbox/src/models/task.model.ts",
-        "hash": "12175197155876681929"
-      },
-      {
-        "file": "libs/taskbox/src/component/task.module.ts",
-        "hash": "11609820578515484856"
-      },
-      {
-        "file": "docs/img_7.png",
-        "hash": "9380007213185837752"
-      },
-      {
-        "file": "libs/taskbox/src/stories/assets/repo.svg",
-        "hash": "15497985304567474255"
-      },
-      {
-        "file": "CODE_OF_CONDUCT.md",
-        "hash": "362924274649002263"
-      },
-      {
-        "file": "tools/generators/.gitkeep",
-        "hash": "3244421341483603138"
-      },
-      {
-        "file": "libs/taskbox/src/stories/assets/comments.svg",
-        "hash": "9521503280802117255"
-      },
-      {
-        "file": "libs/taskbox/src/assets/font/OpenSans-Light-webfont.ttf",
-        "hash": "1332536706352581692"
-      },
-      {
-        "file": "libs/taskbox/LICENSE",
-        "hash": "3428849368670987869"
-      },
-      {
-        "file": "libs/taskbox/src/stories/assets/plugin.svg",
-        "hash": "17508760966257502997"
-      },
-      {
-        "file": "LICENSE",
-        "hash": "12649885980860800067"
-      },
-      {
-        "file": "libs/taskbox/src/stories/Page.stories.ts",
-        "hash": "15356633403537849185"
-      },
-      {
-        "file": "libs/taskbox/jest-global-mocks.ts",
-        "hash": "2181111143968802888"
-      },
-      {
-        "file": "libs/taskbox/src/component/pure-inbox-screen.component.ts",
-        "hash": "14171265719750198628"
-      },
-      {
-        "file": "docs/img_6.png",
-        "hash": "7483267552362712180"
-      },
-      {
-        "file": "libs/taskbox/src/environments/environment.prod.ts",
-        "hash": "10220522844224226756"
-      },
-      {
-        "file": "libs/taskbox/src/environments/environment.ts",
-        "hash": "17793792023430508628"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "9290651314386082910"
-      },
-      {
-        "file": "libs/taskbox/src/index.html",
-        "hash": "14723553221074313730"
-      },
-      {
-        "file": "libs/taskbox/tsconfig.json",
-        "hash": "12681081656146497259"
-      },
-      {
-        "file": "README.md",
-        "hash": "13313949643664986106"
-      },
-      {
-        "file": "libs/taskbox/.storybook/preview.ts",
-        "hash": "6498295468661793429"
-      },
-      {
-        "file": "libs/taskbox/README.md",
-        "hash": "8096802999119147848"
+        "file": ".gitignore",
+        "hash": "11870854792216396251"
       },
       {
         "file": "libs/taskbox/src/favicon.ico",
         "hash": "3464744996580215640"
       },
       {
+        "file": "documentation.json",
+        "hash": "2667156963467079004"
+      },
+      {
+        "file": "libs/taskbox/.gitignore",
+        "hash": "13044518069027839699"
+      },
+      {
+        "file": "libs/taskbox/src/assets/icon/percolate.eot",
+        "hash": "8658131508729243255"
+      },
+      {
+        "file": "docs/img.png",
+        "hash": "11176018837917209388"
+      },
+      {
+        "file": "libs/taskbox/tsconfig.spec.json",
+        "hash": "4359485005703740431"
+      },
+      {
+        "file": "libs/taskbox/src/assets/font/OpenSans-Light-webfont.ttf",
+        "hash": "1332536706352581692"
+      },
+      {
+        "file": "libs/taskbox/.storybook/tsconfig.json",
+        "hash": "8925834623798574605"
+      },
+      {
+        "file": "libs/taskbox/documentation.json",
+        "hash": "11710227036029424265"
+      },
+      {
+        "file": "libs/taskbox/src/component/inbox-screen.component.ts",
+        "hash": "16983051632738839818"
+      },
+      {
+        "file": "libs/taskbox/src/stories/.eslintrc.json",
+        "hash": "12125950398489006457"
+      },
+      {
+        "file": "libs/taskbox/src/assets/icon/percolate.woff",
+        "hash": "16797934502539331207"
+      },
+      {
+        "file": "libs/taskbox/src/component/task-list.component.ts",
+        "hash": "14431163303189693471"
+      },
+      {
+        "file": "libs/taskbox/src/component/pure-inbox-screen.component.ts",
+        "hash": "14171265719750198628"
+      },
+      {
+        "file": "LICENSE",
+        "hash": "12649885980860800067"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "12333515226966617182"
+      },
+      {
+        "file": "libs/taskbox/src/models/User.ts",
+        "hash": "9988775987256797551"
+      },
+      {
+        "file": "libs/taskbox/angular.json",
+        "hash": "13526939996040544903"
+      },
+      {
+        "file": "libs/taskbox/tsconfig.json",
+        "hash": "12681081656146497259"
+      },
+      {
         "file": "libs/taskbox/src/main.ts",
         "hash": "12246588107753938993"
       },
       {
-        "file": "libs/taskbox/src/component/header.component.ts",
-        "hash": "12073321058895621805"
+        "file": "libs/taskbox/src/component/button.component.ts",
+        "hash": "10937097209727237254"
       },
       {
-        "file": ".prettierrc",
-        "hash": "16267754514737964994"
+        "file": "libs/taskbox/src/stories/task.stories.ts",
+        "hash": "1451894069737922369"
       },
       {
-        "file": ".vscode/extensions.json",
-        "hash": "15904881119927760751"
+        "file": "libs/taskbox/src/stories/page.css",
+        "hash": "9171863330815678835"
+      },
+      {
+        "file": "libs/taskbox/src/component/pure-task-list.component.ts",
+        "hash": "9261469395647995457"
+      },
+      {
+        "file": "libs/taskbox/src/stories/Page.stories.ts",
+        "hash": "15356633403537849185"
+      },
+      {
+        "file": "libs/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "docs/img_7.png",
+        "hash": "9380007213185837752"
+      },
+      {
+        "file": "tools/tsconfig.tools.json",
+        "hash": "16088922570277978783"
+      },
+      {
+        "file": "libs/taskbox/src/assets/font/OpenSans-Light-webfont.eot",
+        "hash": "3532527554520708655"
       }
     ],
     "projectFileMap": {
+      "books": [
+        {
+          "file": "libs/books/.eslintrc.json",
+          "hash": "12951784082091370075"
+        },
+        {
+          "file": "libs/books/README.md",
+          "hash": "9221744556642201933"
+        },
+        {
+          "file": "libs/books/jest.config.ts",
+          "hash": "7045418437281247057"
+        },
+        {
+          "file": "libs/books/project.json",
+          "hash": "6224759685860498796"
+        },
+        {
+          "file": "libs/books/src/index.ts",
+          "hash": "4829501374470483406"
+        },
+        {
+          "file": "libs/books/src/lib/book-collection/book-collection.component.css",
+          "hash": "539009869701383818"
+        },
+        {
+          "file": "libs/books/src/lib/book-collection/book-collection.component.html",
+          "hash": "13194893427725408757"
+        },
+        {
+          "file": "libs/books/src/lib/book-collection/book-collection.component.spec.ts",
+          "hash": "14216050015516238006",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/books/src/lib/book-collection/book-collection.component.ts",
+          "hash": "8711631112576668907",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/books/src/lib/book-list/book-list.component.css",
+          "hash": "4839508053088258461"
+        },
+        {
+          "file": "libs/books/src/lib/book-list/book-list.component.html",
+          "hash": "352008149288772415"
+        },
+        {
+          "file": "libs/books/src/lib/book-list/book-list.component.spec.ts",
+          "hash": "14949105482346268581",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/books/src/lib/book-list/book-list.component.ts",
+          "hash": "5626712257883128057",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/books/src/lib/books.component.html",
+          "hash": "9434648343778415038"
+        },
+        {
+          "file": "libs/books/src/lib/books.component.ts",
+          "hash": "16611923075325499394",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@ngrx/store"
+          ]
+        },
+        {
+          "file": "libs/books/src/lib/books.module.ts",
+          "hash": "10037352509772092809",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@ngrx/store",
+            "npm:@angular/platform-browser",
+            "pages"
+          ]
+        },
+        {
+          "file": "libs/books/src/lib/model/books.model.ts",
+          "hash": "10778009117310928836"
+        },
+        {
+          "file": "libs/books/src/lib/service/books.service.ts",
+          "hash": "12854880974961977431",
+          "deps": [
+            "npm:@angular/common",
+            "npm:@angular/core",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "libs/books/src/lib/state/app.state.ts",
+          "hash": "7699503562118262145"
+        },
+        {
+          "file": "libs/books/src/lib/state/books.actions.ts",
+          "hash": "4647640539859015641",
+          "deps": [
+            "npm:@ngrx/store"
+          ]
+        },
+        {
+          "file": "libs/books/src/lib/state/books.reducer.ts",
+          "hash": "3672708454239151018",
+          "deps": [
+            "npm:@ngrx/store"
+          ]
+        },
+        {
+          "file": "libs/books/src/lib/state/books.selectors.ts",
+          "hash": "1539029372744753468",
+          "deps": [
+            "npm:@ngrx/store"
+          ]
+        },
+        {
+          "file": "libs/books/src/lib/state/collection.reducer.ts",
+          "hash": "14944920576256117419",
+          "deps": [
+            "npm:@ngrx/store"
+          ]
+        },
+        {
+          "file": "libs/books/src/test-setup.ts",
+          "hash": "17711435995618823417",
+          "deps": [
+            "npm:jest-preset-angular"
+          ]
+        },
+        {
+          "file": "libs/books/tsconfig.json",
+          "hash": "12234268620382124197"
+        },
+        {
+          "file": "libs/books/tsconfig.lib.json",
+          "hash": "11590153721233036531"
+        },
+        {
+          "file": "libs/books/tsconfig.spec.json",
+          "hash": "6658172359945877284"
+        }
+      ],
+      "components": [
+        {
+          "file": "libs/components/.eslintrc.json",
+          "hash": "8342816391553951943"
+        },
+        {
+          "file": "libs/components/README.md",
+          "hash": "7412660979460992397"
+        },
+        {
+          "file": "libs/components/jest.config.ts",
+          "hash": "16724943444849129660"
+        },
+        {
+          "file": "libs/components/project.json",
+          "hash": "11683941366002349500"
+        },
+        {
+          "file": "libs/components/src/button/button.component.ts",
+          "hash": "11360411036407637224",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/components/src/button/button.css",
+          "hash": "3636485532831226342"
+        },
+        {
+          "file": "libs/components/src/button/button.module.ts",
+          "hash": "1182851654561447676",
+          "deps": [
+            "npm:@angular/common",
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/components/src/button/button.stories.ts",
+          "hash": "6505340230817802519",
+          "deps": [
+            "npm:@storybook/angular"
+          ]
+        },
+        {
+          "file": "libs/components/src/button/index.ts",
+          "hash": "6233415304547313468"
+        },
+        {
+          "file": "libs/components/src/form-control/form-control.abstraction.ts",
+          "hash": "16470057820182017672"
+        },
+        {
+          "file": "libs/components/src/form-control/form-control.component.html",
+          "hash": "11397856859656227662"
+        },
+        {
+          "file": "libs/components/src/form-control/form-control.component.ts",
+          "hash": "982966390874811963",
+          "deps": [
+            "npm:@angular/cdk",
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/components/src/form-control/form-control.module.ts",
+          "hash": "4419055455864872997",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/components/src/form-control/hint.component.ts",
+          "hash": "14026333709286365292",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/components/src/form-control/index.ts",
+          "hash": "17408534180741800929"
+        },
+        {
+          "file": "libs/components/src/form-control/label.directive.ts",
+          "hash": "13684390302477039057",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/components/src/header/header.component.ts",
+          "hash": "17241065494391190537",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/components/src/header/header.css",
+          "hash": "14910923732737524866"
+        },
+        {
+          "file": "libs/components/src/header/header.stories.ts",
+          "hash": "13816172864960671159",
+          "deps": [
+            "npm:@storybook/angular",
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "libs/components/src/index.ts",
+          "hash": "5538368536869537931"
+        },
+        {
+          "file": "libs/components/src/input/index.ts",
+          "hash": "6874834650023111197"
+        },
+        {
+          "file": "libs/components/src/input/input.directive.ts",
+          "hash": "9698286666099133865",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/forms"
+          ]
+        },
+        {
+          "file": "libs/components/src/input/input.mdx",
+          "hash": "13158361746345629339"
+        },
+        {
+          "file": "libs/components/src/input/input.module.ts",
+          "hash": "8557584244014835305",
+          "deps": [
+            "npm:@angular/common",
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/components/src/lib/components.module.ts",
+          "hash": "4981924538177309961",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "libs/components/src/pages/Page.stories.ts",
+          "hash": "11855655182532673",
+          "deps": [
+            "npm:@storybook/angular",
+            "npm:@storybook/testing-library",
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "libs/components/src/pages/page.component.ts",
+          "hash": "12672585067033380071",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/components/src/pages/page.css",
+          "hash": "16379900198498390776"
+        },
+        {
+          "file": "libs/components/src/shared/User.ts",
+          "hash": "7722449348804146534"
+        },
+        {
+          "file": "libs/components/src/shared/button-like.abstraction.ts",
+          "hash": "16140006847152138338"
+        },
+        {
+          "file": "libs/components/src/shared/index.ts",
+          "hash": "11451754299635732123"
+        },
+        {
+          "file": "libs/components/src/shared/nx-welcome.component.stories.ts",
+          "hash": "3523583891246238924",
+          "deps": [
+            "npm:@storybook/angular",
+            "npm:@storybook/testing-library",
+            "npm:@storybook/jest"
+          ]
+        },
+        {
+          "file": "libs/components/src/shared/nx-welcome.component.ts",
+          "hash": "5782453256451781860",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/components/src/shared/shared.module.ts",
+          "hash": "8070802089721719646",
+          "deps": [
+            "npm:@angular/common",
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/components/src/test-setup.ts",
+          "hash": "12935735732682149507",
+          "deps": [
+            "npm:jest-preset-angular"
+          ]
+        },
+        {
+          "file": "libs/components/tsconfig.json",
+          "hash": "12081318589569788956"
+        },
+        {
+          "file": "libs/components/tsconfig.lib.json",
+          "hash": "5796668385415907511"
+        },
+        {
+          "file": "libs/components/tsconfig.spec.json",
+          "hash": "2927375835638640771"
+        }
+      ],
+      "my-counter": [
+        {
+          "file": "libs/my-counter/.eslintrc.json",
+          "hash": "12951784082091370075"
+        },
+        {
+          "file": "libs/my-counter/README.md",
+          "hash": "12041877840082973289"
+        },
+        {
+          "file": "libs/my-counter/jest.config.ts",
+          "hash": "16598374552458777409"
+        },
+        {
+          "file": "libs/my-counter/project.json",
+          "hash": "9918539026307400203"
+        },
+        {
+          "file": "libs/my-counter/src/index.ts",
+          "hash": "3146291927119974593"
+        },
+        {
+          "file": "libs/my-counter/src/lib/counter.action.ts",
+          "hash": "8963586049233236922",
+          "deps": [
+            "npm:@ngrx/store"
+          ]
+        },
+        {
+          "file": "libs/my-counter/src/lib/counter.reducer.ts",
+          "hash": "12889938467522932452",
+          "deps": [
+            "npm:@ngrx/store"
+          ]
+        },
+        {
+          "file": "libs/my-counter/src/lib/my-counter-comp/my-counter-comp.component.html",
+          "hash": "17153320744909177528"
+        },
+        {
+          "file": "libs/my-counter/src/lib/my-counter-comp/my-counter-comp.component.ts",
+          "hash": "18212412550658050572",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@ngrx/store",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "libs/my-counter/src/lib/my-counter.module.ts",
+          "hash": "13599682112774282503",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@ngrx/store"
+          ]
+        },
+        {
+          "file": "libs/my-counter/src/test-setup.ts",
+          "hash": "17711435995618823417",
+          "deps": [
+            "npm:jest-preset-angular"
+          ]
+        },
+        {
+          "file": "libs/my-counter/tsconfig.json",
+          "hash": "12234268620382124197"
+        },
+        {
+          "file": "libs/my-counter/tsconfig.lib.json",
+          "hash": "11590153721233036531"
+        },
+        {
+          "file": "libs/my-counter/tsconfig.spec.json",
+          "hash": "6658172359945877284"
+        }
+      ],
       "lda-e2e": [
         {
           "file": "apps/lda-e2e/.eslintrc.json",
@@ -1607,236 +2056,6 @@
           "hash": "6658172359945877284"
         }
       ],
-      "my-counter": [
-        {
-          "file": "libs/my-counter/.eslintrc.json",
-          "hash": "12951784082091370075"
-        },
-        {
-          "file": "libs/my-counter/README.md",
-          "hash": "12041877840082973289"
-        },
-        {
-          "file": "libs/my-counter/jest.config.ts",
-          "hash": "16598374552458777409"
-        },
-        {
-          "file": "libs/my-counter/project.json",
-          "hash": "9918539026307400203"
-        },
-        {
-          "file": "libs/my-counter/src/index.ts",
-          "hash": "3146291927119974593"
-        },
-        {
-          "file": "libs/my-counter/src/lib/counter.action.ts",
-          "hash": "8963586049233236922",
-          "deps": [
-            "npm:@ngrx/store"
-          ]
-        },
-        {
-          "file": "libs/my-counter/src/lib/counter.reducer.ts",
-          "hash": "12889938467522932452",
-          "deps": [
-            "npm:@ngrx/store"
-          ]
-        },
-        {
-          "file": "libs/my-counter/src/lib/my-counter-comp/my-counter-comp.component.html",
-          "hash": "17153320744909177528"
-        },
-        {
-          "file": "libs/my-counter/src/lib/my-counter-comp/my-counter-comp.component.ts",
-          "hash": "18212412550658050572",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@ngrx/store",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "libs/my-counter/src/lib/my-counter.module.ts",
-          "hash": "13599682112774282503",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@ngrx/store"
-          ]
-        },
-        {
-          "file": "libs/my-counter/src/test-setup.ts",
-          "hash": "17711435995618823417",
-          "deps": [
-            "npm:jest-preset-angular"
-          ]
-        },
-        {
-          "file": "libs/my-counter/tsconfig.json",
-          "hash": "12234268620382124197"
-        },
-        {
-          "file": "libs/my-counter/tsconfig.lib.json",
-          "hash": "11590153721233036531"
-        },
-        {
-          "file": "libs/my-counter/tsconfig.spec.json",
-          "hash": "6658172359945877284"
-        }
-      ],
-      "books": [
-        {
-          "file": "libs/books/.eslintrc.json",
-          "hash": "12951784082091370075"
-        },
-        {
-          "file": "libs/books/README.md",
-          "hash": "9221744556642201933"
-        },
-        {
-          "file": "libs/books/jest.config.ts",
-          "hash": "7045418437281247057"
-        },
-        {
-          "file": "libs/books/project.json",
-          "hash": "6224759685860498796"
-        },
-        {
-          "file": "libs/books/src/index.ts",
-          "hash": "4829501374470483406"
-        },
-        {
-          "file": "libs/books/src/lib/book-collection/book-collection.component.css",
-          "hash": "539009869701383818"
-        },
-        {
-          "file": "libs/books/src/lib/book-collection/book-collection.component.html",
-          "hash": "13194893427725408757"
-        },
-        {
-          "file": "libs/books/src/lib/book-collection/book-collection.component.spec.ts",
-          "hash": "14216050015516238006",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "libs/books/src/lib/book-collection/book-collection.component.ts",
-          "hash": "8711631112576668907",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "libs/books/src/lib/book-list/book-list.component.css",
-          "hash": "4839508053088258461"
-        },
-        {
-          "file": "libs/books/src/lib/book-list/book-list.component.html",
-          "hash": "352008149288772415"
-        },
-        {
-          "file": "libs/books/src/lib/book-list/book-list.component.spec.ts",
-          "hash": "14949105482346268581",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "libs/books/src/lib/book-list/book-list.component.ts",
-          "hash": "5626712257883128057",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "libs/books/src/lib/books.component.html",
-          "hash": "9434648343778415038"
-        },
-        {
-          "file": "libs/books/src/lib/books.component.ts",
-          "hash": "16611923075325499394",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@ngrx/store"
-          ]
-        },
-        {
-          "file": "libs/books/src/lib/books.module.ts",
-          "hash": "10037352509772092809",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@ngrx/store",
-            "npm:@angular/platform-browser",
-            "pages"
-          ]
-        },
-        {
-          "file": "libs/books/src/lib/model/books.model.ts",
-          "hash": "10778009117310928836"
-        },
-        {
-          "file": "libs/books/src/lib/service/books.service.ts",
-          "hash": "12854880974961977431",
-          "deps": [
-            "npm:@angular/common",
-            "npm:@angular/core",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "libs/books/src/lib/state/app.state.ts",
-          "hash": "7699503562118262145"
-        },
-        {
-          "file": "libs/books/src/lib/state/books.actions.ts",
-          "hash": "4647640539859015641",
-          "deps": [
-            "npm:@ngrx/store"
-          ]
-        },
-        {
-          "file": "libs/books/src/lib/state/books.reducer.ts",
-          "hash": "3672708454239151018",
-          "deps": [
-            "npm:@ngrx/store"
-          ]
-        },
-        {
-          "file": "libs/books/src/lib/state/books.selectors.ts",
-          "hash": "1539029372744753468",
-          "deps": [
-            "npm:@ngrx/store"
-          ]
-        },
-        {
-          "file": "libs/books/src/lib/state/collection.reducer.ts",
-          "hash": "14944920576256117419",
-          "deps": [
-            "npm:@ngrx/store"
-          ]
-        },
-        {
-          "file": "libs/books/src/test-setup.ts",
-          "hash": "17711435995618823417",
-          "deps": [
-            "npm:jest-preset-angular"
-          ]
-        },
-        {
-          "file": "libs/books/tsconfig.json",
-          "hash": "12234268620382124197"
-        },
-        {
-          "file": "libs/books/tsconfig.lib.json",
-          "hash": "11590153721233036531"
-        },
-        {
-          "file": "libs/books/tsconfig.spec.json",
-          "hash": "6658172359945877284"
-        }
-      ],
       "technologies": [
         {
           "file": "libs/technologies/.eslintrc.json",
@@ -2275,225 +2494,6 @@
           "hash": "6658172359945877284"
         }
       ],
-      "components": [
-        {
-          "file": "libs/components/.eslintrc.json",
-          "hash": "8342816391553951943"
-        },
-        {
-          "file": "libs/components/README.md",
-          "hash": "7412660979460992397"
-        },
-        {
-          "file": "libs/components/jest.config.ts",
-          "hash": "16724943444849129660"
-        },
-        {
-          "file": "libs/components/project.json",
-          "hash": "11683941366002349500"
-        },
-        {
-          "file": "libs/components/src/button/button.component.ts",
-          "hash": "11360411036407637224",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "libs/components/src/button/button.css",
-          "hash": "3636485532831226342"
-        },
-        {
-          "file": "libs/components/src/button/button.module.ts",
-          "hash": "1182851654561447676",
-          "deps": [
-            "npm:@angular/common",
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "libs/components/src/button/button.stories.ts",
-          "hash": "6505340230817802519",
-          "deps": [
-            "npm:@storybook/angular"
-          ]
-        },
-        {
-          "file": "libs/components/src/button/index.ts",
-          "hash": "6233415304547313468"
-        },
-        {
-          "file": "libs/components/src/form-control/form-control.abstraction.ts",
-          "hash": "16470057820182017672"
-        },
-        {
-          "file": "libs/components/src/form-control/form-control.component.html",
-          "hash": "11397856859656227662"
-        },
-        {
-          "file": "libs/components/src/form-control/form-control.component.ts",
-          "hash": "982966390874811963",
-          "deps": [
-            "npm:@angular/cdk",
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "libs/components/src/form-control/form-control.module.ts",
-          "hash": "4419055455864872997",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "libs/components/src/form-control/hint.component.ts",
-          "hash": "14026333709286365292",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "libs/components/src/form-control/index.ts",
-          "hash": "17408534180741800929"
-        },
-        {
-          "file": "libs/components/src/form-control/label.directive.ts",
-          "hash": "13684390302477039057",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "libs/components/src/header/header.component.ts",
-          "hash": "17241065494391190537",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "libs/components/src/header/header.css",
-          "hash": "14910923732737524866"
-        },
-        {
-          "file": "libs/components/src/header/header.stories.ts",
-          "hash": "13816172864960671159",
-          "deps": [
-            "npm:@storybook/angular",
-            "npm:@angular/common"
-          ]
-        },
-        {
-          "file": "libs/components/src/index.ts",
-          "hash": "5538368536869537931"
-        },
-        {
-          "file": "libs/components/src/input/index.ts",
-          "hash": "6874834650023111197"
-        },
-        {
-          "file": "libs/components/src/input/input.directive.ts",
-          "hash": "9698286666099133865",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/forms"
-          ]
-        },
-        {
-          "file": "libs/components/src/input/input.mdx",
-          "hash": "13158361746345629339"
-        },
-        {
-          "file": "libs/components/src/input/input.module.ts",
-          "hash": "8557584244014835305",
-          "deps": [
-            "npm:@angular/common",
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "libs/components/src/lib/components.module.ts",
-          "hash": "4981924538177309961",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common"
-          ]
-        },
-        {
-          "file": "libs/components/src/pages/Page.stories.ts",
-          "hash": "11855655182532673",
-          "deps": [
-            "npm:@storybook/angular",
-            "npm:@storybook/testing-library",
-            "npm:@angular/common"
-          ]
-        },
-        {
-          "file": "libs/components/src/pages/page.component.ts",
-          "hash": "12672585067033380071",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "libs/components/src/pages/page.css",
-          "hash": "16379900198498390776"
-        },
-        {
-          "file": "libs/components/src/shared/User.ts",
-          "hash": "7722449348804146534"
-        },
-        {
-          "file": "libs/components/src/shared/button-like.abstraction.ts",
-          "hash": "16140006847152138338"
-        },
-        {
-          "file": "libs/components/src/shared/index.ts",
-          "hash": "11451754299635732123"
-        },
-        {
-          "file": "libs/components/src/shared/nx-welcome.component.stories.ts",
-          "hash": "3523583891246238924",
-          "deps": [
-            "npm:@storybook/angular",
-            "npm:@storybook/testing-library",
-            "npm:@storybook/jest"
-          ]
-        },
-        {
-          "file": "libs/components/src/shared/nx-welcome.component.ts",
-          "hash": "5782453256451781860",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "libs/components/src/shared/shared.module.ts",
-          "hash": "8070802089721719646",
-          "deps": [
-            "npm:@angular/common",
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "libs/components/src/test-setup.ts",
-          "hash": "12935735732682149507",
-          "deps": [
-            "npm:jest-preset-angular"
-          ]
-        },
-        {
-          "file": "libs/components/tsconfig.json",
-          "hash": "12081318589569788956"
-        },
-        {
-          "file": "libs/components/tsconfig.lib.json",
-          "hash": "5796668385415907511"
-        },
-        {
-          "file": "libs/components/tsconfig.spec.json",
-          "hash": "2927375835638640771"
-        }
-      ],
       "pages": [
         {
           "file": "libs/pages/.eslintrc.json",
@@ -2514,6 +2514,38 @@
         {
           "file": "libs/pages/src/index.ts",
           "hash": "6792761368507796660"
+        },
+        {
+          "file": "libs/pages/src/lib/+state/pages.actions.ts",
+          "hash": "6277964211010837842",
+          "deps": [
+            "npm:@ngrx/store"
+          ]
+        },
+        {
+          "file": "libs/pages/src/lib/+state/pages.effects.ts",
+          "hash": "5191855876704988477",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@ngrx/effects",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "libs/pages/src/lib/+state/pages.reducer.ts",
+          "hash": "18380929209553951235",
+          "deps": [
+            "npm:@ngrx/store",
+            "npm:@ngrx/entity"
+          ]
+        },
+        {
+          "file": "libs/pages/src/lib/+state/pages.selector.ts",
+          "hash": "15213708876390242722",
+          "deps": [
+            "npm:@ngrx/store",
+            "npm:@ngrx/router-store"
+          ]
         },
         {
           "file": "libs/pages/src/lib/about/About-Components/relay-on/relay-on.component.css",
@@ -2569,7 +2601,7 @@
         },
         {
           "file": "libs/pages/src/lib/about/about.component.ts",
-          "hash": "9051587775104937197",
+          "hash": "13259518563665995594",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/router"
@@ -2592,7 +2624,7 @@
         },
         {
           "file": "libs/pages/src/lib/blog/blog-details/blog-detail/blog-detail.component.ts",
-          "hash": "16267008221207615719",
+          "hash": "7750474350385922515",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/router"
@@ -2638,28 +2670,11 @@
         },
         {
           "file": "libs/pages/src/lib/blog/blog-list/blog-list.component.ts",
-          "hash": "6369599079172184886",
+          "hash": "10528996284715686130",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/router"
           ]
-        },
-        {
-          "file": "libs/pages/src/lib/blog/blog-service.service.spec.ts",
-          "hash": "9329646283080194568"
-        },
-        {
-          "file": "libs/pages/src/lib/blog/blog-service.service.ts",
-          "hash": "1935031975244290652",
-          "deps": [
-            "npm:@angular/core",
-            "npm:rxjs",
-            "npm:@angular/common"
-          ]
-        },
-        {
-          "file": "libs/pages/src/lib/blog/blog-type.ts",
-          "hash": "1618943559861822271"
         },
         {
           "file": "libs/pages/src/lib/blog/blog.component.css",
@@ -2678,7 +2693,7 @@
         },
         {
           "file": "libs/pages/src/lib/blog/blog.component.ts",
-          "hash": "17605294084781152333",
+          "hash": "5392137167137785109",
           "deps": [
             "npm:@angular/core",
             "npm:@ngrx/store",
@@ -2686,16 +2701,12 @@
           ]
         },
         {
-          "file": "libs/pages/src/lib/blog/source-type.ts",
-          "hash": "17453709793255045198"
-        },
-        {
           "file": "libs/pages/src/lib/data/blog-data.ts",
-          "hash": "11734192416611626353"
+          "hash": "10342642494067902911"
         },
         {
           "file": "libs/pages/src/lib/data/sources-data.ts",
-          "hash": "15850575718639061497"
+          "hash": "16009322874753116308"
         },
         {
           "file": "libs/pages/src/lib/layout/full/full.component.css",
@@ -2749,6 +2760,18 @@
         {
           "file": "libs/pages/src/lib/login/login.ts",
           "hash": "13259879210773686399"
+        },
+        {
+          "file": "libs/pages/src/lib/model/blog-type.ts",
+          "hash": "1618943559861822271"
+        },
+        {
+          "file": "libs/pages/src/lib/model/source-type.ts",
+          "hash": "17453709793255045198"
+        },
+        {
+          "file": "libs/pages/src/lib/model/tech.model.ts",
+          "hash": "15165145507005566783"
         },
         {
           "file": "libs/pages/src/lib/page404/page404.component.html",
@@ -2845,14 +2868,6 @@
           ]
         },
         {
-          "file": "libs/pages/src/lib/services/InMemoryDataService.service.ts",
-          "hash": "14362359874695101113",
-          "deps": [
-            "npm:@angular/core",
-            "npm:angular-in-memory-web-api"
-          ]
-        },
-        {
           "file": "libs/pages/src/lib/services/loginService.ts",
           "hash": "578177366220089392",
           "deps": [
@@ -2909,7 +2924,7 @@
         },
         {
           "file": "libs/pages/src/lib/shared/banner-navigation/banner-navigation.component.ts",
-          "hash": "17438012108660235569",
+          "hash": "4695697789042059906",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/router",
@@ -2981,36 +2996,24 @@
           "hash": "6658172359945877284"
         },
         {
-          "file": "libs/pages/src/lib/+state/pages.actions.ts",
-          "hash": "11689674995571094165",
-          "deps": [
-            "npm:@ngrx/store"
-          ]
-        },
-        {
-          "file": "libs/pages/src/lib/+state/pages.reducer.ts",
-          "hash": "13598812689947910558",
-          "deps": [
-            "npm:@ngrx/store",
-            "npm:@ngrx/entity"
-          ]
-        },
-        {
-          "file": "libs/pages/src/lib/+state/pages.effects.ts",
-          "hash": "10136727246345736988",
+          "file": "libs/pages/src/lib/services/blog-service.service.ts",
+          "hash": "14376503066641071405",
           "deps": [
             "npm:@angular/core",
-            "npm:@ngrx/effects",
             "npm:rxjs",
-            "npm:@angular/router"
+            "npm:@angular/common"
           ]
         },
         {
-          "file": "libs/pages/src/lib/+state/pages.selector.ts",
-          "hash": "11086706457005517251",
+          "file": "libs/pages/src/lib/services/blog-service.service.spec.ts",
+          "hash": "9329646283080194568"
+        },
+        {
+          "file": "libs/pages/src/lib/services/InMemoryDataService.service.ts",
+          "hash": "17677014673865330463",
           "deps": [
-            "npm:@ngrx/store",
-            "npm:@ngrx/router-store"
+            "npm:@angular/core",
+            "npm:angular-in-memory-web-api"
           ]
         }
       ]
