@@ -1,7 +1,1 @@
-<div *ngIf="(loading$ | async) === false; else loadingElement">
-  <lda-blog-detail
-    [detail]="details$ | async"
-  ></lda-blog-detail>
-</div>
 
-<ng-template #loadingElement>Loading...</ng-template>

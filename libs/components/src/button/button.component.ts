@@ -1,17 +1,21 @@
 import { Component, Input, Output, EventEmitter } from '@angular/core';
+import {NgClass, NgIf} from "@angular/common";
 
 @Component({
-    // Needs to be a different name to the CLI template button
-    selector: 'storybook-button',
-    template: ` <button
-    type="button"
-    (click)="onClick.emit($event)"
-    [ngClass]="classes"
-  >
-    <i *ngIf="icon" class="ti-arrow-left"></i>
-    {{ label }}
-  </button>`,
-    styleUrls: ['./button.css'],
+  standalone: true,
+  // Needs to be a different name to the CLI template button
+  selector: 'lda-storybook-button',
+  imports: [NgIf, NgClass],
+  template: `
+    <button
+      type="button"
+      (click)="onClick.emit($event)"
+      [ngClass]="classes"
+    >
+      <i *ngIf="icon" class="ti-arrow-left"></i>
+      {{ label }}
+    </button>`,
+  styleUrls: ['./button.css'],
 })
 export default class ButtonComponent {
     /**
