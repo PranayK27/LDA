@@ -77,7 +77,7 @@ import {NgIf} from "@angular/common";
     <!-- Row  -->
   </div>
   `,
-  styleUrls: ['./blog-detail.component.css']
+  styles: [``]
 })
 export class BlogDetailComponent implements OnInit {
 

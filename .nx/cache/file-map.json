@@ -130,143 +130,203 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".prettierrc",
-        "hash": "16267754514737964994"
-      },
-      {
-        "file": "libs/taskbox/src/main.ts",
-        "hash": "12246588107753938993"
-      },
-      {
-        "file": "libs/taskbox/src/stories/assets/comments.svg",
-        "hash": "9521503280802117255"
-      },
-      {
-        "file": "libs/taskbox/src/component/page.component.ts",
-        "hash": "10029251599460891853"
-      },
-      {
-        "file": ".github/workflows/node.js.yml",
-        "hash": "6949666454790292611"
-      },
-      {
-        "file": "decorate-angular-cli.js",
-        "hash": "9396980645667025874"
-      },
-      {
         "file": "libs/taskbox/LICENSE",
         "hash": "3428849368670987869"
-      },
-      {
-        "file": "libs/taskbox/src/assets/font/OpenSans-Light-webfont.woff",
-        "hash": "13230354004337104944"
-      },
-      {
-        "file": "libs/taskbox/src/stories/assets/plugin.svg",
-        "hash": "17508760966257502997"
-      },
-      {
-        "file": "libs/taskbox/src/stories/pure-task-list.stories.ts",
-        "hash": "7833483241828728022"
-      },
-      {
-        "file": ".vscode/extensions.json",
-        "hash": "15904881119927760751"
-      },
-      {
-        "file": "libs/taskbox/.storybook/main.ts",
-        "hash": "10781105310313785479"
-      },
-      {
-        "file": "tools/generators/.gitkeep",
-        "hash": "3244421341483603138"
-      },
-      {
-        "file": "libs/taskbox/src/app/app.component.spec.ts",
-        "hash": "12888756559149429168"
       },
       {
         "file": "libs/taskbox/src/component/header.component.ts",
         "hash": "12073321058895621805"
       },
       {
-        "file": "install_nvm.sh",
-        "hash": "12969160823748411578"
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
       },
       {
-        "file": "CONTRIBUTING.md",
-        "hash": "7292422667862952624"
+        "file": "libs/taskbox/src/assets/font/OpenSans-Regular-webfont.woff",
+        "hash": "6197762826517582924"
       },
       {
-        "file": "libs/taskbox/src/models/task.model.ts",
-        "hash": "12175197155876681929"
-      },
-      {
-        "file": "libs/taskbox/src/stories/task.stories.ts",
-        "hash": "1451894069737922369"
-      },
-      {
-        "file": "libs/taskbox/tsconfig.app.json",
-        "hash": "11674506502668556549"
-      },
-      {
-        "file": ".github/workflows/webpack.yml",
-        "hash": "2707978674590829931"
-      },
-      {
-        "file": "libs/taskbox/src/environments/environment.ts",
-        "hash": "17793792023430508628"
-      },
-      {
-        "file": "docs/img_3.png",
-        "hash": "46462135247364071"
-      },
-      {
-        "file": "libs/taskbox/src/assets/font/OpenSans-Regular-webfont.ttf",
-        "hash": "8849298556884403679"
-      },
-      {
-        "file": "libs/taskbox/tsconfig.spec.json",
-        "hash": "4359485005703740431"
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
       },
       {
         "file": "libs/taskbox/.storybook/tsconfig.json",
         "hash": "8925834623798574605"
       },
       {
-        "file": "libs/taskbox/README.md",
-        "hash": "8096802999119147848"
+        "file": "tools/tsconfig.tools.json",
+        "hash": "16088922570277978783"
       },
       {
-        "file": "libs/taskbox/package.json",
-        "hash": "3471649818544337497"
+        "file": ".github/workflows/node.js.yml",
+        "hash": "6949666454790292611"
       },
       {
-        "file": "migrations.json",
-        "hash": "13769521948122205560"
+        "file": "libs/taskbox/tsconfig.spec.json",
+        "hash": "4359485005703740431"
       },
       {
-        "file": "libs/taskbox/src/stories/Button.stories.ts",
-        "hash": "4458449964889960971"
+        "file": "jest.preset.js",
+        "hash": "9084884494335109525"
       },
       {
-        "file": ".gitignore",
-        "hash": "11870854792216396251"
+        "file": "docs/Screenshot 2023-09-02 at 19.47.18.png",
+        "hash": "10686849058296690588"
+      },
+      {
+        "file": "libs/taskbox/src/assets/icon/percolate.eot",
+        "hash": "8658131508729243255"
+      },
+      {
+        "file": "libs/taskbox/src/styles.css",
+        "hash": "2640460961096832717"
+      },
+      {
+        "file": "libs/state-management-lifecycle.png",
+        "hash": "1193653798388182329"
       },
       {
         "file": "libs/taskbox/.gitignore",
         "hash": "13044518069027839699"
       },
       {
-        "file": "libs/taskbox/src/component/inbox-screen.component.ts",
-        "hash": "16983051632738839818"
+        "file": "libs/taskbox/src/component/task.component.ts",
+        "hash": "2338552481887359952"
+      },
+      {
+        "file": "libs/taskbox/jest.config.js",
+        "hash": "12056795808107990645"
+      },
+      {
+        "file": "libs/taskbox/src/component/task-list.component.ts",
+        "hash": "14431163303189693471"
+      },
+      {
+        "file": "libs/taskbox/src/stories/Page.stories.ts",
+        "hash": "15356633403537849185"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "11870854792216396251"
+      },
+      {
+        "file": "docs/img_1.png",
+        "hash": "5515288466683885995"
+      },
+      {
+        "file": "libs/taskbox/src/index.html",
+        "hash": "14723553221074313730"
+      },
+      {
+        "file": "libs/taskbox/tsconfig.json",
+        "hash": "12681081656146497259"
+      },
+      {
+        "file": "libs/taskbox/src/stories/page.css",
+        "hash": "9171863330815678835"
+      },
+      {
+        "file": "CONTRIBUTING.md",
+        "hash": "7292422667862952624"
+      },
+      {
+        "file": "libs/taskbox/src/models/User.ts",
+        "hash": "9988775987256797551"
+      },
+      {
+        "file": "libs/taskbox/src/favicon.ico",
+        "hash": "3464744996580215640"
+      },
+      {
+        "file": "libs/taskbox/src/environments/environment.prod.ts",
+        "hash": "10220522844224226756"
+      },
+      {
+        "file": "libs/taskbox/documentation.json",
+        "hash": "11710227036029424265"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "9290651314386082910"
+      },
+      {
+        "file": "libs/taskbox/src/app/app.component.html",
+        "hash": "9751251144335046794"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "15388041757782744192"
+      },
+      {
+        "file": "libs/taskbox/.storybook/preview.ts",
+        "hash": "6498295468661793429"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "12396684845175296326"
+      },
+      {
+        "file": ".github/workflows/webpack.yml",
+        "hash": "2707978674590829931"
+      },
+      {
+        "file": "LICENSE",
+        "hash": "12649885980860800067"
+      },
+      {
+        "file": ".github/ISSUE_TEMPLATE/bug_report.md",
+        "hash": "15424388660508099364"
+      },
+      {
+        "file": "libs/taskbox/package.json",
+        "hash": "3471649818544337497"
+      },
+      {
+        "file": "libs/taskbox/src/stories/pure-inbox-screen.stories.ts",
+        "hash": "4084381721302669223"
       },
       {
         "file": "libs/taskbox/src/component/button.component.ts",
         "hash": "17850519101349321295"
       },
       {
-        "file": "libs/.gitkeep",
+        "file": "docs/img_7.png",
+        "hash": "9380007213185837752"
+      },
+      {
+        "file": "libs/taskbox/src/component/pure-inbox-screen.component.ts",
+        "hash": "14171265719750198628"
+      },
+      {
+        "file": "libs/taskbox/src/stories/Header.stories.ts",
+        "hash": "5194099333399842256"
+      },
+      {
+        "file": "libs/taskbox/src/stories/header.css",
+        "hash": "17474774144842035713"
+      },
+      {
+        "file": "libs/taskbox/src/models/task.model.ts",
+        "hash": "12175197155876681929"
+      },
+      {
+        "file": "libs/taskbox/tsconfig.app.json",
+        "hash": "11674506502668556549"
+      },
+      {
+        "file": "documentation.json",
+        "hash": "2667156963467079004"
+      },
+      {
+        "file": "SECURITY.md",
+        "hash": "16303909172738556757"
+      },
+      {
+        "file": "libs/taskbox/angular.json",
+        "hash": "13526939996040544903"
+      },
+      {
+        "file": "libs/taskbox/src/assets/.gitkeep",
         "hash": "3244421341483603138"
       },
       {
@@ -274,231 +334,131 @@
         "hash": "11834239857921505230"
       },
       {
-        "file": "docs/img_4.png",
-        "hash": "4511888658319960845"
-      },
-      {
-        "file": "libs/taskbox/src/assets/icon/percolate.woff",
-        "hash": "16797934502539331207"
-      },
-      {
-        "file": "libs/taskbox/src/app/app.component.ts",
-        "hash": "13346827446276254150"
-      },
-      {
-        "file": "docs/img.png",
-        "hash": "11176018837917209388"
-      },
-      {
-        "file": "libs/taskbox/src/stories/assets/direction.svg",
-        "hash": "2992177702218565737"
-      },
-      {
-        "file": "libs/taskbox/angular.json",
-        "hash": "13526939996040544903"
-      },
-      {
-        "file": "libs/taskbox/src/component/task-list.component.ts",
-        "hash": "14431163303189693471"
-      },
-      {
-        "file": "documentation.json",
-        "hash": "2667156963467079004"
-      },
-      {
-        "file": "libs/taskbox/src/assets/font/OpenSans-Regular-webfont.svg",
-        "hash": "5617473100767146446"
-      },
-      {
-        "file": "libs/taskbox/src/index.html",
-        "hash": "14723553221074313730"
-      },
-      {
-        "file": "apps/.gitkeep",
-        "hash": "3244421341483603138"
-      },
-      {
-        "file": "docs/img_5.png",
-        "hash": "15936755910953363838"
+        "file": "libs/taskbox/src/state/task.state.ts",
+        "hash": "10586480013847525651"
       },
       {
         "file": "libs/taskbox/src/assets/font/OpenSans-Light-webfont.ttf",
         "hash": "1332536706352581692"
       },
       {
-        "file": "libs/taskbox/src/app/app.module.ts",
-        "hash": "18383306943855670612"
-      },
-      {
-        "file": ".github/workflows/chromatic.yml",
-        "hash": "3686165267100462510"
-      },
-      {
-        "file": "libs/taskbox/src/stories/header.css",
-        "hash": "17474774144842035713"
-      },
-      {
-        "file": "libs/taskbox/src/stories/Introduction.mdx",
-        "hash": "4284128446798832252"
-      },
-      {
-        "file": "libs/taskbox/src/assets/icon/percolate.eot",
-        "hash": "8658131508729243255"
-      },
-      {
-        "file": ".github/dependabot.yml",
-        "hash": "192641425318039133"
-      },
-      {
-        "file": "docs/img_7.png",
-        "hash": "9380007213185837752"
-      },
-      {
-        "file": "libs/taskbox/jest-global-mocks.ts",
-        "hash": "2181111143968802888"
-      },
-      {
-        "file": "libs/taskbox/src/component/pure-task-list.component.ts",
-        "hash": "9261469395647995457"
-      },
-      {
-        "file": "SECURITY.md",
-        "hash": "16303909172738556757"
-      },
-      {
-        "file": "libs/taskbox/src/stories/assets/flow.svg",
-        "hash": "18413723651031157086"
-      },
-      {
-        "file": "libs/taskbox/src/stories/assets/code-brackets.svg",
-        "hash": "1112009941262053247"
-      },
-      {
-        "file": "docs/Screenshot 2023-09-02 at 19.47.18.png",
-        "hash": "10686849058296690588"
-      },
-      {
-        "file": "jest.preset.js",
-        "hash": "9084884494335109525"
-      },
-      {
-        "file": ".npmrc",
-        "hash": "18085261541358865259"
-      },
-      {
-        "file": "docs/img_1.png",
-        "hash": "5515288466683885995"
-      },
-      {
-        "file": "libs/taskbox/src/stories/Page.stories.ts",
-        "hash": "15356633403537849185"
-      },
-      {
-        "file": "libs/taskbox/src/assets/icon/percolate.svg",
-        "hash": "17640990790396274581"
-      },
-      {
-        "file": "docs/img_2.png",
-        "hash": "9290370410852492298"
-      },
-      {
-        "file": "libs/taskbox/src/component/task.component.ts",
-        "hash": "2338552481887359952"
-      },
-      {
-        "file": "libs/taskbox/src/assets/font/OpenSans-Light-webfont.eot",
-        "hash": "3532527554520708655"
-      },
-      {
-        "file": "jest.config.ts",
-        "hash": "12333515226966617182"
-      },
-      {
         "file": "libs/taskbox/src/assets/icon/percolate.ttf",
         "hash": "8800119679438948561"
       },
       {
-        "file": "libs/taskbox/src/state/task.state.ts",
-        "hash": "10586480013847525651"
-      },
-      {
-        "file": "libs/taskbox/src/stories/assets/repo.svg",
-        "hash": "15497985304567474255"
-      },
-      {
-        "file": "libs/taskbox/build-storybook.log",
-        "hash": "17412562054383221370"
-      },
-      {
-        "file": "tools/tsconfig.tools.json",
-        "hash": "16088922570277978783"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "9290651314386082910"
-      },
-      {
-        "file": "libs/taskbox/src/environments/environment.prod.ts",
-        "hash": "10220522844224226756"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "12396684845175296326"
-      },
-      {
-        "file": ".eslintrc.json",
-        "hash": "15388041757782744192"
-      },
-      {
-        "file": "libs/taskbox/src/assets/.gitkeep",
-        "hash": "3244421341483603138"
-      },
-      {
-        "file": "libs/taskbox/tsconfig.json",
-        "hash": "12681081656146497259"
-      },
-      {
-        "file": "package.json",
-        "hash": "18228229077192153660"
-      },
-      {
-        "file": "libs/taskbox/src/assets/font/OpenSans-Light-webfont.svg",
-        "hash": "1390191217771912412"
-      },
-      {
-        "file": "README.md",
-        "hash": "13313949643664986106"
-      },
-      {
-        "file": "libs/state-management-lifecycle.png",
-        "hash": "1193653798388182329"
-      },
-      {
-        "file": "libs/taskbox/src/app/app.component.html",
-        "hash": "9751251144335046794"
+        "file": "libs/taskbox/src/stories/assets/plugin.svg",
+        "hash": "17508760966257502997"
       },
       {
         "file": "libs/taskbox/src/component/task.module.ts",
         "hash": "11609820578515484856"
       },
       {
+        "file": ".github/dependabot.yml",
+        "hash": "192641425318039133"
+      },
+      {
+        "file": "libs/taskbox/.editorconfig",
+        "hash": "6686520031028425313"
+      },
+      {
+        "file": "README.md",
+        "hash": "13313949643664986106"
+      },
+      {
+        "file": "libs/taskbox/src/polyfills.ts",
+        "hash": "15091689921193650669"
+      },
+      {
+        "file": "libs/taskbox/src/assets/font/OpenSans-Regular-webfont.svg",
+        "hash": "5617473100767146446"
+      },
+      {
+        "file": "docs/img_4.png",
+        "hash": "4511888658319960845"
+      },
+      {
+        "file": ".github/workflows/chromatic.yml",
+        "hash": "3686165267100462510"
+      },
+      {
+        "file": "libs/taskbox/build-storybook.log",
+        "hash": "17412562054383221370"
+      },
+      {
+        "file": "libs/taskbox/src/app/app.component.css",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "15904881119927760751"
+      },
+      {
+        "file": "libs/taskbox/src/stories/assets/stackalt.svg",
+        "hash": "1180133531210893970"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "12333515226966617182"
+      },
+      {
+        "file": "CODE_OF_CONDUCT.md",
+        "hash": "362924274649002263"
+      },
+      {
+        "file": "decorate-angular-cli.js",
+        "hash": "9396980645667025874"
+      },
+      {
+        "file": "libs/taskbox/setup-jest.ts",
+        "hash": "17711435995618823417"
+      },
+      {
+        "file": "libs/taskbox/README.md",
+        "hash": "8096802999119147848"
+      },
+      {
+        "file": "package.json",
+        "hash": "18228229077192153660"
+      },
+      {
+        "file": "libs/taskbox/src/app/app.component.ts",
+        "hash": "13346827446276254150"
+      },
+      {
+        "file": "apps/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "libs/taskbox/src/stories/Button.stories.ts",
+        "hash": "4458449964889960971"
+      },
+      {
+        "file": ".npmrc",
+        "hash": "18085261541358865259"
+      },
+      {
+        "file": "libs/taskbox/src/stories/assets/direction.svg",
+        "hash": "2992177702218565737"
+      },
+      {
         "file": "libs/taskbox/src/stories/assets/colors.svg",
         "hash": "70613787918346063"
       },
       {
-        "file": ".editorconfig",
-        "hash": "5443105041930014821"
+        "file": "libs/taskbox/src/component/page.component.ts",
+        "hash": "10029251599460891853"
       },
       {
-        "file": ".github/workflows/jekyll-gh-pages.yml",
-        "hash": "2282276520538835066"
+        "file": "docs/img_3.png",
+        "hash": "46462135247364071"
       },
       {
-        "file": "LICENSE",
-        "hash": "12649885980860800067"
+        "file": "libs/taskbox/src/stories/assets/code-brackets.svg",
+        "hash": "1112009941262053247"
       },
       {
-        "file": "libs/taskbox/src/app/app.component.css",
+        "file": "NX",
         "hash": "3244421341483603138"
       },
       {
@@ -506,104 +466,144 @@
         "hash": "16934243729813412271"
       },
       {
-        "file": "libs/taskbox/src/stories/button.css",
-        "hash": "11442119154654082062"
-      },
-      {
-        "file": "libs/taskbox/src/assets/font/OpenSans-Regular-webfont.eot",
-        "hash": "7642037625623817606"
-      },
-      {
-        "file": "libs/taskbox/src/component/pure-inbox-screen.component.ts",
-        "hash": "14171265719750198628"
-      },
-      {
-        "file": "libs/taskbox/.storybook/preview.ts",
-        "hash": "6498295468661793429"
-      },
-      {
-        "file": "libs/taskbox/src/stories/page.css",
-        "hash": "9171863330815678835"
-      },
-      {
-        "file": "libs/taskbox/documentation.json",
-        "hash": "11710227036029424265"
-      },
-      {
-        "file": "libs/taskbox/src/stories/Header.stories.ts",
-        "hash": "5194099333399842256"
-      },
-      {
-        "file": ".prettierignore",
-        "hash": "3356760868306086659"
-      },
-      {
-        "file": "libs/taskbox/.editorconfig",
-        "hash": "6686520031028425313"
-      },
-      {
-        "file": "libs/taskbox/src/stories/.eslintrc.json",
-        "hash": "12125950398489006457"
-      },
-      {
-        "file": ".github/ISSUE_TEMPLATE/bug_report.md",
-        "hash": "15424388660508099364"
-      },
-      {
-        "file": "libs/taskbox/src/stories/pure-inbox-screen.stories.ts",
-        "hash": "4084381721302669223"
-      },
-      {
         "file": "docs/img_6.png",
         "hash": "7483267552362712180"
       },
       {
-        "file": "NX",
-        "hash": "3244421341483603138"
+        "file": "libs/taskbox/src/assets/font/OpenSans-Light-webfont.svg",
+        "hash": "1390191217771912412"
       },
       {
-        "file": "libs/taskbox/.storybook/typings.d.ts",
-        "hash": "12793257465398711957"
+        "file": "docs/img_2.png",
+        "hash": "9290370410852492298"
       },
       {
-        "file": "libs/taskbox/src/favicon.ico",
-        "hash": "3464744996580215640"
+        "file": "libs/taskbox/.storybook/main.ts",
+        "hash": "10781105310313785479"
       },
       {
-        "file": "libs/taskbox/src/stories/assets/stackalt.svg",
-        "hash": "1180133531210893970"
+        "file": "libs/taskbox/src/component/pure-task-list.component.ts",
+        "hash": "9261469395647995457"
       },
       {
-        "file": "libs/taskbox/src/assets/font/OpenSans-Regular-webfont.woff",
-        "hash": "6197762826517582924"
+        "file": "libs/taskbox/src/stories/task.stories.ts",
+        "hash": "1451894069737922369"
+      },
+      {
+        "file": ".github/workflows/jekyll-gh-pages.yml",
+        "hash": "2282276520538835066"
+      },
+      {
+        "file": "docs/img_5.png",
+        "hash": "15936755910953363838"
       },
       {
         "file": "Commands.md",
         "hash": "16948933742312889833"
       },
       {
-        "file": "libs/taskbox/setup-jest.ts",
-        "hash": "17711435995618823417"
+        "file": "libs/taskbox/src/stories/pure-task-list.stories.ts",
+        "hash": "7833483241828728022"
       },
       {
-        "file": "CODE_OF_CONDUCT.md",
-        "hash": "362924274649002263"
+        "file": "libs/taskbox/src/assets/font/OpenSans-Regular-webfont.ttf",
+        "hash": "8849298556884403679"
       },
       {
-        "file": "libs/taskbox/src/polyfills.ts",
-        "hash": "15091689921193650669"
+        "file": "docs/img.png",
+        "hash": "11176018837917209388"
       },
       {
-        "file": "libs/taskbox/src/models/User.ts",
-        "hash": "9988775987256797551"
+        "file": ".prettierignore",
+        "hash": "3356760868306086659"
       },
       {
-        "file": "libs/taskbox/jest.config.js",
-        "hash": "12056795808107990645"
+        "file": "libs/taskbox/src/environments/environment.ts",
+        "hash": "17793792023430508628"
       },
       {
-        "file": "libs/taskbox/src/styles.css",
-        "hash": "2640460961096832717"
+        "file": "libs/taskbox/src/stories/assets/flow.svg",
+        "hash": "18413723651031157086"
+      },
+      {
+        "file": "libs/taskbox/src/assets/font/OpenSans-Light-webfont.eot",
+        "hash": "3532527554520708655"
+      },
+      {
+        "file": "libs/taskbox/src/assets/icon/percolate.woff",
+        "hash": "16797934502539331207"
+      },
+      {
+        "file": "libs/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "libs/taskbox/src/component/inbox-screen.component.ts",
+        "hash": "16983051632738839818"
+      },
+      {
+        "file": "libs/taskbox/src/stories/assets/comments.svg",
+        "hash": "9521503280802117255"
+      },
+      {
+        "file": "libs/taskbox/src/main.ts",
+        "hash": "12246588107753938993"
+      },
+      {
+        "file": "libs/taskbox/src/app/app.module.ts",
+        "hash": "18383306943855670612"
+      },
+      {
+        "file": "libs/taskbox/src/assets/icon/percolate.svg",
+        "hash": "17640990790396274581"
+      },
+      {
+        "file": "libs/taskbox/src/assets/font/OpenSans-Light-webfont.woff",
+        "hash": "13230354004337104944"
+      },
+      {
+        "file": "libs/taskbox/src/app/app.component.spec.ts",
+        "hash": "12888756559149429168"
+      },
+      {
+        "file": "migrations.json",
+        "hash": "13769521948122205560"
+      },
+      {
+        "file": "libs/taskbox/src/stories/.eslintrc.json",
+        "hash": "12125950398489006457"
+      },
+      {
+        "file": "libs/taskbox/jest-global-mocks.ts",
+        "hash": "2181111143968802888"
+      },
+      {
+        "file": "libs/taskbox/src/stories/Introduction.mdx",
+        "hash": "4284128446798832252"
+      },
+      {
+        "file": "libs/taskbox/src/assets/font/OpenSans-Regular-webfont.eot",
+        "hash": "7642037625623817606"
+      },
+      {
+        "file": "libs/taskbox/src/stories/assets/repo.svg",
+        "hash": "15497985304567474255"
+      },
+      {
+        "file": "tools/generators/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "libs/taskbox/src/stories/button.css",
+        "hash": "11442119154654082062"
+      },
+      {
+        "file": "libs/taskbox/.storybook/typings.d.ts",
+        "hash": "12793257465398711957"
+      },
+      {
+        "file": "install_nvm.sh",
+        "hash": "12969160823748411578"
       }
     ],
     "projectFileMap": {
@@ -1603,14 +1603,6 @@
           ]
         },
         {
-          "file": "libs/pages/src/lib/blog/blog-details/blog-detail/blog-detail.component.css",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "libs/pages/src/lib/blog/blog-details/blog-detail/blog-detail.component.html",
-          "hash": "14442329478254503719"
-        },
-        {
           "file": "libs/pages/src/lib/blog/blog-details/blog-detail/blog-detail.component.spec.ts",
           "hash": "10055232132415331164",
           "deps": [
@@ -1619,17 +1611,13 @@
         },
         {
           "file": "libs/pages/src/lib/blog/blog-details/blog-detail/blog-detail.component.ts",
-          "hash": "11146963951599778125",
+          "hash": "12327262112136126135",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/router",
             "components",
             "npm:@angular/common"
           ]
-        },
-        {
-          "file": "libs/pages/src/lib/blog/blog-details/blog-details.component.css",
-          "hash": "3244421341483603138"
         },
         {
           "file": "libs/pages/src/lib/blog/blog-details/blog-details.component.html",
@@ -1644,7 +1632,7 @@
         },
         {
           "file": "libs/pages/src/lib/blog/blog-details/blog-details.component.ts",
-          "hash": "12229925188430343536",
+          "hash": "1533672484286434006",
           "deps": [
             "npm:@angular/core",
             "npm:@ngrx/store",

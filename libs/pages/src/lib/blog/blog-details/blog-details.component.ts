@@ -15,7 +15,7 @@ import {NgIf} from "@angular/common";
   </div>
 
   <ng-template #loadingElement>Loading...</ng-template>`,
-  styleUrl: './blog-details.component.css',
+  styles: [``],
 })
 export class BlogDetailsComponent {
   details= this.store.selectSignal(selectTechBlogById);
