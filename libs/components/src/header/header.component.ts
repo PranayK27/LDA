@@ -31,28 +31,28 @@ import type { User } from '../shared/User';
             Welcome, <b>{{ user.name }}</b
           >!
           </span>
-              <storybook-button
+              <lda-storybook-button
                 *ngIf="user"
                 size="small"
                 (onClick)="onLogout.emit($event)"
                 label="Log out"
-              ></storybook-button>
+              ></lda-storybook-button>
             </div>
             <div *ngIf="!user">
-              <storybook-button
+              <lda-storybook-button
                 *ngIf="!user"
                 size="small"
                 class="margin-left"
                 (onClick)="onLogin.emit($event)"
                 label="Log in"
-              ></storybook-button>
-              <storybook-button
+              ></lda-storybook-button>
+              <lda-storybook-button
                 *ngIf="!user"
                 size="small"
                 class="margin-left"
                 (onClick)="onCreateAccount.emit($event)"
                 label="Sign up"
-              ></storybook-button>
+              ></lda-storybook-button>
             </div>
           </div>
         </div>

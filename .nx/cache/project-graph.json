@@ -24554,6 +24554,16 @@
       },
       {
         "source": "pages",
+        "target": "components",
+        "type": "static"
+      },
+      {
+        "source": "pages",
+        "target": "npm:@angular/common",
+        "type": "static"
+      },
+      {
+        "source": "pages",
         "target": "npm:@ngneat/until-destroy",
         "type": "static"
       },
@@ -24569,17 +24579,7 @@
       },
       {
         "source": "pages",
-        "target": "npm:@angular/common",
-        "type": "static"
-      },
-      {
-        "source": "pages",
         "target": "npm:angular2-notifications",
-        "type": "static"
-      },
-      {
-        "source": "pages",
-        "target": "components",
         "type": "static"
       },
       {
@@ -24590,6 +24590,11 @@
       {
         "source": "pages",
         "target": "npm:angular-in-memory-web-api",
+        "type": "static"
+      },
+      {
+        "source": "pages",
+        "target": "npm:@ngrx/component-store",
         "type": "static"
       },
       {

@@ -45,17 +45,17 @@ export const { selectRouteParams } = getRouterSelectors();
 
 // without entity state and adapter in the reducer, here we directly get the blogs state,
 // in the other we get a dictionary data structure where we have to tap into entity for blogs and then find by key(id)
-// export const selectTechBlogById = createSelector(
-//   selectRouteParams,
-//   selectTechState,
-//   ({ id }, { blogs }) =>
-//     blogs.find((blog) => blog.id === id)
-// );
-
-export const selectTechBlogById= createSelector(
-  selectBlogsEntities,
+export const selectTechBlogById = createSelector(
   selectRouteParams,
-  // blogEntities will return a dictionary of type tech interface,
-  // we need values but finding through id wont work for tech since we have have to find it into blogs
-  ({ blogEntities}, { id }) => blogEntities?.blogs.find(i => i.id === id)
+  selectTechState,
+  ({ id }, { blogs }) =>
+    blogs.find((blog) => blog.id === id)
 );
+
+// export const selectTechBlogById= createSelector(
+//   selectBlogsEntities,
+//   selectRouteParams,
+//   // blogEntities will return a dictionary of type tech interface,
+//   // we need values but finding through id wont work for tech since we have have to find it into blogs
+//   ({ blogEntities}, { id }) => blogEntities?.blogs.find(i => i.id === id)
+// );

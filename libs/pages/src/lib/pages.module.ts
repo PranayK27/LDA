@@ -51,7 +51,12 @@ import {BlogDetailsComponent} from "./blog/blog-details/blog-details.component";
     HttpClientModule,
     HttpClientInMemoryWebApiModule.forRoot(InMemoryDataService),
     StoreModule.forFeature('pages', pagesReducer),
-    EffectsModule.forFeature([PagesEffects])
+    EffectsModule.forFeature([PagesEffects]),
+    BlogComponent,
+    Page404Component,
+    BlogListComponent,
+    BlogDetailComponent,
+    BlogDetailsComponent
   ],
   exports: [
     FullComponent,
@@ -59,14 +64,11 @@ import {BlogDetailsComponent} from "./blog/blog-details/blog-details.component";
     BannerComponent,
     PagesRoutingModule,
     BannerNavigationComponent,
-    ButtonComponent
+    ButtonComponent,
+    Page404Component
   ],
   declarations: [
-    BlogComponent,
     AboutComponent,
-    BlogDetailComponent,
-    BlogDetailsComponent,
-    BlogListComponent,
     RelayOnComponent,
     TopContentComponent,
     FullComponent,
@@ -76,7 +78,6 @@ import {BlogDetailsComponent} from "./blog/blog-details/blog-details.component";
     FooterComponent,
     LoginComponent,
     RegistrationComponent,
-    Page404Component,
     Page500Component,
   ],
 })
