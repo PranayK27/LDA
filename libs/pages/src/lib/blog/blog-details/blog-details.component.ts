@@ -8,13 +8,14 @@ import {NgIf} from "@angular/common";
   standalone: true,
   selector: 'lda-blog-details',
   imports: [BlogDetailComponent, NgIf],
-  template: `<div *ngIf="!loading(); else loadingElement">
-    <lda-blog-detail
-      [detail]="details"
-    ></lda-blog-detail>
-  </div>
-
-  <ng-template #loadingElement>Loading...</ng-template>`,
+  template: `
+    @if (!loading()){
+      <lda-blog-detail
+        [detail]="details"
+      ></lda-blog-detail>
+    } @else {
+      <ng-template #loadingElement>Loading...</ng-template>\`
+    }`,
   styles: [``],
 })
 export class BlogDetailsComponent {

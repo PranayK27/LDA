@@ -1,11 +1,32 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-relay-on',
-  templateUrl: './relay-on.component.html',
-  styleUrls: ['./relay-on.component.css']
+  standalone: true,
+  selector: 'lda-relay-on',
+  template: `
+    <div class="row m-t-30">
+      <!-- Column -->
+      <div class="col-md-4 wrap-feature1-box">
+        @for (relay of relayOn; track relay.field) {
+        <div class="card card-shadow" data-aos="fade-right" data-aos-duration="1200">
+          <div class="card-body p-40 text-center">
+            <div class="icon-space display-5">
+              <i [class]="relay.icon"></i>
+            </div>
+            <h5 class="font-medium">{{relay.field}}</h5>
+            <p class="m-t-20">
+              {{relay.fieldText}}
+            </p>
+          </div>
+        </div>
+        }
+      </div>
+
+    </div>
+  `,
+  styles: [``]
 })
-export class RelayOnComponent implements OnInit {
+export class RelayOnComponent  {
 
   relayOn = [
     {
@@ -25,9 +46,7 @@ export class RelayOnComponent implements OnInit {
     }
   ];
 
+  // eslint-disable-next-line @typescript-eslint/no-empty-function
   constructor() { }
-
-  ngOnInit(): void {
-  }
 
 }

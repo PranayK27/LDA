@@ -1,10 +1,5 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { BlogComponent } from './blog/blog.component';
-import { BlogDetailComponent } from './blog/blog-details/blog-detail/blog-detail.component';
-import { AboutComponent } from './about/about.component';
-import { RelayOnComponent } from './about/About-Components/relay-on/relay-on.component';
-import { TopContentComponent } from './about/About-Components/top-content/top-content.component';
 import { FullComponent } from './layout/full/full.component';
 import { BannerComponent } from './shared/banner/banner.component';
 import { BannerNavigationComponent } from './shared/banner-navigation/banner-navigation.component';
@@ -23,18 +18,14 @@ import { MatInputModule } from '@angular/material/input';
 import { FormControlModule } from '../../../components/src/form-control';
 import { RegistrationComponent } from './registration/registration.component';
 // eslint-disable-next-line @nrwl/nx/enforce-module-boundaries
-import ButtonComponent from "../../../components/src/button/button.component";
-import {Page404Component} from "./page404/page404.component";
 import {Page500Component} from "./page500/page500.component";
 import {StoreModule} from "@ngrx/store";
-import {BlogListComponent} from "./blog/blog-list/blog-list.component";
 import {pagesReducer} from "./+state/pages.reducer";
 import {HttpClientModule} from "@angular/common/http";
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import {InMemoryDataService} from "./services/InMemoryDataService.service";
 import {EffectsModule} from "@ngrx/effects";
 import {PagesEffects} from "./+state/pages.effects";
-import {BlogDetailsComponent} from "./blog/blog-details/blog-details.component";
 
 @NgModule({
   imports: [
@@ -52,25 +43,13 @@ import {BlogDetailsComponent} from "./blog/blog-details/blog-details.component";
     HttpClientInMemoryWebApiModule.forRoot(InMemoryDataService),
     StoreModule.forFeature('pages', pagesReducer),
     EffectsModule.forFeature([PagesEffects]),
-    BlogComponent,
-    Page404Component,
-    BlogListComponent,
-    BlogDetailComponent,
-    BlogDetailsComponent
   ],
   exports: [
-    FullComponent,
     FooterComponent,
     BannerComponent,
     PagesRoutingModule,
-    BannerNavigationComponent,
-    ButtonComponent,
-    Page404Component
   ],
   declarations: [
-    AboutComponent,
-    RelayOnComponent,
-    TopContentComponent,
     FullComponent,
     BannerComponent,
     BannerContentComponent,
