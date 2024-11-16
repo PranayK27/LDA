@@ -66,6 +66,7 @@
     "@babel/core": "^7.24.0",
     "@compodoc/compodoc": "^1.1.25",
     "@ngrx/schematics": "17.1.1",
+    "@ngrx/signals": "^18.1.1",
     "@ngrx/store-devtools": "17.1.1",
     "@nrwl/angular": "18.0.7",
     "@nrwl/cli": "^15.9.7",

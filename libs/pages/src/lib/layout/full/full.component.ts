@@ -1,15 +1,39 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import {BannerComponent} from "../../shared/banner/banner.component";
+import {FooterComponent} from "../../shared/footer/footer.component";
+import {RouterOutlet} from "@angular/router";
 
 @Component({
+  standalone: true,
   selector: 'lda-full',
-  templateUrl: './full.component.html',
-  styleUrls: ['./full.component.css']
+  imports: [BannerComponent, FooterComponent, RouterOutlet],
+  template: `
+    <div id="main-wrapper">
+      <div class="page-wrapper">
+        <!-- ============================================================== -->
+        <!-- Container fluid  -->
+        <!-- ============================================================== -->
+        <div class="container-fluid">
+
+          <div class="blog-home2">
+            <div>
+              <lda-banner></lda-banner>
+              <router-outlet></router-outlet>
+              <lda-footer></lda-footer>
+            </div>
+          </div>
+        </div>
+        <!-- ============================================================== -->
+        <!-- End Container fluid  -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Back to top -->
+        <!-- ============================================================== -->
+      </div>
+
+    </div>
+
+  `,
+  styles: [``]
 })
-export class FullComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
-}
+export class FullComponent  {}
