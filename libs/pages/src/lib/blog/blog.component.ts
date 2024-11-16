@@ -4,7 +4,7 @@ import {UntilDestroy} from "@ngneat/until-destroy";
 import {describeTech, loadTech} from "../+state/pages.actions";
 import {selectTechDesc, selectTechErrorMessage, selectTechLoading} from "../+state/pages.selector";
 import {PagesStore} from "../pages.store";
-import {AsyncPipe, NgIf} from "@angular/common";
+import {AsyncPipe} from "@angular/common";
 import {Page404Component} from "../page404/page404.component";
 import {BlogListComponent} from "./blog-list/blog-list.component";
 
@@ -12,9 +12,9 @@ import {BlogListComponent} from "./blog-list/blog-list.component";
 @Component({
   standalone: true,
   selector: 'lda-blog',
-  imports: [NgIf, AsyncPipe, Page404Component, BlogListComponent],
+  imports: [AsyncPipe, Page404Component, BlogListComponent],
   template: `
-    <div *ngIf="!loading() && errorMessage() === ''">
+      @if (!loading() && errorMessage() === '') {
       <div
         class="static-slider-head"
       >
@@ -62,12 +62,11 @@ import {BlogListComponent} from "./blog-list/blog-list.component";
           </lda-blog-list>
         </div>
       </div>
-    </div>
-
-    <!-- Error Message -->
-    <div *ngIf="loading() && errorMessage()">
-      <lda-page404></lda-page404>
-    </div>
+      }
+      @else if(loading() && errorMessage()) {
+        <!-- Error Message -->
+        <lda-page404></lda-page404>
+      }
   `,
   styles: [`.title{
     font-size: 40px;
