@@ -1,13 +1,13 @@
-import {booleanAttribute, Component, EventEmitter, Input, Output} from '@angular/core';
+import {Component, EventEmitter, Input, Output, Signal} from '@angular/core';
 import {Blog} from "../../model/blog-type";
 import {BlogService} from "../../services/blog-service.service";
 import {Router} from "@angular/router";
-import {NgFor, NgIf} from "@angular/common";
+import {NgIf} from "@angular/common";
 
 @Component({
   standalone: true,
   selector: 'lda-blog-list',
-  imports: [NgFor, NgIf],
+  imports: [NgIf],
   template: `<div>
     <input
       id="showTechUsage"
@@ -21,8 +21,8 @@ import {NgFor, NgIf} from "@angular/common";
     <!-- Column -->
     <div
       class="col-md-12 no-trans border-bottom mb-4 justify-content-center"
-      *ngFor="let bl of blogs"
     >
+      @for (bl of blogs; track bl.id) {
       <div class="card" data-aos="flip-left" data-aos-duration="1200">
         <div class="row">
           <div class="col-md-2 no-trans">
@@ -45,14 +45,15 @@ import {NgFor, NgIf} from "@angular/common";
           </div>
         </div>
       </div>
+      }
     </div>
   </div>
   `,
   styles: [``]
 })
 export class BlogListComponent {
-  @Input() blogs: Blog[] | null = [];
-  @Input({transform: booleanAttribute}) showTechDesc: boolean | null = false;
+  @Input() blogs: Blog[] = [];
+  @Input() showTechDesc: boolean | null = false;
   @Output() toggleTechDesc= new EventEmitter<void>();
 
   constructor(

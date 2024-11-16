@@ -6,8 +6,8 @@ import { Component } from '@angular/core';
   template: `
     <div class="row m-t-30">
       <!-- Column -->
+      @for (relay of relayOn; track relay.field) {
       <div class="col-md-4 wrap-feature1-box">
-        @for (relay of relayOn; track relay.field) {
         <div class="card card-shadow" data-aos="fade-right" data-aos-duration="1200">
           <div class="card-body p-40 text-center">
             <div class="icon-space display-5">
@@ -19,8 +19,8 @@ import { Component } from '@angular/core';
             </p>
           </div>
         </div>
-        }
       </div>
+      }
 
     </div>
   `,

@@ -16,7 +16,7 @@ export class PagesStore extends ComponentStore<CombinedState>{
   blogs= this.selectSignal((state) => state.blogs)
   sources$= this.select((state) => state.sources);
 
-  constructor(private service: BlogService) {
+  constructor(private readonly service: BlogService) {
     super({ blogs: [], sources: [] });
   }
 

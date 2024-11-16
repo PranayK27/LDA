@@ -34,10 +34,6 @@ import {RouterOutlet} from "@angular/router";
     </div>
 
   `,
-  styles: [`
-    lda-banner{
-      height: 100px;
-    }
-  `]
+  styles: [``]
 })
 export class FullComponent  {}

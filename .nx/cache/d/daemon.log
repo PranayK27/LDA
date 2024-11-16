@@ -21043,3 +21043,232 @@ Use "namedInputs" instead. You can run "nx repair" to automatically migrate your
 For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
 
 [NX Daemon Server] - 2024-11-16T13:04:14.588Z - Time taken for 'hash changed files from watcher' 16.06533299945295ms
+[NX Daemon Server] - 2024-11-16T13:06:39.785Z - [WATCHER]: libs/technologies/src/lib/technologies.module.ts was modified
+[NX Daemon Server] - 2024-11-16T13:06:39.788Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-16T13:06:40.885Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-16T13:06:42.787Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-16T13:06:42.831Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-16T13:06:42.884Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-16T13:06:46.196Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-16T13:06:46.198Z - [REQUEST]: libs/technologies/src/lib/technologies.module.ts
+[NX Daemon Server] - 2024-11-16T13:06:46.198Z - [REQUEST]: 
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2024-11-16T13:06:46.354Z - Time taken for 'hash changed files from watcher' 2.985709000378847ms
+[NX Daemon Server] - 2024-11-16T13:08:43.992Z - [WATCHER]: libs/pages/src/lib/layout/full/full.component.ts was modified
+[NX Daemon Server] - 2024-11-16T13:08:43.995Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-16T13:08:50.403Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-16T13:08:50.404Z - [REQUEST]: libs/pages/src/lib/layout/full/full.component.ts
+[NX Daemon Server] - 2024-11-16T13:08:50.404Z - [REQUEST]: 
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2024-11-16T13:08:50.531Z - Time taken for 'hash changed files from watcher' 3.8413749989122152ms
+[NX Daemon Server] - 2024-11-16T13:09:45.071Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-16T13:16:55.122Z - [WATCHER]: libs/pages/src/lib/blog/blog-list/blog-list.component.ts was modified
+[NX Daemon Server] - 2024-11-16T13:16:55.128Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-16T13:16:56.435Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-16T13:16:57.871Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-16T13:17:01.548Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-16T13:17:01.549Z - [REQUEST]: libs/pages/src/lib/blog/blog-list/blog-list.component.ts
+[NX Daemon Server] - 2024-11-16T13:17:01.550Z - [REQUEST]: 
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2024-11-16T13:17:01.747Z - Time taken for 'hash changed files from watcher' 12.869750000536442ms
+[NX Daemon Server] - 2024-11-16T13:19:52.463Z - [WATCHER]: libs/pages/src/lib/blog/blog.component.ts was modified
+[NX Daemon Server] - 2024-11-16T13:19:52.475Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-16T13:19:53.178Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-16T13:19:58.878Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-16T13:19:58.879Z - [REQUEST]: libs/pages/src/lib/blog/blog.component.ts
+[NX Daemon Server] - 2024-11-16T13:19:58.880Z - [REQUEST]: 
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2024-11-16T13:19:59.074Z - Time taken for 'hash changed files from watcher' 3.6265420001000166ms
+[NX Daemon Server] - 2024-11-16T14:24:21.918Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-16T14:24:21.972Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-16T14:43:06.421Z - [WATCHER]: libs/pages/src/lib/blog/blog-list/blog-list.component.ts was modified
+[NX Daemon Server] - 2024-11-16T14:43:06.425Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-16T14:43:07.243Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-16T14:43:08.551Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-16T14:43:12.835Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-16T14:43:12.837Z - [REQUEST]: libs/pages/src/lib/blog/blog-list/blog-list.component.ts
+[NX Daemon Server] - 2024-11-16T14:43:12.837Z - [REQUEST]: 
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2024-11-16T14:43:13.123Z - Time taken for 'hash changed files from watcher' 7.350333999842405ms
+[NX Daemon Server] - 2024-11-16T14:44:28.866Z - [WATCHER]: libs/pages/src/lib/blog/blog-list/blog-list.component.ts was modified
+[NX Daemon Server] - 2024-11-16T14:44:28.869Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-16T14:44:29.295Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-16T14:44:35.276Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-16T14:44:35.276Z - [REQUEST]: libs/pages/src/lib/blog/blog-list/blog-list.component.ts
+[NX Daemon Server] - 2024-11-16T14:44:35.276Z - [REQUEST]: 
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2024-11-16T14:44:35.427Z - Time taken for 'hash changed files from watcher' 3.9051660001277924ms
+[NX Daemon Server] - 2024-11-16T14:44:59.119Z - [WATCHER]: 0 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-11-16T14:44:59.121Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-16T14:44:59.596Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-16T14:45:01.275Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-16T14:45:05.531Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-16T14:45:05.533Z - [REQUEST]: libs/pages/src/lib/blog/blog.component.ts,libs/pages/src/lib/blog/blog-list/blog-list.component.ts
+[NX Daemon Server] - 2024-11-16T14:45:05.533Z - [REQUEST]: 
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2024-11-16T14:45:05.670Z - Time taken for 'hash changed files from watcher' 4.512791998684406ms
+[NX Daemon Server] - 2024-11-16T14:45:28.943Z - [WATCHER]: libs/pages/src/lib/blog/blog.component.ts was modified
+[NX Daemon Server] - 2024-11-16T14:45:28.945Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-16T14:45:29.739Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-16T14:45:31.494Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-16T14:45:35.356Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-16T14:45:35.358Z - [REQUEST]: libs/pages/src/lib/blog/blog.component.ts
+[NX Daemon Server] - 2024-11-16T14:45:35.358Z - [REQUEST]: 
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2024-11-16T14:45:35.483Z - Time taken for 'hash changed files from watcher' 7.226250000298023ms
+[NX Daemon Server] - 2024-11-16T14:49:00.043Z - [WATCHER]: 0 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-11-16T14:49:00.052Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-16T14:49:01.343Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-16T14:49:01.407Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-16T14:49:03.129Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-16T14:49:06.461Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-16T14:49:06.462Z - [REQUEST]: libs/pages/src/lib/blog/blog-list/blog-list.component.ts,libs/pages/src/lib/blog/blog.component.ts
+[NX Daemon Server] - 2024-11-16T14:49:06.462Z - [REQUEST]: 
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2024-11-16T14:49:06.618Z - Time taken for 'hash changed files from watcher' 3.9400000013411045ms
+[NX Daemon Server] - 2024-11-16T14:49:25.644Z - [WATCHER]: libs/pages/src/lib/blog/blog.component.ts was modified
+[NX Daemon Server] - 2024-11-16T14:49:25.651Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-16T14:49:26.008Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-16T14:49:32.055Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-16T14:49:32.055Z - [REQUEST]: libs/pages/src/lib/blog/blog.component.ts
+[NX Daemon Server] - 2024-11-16T14:49:32.055Z - [REQUEST]: 
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2024-11-16T14:49:32.179Z - Time taken for 'hash changed files from watcher' 1.3101669996976852ms
+[NX Daemon Server] - 2024-11-16T14:49:50.669Z - [WATCHER]: libs/pages/src/lib/blog/blog-list/blog-list.component.ts was modified
+[NX Daemon Server] - 2024-11-16T14:49:50.673Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-16T14:49:51.424Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-16T14:49:52.738Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-16T14:49:57.083Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-16T14:49:57.084Z - [REQUEST]: libs/pages/src/lib/blog/blog-list/blog-list.component.ts
+[NX Daemon Server] - 2024-11-16T14:49:57.084Z - [REQUEST]: 
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2024-11-16T14:49:57.212Z - Time taken for 'hash changed files from watcher' 6.097665999084711ms
+[NX Daemon Server] - 2024-11-16T14:50:10.953Z - [WATCHER]: libs/pages/src/lib/blog/blog.component.ts was modified
+[NX Daemon Server] - 2024-11-16T14:50:10.955Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-16T14:50:17.362Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-16T14:50:17.363Z - [REQUEST]: libs/pages/src/lib/blog/blog.component.ts
+[NX Daemon Server] - 2024-11-16T14:50:17.363Z - [REQUEST]: 
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2024-11-16T14:50:17.481Z - Time taken for 'hash changed files from watcher' 2.8313749991357327ms
+[NX Daemon Server] - 2024-11-16T14:50:26.907Z - [WATCHER]: libs/pages/src/lib/blog/blog-list/blog-list.component.ts was modified
+[NX Daemon Server] - 2024-11-16T14:50:26.911Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-16T14:50:29.390Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-16T14:50:33.317Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-16T14:50:33.319Z - [REQUEST]: libs/pages/src/lib/blog/blog-list/blog-list.component.ts
+[NX Daemon Server] - 2024-11-16T14:50:33.319Z - [REQUEST]: 
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2024-11-16T14:50:33.426Z - Time taken for 'hash changed files from watcher' 3.279500000178814ms
+[NX Daemon Server] - 2024-11-16T14:51:57.298Z - [WATCHER]: libs/pages/src/lib/blog/blog.component.ts was modified
+[NX Daemon Server] - 2024-11-16T14:51:57.301Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-16T14:51:58.070Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-16T14:51:59.604Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-16T14:52:03.712Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-16T14:52:03.713Z - [REQUEST]: libs/pages/src/lib/blog/blog.component.ts
+[NX Daemon Server] - 2024-11-16T14:52:03.713Z - [REQUEST]: 
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2024-11-16T14:52:03.871Z - Time taken for 'hash changed files from watcher' 6.767167001962662ms
+[NX Daemon Server] - 2024-11-16T14:56:54.148Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-16T14:56:55.466Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-16T14:56:55.920Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-16T14:57:00.032Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-16T14:57:05.488Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-16T14:57:08.109Z - [WATCHER]: package.json was modified
+[NX Daemon Server] - 2024-11-16T14:57:08.122Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-16T14:57:11.126Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-16T14:57:11.131Z - [WATCHER]: Stopping the watcher for /Users/pranay/IdeaProjects/LDA (sources)
+[NX Daemon Server] - 2024-11-16T14:57:11.133Z - [WATCHER]: Stopping the watcher for /Users/pranay/IdeaProjects/LDA (outputs)
+[NX Daemon Server] - 2024-11-16T14:57:11.133Z - Server stopped because: "Lock file changed"
+[NX Daemon Server] - 2024-11-16T14:57:32.089Z - Started listening on: /var/folders/l8/3kcvz7_n5gv7d1xp1lqf83bc0000gn/T/991f07af6c3f8073e5e8/d.sock
+[NX Daemon Server] - 2024-11-16T14:57:32.099Z - [WATCHER]: Subscribed to changes within: /Users/pranay/IdeaProjects/LDA (native)
+[NX Daemon Server] - 2024-11-16T14:57:32.102Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-16T14:57:32.109Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-11-16T14:57:32.111Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-16T14:57:32.113Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-11-16T14:57:32.135Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-16T14:57:32.135Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-16T14:57:32.135Z - [REQUEST]: 
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2024-11-16T14:57:33.017Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-11-16T14:57:33.030Z - Time taken for 'total for creating and serializing project graph' 901.8215829990804ms
+[NX Daemon Server] - 2024-11-16T14:57:33.055Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-11-16T14:57:33.055Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 902. Response time: 40.
+[NX Daemon Server] - 2024-11-16T14:57:35.118Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-16T14:57:48.702Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-16T14:57:48.702Z - [WATCHER]: Stopping the watcher for /Users/pranay/IdeaProjects/LDA (sources)
+[NX Daemon Server] - 2024-11-16T14:57:48.702Z - [WATCHER]: Stopping the watcher for /Users/pranay/IdeaProjects/LDA (outputs)
+[NX Daemon Server] - 2024-11-16T14:57:48.702Z - Server stopped because: "Lock file changed"

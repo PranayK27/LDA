@@ -5679,6 +5679,15 @@
         "hash": "sha512-DaBU97P+lCRWnphvYkE0qvZW16oCpn43/IA8XktFJa6hJP/JVlqk6cLR5fhfoLL2zdhpPkj9w5vsdqIlXZYXgw=="
       }
     },
+    "npm:@ngrx/signals": {
+      "type": "npm",
+      "name": "npm:@ngrx/signals",
+      "data": {
+        "version": "18.1.1",
+        "packageName": "@ngrx/signals",
+        "hash": "sha512-7AaFp4VrzYhnDHlF15VZAMvp067zIC5arRRRMV+i+oi95sQVDXezpj74KTIguwRbZ3FU+GKGzFCNrwgYvginSg=="
+      }
+    },
     "npm:@ngrx/store": {
       "type": "npm",
       "name": "npm:@ngrx/store",
@@ -34149,6 +34158,16 @@
     },
     {
       "source": "npm:@ngrx/router-store",
+      "target": "npm:tslib",
+      "type": "static"
+    },
+    {
+      "source": "npm:@ngrx/signals",
+      "target": "npm:rxjs",
+      "type": "static"
+    },
+    {
+      "source": "npm:@ngrx/signals",
       "target": "npm:tslib",
       "type": "static"
     },

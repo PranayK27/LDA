@@ -1,10 +1,9 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, inject, OnInit} from '@angular/core';
 import { Store } from "@ngrx/store";
 import {UntilDestroy} from "@ngneat/until-destroy";
 import {describeTech, loadTech} from "../+state/pages.actions";
 import {selectTechDesc, selectTechErrorMessage, selectTechLoading} from "../+state/pages.selector";
 import {PagesStore} from "../pages.store";
-import {AsyncPipe} from "@angular/common";
 import {Page404Component} from "../page404/page404.component";
 import {BlogListComponent} from "./blog-list/blog-list.component";
 
@@ -12,7 +11,7 @@ import {BlogListComponent} from "./blog-list/blog-list.component";
 @Component({
   standalone: true,
   selector: 'lda-blog',
-  imports: [AsyncPipe, Page404Component, BlogListComponent],
+  imports: [Page404Component, BlogListComponent],
   template: `
       @if (!loading() && errorMessage() === '') {
       <div
@@ -57,7 +56,7 @@ import {BlogListComponent} from "./blog-list/blog-list.component";
           <lda-blog-list
             class="col-md-8 no-trans text-center"
             [blogs]="blogs()"
-            [showTechDesc]="showTechDesc"
+            [showTechDesc]="showTechDesc()"
             (toggleTechDesc)="toggleShowTechDesc()">
           </lda-blog-list>
         </div>
@@ -77,15 +76,16 @@ export class BlogComponent implements OnInit {
   // from generic store selector
   // blogs$ = this.store.select(selectTechBlogs);
   // from component store
+  private readonly pagesStore = inject(PagesStore);
+
   blogs = this.pagesStore.blogs;
   download: string | undefined;
-  loading = this.store.selectSignal(selectTechLoading);
+  loading= this.store.selectSignal(selectTechLoading);
   showTechDesc= this.store.selectSignal(selectTechDesc);
   errorMessage = this.store.selectSignal(selectTechErrorMessage);
 
   constructor(
-    private readonly store: Store,
-    private readonly pagesStore: PagesStore,
+    private readonly store: Store
   ) {}
 
   ngOnInit(){
