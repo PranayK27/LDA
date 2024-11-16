@@ -6,12 +6,12 @@ import HeaderComponent from "../header/header.component";
 import ButtonComponent from "../button/button.component";
 
 @NgModule({
-  imports: [CommonModule, ButtonModule],
+  imports: [CommonModule, ButtonModule, PageComponent],
   exports: [
     ButtonModule,
     PageComponent,
     HeaderComponent
   ],
-  declarations: [PageComponent, HeaderComponent]
+  declarations: [HeaderComponent]
 })
 export class ComponentsModule {}

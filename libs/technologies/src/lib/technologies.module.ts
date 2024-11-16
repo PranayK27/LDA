@@ -22,10 +22,10 @@ import {ComponentsModule} from "@lda/common";
     PagesModule,
     HttpClientModule,
     SimpleNotificationsModule,
-    ComponentsModule
+    ComponentsModule,
+    TechnologiesComponent
   ],
   declarations: [
-    TechnologiesComponent,
     ListComponent,
     CategoryDetailsComponent,
   ],

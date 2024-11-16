@@ -2,7 +2,8 @@ import { Component } from '@angular/core';
 import type { User } from '../shared/User';
 
 @Component({
-    selector: 'storybook-page',
+    standalone: true,
+    selector: 'lda-storybook-page',
     template: `<article>
     <section class="storybook-page">
       <h2>Pages in Storybook</h2>

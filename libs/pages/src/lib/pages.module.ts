@@ -1,12 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { FullComponent } from './layout/full/full.component';
-import { BannerComponent } from './shared/banner/banner.component';
-import { BannerNavigationComponent } from './shared/banner-navigation/banner-navigation.component';
-import { FooterComponent } from './shared/footer/footer.component';
 import { RouterLinkActive, RouterOutlet } from '@angular/router';
 import { PagesRoutingModule } from './pages-routing.module';
-import { BannerContentComponent } from './shared/banner-content/banner-content.component';
 import { SimpleNotificationsModule } from 'angular2-notifications';
 import { ComponentsModule } from '@lda/common';
 import { LoginComponent } from './login/login.component';
@@ -45,16 +40,9 @@ import {PagesEffects} from "./+state/pages.effects";
     EffectsModule.forFeature([PagesEffects]),
   ],
   exports: [
-    FooterComponent,
-    BannerComponent,
     PagesRoutingModule,
   ],
   declarations: [
-    FullComponent,
-    BannerComponent,
-    BannerContentComponent,
-    BannerNavigationComponent,
-    FooterComponent,
     LoginComponent,
     RegistrationComponent,
     Page500Component,
