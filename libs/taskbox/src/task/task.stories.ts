@@ -5,7 +5,7 @@ import { argsToTemplate } from '@storybook/angular';
 
 import { action } from '@storybook/addon-actions';
 
-import TaskComponent from '../component/task.component';
+import TaskComponent from './task.component';
 
 export const actionsData = {
   onPinTask: action('onPinTask'),

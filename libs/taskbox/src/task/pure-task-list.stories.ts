@@ -5,9 +5,9 @@ import { argsToTemplate, componentWrapperDecorator, moduleMetadata } from '@stor
 
 import { CommonModule } from '@angular/common';
 
-import PureTaskListComponent from '../component/pure-task-list.component';
+import PureTaskListComponent from './pure-task-list.component';
 
-import TaskComponent from '../component/task.component';
+import TaskComponent from './task.component';
 
 import * as TaskStories from './task.stories';
 
