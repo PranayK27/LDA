@@ -87,14 +87,25 @@
         },
         {
             "name": "User",
-            "id": "interface-User-9c7e5f1bbbab702cb032307d130876cb68969b0cd4eedef32a0c8cad8081a54e5f8f577ed6ad4539c1b99a1d246cb34031d198c2ea8eba440e64e91b14f01fdc",
+            "id": "interface-User-d4821beac0e4a852e513391b7470981c4353fdd95a18628bb68136c8695b489ee15b926e2e5031bc26cf30e1508e0a362c3ee13a06734702b4d15af140e485d5",
             "file": "src/models/User.ts",
             "deprecated": false,
             "deprecationMessage": "",
             "type": "interface",
-            "sourceCode": "export interface User {}\n",
-            "properties": [],
+            "sourceCode": "export interface User {\n  name: string;\n}\n",
+            "properties": [
+                {
+                    "name": "name",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "string",
+                    "optional": false,
+                    "description": "",
+                    "line": 3
+                }
+            ],
             "indexSignatures": [],
+            "kind": 171,
             "methods": [],
             "extends": []
         }
@@ -373,6 +384,8 @@
                     }
                 ]
             },
+            "inputsClass": [],
+            "outputsClass": [],
             "properties": [
                 {
                     "name": "payload",
@@ -404,8 +417,6 @@
             "methods": [],
             "indexSignatures": [],
             "extends": [],
-            "inputsClass": [],
-            "outputsClass": [],
             "hostBindings": [],
             "hostListeners": []
         },
@@ -443,6 +454,8 @@
                     }
                 ]
             },
+            "inputsClass": [],
+            "outputsClass": [],
             "properties": [
                 {
                     "name": "payload",
@@ -474,8 +487,6 @@
             "methods": [],
             "indexSignatures": [],
             "extends": [],
-            "inputsClass": [],
-            "outputsClass": [],
             "hostBindings": [],
             "hostListeners": []
         },
@@ -513,6 +524,8 @@
                     }
                 ]
             },
+            "inputsClass": [],
+            "outputsClass": [],
             "properties": [
                 {
                     "name": "payload",
@@ -544,8 +557,6 @@
             "methods": [],
             "indexSignatures": [],
             "extends": [],
-            "inputsClass": [],
-            "outputsClass": [],
             "hostBindings": [],
             "hostListeners": []
         }
@@ -554,7 +565,7 @@
     "components": [
         {
             "name": "AppComponent",
-            "id": "component-AppComponent-3b5d1aa7522b2735b372a7915e1fafc768c0a995e8df1c7f86b64dcb11689545a0bee5db8c96cdfb31bc0d37455799a95bb8f0e9c297d5a05179e4af8835b105",
+            "id": "component-AppComponent-aeec37633a82c05ce93649bdd960ae1d573c54df184273e92da3b6affda63b4a147631a2be6d65092b77f2d99481d537c59ee97849cac7a7ed67f926cd3d23a1",
             "file": "src/app/app.component.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -564,7 +575,7 @@
             "selector": "app-root",
             "styleUrls": [],
             "styles": [],
-            "template": "<app-inbox-screen></app-inbox-screen>\n",
+            "template": "<lda-inbox-screen></lda-inbox-screen>\n",
             "templateUrl": [],
             "viewProviders": [],
             "hostDirectives": [],
@@ -592,7 +603,7 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import { Component } from '@angular/core';\n\n@Component({\n  selector: 'app-root',\n  template: `\n   <app-inbox-screen></app-inbox-screen>\n `,\n})\nexport class AppComponent {\n  title = 'taskbox';\n}\n",
+            "sourceCode": "import { Component } from '@angular/core';\n\n@Component({\n  selector: 'app-root',\n  template: `\n   <lda-inbox-screen></lda-inbox-screen>\n `,\n})\nexport class AppComponent {\n  title = 'taskbox';\n}\n",
             "assetsDirs": [],
             "styleUrlsData": "",
             "stylesData": "",
@@ -600,19 +611,19 @@
         },
         {
             "name": "ButtonComponent",
-            "id": "component-ButtonComponent-89cd0f14447f38726b9f0a7460bdce8f3f8365184a13b1e212c551a0d976026cafd73346a1890742a5121001b10263ff740b50531c993ed07466e97eb8efa3b0",
-            "file": "src/component/button.component.ts",
+            "id": "component-ButtonComponent-3b8fb63cfa29e81063c6586ef0e3df5ca22b9329218e75f5a8a1e062777a3475677a979a4d58c431f18aab68d114a8c0c918eb3411fd29b5158c3942fb84c44b",
+            "file": "src/button/button.component.ts",
             "encapsulation": [],
             "entryComponents": [],
             "inputs": [],
             "outputs": [],
             "providers": [],
-            "selector": "storybook-button",
+            "selector": "lda-storybook-button",
             "styleUrls": [
-                "../stories/button.css"
+                "./button.css"
             ],
             "styles": [],
-            "template": "<button   type=\"button\"\n   (click)=\"onClick.emit($event)\"\n   [ngClass]=\"classes\"\n   [ngStyle]=\"{ 'background-color': backgroundColor }\"\n >\n   {{ label }}\n </button>",
+            "template": "<button\n  type=\"button\"\n  (click)=\"onClick.emit($event)\"\n  [ngClass]=\"classes\"\n  [ngStyle]=\"{ 'background-color': backgroundColor }\"\n>\n  {{ label }}\n</button>",
             "templateUrl": [],
             "viewProviders": [],
             "hostDirectives": [],
@@ -623,7 +634,7 @@
                     "deprecationMessage": "",
                     "rawdescription": "\n\nWhat background color to use\n",
                     "description": "<p>What background color to use</p>\n",
-                    "line": 28,
+                    "line": 30,
                     "type": "string",
                     "decorators": []
                 },
@@ -634,15 +645,15 @@
                     "deprecationMessage": "",
                     "jsdoctags": [
                         {
-                            "pos": 795,
-                            "end": 808,
+                            "pos": 828,
+                            "end": 841,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
                             "kind": 334,
                             "tagName": {
-                                "pos": 796,
-                                "end": 804,
+                                "pos": 829,
+                                "end": 837,
                                 "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
@@ -654,7 +665,7 @@
                     ],
                     "rawdescription": "\n\nButton contents\n\n",
                     "description": "<p>Button contents</p>\n",
-                    "line": 42,
+                    "line": 44,
                     "type": "string",
                     "decorators": []
                 },
@@ -665,7 +676,7 @@
                     "deprecationMessage": "",
                     "rawdescription": "\n\nIs this the principal call to action on the page?\n",
                     "description": "<p>Is this the principal call to action on the page?</p>\n",
-                    "line": 22,
+                    "line": 24,
                     "type": "boolean",
                     "decorators": []
                 },
@@ -676,7 +687,7 @@
                     "deprecationMessage": "",
                     "rawdescription": "\n\nHow large should the button be?\n",
                     "description": "<p>How large should the button be?</p>\n",
-                    "line": 34,
+                    "line": 36,
                     "type": "\"small\" | \"medium\" | \"large\"",
                     "decorators": []
                 }
@@ -689,7 +700,7 @@
                     "deprecationMessage": "",
                     "rawdescription": "\n\nOptional click handler\n",
                     "description": "<p>Optional click handler</p>\n",
-                    "line": 48,
+                    "line": 50,
                     "type": "EventEmitter"
                 }
             ],
@@ -699,7 +710,7 @@
             "deprecationMessage": "",
             "hostBindings": [],
             "hostListeners": [],
-            "standalone": false,
+            "standalone": true,
             "imports": [
                 {
                     "name": "CommonModule",
@@ -709,12 +720,12 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import { CommonModule } from '@angular/common';\nimport { Component, Input, Output, EventEmitter } from '@angular/core';\n\n@Component({\n  selector: 'storybook-button',\n  imports: [CommonModule],\n  template: ` <button\n    type=\"button\"\n    (click)=\"onClick.emit($event)\"\n    [ngClass]=\"classes\"\n    [ngStyle]=\"{ 'background-color': backgroundColor }\"\n  >\n    {{ label }}\n  </button>`,\n  styleUrls: ['../stories/button.css'],\n})\nexport default class ButtonComponent {\n  /**\n   * Is this the principal call to action on the page?\n   */\n  @Input()\n  primary = false;\n\n  /**\n   * What background color to use\n   */\n  @Input()\n  backgroundColor?: string;\n\n  /**\n   * How large should the button be?\n   */\n  @Input()\n  size: 'small' | 'medium' | 'large' = 'medium';\n\n  /**\n   * Button contents\n   *\n   * @required\n   */\n  @Input()\n  label = 'Button';\n\n  /**\n   * Optional click handler\n   */\n  @Output()\n  onClick = new EventEmitter<Event>();\n\n  public get classes(): string[] {\n    const mode = this.primary ? 'storybook-button--primary' : 'storybook-button--secondary';\n\n    return ['storybook-button', `storybook-button--${this.size}`, mode];\n  }\n}\n",
+            "sourceCode": "import { CommonModule } from '@angular/common';\nimport { Component, Input, Output, EventEmitter } from '@angular/core';\n\n@Component({\n  standalone: true,\n  selector: 'lda-storybook-button',\n  imports: [CommonModule],\n  template: `\n    <button\n      type=\"button\"\n      (click)=\"onClick.emit($event)\"\n      [ngClass]=\"classes\"\n      [ngStyle]=\"{ 'background-color': backgroundColor }\"\n    >\n      {{ label }}\n    </button>`,\n  styleUrls: ['./button.css'],\n})\nexport default class ButtonComponent {\n  /**\n   * Is this the principal call to action on the page?\n   */\n  @Input()\n  primary = false;\n\n  /**\n   * What background color to use\n   */\n  @Input()\n  backgroundColor?: string;\n\n  /**\n   * How large should the button be?\n   */\n  @Input()\n  size: 'small' | 'medium' | 'large' = 'medium';\n\n  /**\n   * Button contents\n   *\n   * @required\n   */\n  @Input()\n  label = 'Button';\n\n  /**\n   * Optional click handler\n   */\n  @Output()\n  onClick = new EventEmitter<Event>();\n\n  public get classes(): string[] {\n    const mode = this.primary ? 'storybook-button--primary' : 'storybook-button--secondary';\n\n    return ['storybook-button', `storybook-button--${this.size}`, mode];\n  }\n}\n",
             "assetsDirs": [],
             "styleUrlsData": [
                 {
                     "data": ".storybook-button {\n  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n  font-weight: 750;\n  border: 0;\n  border-radius: 3em;\n  cursor: pointer;\n  display: inline-block;\n  line-height: 1;\n}\n.storybook-button--primary {\n  color: white;\n  background-color: #1ea7fd;\n}\n.storybook-button--secondary {\n  color: #333;\n  background-color: transparent;\n  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;\n}\n.storybook-button--small {\n  font-size: 12px;\n  padding: 10px 16px;\n}\n.storybook-button--medium {\n  font-size: 14px;\n  padding: 11px 20px;\n}\n.storybook-button--large {\n  font-size: 16px;\n  padding: 12px 24px;\n}\n",
-                    "styleUrl": "../stories/button.css"
+                    "styleUrl": "./button.css"
                 }
             ],
             "stylesData": "",
@@ -726,37 +737,36 @@
                         "name": "classes",
                         "type": "[]",
                         "returnType": "string[]",
-                        "line": 50
+                        "line": 52
                     }
                 }
             }
         },
         {
             "name": "HeaderComponent",
-            "id": "component-HeaderComponent-21f176b8b955ea7c8b7b2d2e114d17806be31a5ddb38fddd94ca1c505b81641c903be81c65918bc35b210012425a9dbbcaa1736f875d58e3e0b800e0bfec12cc",
-            "file": "src/component/header.component.ts",
+            "id": "component-HeaderComponent-0ebdaf94fc5afba7d30eff2a5f5c325b65db19b60c93b60e77becdcca888fdf952f926d5a2543b5b0980f878f063c1713beecf143799785ab23e9f19dc24ae3a",
+            "file": "src/header/header.component.ts",
             "encapsulation": [],
             "entryComponents": [],
             "inputs": [],
             "outputs": [],
             "providers": [],
-            "selector": "storybook-header",
+            "selector": "lda-storybook-header",
             "styleUrls": [
-                "../stories/header.css"
+                "./header.css"
             ],
             "styles": [],
-            "template": "<header>    <div class=\"wrapper\">\n      <div>\n        <svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" xmlns=\"http://www.w3.org/2000/svg\">\n          <g fill=\"none\" fillRule=\"evenodd\">\n            <path\n              d=\"M10 0h12a10 10 0 0110 10v12a10 10 0 01-10 10H10A10 10 0 010 22V10A10 10 0 0110 0z\"\n              fill=\"#FFF\"\n            />\n            <path\n              d=\"M5.3 10.6l10.4 6v11.1l-10.4-6v-11zm11.4-6.2l9.7 5.5-9.7 5.6V4.4z\"\n              fill=\"#555AB9\"\n            />\n            <path\n              d=\"M27.2 10.6v11.2l-10.5 6V16.5l10.5-6zM15.7 4.4v11L6 10l9.7-5.5z\"\n              fill=\"#91BAF8\"\n            />\n          </g>\n        </svg>\n        <h1>LDA</h1>\n      </div>\n      <div>\n        <div *ngIf=\"user\">\n          <span class=\"welcome\">\n            Welcome, <b>{{ user.name }}</b\n            >!\n          </span>\n          <storybook-button\n            *ngIf=\"user\"\n            size=\"small\"\n            (onClick)=\"onLogout.emit($event)\"\n            label=\"Log out\"\n          ></storybook-button>\n        </div>\n        <div *ngIf=\"!user\">\n          <storybook-button\n            *ngIf=\"!user\"\n            size=\"small\"\n            class=\"margin-left\"\n            (onClick)=\"onLogin.emit($event)\"\n            label=\"Log in\"\n          ></storybook-button>\n          <storybook-button\n            *ngIf=\"!user\"\n            primary\n            size=\"small\"\n            primary=\"true\"\n            class=\"margin-left\"\n            (onClick)=\"onCreateAccount.emit($event)\"\n            label=\"Sign up\"\n          ></storybook-button>\n        </div>\n      </div>\n    </div>\n  </header>",
+            "template": "<header>\n  <div class=\"wrapper\">\n    <div>\n      <svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" xmlns=\"http://www.w3.org/2000/svg\">\n        <g fill=\"none\" fillRule=\"evenodd\">\n          <path\n            d=\"M10 0h12a10 10 0 0110 10v12a10 10 0 01-10 10H10A10 10 0 010 22V10A10 10 0 0110 0z\"\n            fill=\"#FFF\"\n          />\n          <path\n            d=\"M5.3 10.6l10.4 6v11.1l-10.4-6v-11zm11.4-6.2l9.7 5.5-9.7 5.6V4.4z\"\n            fill=\"#555AB9\"\n          />\n          <path\n            d=\"M27.2 10.6v11.2l-10.5 6V16.5l10.5-6zM15.7 4.4v11L6 10l9.7-5.5z\"\n            fill=\"#91BAF8\"\n          />\n        </g>\n      </svg>\n      <h1>LDA</h1>\n    </div>\n    <div>\n      <div *ngIf=\"user\">\n      <span class=\"welcome\">\n        Welcome, <b>{{ user.name }}</b\n      >!\n      </span>\n        <lda-storybook-button\n          *ngIf=\"user\"\n          size=\"small\"\n          (onClick)=\"onLogout.emit($event)\"\n          label=\"Log out\"\n        ></lda-storybook-button>\n      </div>\n      <div *ngIf=\"!user\">\n        <lda-storybook-button\n          *ngIf=\"!user\"\n          size=\"small\"\n          class=\"margin-left\"\n          (onClick)=\"onLogin.emit($event)\"\n          label=\"Log in\"\n        ></lda-storybook-button>\n        <lda-storybook-button\n          *ngIf=\"!user\"\n          primary\n          size=\"small\"\n          primary=\"true\"\n          class=\"margin-left\"\n          (onClick)=\"onCreateAccount.emit($event)\"\n          label=\"Sign up\"\n        ></lda-storybook-button>\n      </div>\n    </div>\n  </div>\n</header>",
             "templateUrl": [],
             "viewProviders": [],
             "hostDirectives": [],
             "inputsClass": [
                 {
                     "name": "user",
-                    "defaultValue": "null",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 65,
-                    "type": "User | null",
+                    "line": 71,
+                    "type": "User | undefined",
                     "decorators": []
                 }
             ],
@@ -766,7 +776,7 @@
                     "defaultValue": "new EventEmitter<Event>()",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 74,
+                    "line": 80,
                     "type": "EventEmitter"
                 },
                 {
@@ -774,7 +784,7 @@
                     "defaultValue": "new EventEmitter<Event>()",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 68,
+                    "line": 74,
                     "type": "EventEmitter"
                 },
                 {
@@ -782,7 +792,7 @@
                     "defaultValue": "new EventEmitter<Event>()",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 71,
+                    "line": 77,
                     "type": "EventEmitter"
                 }
             ],
@@ -792,17 +802,22 @@
             "deprecationMessage": "",
             "hostBindings": [],
             "hostListeners": [],
-            "standalone": false,
-            "imports": [],
+            "standalone": true,
+            "imports": [
+                {
+                    "name": "ButtonComponent",
+                    "type": "component"
+                }
+            ],
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import { Component, Input, Output, EventEmitter } from '@angular/core';\nimport type { User } from '../models/User';\n\n@Component({\n  selector: 'storybook-header',\n  template: `<header>\n    <div class=\"wrapper\">\n      <div>\n        <svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" xmlns=\"http://www.w3.org/2000/svg\">\n          <g fill=\"none\" fillRule=\"evenodd\">\n            <path\n              d=\"M10 0h12a10 10 0 0110 10v12a10 10 0 01-10 10H10A10 10 0 010 22V10A10 10 0 0110 0z\"\n              fill=\"#FFF\"\n            />\n            <path\n              d=\"M5.3 10.6l10.4 6v11.1l-10.4-6v-11zm11.4-6.2l9.7 5.5-9.7 5.6V4.4z\"\n              fill=\"#555AB9\"\n            />\n            <path\n              d=\"M27.2 10.6v11.2l-10.5 6V16.5l10.5-6zM15.7 4.4v11L6 10l9.7-5.5z\"\n              fill=\"#91BAF8\"\n            />\n          </g>\n        </svg>\n        <h1>LDA</h1>\n      </div>\n      <div>\n        <div *ngIf=\"user\">\n          <span class=\"welcome\">\n            Welcome, <b>{{ user.name }}</b\n            >!\n          </span>\n          <storybook-button\n            *ngIf=\"user\"\n            size=\"small\"\n            (onClick)=\"onLogout.emit($event)\"\n            label=\"Log out\"\n          ></storybook-button>\n        </div>\n        <div *ngIf=\"!user\">\n          <storybook-button\n            *ngIf=\"!user\"\n            size=\"small\"\n            class=\"margin-left\"\n            (onClick)=\"onLogin.emit($event)\"\n            label=\"Log in\"\n          ></storybook-button>\n          <storybook-button\n            *ngIf=\"!user\"\n            primary\n            size=\"small\"\n            primary=\"true\"\n            class=\"margin-left\"\n            (onClick)=\"onCreateAccount.emit($event)\"\n            label=\"Sign up\"\n          ></storybook-button>\n        </div>\n      </div>\n    </div>\n  </header>`,\n  styleUrls: ['../stories/header.css'],\n})\nexport default class HeaderComponent {\n  @Input()\n  user: User | null = null;\n\n  @Output()\n  onLogin = new EventEmitter<Event>();\n\n  @Output()\n  onLogout = new EventEmitter<Event>();\n\n  @Output()\n  onCreateAccount = new EventEmitter<Event>();\n}\n",
+            "sourceCode": "import { Component, Input, Output, EventEmitter } from '@angular/core';\nimport type { User } from '../models/User';\nimport ButtonComponent from \"../button/button.component\";\n\n@Component({\n  selector: 'lda-storybook-header',\n  template: `\n    <header>\n      <div class=\"wrapper\">\n        <div>\n          <svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" xmlns=\"http://www.w3.org/2000/svg\">\n            <g fill=\"none\" fillRule=\"evenodd\">\n              <path\n                d=\"M10 0h12a10 10 0 0110 10v12a10 10 0 01-10 10H10A10 10 0 010 22V10A10 10 0 0110 0z\"\n                fill=\"#FFF\"\n              />\n              <path\n                d=\"M5.3 10.6l10.4 6v11.1l-10.4-6v-11zm11.4-6.2l9.7 5.5-9.7 5.6V4.4z\"\n                fill=\"#555AB9\"\n              />\n              <path\n                d=\"M27.2 10.6v11.2l-10.5 6V16.5l10.5-6zM15.7 4.4v11L6 10l9.7-5.5z\"\n                fill=\"#91BAF8\"\n              />\n            </g>\n          </svg>\n          <h1>LDA</h1>\n        </div>\n        <div>\n          <div *ngIf=\"user\">\n          <span class=\"welcome\">\n            Welcome, <b>{{ user.name }}</b\n          >!\n          </span>\n            <lda-storybook-button\n              *ngIf=\"user\"\n              size=\"small\"\n              (onClick)=\"onLogout.emit($event)\"\n              label=\"Log out\"\n            ></lda-storybook-button>\n          </div>\n          <div *ngIf=\"!user\">\n            <lda-storybook-button\n              *ngIf=\"!user\"\n              size=\"small\"\n              class=\"margin-left\"\n              (onClick)=\"onLogin.emit($event)\"\n              label=\"Log in\"\n            ></lda-storybook-button>\n            <lda-storybook-button\n              *ngIf=\"!user\"\n              primary\n              size=\"small\"\n              primary=\"true\"\n              class=\"margin-left\"\n              (onClick)=\"onCreateAccount.emit($event)\"\n              label=\"Sign up\"\n            ></lda-storybook-button>\n          </div>\n        </div>\n      </div>\n    </header>`,\n  styleUrls: ['./header.css'],\n  imports: [\n    ButtonComponent\n  ],\n  standalone: true\n})\nexport default class HeaderComponent {\n  @Input()\n  user: User | undefined;\n\n  @Output()\n  onLogin = new EventEmitter<Event>();\n\n  @Output()\n  onLogout = new EventEmitter<Event>();\n\n  @Output()\n  onCreateAccount = new EventEmitter<Event>();\n}\n",
             "assetsDirs": [],
             "styleUrlsData": [
                 {
                     "data": ".wrapper {\n  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n  border-bottom: 1px solid rgba(0, 0, 0, 0.1);\n  padding: 15px 20px;\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n}\n\nsvg {\n  display: inline-block;\n  vertical-align: top;\n}\n\nh1 {\n  font-weight: 700;\n  font-size: 20px;\n  line-height: 1;\n  margin: 6px 0 6px 10px;\n  display: inline-block;\n  vertical-align: top;\n}\n\nbutton + button {\n  margin-left: 10px;\n}\n\n.welcome {\n  color: #333;\n  font-size: 14px;\n  margin-right: 10px;\n}\n",
-                    "styleUrl": "../stories/header.css"
+                    "styleUrl": "./header.css"
                 }
             ],
             "stylesData": "",
@@ -810,14 +825,14 @@
         },
         {
             "name": "InboxScreenComponent",
-            "id": "component-InboxScreenComponent-50a1cd7a13b0fd5b9658f8952e69508d40ea93b240194e711f9b1d4ce59e2655101870bf17573ab8d1370b1b40fd5a20879e1234d5f1fcc0bb42011c6766cf83",
-            "file": "src/component/inbox-screen.component.ts",
+            "id": "component-InboxScreenComponent-f2d6f2850c91355948df91b65cee6c0d527da38f8f99b5bc1472086c81f824486ba308ee4cd9ec5aa7a98166102e15a5902deb72016b469b4fd2cab8fc88d01e",
+            "file": "src/task/inbox-screen.component.ts",
             "encapsulation": [],
             "entryComponents": [],
             "inputs": [],
             "outputs": [],
             "providers": [],
-            "selector": "app-inbox-screen",
+            "selector": "lda-inbox-screen",
             "styleUrls": [],
             "styles": [],
             "template": "<app-pure-inbox-screen [error]=\"error$ | async\"></app-pure-inbox-screen>\n",
@@ -847,7 +862,7 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import { Component } from '@angular/core';\nimport { Store } from '@ngxs/store';\nimport { Observable } from 'rxjs';\n\n@Component({\n  selector: 'app-inbox-screen',\n  template: `\n    <app-pure-inbox-screen [error]=\"error$ | async\"></app-pure-inbox-screen>\n  `,\n})\nexport default class InboxScreenComponent {\n  error$: Observable<boolean>;\n  constructor(private store: Store) {\n    this.error$ = store.select((state) => state.taskbox.error);\n  }\n}\n",
+            "sourceCode": "import { Component } from '@angular/core';\nimport { Store } from '@ngxs/store';\nimport { Observable } from 'rxjs';\n\n@Component({\n  selector: 'lda-inbox-screen',\n  template: `\n    <app-pure-inbox-screen [error]=\"error$ | async\"></app-pure-inbox-screen>\n  `,\n})\nexport default class InboxScreenComponent {\n  error$: Observable<boolean>;\n  constructor(private store: Store) {\n    this.error$ = store.select((state) => state.taskbox.error);\n  }\n}\n",
             "assetsDirs": [],
             "styleUrlsData": "",
             "stylesData": "",
@@ -881,8 +896,8 @@
         },
         {
             "name": "PageComponent",
-            "id": "component-PageComponent-48cf6c2a1c416bf98c42c1fdebec7d493efa3db93a6710be1bfa7867f30e3c2e7f8a59bb13369a14cce880589c4c1d9f380a82512bcacb5a6cced81ab77f674c",
-            "file": "src/component/page.component.ts",
+            "id": "component-PageComponent-c1db41472f87d4193becf64f8deb35e701e25f6a52e7b4c1b0a92636d531614b092708461449c20cf155c2ed1b2427b0873a58cbea2abf12f1b9a007d34216ef",
+            "file": "src/pages/page.component.ts",
             "encapsulation": [],
             "entryComponents": [],
             "inputs": [],
@@ -890,10 +905,10 @@
             "providers": [],
             "selector": "storybook-page",
             "styleUrls": [
-                "../stories/page.css"
+                "./page.css"
             ],
             "styles": [],
-            "template": "<article>    <storybook-header\n      [user]=\"user\"\n      (onLogout)=\"doLogout()\"\n      (onLogin)=\"doLogin()\"\n      (onCreateAccount)=\"doCreateAccount()\"\n    ></storybook-header>\n    <section>\n      <h2>Pages in Storybook</h2>\n      <p>\n        We recommend building UIs with a\n        <a href=\"https://componentdriven.org\" target=\"_blank\" rel=\"noopener noreferrer\">\n          <strong>component-driven</strong>\n        </a>\n        process starting with atomic components and ending with pages.\n      </p>\n      <p>\n        Render pages with mock data. This makes it easy to build and review page states without\n        needing to navigate to them in your app. Here are some handy patterns for managing page data\n        in Storybook:\n      </p>\n      <ul>\n        <li>\n          Use a higher-level connected component. Storybook helps you compose such data from the\n          \"args\" of child component stories\n        </li>\n        <li>\n          Assemble data in the page component from your services. You can mock these services out\n          using Storybook.\n        </li>\n      </ul>\n      <p>\n        Get a guided tutorial on component-driven development at\n        <a href=\"https://storybook.js.org/tutorials/\" target=\"_blank\" rel=\"noopener noreferrer\">\n          Storybook tutorials\n        </a>\n        . Read more in the\n        <a href=\"https://storybook.js.org/docs\" target=\"_blank\" rel=\"noopener noreferrer\"> docs </a>\n        .\n      </p>\n      <div class=\"tip-wrapper\">\n        <span class=\"tip\">Tip</span> Adjust the width of the canvas with the\n        <svg width=\"10\" height=\"10\" viewBox=\"0 0 12 12\" xmlns=\"http://www.w3.org/2000/svg\">\n          <g fill=\"none\" fillRule=\"evenodd\">\n            <path\n              d=\"M1.5 5.2h4.8c.3 0 .5.2.5.4v5.1c-.1.2-.3.3-.4.3H1.4a.5.5 0 01-.5-.4V5.7c0-.3.2-.5.5-.5zm0-2.1h6.9c.3 0 .5.2.5.4v7a.5.5 0 01-1 0V4H1.5a.5.5 0 010-1zm0-2.1h9c.3 0 .5.2.5.4v9.1a.5.5 0 01-1 0V2H1.5a.5.5 0 010-1zm4.3 5.2H2V10h3.8V6.2z\"\n              id=\"a\"\n              fill=\"#999\"\n            />\n          </g>\n        </svg>\n        Viewports addon in the toolbar\n      </div>\n    </section>\n  </article>",
+            "template": "<article>\n  <lda-storybook-header\n    [user]=\"user\"\n    (onLogout)=\"doLogout()\"\n    (onLogin)=\"doLogin()\"\n    (onCreateAccount)=\"doCreateAccount()\"\n  ></lda-storybook-header>\n  <section>\n    <h2>Pages in Storybook</h2>\n    <p>\n      We recommend building UIs with a\n      <a href=\"https://componentdriven.org\" target=\"_blank\" rel=\"noopener noreferrer\">\n        <strong>component-driven</strong>\n      </a>\n      process starting with atomic components and ending with pages.\n    </p>\n    <p>\n      Render pages with mock data. This makes it easy to build and review page states without\n      needing to navigate to them in your app. Here are some handy patterns for managing page data\n      in Storybook:\n    </p>\n    <ul>\n      <li>\n        Use a higher-level connected component. Storybook helps you compose such data from the\n        \"args\" of child component stories\n      </li>\n      <li>\n        Assemble data in the page component from your services. You can mock these services out\n        using Storybook.\n      </li>\n    </ul>\n    <p>\n      Get a guided tutorial on component-driven development at\n      <a href=\"https://storybook.js.org/tutorials/\" target=\"_blank\" rel=\"noopener noreferrer\">\n        Storybook tutorials\n      </a>\n      . Read more in the\n      <a href=\"https://storybook.js.org/docs\" target=\"_blank\" rel=\"noopener noreferrer\"> docs </a>\n      .\n    </p>\n    <div class=\"tip-wrapper\">\n      <span class=\"tip\">Tip</span> Adjust the width of the canvas with the\n      <svg width=\"10\" height=\"10\" viewBox=\"0 0 12 12\" xmlns=\"http://www.w3.org/2000/svg\">\n        <g fill=\"none\" fillRule=\"evenodd\">\n          <path\n            d=\"M1.5 5.2h4.8c.3 0 .5.2.5.4v5.1c-.1.2-.3.3-.4.3H1.4a.5.5 0 01-.5-.4V5.7c0-.3.2-.5.5-.5zm0-2.1h6.9c.3 0 .5.2.5.4v7a.5.5 0 01-1 0V4H1.5a.5.5 0 010-1zm0-2.1h9c.3 0 .5.2.5.4v9.1a.5.5 0 01-1 0V2H1.5a.5.5 0 010-1zm4.3 5.2H2V10h3.8V6.2z\"\n            id=\"a\"\n            fill=\"#999\"\n          />\n        </g>\n      </svg>\n      Viewports addon in the toolbar\n    </div>\n  </section>\n</article>",
             "templateUrl": [],
             "viewProviders": [],
             "hostDirectives": [],
@@ -902,13 +917,12 @@
             "propertiesClass": [
                 {
                     "name": "user",
-                    "defaultValue": "null",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "type": "User | null",
+                    "type": "User | undefined",
                     "optional": false,
                     "description": "",
-                    "line": 64
+                    "line": 70
                 }
             ],
             "methodsClass": [
@@ -918,7 +932,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 74,
+                    "line": 80,
                     "deprecated": false,
                     "deprecationMessage": ""
                 },
@@ -928,7 +942,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 70,
+                    "line": 76,
                     "deprecated": false,
                     "deprecationMessage": ""
                 },
@@ -938,7 +952,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 66,
+                    "line": 72,
                     "deprecated": false,
                     "deprecationMessage": ""
                 }
@@ -947,17 +961,22 @@
             "deprecationMessage": "",
             "hostBindings": [],
             "hostListeners": [],
-            "standalone": false,
-            "imports": [],
+            "standalone": true,
+            "imports": [
+                {
+                    "name": "HeaderComponent",
+                    "type": "component"
+                }
+            ],
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import { Component } from '@angular/core';\nimport type { User } from '../models/User';\n\n@Component({\n  selector: 'storybook-page',\n  template: `<article>\n    <storybook-header\n      [user]=\"user\"\n      (onLogout)=\"doLogout()\"\n      (onLogin)=\"doLogin()\"\n      (onCreateAccount)=\"doCreateAccount()\"\n    ></storybook-header>\n    <section>\n      <h2>Pages in Storybook</h2>\n      <p>\n        We recommend building UIs with a\n        <a href=\"https://componentdriven.org\" target=\"_blank\" rel=\"noopener noreferrer\">\n          <strong>component-driven</strong>\n        </a>\n        process starting with atomic components and ending with pages.\n      </p>\n      <p>\n        Render pages with mock data. This makes it easy to build and review page states without\n        needing to navigate to them in your app. Here are some handy patterns for managing page data\n        in Storybook:\n      </p>\n      <ul>\n        <li>\n          Use a higher-level connected component. Storybook helps you compose such data from the\n          \"args\" of child component stories\n        </li>\n        <li>\n          Assemble data in the page component from your services. You can mock these services out\n          using Storybook.\n        </li>\n      </ul>\n      <p>\n        Get a guided tutorial on component-driven development at\n        <a href=\"https://storybook.js.org/tutorials/\" target=\"_blank\" rel=\"noopener noreferrer\">\n          Storybook tutorials\n        </a>\n        . Read more in the\n        <a href=\"https://storybook.js.org/docs\" target=\"_blank\" rel=\"noopener noreferrer\"> docs </a>\n        .\n      </p>\n      <div class=\"tip-wrapper\">\n        <span class=\"tip\">Tip</span> Adjust the width of the canvas with the\n        <svg width=\"10\" height=\"10\" viewBox=\"0 0 12 12\" xmlns=\"http://www.w3.org/2000/svg\">\n          <g fill=\"none\" fillRule=\"evenodd\">\n            <path\n              d=\"M1.5 5.2h4.8c.3 0 .5.2.5.4v5.1c-.1.2-.3.3-.4.3H1.4a.5.5 0 01-.5-.4V5.7c0-.3.2-.5.5-.5zm0-2.1h6.9c.3 0 .5.2.5.4v7a.5.5 0 01-1 0V4H1.5a.5.5 0 010-1zm0-2.1h9c.3 0 .5.2.5.4v9.1a.5.5 0 01-1 0V2H1.5a.5.5 0 010-1zm4.3 5.2H2V10h3.8V6.2z\"\n              id=\"a\"\n              fill=\"#999\"\n            />\n          </g>\n        </svg>\n        Viewports addon in the toolbar\n      </div>\n    </section>\n  </article>`,\n  styleUrls: ['../stories/page.css'],\n})\nexport default class PageComponent {\n  user: User | null = null;\n\n  doLogout() {\n    this.user = null;\n  }\n\n  doLogin() {\n    this.user = { name: 'Pranay Kekre' };\n  }\n\n  doCreateAccount() {\n    this.user = { name: 'Pranay Kekre' };\n  }\n}\n",
+            "sourceCode": "import { Component } from '@angular/core';\nimport type { User } from '../models/User';\nimport HeaderComponent from \"../header/header.component\";\n\n@Component({\n  selector: 'storybook-page',\n  template: `\n    <article>\n      <lda-storybook-header\n        [user]=\"user\"\n        (onLogout)=\"doLogout()\"\n        (onLogin)=\"doLogin()\"\n        (onCreateAccount)=\"doCreateAccount()\"\n      ></lda-storybook-header>\n      <section>\n        <h2>Pages in Storybook</h2>\n        <p>\n          We recommend building UIs with a\n          <a href=\"https://componentdriven.org\" target=\"_blank\" rel=\"noopener noreferrer\">\n            <strong>component-driven</strong>\n          </a>\n          process starting with atomic components and ending with pages.\n        </p>\n        <p>\n          Render pages with mock data. This makes it easy to build and review page states without\n          needing to navigate to them in your app. Here are some handy patterns for managing page data\n          in Storybook:\n        </p>\n        <ul>\n          <li>\n            Use a higher-level connected component. Storybook helps you compose such data from the\n            \"args\" of child component stories\n          </li>\n          <li>\n            Assemble data in the page component from your services. You can mock these services out\n            using Storybook.\n          </li>\n        </ul>\n        <p>\n          Get a guided tutorial on component-driven development at\n          <a href=\"https://storybook.js.org/tutorials/\" target=\"_blank\" rel=\"noopener noreferrer\">\n            Storybook tutorials\n          </a>\n          . Read more in the\n          <a href=\"https://storybook.js.org/docs\" target=\"_blank\" rel=\"noopener noreferrer\"> docs </a>\n          .\n        </p>\n        <div class=\"tip-wrapper\">\n          <span class=\"tip\">Tip</span> Adjust the width of the canvas with the\n          <svg width=\"10\" height=\"10\" viewBox=\"0 0 12 12\" xmlns=\"http://www.w3.org/2000/svg\">\n            <g fill=\"none\" fillRule=\"evenodd\">\n              <path\n                d=\"M1.5 5.2h4.8c.3 0 .5.2.5.4v5.1c-.1.2-.3.3-.4.3H1.4a.5.5 0 01-.5-.4V5.7c0-.3.2-.5.5-.5zm0-2.1h6.9c.3 0 .5.2.5.4v7a.5.5 0 01-1 0V4H1.5a.5.5 0 010-1zm0-2.1h9c.3 0 .5.2.5.4v9.1a.5.5 0 01-1 0V2H1.5a.5.5 0 010-1zm4.3 5.2H2V10h3.8V6.2z\"\n                id=\"a\"\n                fill=\"#999\"\n              />\n            </g>\n          </svg>\n          Viewports addon in the toolbar\n        </div>\n      </section>\n    </article>`,\n  styleUrls: ['./page.css'],\n  imports: [\n    HeaderComponent\n  ],\n  standalone: true\n})\nexport default class PageComponent {\n  user: User | undefined;\n\n  doLogout() {\n    this.user = { name: ''};\n  }\n\n  doLogin() {\n    this.user = { name: 'Pranay Kekre' };\n  }\n\n  doCreateAccount() {\n    this.user = { name: 'Pranay Kekre' };\n  }\n}\n",
             "assetsDirs": [],
             "styleUrlsData": [
                 {
                     "data": "section {\n  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n  font-size: 14px;\n  line-height: 24px;\n  padding: 48px 20px;\n  margin: 0 auto;\n  max-width: 600px;\n  color: #333;\n}\n\nsection h2 {\n  font-weight: 700;\n  font-size: 32px;\n  line-height: 1;\n  margin: 0 0 4px;\n  display: inline-block;\n  vertical-align: top;\n}\n\nsection p {\n  margin: 1em 0;\n}\n\nsection a {\n  text-decoration: none;\n  color: #1ea7fd;\n}\n\nsection ul {\n  padding-left: 30px;\n  margin: 1em 0;\n}\n\nsection li {\n  margin-bottom: 8px;\n}\n\nsection .tip {\n  display: inline-block;\n  border-radius: 1em;\n  font-size: 11px;\n  line-height: 12px;\n  font-weight: 700;\n  background: #e7fdd8;\n  color: #66bf3c;\n  padding: 4px 12px;\n  margin-right: 10px;\n  vertical-align: top;\n}\n\nsection .tip-wrapper {\n  font-size: 13px;\n  line-height: 20px;\n  margin-top: 40px;\n  margin-bottom: 40px;\n}\n\nsection .tip-wrapper svg {\n  display: inline-block;\n  height: 12px;\n  width: 12px;\n  margin-right: 4px;\n  vertical-align: top;\n  margin-top: 3px;\n}\n\nsection .tip-wrapper svg path {\n  fill: #1ea7fd;\n}\n",
-                    "styleUrl": "../stories/page.css"
+                    "styleUrl": "./page.css"
                 }
             ],
             "stylesData": "",
@@ -966,7 +985,7 @@
         {
             "name": "PureInboxScreenComponent",
             "id": "component-PureInboxScreenComponent-e62cc8a82a82d8c52345be54a845a3204e61e8aed968f9d952702a571c5ec9a1d529d27db982f25508677a20b2d183dc00154383568c8f04fbf25189f1ec5050",
-            "file": "src/component/pure-inbox-screen.component.ts",
+            "file": "src/task/pure-inbox-screen.component.ts",
             "encapsulation": [],
             "entryComponents": [],
             "inputs": [],
@@ -1010,7 +1029,7 @@
         {
             "name": "PureTaskListComponent",
             "id": "component-PureTaskListComponent-5a76aead03e8c1f7d3c91f21abc2e8d0fca4022a586cd10cda431b361772e3ea3f66ad421cfe6466b77f102217ca8774d4164aedf6133df68de9124d49b45f18",
-            "file": "src/component/pure-task-list.component.ts",
+            "file": "src/task/pure-task-list.component.ts",
             "encapsulation": [],
             "entryComponents": [],
             "inputs": [],
@@ -1111,8 +1130,8 @@
         },
         {
             "name": "TaskComponent",
-            "id": "component-TaskComponent-97e67216388f4f33c654981dd1f14e55f5fca030a99e54bbe279c5c22aa00d64a3dce75b75ae08b2e5fd0de78368795e04a32a7c291e67feb2fb0426b07a6547",
-            "file": "src/component/task.component.ts",
+            "id": "component-TaskComponent-dd93d72efc99edf5426977bb9b920166bdba9253eeb1f46a1151888d6ce49017045185d4074675aabe79eef91ea4d0d94c72e7a5a92a955794ac6a3296594acc",
+            "file": "src/task/task.component.ts",
             "encapsulation": [],
             "entryComponents": [],
             "inputs": [],
@@ -1121,7 +1140,7 @@
             "selector": "app-task",
             "styleUrls": [],
             "styles": [],
-            "template": "<div class=\"list-item {{ task?.state }}\">\n  <label\n    [attr.aria-label]=\"'archiveTask-' + task?.id\"\n    for=\"checked-{{ task?.id }}\"\n    class=\"checkbox\"\n  >\n    <input\n      type=\"checkbox\"\n      disabled=\"true\"\n      [defaultChecked]=\"task?.state === 'TASK_ARCHIVED'\"\n      name=\"checked-{{ task?.id }}\"\n      id=\"checked-{{ task?.id }}\"\n    />\n    <span class=\"checkbox-custom\" (click)=\"onArchive(task?.id)\"></span>\n  </label>\n  <label\n    [attr.aria-label]=\"task?.title + ''\"\n    for=\"title-{{ task?.id }}\"\n    class=\"title\"\n  >\n    <input\n      type=\"text\"\n      [value]=\"task?.title\"\n      readonly=\"true\"\n      id=\"title-{{ task?.id }}\"\n      name=\"title-{{ task?.id }}\"\n      placeholder=\"Input title\"\n    />\n  </label>\n  <button\n    *ngIf=\"task?.state !== 'TASK_ARCHIVED'\"\n    class=\"pin-button\"\n    [attr.aria-label]=\"'pinTask-' + task?.id\"\n    (click)=\"onPin(task?.id)\"\n  >\n    <span class=\"icon-star\"></span>\n  </button>\n</div>\n",
+            "template": "<div class=\"list-item {{ task?.state }}\">\n  <label\n    [attr.aria-label]=\"'archiveTask-' + task?.id\"\n    for=\"checked-{{ task?.id }}\"\n    class=\"checkbox\"\n  >\n    <input\n      type=\"checkbox\"\n      disabled=\"true\"\n      [defaultChecked]=\"task?.state === 'TASK_ARCHIVED'\"\n      name=\"checked-{{ task?.id }}\"\n      id=\"checked-{{ task?.id }}\"\n    />\n    <span class=\"checkbox-custom\" (click)=\"onArchive(task?.id)\"></span>\n  </label>\n  <label\n    [attr.aria-label]=\"task?.title + ''\"\n    for=\"title-{{ task?.id }}\"\n    class=\"title\"\n  >\n    <input\n      type=\"text\"\n      [value]=\"task?.title\"\n      readonly=\"true\"\n      id=\"title-{{ task?.id }}\"\n      name=\"title-{{ task?.id }}\"\n      placeholder=\"Input title\"\n      style=\"text-overflow: ellipsis;\"\n    />\n  </label>\n  <button\n    *ngIf=\"task?.state !== 'TASK_ARCHIVED'\"\n    class=\"pin-button\"\n    [attr.aria-label]=\"'pinTask-' + task?.id\"\n    (click)=\"onPin(task?.id)\"\n  >\n    <span class=\"icon-star\"></span>\n  </button>\n</div>\n",
             "templateUrl": [],
             "viewProviders": [],
             "hostDirectives": [],
@@ -1132,7 +1151,7 @@
                     "deprecationMessage": "",
                     "rawdescription": "\n\nThe shape of the task object\n",
                     "description": "<p>The shape of the task object</p>\n",
-                    "line": 52,
+                    "line": 53,
                     "type": "Task",
                     "decorators": []
                 }
@@ -1143,7 +1162,7 @@
                     "defaultValue": "new EventEmitter<Event>()",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 60,
+                    "line": 61,
                     "type": "EventEmitter"
                 },
                 {
@@ -1151,7 +1170,7 @@
                     "defaultValue": "new EventEmitter<Event>()",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 56,
+                    "line": 57,
                     "type": "EventEmitter"
                 }
             ],
@@ -1166,7 +1185,7 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import { Component, Input, Output, EventEmitter } from '@angular/core';\nimport { Task } from '../models/task.model';\n\n@Component({\n  selector: 'app-task',\n  template: `\n    <div class=\"list-item {{ task?.state }}\">\n      <label\n        [attr.aria-label]=\"'archiveTask-' + task?.id\"\n        for=\"checked-{{ task?.id }}\"\n        class=\"checkbox\"\n      >\n        <input\n          type=\"checkbox\"\n          disabled=\"true\"\n          [defaultChecked]=\"task?.state === 'TASK_ARCHIVED'\"\n          name=\"checked-{{ task?.id }}\"\n          id=\"checked-{{ task?.id }}\"\n        />\n        <span class=\"checkbox-custom\" (click)=\"onArchive(task?.id)\"></span>\n      </label>\n      <label\n        [attr.aria-label]=\"task?.title + ''\"\n        for=\"title-{{ task?.id }}\"\n        class=\"title\"\n      >\n        <input\n          type=\"text\"\n          [value]=\"task?.title\"\n          readonly=\"true\"\n          id=\"title-{{ task?.id }}\"\n          name=\"title-{{ task?.id }}\"\n          placeholder=\"Input title\"\n        />\n      </label>\n      <button\n        *ngIf=\"task?.state !== 'TASK_ARCHIVED'\"\n        class=\"pin-button\"\n        [attr.aria-label]=\"'pinTask-' + task?.id\"\n        (click)=\"onPin(task?.id)\"\n      >\n        <span class=\"icon-star\"></span>\n      </button>\n    </div>\n  `,\n})\nexport default class TaskComponent {\n  /**\n   * The shape of the task object\n   */\n  @Input() task?: Task;\n\n  // tslint:disable-next-line: no-output-on-prefix\n  @Output()\n  onPinTask = new EventEmitter<Event>();\n\n  // tslint:disable-next-line: no-output-on-prefix\n  @Output()\n  onArchiveTask = new EventEmitter<Event>();\n\n  /**\n   * @ignore\n   * Component method to trigger the onPin event\n   * @param id string\n   */\n  onPin(id: any) {\n    this.onPinTask.emit(id);\n  }\n  /**\n   * @ignore\n   * Component method to trigger the onArchive event\n   * @param id string\n   */\n  onArchive(id: any) {\n    this.onArchiveTask.emit(id);\n  }\n}\n",
+            "sourceCode": "import { Component, Input, Output, EventEmitter } from '@angular/core';\nimport { Task } from '../models/task.model';\n\n@Component({\n  selector: 'app-task',\n  template: `\n    <div class=\"list-item {{ task?.state }}\">\n      <label\n        [attr.aria-label]=\"'archiveTask-' + task?.id\"\n        for=\"checked-{{ task?.id }}\"\n        class=\"checkbox\"\n      >\n        <input\n          type=\"checkbox\"\n          disabled=\"true\"\n          [defaultChecked]=\"task?.state === 'TASK_ARCHIVED'\"\n          name=\"checked-{{ task?.id }}\"\n          id=\"checked-{{ task?.id }}\"\n        />\n        <span class=\"checkbox-custom\" (click)=\"onArchive(task?.id)\"></span>\n      </label>\n      <label\n        [attr.aria-label]=\"task?.title + ''\"\n        for=\"title-{{ task?.id }}\"\n        class=\"title\"\n      >\n        <input\n          type=\"text\"\n          [value]=\"task?.title\"\n          readonly=\"true\"\n          id=\"title-{{ task?.id }}\"\n          name=\"title-{{ task?.id }}\"\n          placeholder=\"Input title\"\n          style=\"text-overflow: ellipsis;\"\n        />\n      </label>\n      <button\n        *ngIf=\"task?.state !== 'TASK_ARCHIVED'\"\n        class=\"pin-button\"\n        [attr.aria-label]=\"'pinTask-' + task?.id\"\n        (click)=\"onPin(task?.id)\"\n      >\n        <span class=\"icon-star\"></span>\n      </button>\n    </div>\n  `,\n})\nexport default class TaskComponent {\n  /**\n   * The shape of the task object\n   */\n  @Input() task?: Task;\n\n  // tslint:disable-next-line: no-output-on-prefix\n  @Output()\n  onPinTask = new EventEmitter<Event>();\n\n  // tslint:disable-next-line: no-output-on-prefix\n  @Output()\n  onArchiveTask = new EventEmitter<Event>();\n\n  /**\n   * @ignore\n   * Component method to trigger the onPin event\n   * @param id string\n   */\n  onPin(id: any) {\n    this.onPinTask.emit(id);\n  }\n  /**\n   * @ignore\n   * Component method to trigger the onArchive event\n   * @param id string\n   */\n  onArchive(id: any) {\n    this.onArchiveTask.emit(id);\n  }\n}\n",
             "assetsDirs": [],
             "styleUrlsData": "",
             "stylesData": "",
@@ -1175,7 +1194,7 @@
         {
             "name": "TaskListComponent",
             "id": "component-TaskListComponent-3db5ec43b68a8351a256f346f565c5f6c38e219d9c8b9ca2e6f36a7556f2f51a43d8c277bfaeaf040110372435ecdb68d688f6b14938ab67af6e28ae451499f9",
-            "file": "src/component/task-list.component.ts",
+            "file": "src/task/task-list.component.ts",
             "encapsulation": [],
             "entryComponents": [],
             "inputs": [],
@@ -1308,13 +1327,13 @@
     "modules": [
         {
             "name": "AppModule",
-            "id": "module-AppModule-933764451b9000093efe2ab2be6156984cbfbd1924ab1426a25530493be8b93151d7a93be790dec9122a7127f1410ee8d09e534a1f6fcf70d8f8013bd7f30efc",
+            "id": "module-AppModule-4a6ea41af180af945f74c99ddc565afa00f9ad10c0fa5f9433a584666d4030bfbe521e00ce82dad293e50e377fa6801277332b97c743c2c54986935026a57e20",
             "description": "",
             "deprecationMessage": "",
             "deprecated": false,
             "file": "src/app/app.module.ts",
             "methods": [],
-            "sourceCode": "import { NgModule } from '@angular/core';\nimport { BrowserModule } from '@angular/platform-browser';\n\nimport { AppComponent } from './app.component';\nimport {TaskModule} from \"../component/task.module\";\nimport {NgxsModule} from \"@ngxs/store\";\nimport {environment} from \"../environments/environment\";\nimport {NgxsReduxDevtoolsPluginModule} from \"@ngxs/devtools-plugin\";\nimport {NgxsLoggerPluginModule} from \"@ngxs/logger-plugin\";\nimport InboxScreenComponent from \"../component/inbox-screen.component\";\nimport PureInboxScreenComponent from \"../component/pure-inbox-screen.component\";\n\n@NgModule({\n  declarations: [\n    AppComponent,\n    InboxScreenComponent,\n    PureInboxScreenComponent\n  ],\n  imports: [\n    BrowserModule,\n    TaskModule,\n        NgxsModule.forRoot([], {\n           developmentMode: !environment.production,\n     }),\n   NgxsReduxDevtoolsPluginModule.forRoot(),\n     NgxsLoggerPluginModule.forRoot({\n         disabled: environment.production,\n     }),\n  ],\n  providers: [],\n  bootstrap: [AppComponent]\n})\nexport class AppModule { }\n",
+            "sourceCode": "import { NgModule } from '@angular/core';\nimport { BrowserModule } from '@angular/platform-browser';\n\nimport { AppComponent } from './app.component';\nimport {TaskModule} from \"../task/task.module\";\nimport {NgxsModule} from \"@ngxs/store\";\nimport {environment} from \"../environments/environment\";\nimport {NgxsReduxDevtoolsPluginModule} from \"@ngxs/devtools-plugin\";\nimport {NgxsLoggerPluginModule} from \"@ngxs/logger-plugin\";\nimport InboxScreenComponent from \"../task/inbox-screen.component\";\nimport PureInboxScreenComponent from \"../task/pure-inbox-screen.component\";\n\n@NgModule({\n  declarations: [\n    AppComponent,\n    InboxScreenComponent,\n    PureInboxScreenComponent\n  ],\n  imports: [\n    BrowserModule,\n    TaskModule,\n        NgxsModule.forRoot([], {\n           developmentMode: !environment.production,\n     }),\n   NgxsReduxDevtoolsPluginModule.forRoot(),\n     NgxsLoggerPluginModule.forRoot({\n         disabled: environment.production,\n     }),\n  ],\n  providers: [],\n  bootstrap: [AppComponent]\n})\nexport class AppModule { }\n",
             "children": [
                 {
                     "type": "providers",
@@ -1361,12 +1380,112 @@
             ]
         },
         {
+            "name": "ButtonModule",
+            "id": "module-ButtonModule-348252ec3cdcaaf9b943a8b0d90a7ec2e87009fab28c9b90856660c888eabd41ae8037af51ef7c89dbf3287c446c9ccceb5000f954295d7f47fcb9b6cf15b044",
+            "description": "",
+            "deprecationMessage": "",
+            "deprecated": false,
+            "file": "src/button/button.module.ts",
+            "methods": [],
+            "sourceCode": "import { CommonModule } from \"@angular/common\";\nimport { NgModule } from \"@angular/core\";\n\nimport ButtonComponent from \"./button.component\";\n\n@NgModule({\n  imports: [CommonModule, ButtonComponent],\n  exports: [ButtonComponent],\n  declarations: [],\n})\nexport class ButtonModule {}\n",
+            "children": [
+                {
+                    "type": "providers",
+                    "elements": []
+                },
+                {
+                    "type": "declarations",
+                    "elements": []
+                },
+                {
+                    "type": "imports",
+                    "elements": [
+                        {
+                            "name": "ButtonComponent"
+                        }
+                    ]
+                },
+                {
+                    "type": "exports",
+                    "elements": [
+                        {
+                            "name": "ButtonComponent"
+                        }
+                    ]
+                },
+                {
+                    "type": "bootstrap",
+                    "elements": []
+                },
+                {
+                    "type": "classes",
+                    "elements": []
+                }
+            ]
+        },
+        {
+            "name": "ComponentsModule",
+            "id": "module-ComponentsModule-1430efdc1755dd5a5aef9fe52d36859d13ef8b67e2a7ad434da3ca6f10388674463c17e0c88db17df9c86c0a3ab4733e0fbf54ca28e1cffc490a523d896183fb",
+            "description": "",
+            "deprecationMessage": "",
+            "deprecated": false,
+            "file": "src/component/components.module.ts",
+            "methods": [],
+            "sourceCode": "import { NgModule } from '@angular/core';\nimport { CommonModule } from '@angular/common';\nimport {ButtonModule} from \"../button/button.module\";\nimport PageComponent from \"../pages/page.component\";\nimport HeaderComponent from \"../header/header.component\";\n\n@NgModule({\n  imports: [CommonModule, ButtonModule, PageComponent, HeaderComponent],\n  exports: [\n    ButtonModule,\n    PageComponent,\n    HeaderComponent\n  ],\n  declarations: []\n})\nexport class ComponentsModule {}\n",
+            "children": [
+                {
+                    "type": "providers",
+                    "elements": []
+                },
+                {
+                    "type": "declarations",
+                    "elements": []
+                },
+                {
+                    "type": "imports",
+                    "elements": [
+                        {
+                            "name": "ButtonModule"
+                        },
+                        {
+                            "name": "HeaderComponent"
+                        },
+                        {
+                            "name": "PageComponent"
+                        }
+                    ]
+                },
+                {
+                    "type": "exports",
+                    "elements": [
+                        {
+                            "name": "ButtonModule"
+                        },
+                        {
+                            "name": "HeaderComponent"
+                        },
+                        {
+                            "name": "PageComponent"
+                        }
+                    ]
+                },
+                {
+                    "type": "bootstrap",
+                    "elements": []
+                },
+                {
+                    "type": "classes",
+                    "elements": []
+                }
+            ]
+        },
+        {
             "name": "TaskModule",
             "id": "module-TaskModule-4e4dd1d746472dd5a593d86c1582266db179b009b890cc85345332cea1195722e5355b3e31b9a3a43814a95e05276b96ea9257d91d5e852103bd25d30872512b",
             "description": "",
             "deprecationMessage": "",
             "deprecated": false,
-            "file": "src/component/task.module.ts",
+            "file": "src/task/task.module.ts",
             "methods": [],
             "sourceCode": "\nimport { NgModule } from '@angular/core';\nimport { CommonModule } from '@angular/common';\nimport { NgxsModule } from '@ngxs/store';\n\nimport TaskComponent from './task.component';\nimport TaskListComponent from './task-list.component';\nimport { TasksState } from '../state/task.state';\nimport PureTaskListComponent from './pure-task-list.component';\n\n@NgModule({\n  imports: [CommonModule, NgxsModule.forFeature([TasksState])],\n  exports: [TaskComponent, TaskListComponent],\n  declarations: [TaskComponent, TaskListComponent, PureTaskListComponent],\n  providers: [],\n})\nexport class TaskModule {}\n",
             "children": [
@@ -1430,7 +1549,7 @@
                 "name": "actionsData",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/stories/task.stories.ts",
+                "file": "src/task/task.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "object",
@@ -1440,7 +1559,7 @@
                 "name": "Archived",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/stories/task.stories.ts",
+                "file": "src/task/task.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
@@ -1450,7 +1569,7 @@
                 "name": "Default",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/stories/pure-inbox-screen.stories.ts",
+                "file": "src/task/pure-inbox-screen.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
@@ -1460,7 +1579,7 @@
                 "name": "Default",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/stories/pure-task-list.stories.ts",
+                "file": "src/task/pure-task-list.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
@@ -1470,7 +1589,7 @@
                 "name": "Default",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/stories/task.stories.ts",
+                "file": "src/task/task.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
@@ -1490,7 +1609,7 @@
                 "name": "Empty",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/stories/pure-task-list.stories.ts",
+                "file": "src/task/pure-task-list.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
@@ -1520,7 +1639,7 @@
                 "name": "Error",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/stories/pure-inbox-screen.stories.ts",
+                "file": "src/task/pure-inbox-screen.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
@@ -1530,17 +1649,17 @@
                 "name": "Large",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/stories/Button.stories.ts",
+                "file": "src/button/Button.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
-                "defaultValue": "{\n  args: {\n    size: 'large',\n    label: 'Button',\n  },\n}"
+                "defaultValue": "{\n  args: {\n    size: 'large',\n    label: 'Button',\n    backgroundColor: 'white',\n  },\n}"
             },
             {
                 "name": "Loading",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/stories/pure-task-list.stories.ts",
+                "file": "src/task/pure-task-list.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
@@ -1550,7 +1669,7 @@
                 "name": "LoggedIn",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/stories/Header.stories.ts",
+                "file": "src/header/Header.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
@@ -1560,7 +1679,7 @@
                 "name": "LoggedIn",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/stories/Page.stories.ts",
+                "file": "src/pages/Page.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
@@ -1570,7 +1689,7 @@
                 "name": "LoggedOut",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/stories/Header.stories.ts",
+                "file": "src/header/Header.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
@@ -1580,17 +1699,37 @@
                 "name": "LoggedOut",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/stories/Page.stories.ts",
+                "file": "src/pages/Page.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
                 "defaultValue": "{\n  render: (args: Page) => ({\n    props: args,\n  }),\n}"
             },
             {
+                "name": "LongTitle",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/task/task.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\n  args: {\n    task: {\n      ...Default.args?.task,\n      title: longTitleString,\n    },\n  },\n}"
+            },
+            {
+                "name": "longTitleString",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/task/task.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "",
+                "defaultValue": "`This task's name is absurdly large. In fact, I think if I keep going I might end up with content overflow. What will happen? The star that represents a pinned task could have text overlapping. The text could cut-off abruptly when it reaches the star. I hope not!`"
+            },
+            {
                 "name": "meta",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/stories/Button.stories.ts",
+                "file": "src/button/Button.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Meta<Button>",
@@ -1600,27 +1739,27 @@
                 "name": "meta",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/stories/Header.stories.ts",
+                "file": "src/header/Header.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Meta<Header>",
-                "defaultValue": "{\n  title: 'Example/Header',\n  component: Header,\n  // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/angular/writing-docs/autodocs\n  tags: ['autodocs'],\n  render: (args) => ({ props: args }),\n  decorators: [\n    moduleMetadata({\n      declarations: [Button],\n      imports: [CommonModule],\n    }),\n  ],\n  parameters: {\n    // More on how to position stories at: https://storybook.js.org/docs/angular/configure/story-layout\n    layout: 'fullscreen',\n  },\n}"
+                "defaultValue": "{\n  title: 'Example/Header',\n  component: Header,\n  // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/angular/writing-docs/autodocs\n  tags: ['autodocs'],\n  render: (args) => ({ props: args }),\n  decorators: [\n    moduleMetadata({\n      declarations: [],\n      imports: [CommonModule],\n    }),\n  ],\n  parameters: {\n    // More on how to position stories at: https://storybook.js.org/docs/angular/configure/story-layout\n    layout: 'fullscreen',\n  },\n}"
             },
             {
                 "name": "meta",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/stories/Page.stories.ts",
+                "file": "src/pages/Page.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Meta<Page>",
-                "defaultValue": "{\n  title: 'Example/Page',\n  component: Page,\n  parameters: {\n    // More on how to position stories at: https://storybook.js.org/docs/angular/configure/story-layout\n    layout: 'fullscreen',\n  },\n  decorators: [\n    moduleMetadata({\n      declarations: [Button, Header],\n      imports: [CommonModule],\n    }),\n  ],\n}"
+                "defaultValue": "{\n  title: 'Example/Page',\n  component: Page,\n  parameters: {\n    // More on how to position stories at: https://storybook.js.org/docs/angular/configure/story-layout\n    layout: 'fullscreen',\n  },\n  decorators: [\n    moduleMetadata({\n      declarations: [],\n      imports: [CommonModule],\n    }),\n  ],\n}"
             },
             {
                 "name": "meta",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/stories/pure-inbox-screen.stories.ts",
+                "file": "src/task/pure-inbox-screen.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Meta<PureInboxScreenComponent>",
@@ -1630,7 +1769,7 @@
                 "name": "meta",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/stories/pure-task-list.stories.ts",
+                "file": "src/task/pure-task-list.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Meta<PureTaskListComponent>",
@@ -1640,7 +1779,7 @@
                 "name": "meta",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/stories/task.stories.ts",
+                "file": "src/task/task.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Meta<TaskComponent>",
@@ -1650,7 +1789,7 @@
                 "name": "Pinned",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/stories/task.stories.ts",
+                "file": "src/task/task.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
@@ -1670,7 +1809,7 @@
                 "name": "Primary",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/stories/Button.stories.ts",
+                "file": "src/button/Button.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
@@ -1680,27 +1819,27 @@
                 "name": "Secondary",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/stories/Button.stories.ts",
+                "file": "src/button/Button.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
-                "defaultValue": "{\n  args: {\n    label: 'Button',\n  },\n}"
+                "defaultValue": "{\n  args: {\n    label: 'Button',\n    backgroundColor: 'white',\n  },\n}"
             },
             {
                 "name": "Small",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/stories/Button.stories.ts",
+                "file": "src/button/Button.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
-                "defaultValue": "{\n  args: {\n    size: 'small',\n    label: 'Button',\n  },\n}"
+                "defaultValue": "{\n  args: {\n    size: 'small',\n    label: 'Button',\n    backgroundColor: 'white',\n  },\n}"
             },
             {
                 "name": "WithInteractions",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/stories/pure-inbox-screen.stories.ts",
+                "file": "src/task/pure-inbox-screen.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
@@ -1710,7 +1849,7 @@
                 "name": "WithPinnedTasks",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/stories/pure-task-list.stories.ts",
+                "file": "src/task/pure-task-list.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
@@ -1724,7 +1863,7 @@
                 "ctype": "miscellaneous",
                 "subtype": "typealias",
                 "rawtype": "StoryObj<Button>",
-                "file": "src/stories/Button.stories.ts",
+                "file": "src/button/Button.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "description": "",
@@ -1735,7 +1874,7 @@
                 "ctype": "miscellaneous",
                 "subtype": "typealias",
                 "rawtype": "StoryObj<Header>",
-                "file": "src/stories/Header.stories.ts",
+                "file": "src/header/Header.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "description": "",
@@ -1746,7 +1885,7 @@
                 "ctype": "miscellaneous",
                 "subtype": "typealias",
                 "rawtype": "StoryObj<Page>",
-                "file": "src/stories/Page.stories.ts",
+                "file": "src/pages/Page.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "description": "",
@@ -1757,7 +1896,7 @@
                 "ctype": "miscellaneous",
                 "subtype": "typealias",
                 "rawtype": "StoryObj<PureInboxScreenComponent>",
-                "file": "src/stories/pure-inbox-screen.stories.ts",
+                "file": "src/task/pure-inbox-screen.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "description": "",
@@ -1768,7 +1907,7 @@
                 "ctype": "miscellaneous",
                 "subtype": "typealias",
                 "rawtype": "StoryObj<PureTaskListComponent>",
-                "file": "src/stories/pure-task-list.stories.ts",
+                "file": "src/task/pure-task-list.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "description": "",
@@ -1779,7 +1918,7 @@
                 "ctype": "miscellaneous",
                 "subtype": "typealias",
                 "rawtype": "StoryObj<TaskComponent>",
-                "file": "src/stories/task.stories.ts",
+                "file": "src/task/task.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "description": "",
@@ -1810,12 +1949,12 @@
                     "defaultValue": "[\n  { id: '1', title: 'Something', state: 'TASK_INBOX' },\n  { id: '2', title: 'Something more', state: 'TASK_INBOX' },\n  { id: '3', title: 'Something else', state: 'TASK_INBOX' },\n  { id: '4', title: 'Something again', state: 'TASK_INBOX' },\n]"
                 }
             ],
-            "src/stories/task.stories.ts": [
+            "src/task/task.stories.ts": [
                 {
                     "name": "actionsData",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "src/stories/task.stories.ts",
+                    "file": "src/task/task.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "object",
@@ -1825,7 +1964,7 @@
                     "name": "Archived",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "src/stories/task.stories.ts",
+                    "file": "src/task/task.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
@@ -1835,17 +1974,37 @@
                     "name": "Default",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "src/stories/task.stories.ts",
+                    "file": "src/task/task.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
                     "defaultValue": "{\n  args: {\n    task: {\n      id: '1',\n      title: 'Test Task',\n      state: 'TASK_INBOX',\n    },\n  },\n}"
                 },
                 {
+                    "name": "LongTitle",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/task/task.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{\n  args: {\n    task: {\n      ...Default.args?.task,\n      title: longTitleString,\n    },\n  },\n}"
+                },
+                {
+                    "name": "longTitleString",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/task/task.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "defaultValue": "`This task's name is absurdly large. In fact, I think if I keep going I might end up with content overflow. What will happen? The star that represents a pinned task could have text overlapping. The text could cut-off abruptly when it reaches the star. I hope not!`"
+                },
+                {
                     "name": "meta",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "src/stories/task.stories.ts",
+                    "file": "src/task/task.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Meta<TaskComponent>",
@@ -1855,19 +2014,19 @@
                     "name": "Pinned",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "src/stories/task.stories.ts",
+                    "file": "src/task/task.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
                     "defaultValue": "{\n  args: {\n    task: {\n      id: '2',\n      title: 'Test Task',\n      state: 'TASK_PINNED',\n    },\n  },\n}"
                 }
             ],
-            "src/stories/pure-inbox-screen.stories.ts": [
+            "src/task/pure-inbox-screen.stories.ts": [
                 {
                     "name": "Default",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "src/stories/pure-inbox-screen.stories.ts",
+                    "file": "src/task/pure-inbox-screen.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
@@ -1877,7 +2036,7 @@
                     "name": "Error",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "src/stories/pure-inbox-screen.stories.ts",
+                    "file": "src/task/pure-inbox-screen.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
@@ -1887,7 +2046,7 @@
                     "name": "meta",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "src/stories/pure-inbox-screen.stories.ts",
+                    "file": "src/task/pure-inbox-screen.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Meta<PureInboxScreenComponent>",
@@ -1897,19 +2056,19 @@
                     "name": "WithInteractions",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "src/stories/pure-inbox-screen.stories.ts",
+                    "file": "src/task/pure-inbox-screen.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
                     "defaultValue": "{\n  play: async ({ canvasElement }) => {\n    const canvas = within(canvasElement);\n    // Simulates pinning the first task\n    await fireEvent.click(canvas.getByLabelText('pinTask-1'));\n    // Simulates pinning the third task\n    await fireEvent.click(canvas.getByLabelText('pinTask-3'));\n  },\n}"
                 }
             ],
-            "src/stories/pure-task-list.stories.ts": [
+            "src/task/pure-task-list.stories.ts": [
                 {
                     "name": "Default",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "src/stories/pure-task-list.stories.ts",
+                    "file": "src/task/pure-task-list.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
@@ -1919,7 +2078,7 @@
                     "name": "Empty",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "src/stories/pure-task-list.stories.ts",
+                    "file": "src/task/pure-task-list.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
@@ -1929,7 +2088,7 @@
                     "name": "Loading",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "src/stories/pure-task-list.stories.ts",
+                    "file": "src/task/pure-task-list.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
@@ -1939,7 +2098,7 @@
                     "name": "meta",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "src/stories/pure-task-list.stories.ts",
+                    "file": "src/task/pure-task-list.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Meta<PureTaskListComponent>",
@@ -1949,7 +2108,7 @@
                     "name": "WithPinnedTasks",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "src/stories/pure-task-list.stories.ts",
+                    "file": "src/task/pure-task-list.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
@@ -1980,22 +2139,22 @@
                     "defaultValue": "{\n  production: false,\n}"
                 }
             ],
-            "src/stories/Button.stories.ts": [
+            "src/button/Button.stories.ts": [
                 {
                     "name": "Large",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "src/stories/Button.stories.ts",
+                    "file": "src/button/Button.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
-                    "defaultValue": "{\n  args: {\n    size: 'large',\n    label: 'Button',\n  },\n}"
+                    "defaultValue": "{\n  args: {\n    size: 'large',\n    label: 'Button',\n    backgroundColor: 'white',\n  },\n}"
                 },
                 {
                     "name": "meta",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "src/stories/Button.stories.ts",
+                    "file": "src/button/Button.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Meta<Button>",
@@ -2005,7 +2164,7 @@
                     "name": "Primary",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "src/stories/Button.stories.ts",
+                    "file": "src/button/Button.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
@@ -2015,29 +2174,29 @@
                     "name": "Secondary",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "src/stories/Button.stories.ts",
+                    "file": "src/button/Button.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
-                    "defaultValue": "{\n  args: {\n    label: 'Button',\n  },\n}"
+                    "defaultValue": "{\n  args: {\n    label: 'Button',\n    backgroundColor: 'white',\n  },\n}"
                 },
                 {
                     "name": "Small",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "src/stories/Button.stories.ts",
+                    "file": "src/button/Button.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
-                    "defaultValue": "{\n  args: {\n    size: 'small',\n    label: 'Button',\n  },\n}"
+                    "defaultValue": "{\n  args: {\n    size: 'small',\n    label: 'Button',\n    backgroundColor: 'white',\n  },\n}"
                 }
             ],
-            "src/stories/Header.stories.ts": [
+            "src/header/Header.stories.ts": [
                 {
                     "name": "LoggedIn",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "src/stories/Header.stories.ts",
+                    "file": "src/header/Header.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
@@ -2047,7 +2206,7 @@
                     "name": "LoggedOut",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "src/stories/Header.stories.ts",
+                    "file": "src/header/Header.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
@@ -2057,19 +2216,19 @@
                     "name": "meta",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "src/stories/Header.stories.ts",
+                    "file": "src/header/Header.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Meta<Header>",
-                    "defaultValue": "{\n  title: 'Example/Header',\n  component: Header,\n  // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/angular/writing-docs/autodocs\n  tags: ['autodocs'],\n  render: (args) => ({ props: args }),\n  decorators: [\n    moduleMetadata({\n      declarations: [Button],\n      imports: [CommonModule],\n    }),\n  ],\n  parameters: {\n    // More on how to position stories at: https://storybook.js.org/docs/angular/configure/story-layout\n    layout: 'fullscreen',\n  },\n}"
+                    "defaultValue": "{\n  title: 'Example/Header',\n  component: Header,\n  // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/angular/writing-docs/autodocs\n  tags: ['autodocs'],\n  render: (args) => ({ props: args }),\n  decorators: [\n    moduleMetadata({\n      declarations: [],\n      imports: [CommonModule],\n    }),\n  ],\n  parameters: {\n    // More on how to position stories at: https://storybook.js.org/docs/angular/configure/story-layout\n    layout: 'fullscreen',\n  },\n}"
                 }
             ],
-            "src/stories/Page.stories.ts": [
+            "src/pages/Page.stories.ts": [
                 {
                     "name": "LoggedIn",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "src/stories/Page.stories.ts",
+                    "file": "src/pages/Page.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
@@ -2079,7 +2238,7 @@
                     "name": "LoggedOut",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "src/stories/Page.stories.ts",
+                    "file": "src/pages/Page.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
@@ -2089,11 +2248,11 @@
                     "name": "meta",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "src/stories/Page.stories.ts",
+                    "file": "src/pages/Page.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Meta<Page>",
-                    "defaultValue": "{\n  title: 'Example/Page',\n  component: Page,\n  parameters: {\n    // More on how to position stories at: https://storybook.js.org/docs/angular/configure/story-layout\n    layout: 'fullscreen',\n  },\n  decorators: [\n    moduleMetadata({\n      declarations: [Button, Header],\n      imports: [CommonModule],\n    }),\n  ],\n}"
+                    "defaultValue": "{\n  title: 'Example/Page',\n  component: Page,\n  parameters: {\n    // More on how to position stories at: https://storybook.js.org/docs/angular/configure/story-layout\n    layout: 'fullscreen',\n  },\n  decorators: [\n    moduleMetadata({\n      declarations: [],\n      imports: [CommonModule],\n    }),\n  ],\n}"
                 }
             ],
             ".storybook/preview.ts": [
@@ -2112,78 +2271,78 @@
         "groupedFunctions": {},
         "groupedEnumerations": {},
         "groupedTypeAliases": {
-            "src/stories/Button.stories.ts": [
+            "src/button/Button.stories.ts": [
                 {
                     "name": "Story",
                     "ctype": "miscellaneous",
                     "subtype": "typealias",
                     "rawtype": "StoryObj<Button>",
-                    "file": "src/stories/Button.stories.ts",
+                    "file": "src/button/Button.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "description": "",
                     "kind": 183
                 }
             ],
-            "src/stories/Header.stories.ts": [
+            "src/header/Header.stories.ts": [
                 {
                     "name": "Story",
                     "ctype": "miscellaneous",
                     "subtype": "typealias",
                     "rawtype": "StoryObj<Header>",
-                    "file": "src/stories/Header.stories.ts",
+                    "file": "src/header/Header.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "description": "",
                     "kind": 183
                 }
             ],
-            "src/stories/Page.stories.ts": [
+            "src/pages/Page.stories.ts": [
                 {
                     "name": "Story",
                     "ctype": "miscellaneous",
                     "subtype": "typealias",
                     "rawtype": "StoryObj<Page>",
-                    "file": "src/stories/Page.stories.ts",
+                    "file": "src/pages/Page.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "description": "",
                     "kind": 183
                 }
             ],
-            "src/stories/pure-inbox-screen.stories.ts": [
+            "src/task/pure-inbox-screen.stories.ts": [
                 {
                     "name": "Story",
                     "ctype": "miscellaneous",
                     "subtype": "typealias",
                     "rawtype": "StoryObj<PureInboxScreenComponent>",
-                    "file": "src/stories/pure-inbox-screen.stories.ts",
+                    "file": "src/task/pure-inbox-screen.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "description": "",
                     "kind": 183
                 }
             ],
-            "src/stories/pure-task-list.stories.ts": [
+            "src/task/pure-task-list.stories.ts": [
                 {
                     "name": "Story",
                     "ctype": "miscellaneous",
                     "subtype": "typealias",
                     "rawtype": "StoryObj<PureTaskListComponent>",
-                    "file": "src/stories/pure-task-list.stories.ts",
+                    "file": "src/task/pure-task-list.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "description": "",
                     "kind": 183
                 }
             ],
-            "src/stories/task.stories.ts": [
+            "src/task/task.stories.ts": [
                 {
                     "name": "Story",
                     "ctype": "miscellaneous",
                     "subtype": "typealias",
                     "rawtype": "StoryObj<TaskComponent>",
-                    "file": "src/stories/task.stories.ts",
+                    "file": "src/task/task.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "description": "",
@@ -2217,76 +2376,63 @@
                 "status": "low"
             },
             {
-                "filePath": "src/component/button.component.ts",
+                "filePath": "src/button/Button.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Large",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/button/Button.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "meta",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/button/Button.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Primary",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/button/Button.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Secondary",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/button/Button.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Small",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/button/button.component.ts",
                 "type": "component",
                 "linktype": "component",
                 "name": "ButtonComponent",
                 "coveragePercent": 83,
                 "coverageCount": "5/6",
                 "status": "very-good"
-            },
-            {
-                "filePath": "src/component/header.component.ts",
-                "type": "component",
-                "linktype": "component",
-                "name": "HeaderComponent",
-                "coveragePercent": 0,
-                "coverageCount": "0/5",
-                "status": "low"
-            },
-            {
-                "filePath": "src/component/inbox-screen.component.ts",
-                "type": "component",
-                "linktype": "component",
-                "name": "InboxScreenComponent",
-                "coveragePercent": 0,
-                "coverageCount": "0/3",
-                "status": "low"
-            },
-            {
-                "filePath": "src/component/page.component.ts",
-                "type": "component",
-                "linktype": "component",
-                "name": "PageComponent",
-                "coveragePercent": 0,
-                "coverageCount": "0/5",
-                "status": "low"
-            },
-            {
-                "filePath": "src/component/pure-inbox-screen.component.ts",
-                "type": "component",
-                "linktype": "component",
-                "name": "PureInboxScreenComponent",
-                "coveragePercent": 0,
-                "coverageCount": "0/2",
-                "status": "low"
-            },
-            {
-                "filePath": "src/component/pure-task-list.component.ts",
-                "type": "component",
-                "linktype": "component",
-                "name": "PureTaskListComponent",
-                "coveragePercent": 0,
-                "coverageCount": "0/5",
-                "status": "low"
-            },
-            {
-                "filePath": "src/component/task-list.component.ts",
-                "type": "component",
-                "linktype": "component",
-                "name": "TaskListComponent",
-                "coveragePercent": 40,
-                "coverageCount": "2/5",
-                "status": "medium"
-            },
-            {
-                "filePath": "src/component/task.component.ts",
-                "type": "component",
-                "linktype": "component",
-                "name": "TaskComponent",
-                "coveragePercent": 25,
-                "coverageCount": "1/4",
-                "status": "low"
             },
             {
                 "filePath": "src/environments/environment.prod.ts",
@@ -2309,12 +2455,51 @@
                 "status": "low"
             },
             {
+                "filePath": "src/header/Header.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "LoggedIn",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/header/Header.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "LoggedOut",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/header/Header.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "meta",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/header/header.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "HeaderComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/5",
+                "status": "low"
+            },
+            {
                 "filePath": "src/models/User.ts",
                 "type": "interface",
                 "linktype": "interface",
                 "name": "User",
                 "coveragePercent": 0,
-                "coverageCount": "0/1",
+                "coverageCount": "0/2",
                 "status": "low"
             },
             {
@@ -2324,6 +2509,45 @@
                 "name": "Task",
                 "coveragePercent": 0,
                 "coverageCount": "0/4",
+                "status": "low"
+            },
+            {
+                "filePath": "src/pages/Page.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "LoggedIn",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/pages/Page.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "LoggedOut",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/pages/Page.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "meta",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/pages/page.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "PageComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/5",
                 "status": "low"
             },
             {
@@ -2392,117 +2616,25 @@
                 "status": "low"
             },
             {
-                "filePath": "src/stories/Button.stories.ts",
-                "type": "variable",
-                "linktype": "miscellaneous",
-                "linksubtype": "variable",
-                "name": "Large",
+                "filePath": "src/task/inbox-screen.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "InboxScreenComponent",
                 "coveragePercent": 0,
-                "coverageCount": "0/1",
+                "coverageCount": "0/3",
                 "status": "low"
             },
             {
-                "filePath": "src/stories/Button.stories.ts",
-                "type": "variable",
-                "linktype": "miscellaneous",
-                "linksubtype": "variable",
-                "name": "meta",
+                "filePath": "src/task/pure-inbox-screen.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "PureInboxScreenComponent",
                 "coveragePercent": 0,
-                "coverageCount": "0/1",
+                "coverageCount": "0/2",
                 "status": "low"
             },
             {
-                "filePath": "src/stories/Button.stories.ts",
-                "type": "variable",
-                "linktype": "miscellaneous",
-                "linksubtype": "variable",
-                "name": "Primary",
-                "coveragePercent": 0,
-                "coverageCount": "0/1",
-                "status": "low"
-            },
-            {
-                "filePath": "src/stories/Button.stories.ts",
-                "type": "variable",
-                "linktype": "miscellaneous",
-                "linksubtype": "variable",
-                "name": "Secondary",
-                "coveragePercent": 0,
-                "coverageCount": "0/1",
-                "status": "low"
-            },
-            {
-                "filePath": "src/stories/Button.stories.ts",
-                "type": "variable",
-                "linktype": "miscellaneous",
-                "linksubtype": "variable",
-                "name": "Small",
-                "coveragePercent": 0,
-                "coverageCount": "0/1",
-                "status": "low"
-            },
-            {
-                "filePath": "src/stories/Header.stories.ts",
-                "type": "variable",
-                "linktype": "miscellaneous",
-                "linksubtype": "variable",
-                "name": "LoggedIn",
-                "coveragePercent": 0,
-                "coverageCount": "0/1",
-                "status": "low"
-            },
-            {
-                "filePath": "src/stories/Header.stories.ts",
-                "type": "variable",
-                "linktype": "miscellaneous",
-                "linksubtype": "variable",
-                "name": "LoggedOut",
-                "coveragePercent": 0,
-                "coverageCount": "0/1",
-                "status": "low"
-            },
-            {
-                "filePath": "src/stories/Header.stories.ts",
-                "type": "variable",
-                "linktype": "miscellaneous",
-                "linksubtype": "variable",
-                "name": "meta",
-                "coveragePercent": 0,
-                "coverageCount": "0/1",
-                "status": "low"
-            },
-            {
-                "filePath": "src/stories/Page.stories.ts",
-                "type": "variable",
-                "linktype": "miscellaneous",
-                "linksubtype": "variable",
-                "name": "LoggedIn",
-                "coveragePercent": 0,
-                "coverageCount": "0/1",
-                "status": "low"
-            },
-            {
-                "filePath": "src/stories/Page.stories.ts",
-                "type": "variable",
-                "linktype": "miscellaneous",
-                "linksubtype": "variable",
-                "name": "LoggedOut",
-                "coveragePercent": 0,
-                "coverageCount": "0/1",
-                "status": "low"
-            },
-            {
-                "filePath": "src/stories/Page.stories.ts",
-                "type": "variable",
-                "linktype": "miscellaneous",
-                "linksubtype": "variable",
-                "name": "meta",
-                "coveragePercent": 0,
-                "coverageCount": "0/1",
-                "status": "low"
-            },
-            {
-                "filePath": "src/stories/pure-inbox-screen.stories.ts",
+                "filePath": "src/task/pure-inbox-screen.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -2512,7 +2644,7 @@
                 "status": "low"
             },
             {
-                "filePath": "src/stories/pure-inbox-screen.stories.ts",
+                "filePath": "src/task/pure-inbox-screen.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -2522,7 +2654,7 @@
                 "status": "low"
             },
             {
-                "filePath": "src/stories/pure-inbox-screen.stories.ts",
+                "filePath": "src/task/pure-inbox-screen.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -2532,7 +2664,7 @@
                 "status": "low"
             },
             {
-                "filePath": "src/stories/pure-inbox-screen.stories.ts",
+                "filePath": "src/task/pure-inbox-screen.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -2542,7 +2674,16 @@
                 "status": "low"
             },
             {
-                "filePath": "src/stories/pure-task-list.stories.ts",
+                "filePath": "src/task/pure-task-list.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "PureTaskListComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/5",
+                "status": "low"
+            },
+            {
+                "filePath": "src/task/pure-task-list.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -2552,7 +2693,7 @@
                 "status": "low"
             },
             {
-                "filePath": "src/stories/pure-task-list.stories.ts",
+                "filePath": "src/task/pure-task-list.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -2562,7 +2703,7 @@
                 "status": "low"
             },
             {
-                "filePath": "src/stories/pure-task-list.stories.ts",
+                "filePath": "src/task/pure-task-list.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -2572,7 +2713,7 @@
                 "status": "low"
             },
             {
-                "filePath": "src/stories/pure-task-list.stories.ts",
+                "filePath": "src/task/pure-task-list.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -2582,7 +2723,7 @@
                 "status": "low"
             },
             {
-                "filePath": "src/stories/pure-task-list.stories.ts",
+                "filePath": "src/task/pure-task-list.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -2592,7 +2733,25 @@
                 "status": "low"
             },
             {
-                "filePath": "src/stories/task.stories.ts",
+                "filePath": "src/task/task-list.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "TaskListComponent",
+                "coveragePercent": 40,
+                "coverageCount": "2/5",
+                "status": "medium"
+            },
+            {
+                "filePath": "src/task/task.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "TaskComponent",
+                "coveragePercent": 25,
+                "coverageCount": "1/4",
+                "status": "low"
+            },
+            {
+                "filePath": "src/task/task.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -2602,7 +2761,7 @@
                 "status": "low"
             },
             {
-                "filePath": "src/stories/task.stories.ts",
+                "filePath": "src/task/task.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -2612,7 +2771,7 @@
                 "status": "low"
             },
             {
-                "filePath": "src/stories/task.stories.ts",
+                "filePath": "src/task/task.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -2622,7 +2781,27 @@
                 "status": "low"
             },
             {
-                "filePath": "src/stories/task.stories.ts",
+                "filePath": "src/task/task.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "LongTitle",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/task/task.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "longTitleString",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/task/task.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -2632,7 +2811,7 @@
                 "status": "low"
             },
             {
-                "filePath": "src/stories/task.stories.ts",
+                "filePath": "src/task/task.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",

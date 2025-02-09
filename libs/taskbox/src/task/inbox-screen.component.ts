@@ -4,7 +4,7 @@ import { Store } from '@ngxs/store';
 import { Observable } from 'rxjs';
 
 @Component({
-  selector: 'app-inbox-screen',
+  selector: 'lda-inbox-screen',
   template: `
     <app-pure-inbox-screen [error]="error$ | async"></app-pure-inbox-screen>
   `,

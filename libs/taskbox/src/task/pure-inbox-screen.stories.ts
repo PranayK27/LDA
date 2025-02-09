@@ -12,9 +12,9 @@ import { fireEvent, within } from '@storybook/test';
 
 import { CommonModule } from '@angular/common';
 
-import PureInboxScreenComponent from '../component/pure-inbox-screen.component';
+import PureInboxScreenComponent from './pure-inbox-screen.component';
 
-import { TaskModule } from '../component/task.module';
+import { TaskModule } from './task.module';
 
 const meta: Meta<PureInboxScreenComponent> = {
   component: PureInboxScreenComponent,

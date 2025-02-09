@@ -3,7 +3,7 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
   standalone: true,
-  selector: 'storybook-button',
+  selector: 'lda-storybook-button',
   imports: [CommonModule],
   template: `
     <button
@@ -14,7 +14,7 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
     >
       {{ label }}
     </button>`,
-  styleUrls: ['../stories/button.css'],
+  styleUrls: ['./button.css'],
 })
 export default class ButtonComponent {
   /**
