@@ -8,10 +8,10 @@
     "start": "npx nx run lda:serve",
     "build": "npx nx run lda:build",
     "test": "nx test",
-    "docs:json": "compodoc -p ./tsconfig.base.json -e json -d .",
-    "storybook": "npm run docs:json && storybook dev -p 4400",
-    "build-storybook": "npm run docs:json",
-    "test-storybook": "test-storybook"
+    "docs:json": "cd libs/taskbox/ && compodoc -p ./tsconfig.app.json -e json -d .",
+    "storybook": "cd libs/taskbox/ && npm run storybook",
+    "build-storybook": "cd libs/taskbox/ && npm run build-storybook",
+    "test-storybook": "cd libs/taskbox/ && npm run test-storybook"
   },
   "private": true,
   "dependencies": {
