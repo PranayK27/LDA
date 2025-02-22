@@ -131,859 +131,495 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "libs/taskbox/src/header/header.component.ts",
-        "hash": "1158350374774038024"
-      },
-      {
-        "file": "libs/taskbox/src/state/task.state.ts",
-        "hash": "10586480013847525651"
-      },
-      {
-        "file": "libs/taskbox/src/task/pure-task-list.stories.ts",
-        "hash": "16251444000111122645"
-      },
-      {
-        "file": "docs/img_4.png",
-        "hash": "4511888658319960845"
-      },
-      {
-        "file": "libs/taskbox/src/assets/icon/percolate.eot",
-        "hash": "8658131508729243255"
-      },
-      {
-        "file": "libs/taskbox/angular.json",
-        "hash": "13526939996040544903"
-      },
-      {
-        "file": "libs/taskbox/src/button/button.css",
-        "hash": "11442119154654082062"
-      },
-      {
-        "file": "README.md",
-        "hash": "1897885957930325014"
-      },
-      {
-        "file": "libs/taskbox/src/task/inbox-screen.component.ts",
-        "hash": "11851913642730941552"
-      },
-      {
-        "file": "libs/taskbox/tsconfig.spec.json",
-        "hash": "4359485005703740431"
-      },
-      {
-        "file": "libs/taskbox/src/stories/assets/flow.svg",
-        "hash": "18413723651031157086"
-      },
-      {
-        "file": "libs/.gitkeep",
-        "hash": "3244421341483603138"
-      },
-      {
-        "file": "libs/taskbox/src/pages/page.component.ts",
-        "hash": "1549012900938890784"
+        "file": "libs/taskbox/build-storybook.log",
+        "hash": "17412562054383221370"
       },
       {
         "file": "libs/taskbox/src/header/header.css",
         "hash": "17474774144842035713"
       },
       {
-        "file": "docs/img_8.png",
-        "hash": "4655600389054021017"
-      },
-      {
-        "file": "libs/taskbox/documentation.json",
-        "hash": "3606072682649012405"
-      },
-      {
-        "file": "docs/img_1.png",
-        "hash": "5515288466683885995"
+        "file": "libs/taskbox/setup-jest.ts",
+        "hash": "17711435995618823417"
       },
       {
         "file": "libs/taskbox/src/button/Button.stories.ts",
         "hash": "13931746419992993704"
       },
       {
-        "file": "libs/state-management-lifecycle.png",
-        "hash": "1193653798388182329"
+        "file": "libs/taskbox/src/task/inbox-screen.component.ts",
+        "hash": "11851913642730941552"
       },
       {
-        "file": "tools/generators/.gitkeep",
-        "hash": "3244421341483603138"
-      },
-      {
-        "file": "library.png",
-        "hash": "4655600389054021017"
-      },
-      {
-        "file": ".github/dependabot.yml",
-        "hash": "192641425318039133"
-      },
-      {
-        "file": "libs/taskbox/src/app/app.component.html",
-        "hash": "9751251144335046794"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "7999322121402809737"
-      },
-      {
-        "file": "libs/taskbox/src/assets/font/OpenSans-Light-webfont.ttf",
-        "hash": "1332536706352581692"
-      },
-      {
-        "file": "libs/taskbox/src/task/pure-task-list.component.ts",
-        "hash": "9261469395647995457"
-      },
-      {
-        "file": "libs/taskbox/src/assets/font/OpenSans-Light-webfont.woff",
-        "hash": "13230354004337104944"
-      },
-      {
-        "file": "libs/taskbox/src/app/app.component.spec.ts",
-        "hash": "12888756559149429168"
-      },
-      {
-        "file": "docs/img_7.png",
-        "hash": "9380007213185837752"
-      },
-      {
-        "file": "libs/taskbox/src/models/User.ts",
-        "hash": "6435412604301094702"
-      },
-      {
-        "file": "libs/taskbox/src/assets/font/OpenSans-Light-webfont.eot",
-        "hash": "3532527554520708655"
-      },
-      {
-        "file": "libs/taskbox/package.json",
-        "hash": "8501791578927476536"
-      },
-      {
-        "file": ".github/ISSUE_TEMPLATE/bug_report.md",
-        "hash": "15424388660508099364"
-      },
-      {
-        "file": "docs/img.png",
-        "hash": "11176018837917209388"
-      },
-      {
-        "file": "libs/taskbox/src/stories/assets/code-brackets.svg",
-        "hash": "1112009941262053247"
-      },
-      {
-        "file": "libs/taskbox/README.md",
-        "hash": "8096802999119147848"
-      },
-      {
-        "file": "docs/img_3.png",
-        "hash": "46462135247364071"
-      },
-      {
-        "file": "libs/taskbox/src/stories/assets/comments.svg",
-        "hash": "9521503280802117255"
-      },
-      {
-        "file": "libs/taskbox/src/pages/Page.stories.ts",
-        "hash": "10378008065159187031"
-      },
-      {
-        "file": "libs/taskbox/src/environments/environment.prod.ts",
-        "hash": "10220522844224226756"
-      },
-      {
-        "file": "package.json",
-        "hash": "13747565515614147964"
-      },
-      {
-        "file": ".prettierrc",
-        "hash": "16267754514737964994"
-      },
-      {
-        "file": "libs/taskbox/.gitignore",
-        "hash": "13044518069027839699"
-      },
-      {
-        "file": ".npmrc",
-        "hash": "18085261541358865259"
-      },
-      {
-        "file": "libs/taskbox/src/environments/environment.ts",
-        "hash": "17793792023430508628"
-      },
-      {
-        "file": "libs/taskbox/src/stories/assets/stackalt.svg",
-        "hash": "1180133531210893970"
-      },
-      {
-        "file": "libs/taskbox/src/header/Header.stories.ts",
-        "hash": "628533689749772976"
-      },
-      {
-        "file": ".prettierignore",
-        "hash": "3356760868306086659"
-      },
-      {
-        "file": "libs/taskbox/src/main.ts",
-        "hash": "12246588107753938993"
-      },
-      {
-        "file": "jest.preset.js",
-        "hash": "9084884494335109525"
-      },
-      {
-        "file": "libs/taskbox/src/pages/page.css",
-        "hash": "9171863330815678835"
-      },
-      {
-        "file": "docs/img_6.png",
-        "hash": "7483267552362712180"
-      },
-      {
-        "file": "libs/taskbox/package-lock.json",
-        "hash": "9914743677843456549"
-      },
-      {
-        "file": "libs/taskbox/src/assets/.gitkeep",
-        "hash": "3244421341483603138"
-      },
-      {
-        "file": "LICENSE",
-        "hash": "12649885980860800067"
-      },
-      {
-        "file": ".github/workflows/chromatic.yml",
-        "hash": "18232189204513972599"
-      },
-      {
-        "file": "libs/taskbox/src/task/task.stories.ts",
-        "hash": "18098733003925213222"
-      },
-      {
-        "file": "libs/taskbox/.storybook/typings.d.ts",
-        "hash": "12793257465398711957"
-      },
-      {
-        "file": ".eslintrc.json",
-        "hash": "15388041757782744192"
-      },
-      {
-        "file": "libs/taskbox/src/button/button.component.ts",
-        "hash": "12146527042979113316"
-      },
-      {
-        "file": "libs/taskbox/src/stories/assets/repo.svg",
-        "hash": "15497985304567474255"
-      },
-      {
-        "file": "libs/taskbox/src/favicon.ico",
-        "hash": "3464744996580215640"
-      },
-      {
-        "file": "libs/taskbox/src/assets/icon/percolate.woff",
-        "hash": "16797934502539331207"
-      },
-      {
-        "file": "libs/taskbox/src/assets/font/OpenSans-Regular-webfont.ttf",
-        "hash": "8849298556884403679"
-      },
-      {
-        "file": "libs/taskbox/src/assets/font/OpenSans-Light-webfont.svg",
-        "hash": "1390191217771912412"
-      },
-      {
-        "file": "libs/taskbox/src/stories/.eslintrc.json",
-        "hash": "12125950398489006457"
-      },
-      {
-        "file": "decorate-angular-cli.js",
-        "hash": "9396980645667025874"
-      },
-      {
-        "file": "libs/taskbox/.storybook/preview.ts",
-        "hash": "6498295468661793429"
-      },
-      {
-        "file": "docs/img_2.png",
-        "hash": "9290370410852492298"
-      },
-      {
-        "file": ".github/workflows/webpack.yml",
-        "hash": "2707978674590829931"
-      },
-      {
-        "file": "nx.json",
-        "hash": "16934243729813412271"
-      },
-      {
-        "file": "libs/taskbox/src/stories/assets/colors.svg",
-        "hash": "70613787918346063"
-      },
-      {
-        "file": "libs/taskbox/setup-jest.ts",
-        "hash": "17711435995618823417"
-      },
-      {
-        "file": "docs/img_5.png",
-        "hash": "15936755910953363838"
-      },
-      {
-        "file": "Commands.md",
-        "hash": "16948933742312889833"
-      },
-      {
-        "file": "CONTRIBUTING.md",
-        "hash": "7292422667862952624"
-      },
-      {
-        "file": "libs/taskbox/src/assets/icon/percolate.svg",
-        "hash": "17640990790396274581"
-      },
-      {
-        "file": "libs/taskbox/src/assets/font/OpenSans-Regular-webfont.svg",
-        "hash": "5617473100767146446"
-      },
-      {
-        "file": "apps/.gitkeep",
-        "hash": "3244421341483603138"
-      },
-      {
-        "file": "libs/taskbox/src/assets/font/OpenSans-Regular-webfont.eot",
-        "hash": "7642037625623817606"
-      },
-      {
-        "file": "NX",
-        "hash": "3244421341483603138"
-      },
-      {
-        "file": "libs/taskbox/build-storybook.log",
-        "hash": "1253272497076495161"
-      },
-      {
-        "file": "libs/taskbox/jest-global-mocks.ts",
-        "hash": "2181111143968802888"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "11870854792216396251"
-      },
-      {
-        "file": "jest.config.ts",
-        "hash": "12333515226966617182"
-      },
-      {
-        "file": "libs/taskbox/src/task/pure-inbox-screen.stories.ts",
-        "hash": "15341029032342675"
-      },
-      {
-        "file": "libs/taskbox/src/task/task-list.component.ts",
-        "hash": "14431163303189693471"
-      },
-      {
-        "file": ".editorconfig",
-        "hash": "5443105041930014821"
-      },
-      {
-        "file": "libs/taskbox/.storybook/main.ts",
-        "hash": "10781105310313785479"
-      },
-      {
-        "file": "libs/taskbox/src/app/app.component.css",
-        "hash": "3244421341483603138"
-      },
-      {
-        "file": "libs/taskbox/tsconfig.app.json",
-        "hash": "11674506502668556549"
-      },
-      {
-        "file": "libs/taskbox/src/assets/icon/percolate.ttf",
-        "hash": "8800119679438948561"
-      },
-      {
-        "file": "libs/taskbox/src/task/task.module.ts",
-        "hash": "11609820578515484856"
-      },
-      {
-        "file": "libs/taskbox/src/stories/Introduction.mdx",
-        "hash": "18290845797187638172"
-      },
-      {
-        "file": "libs/taskbox/.storybook/tsconfig.json",
-        "hash": "8925834623798574605"
-      },
-      {
-        "file": "libs/taskbox/src/polyfills.ts",
-        "hash": "15091689921193650669"
-      },
-      {
-        "file": "libs/taskbox/src/component/components.module.ts",
-        "hash": "6980279268241983096"
-      },
-      {
-        "file": "libs/taskbox/src/task/pure-inbox-screen.component.ts",
-        "hash": "14171265719750198628"
-      },
-      {
-        "file": "libs/taskbox/src/app/app.component.ts",
-        "hash": "5051873383889087289"
-      },
-      {
-        "file": "build-storybook.log",
-        "hash": "12250217994347729566"
-      },
-      {
-        "file": "SECURITY.md",
-        "hash": "16303909172738556757"
-      },
-      {
-        "file": "install_nvm.sh",
-        "hash": "12969160823748411578"
-      },
-      {
-        "file": "libs/taskbox/src/models/task.model.ts",
-        "hash": "12175197155876681929"
-      },
-      {
-        "file": ".vscode/extensions.json",
-        "hash": "15904881119927760751"
-      },
-      {
-        "file": "libs/taskbox/src/stories/assets/plugin.svg",
-        "hash": "17508760966257502997"
-      },
-      {
-        "file": "migrations.json",
-        "hash": "13769521948122205560"
-      },
-      {
-        "file": "libs/taskbox/tsconfig.json",
-        "hash": "12681081656146497259"
-      },
-      {
-        "file": "libs/taskbox/src/index.html",
-        "hash": "14723553221074313730"
-      },
-      {
-        "file": "libs/taskbox/LICENSE",
-        "hash": "3428849368670987869"
+        "file": "libs/taskbox/src/app/app.module.ts",
+        "hash": "17743995452238510018"
       },
       {
         "file": "libs/taskbox/src/button/button.module.ts",
         "hash": "14783300616517975650"
       },
       {
-        "file": "libs/taskbox/src/task/task.component.ts",
-        "hash": "2338552481887359952"
+        "file": "package.json",
+        "hash": "13747565515614147964"
       },
       {
-        "file": ".github/workflows/jekyll-gh-pages.yml",
-        "hash": "16573410448124114716"
+        "file": "libs/taskbox/src/app/app.component.spec.ts",
+        "hash": "12888756559149429168"
+      },
+      {
+        "file": "libs/taskbox/src/assets/icon/percolate.ttf",
+        "hash": "8800119679438948561"
+      },
+      {
+        "file": "libs/taskbox/src/state/task.state.ts",
+        "hash": "10586480013847525651"
+      },
+      {
+        "file": "libs/taskbox/src/stories/Introduction.mdx",
+        "hash": "18290845797187638172"
       },
       {
         "file": "tools/tsconfig.tools.json",
         "hash": "16088922570277978783"
       },
       {
-        "file": "tsconfig.base.json",
-        "hash": "9290651314386082910"
+        "file": "README.md",
+        "hash": "1897885957930325014"
+      },
+      {
+        "file": "tools/generators/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "libs/taskbox/tsconfig.spec.json",
+        "hash": "4359485005703740431"
       },
       {
         "file": "libs/taskbox/src/assets/font/OpenSans-Regular-webfont.woff",
         "hash": "6197762826517582924"
       },
       {
-        "file": ".github/workflows/node.js.yml",
-        "hash": "3649451559952239465"
+        "file": "libs/taskbox/angular.json",
+        "hash": "13526939996040544903"
       },
       {
-        "file": "documentation.json",
-        "hash": "10806943734192301432"
+        "file": ".npmrc",
+        "hash": "18085261541358865259"
       },
       {
-        "file": "libs/taskbox/src/styles.css",
-        "hash": "6319871005676612732"
+        "file": "docs/img.png",
+        "hash": "11176018837917209388"
+      },
+      {
+        "file": "libs/taskbox/src/assets/icon/percolate.woff",
+        "hash": "16797934502539331207"
+      },
+      {
+        "file": "libs/taskbox/src/app/app.component.ts",
+        "hash": "5051873383889087289"
       },
       {
         "file": "libs/taskbox/jest.config.js",
         "hash": "12056795808107990645"
       },
       {
-        "file": "libs/taskbox/.editorconfig",
-        "hash": "6686520031028425313"
+        "file": "libs/taskbox/src/main.ts",
+        "hash": "12246588107753938993"
+      },
+      {
+        "file": "libs/taskbox/src/assets/font/OpenSans-Regular-webfont.eot",
+        "hash": "7642037625623817606"
+      },
+      {
+        "file": "libs/taskbox/src/button/button.component.ts",
+        "hash": "12146527042979113316"
+      },
+      {
+        "file": "libs/taskbox/src/styles.css",
+        "hash": "2640460961096832717"
+      },
+      {
+        "file": "libs/taskbox/src/stories/assets/repo.svg",
+        "hash": "15497985304567474255"
+      },
+      {
+        "file": "libs/taskbox/.storybook/typings.d.ts",
+        "hash": "12793257465398711957"
+      },
+      {
+        "file": "decorate-angular-cli.js",
+        "hash": "9396980645667025874"
+      },
+      {
+        "file": "libs/taskbox/tsconfig.json",
+        "hash": "12681081656146497259"
+      },
+      {
+        "file": "libs/taskbox/src/button/button.css",
+        "hash": "11442119154654082062"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": "libs/taskbox/src/task/pure-inbox-screen.component.ts",
+        "hash": "14171265719750198628"
+      },
+      {
+        "file": "NX",
+        "hash": "3244421341483603138"
       },
       {
         "file": "libs/taskbox/src/stories/assets/direction.svg",
         "hash": "2992177702218565737"
       },
       {
+        "file": "nx.json",
+        "hash": "16934243729813412271"
+      },
+      {
+        "file": "libs/taskbox/src/index.html",
+        "hash": "14723553221074313730"
+      },
+      {
+        "file": "docs/img_8.png",
+        "hash": "4655600389054021017"
+      },
+      {
+        "file": "library.png",
+        "hash": "4655600389054021017"
+      },
+      {
+        "file": "install_nvm.sh",
+        "hash": "12969160823748411578"
+      },
+      {
+        "file": "LICENSE",
+        "hash": "12649885980860800067"
+      },
+      {
+        "file": "libs/taskbox/.storybook/main.ts",
+        "hash": "10781105310313785479"
+      },
+      {
+        "file": ".github/workflows/jekyll-gh-pages.yml",
+        "hash": "16573410448124114716"
+      },
+      {
+        "file": "libs/taskbox/src/stories/.eslintrc.json",
+        "hash": "12125950398489006457"
+      },
+      {
+        "file": "libs/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "migrations.json",
+        "hash": "13769521948122205560"
+      },
+      {
+        "file": "libs/taskbox/src/task/task.stories.ts",
+        "hash": "18098733003925213222"
+      },
+      {
+        "file": "libs/taskbox/src/favicon.ico",
+        "hash": "3464744996580215640"
+      },
+      {
+        "file": "libs/taskbox/src/task/task.module.ts",
+        "hash": "11609820578515484856"
+      },
+      {
+        "file": "libs/taskbox/jest-global-mocks.ts",
+        "hash": "2181111143968802888"
+      },
+      {
+        "file": "docs/img_5.png",
+        "hash": "15936755910953363838"
+      },
+      {
+        "file": "libs/taskbox/src/models/task.model.ts",
+        "hash": "12175197155876681929"
+      },
+      {
+        "file": "libs/taskbox/src/assets/icon/percolate.eot",
+        "hash": "8658131508729243255"
+      },
+      {
+        "file": "CONTRIBUTING.md",
+        "hash": "7292422667862952624"
+      },
+      {
+        "file": "docs/img_3.png",
+        "hash": "46462135247364071"
+      },
+      {
+        "file": "libs/taskbox/src/assets/font/OpenSans-Light-webfont.ttf",
+        "hash": "1332536706352581692"
+      },
+      {
+        "file": "libs/taskbox/src/app/app.component.css",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": ".github/workflows/webpack.yml",
+        "hash": "2707978674590829931"
+      },
+      {
+        "file": "docs/img_4.png",
+        "hash": "4511888658319960845"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "12333515226966617182"
+      },
+      {
+        "file": "libs/taskbox/LICENSE",
+        "hash": "3428849368670987869"
+      },
+      {
+        "file": "libs/taskbox/src/assets/font/OpenSans-Light-webfont.eot",
+        "hash": "3532527554520708655"
+      },
+      {
+        "file": "libs/taskbox/src/polyfills.ts",
+        "hash": "15091689921193650669"
+      },
+      {
+        "file": "libs/taskbox/src/assets/font/OpenSans-Regular-webfont.svg",
+        "hash": "5617473100767146446"
+      },
+      {
+        "file": "libs/taskbox/documentation.json",
+        "hash": "17840671906620964053"
+      },
+      {
+        "file": "docs/img_1.png",
+        "hash": "5515288466683885995"
+      },
+      {
+        "file": "libs/state-management-lifecycle.png",
+        "hash": "1193653798388182329"
+      },
+      {
+        "file": ".github/dependabot.yml",
+        "hash": "192641425318039133"
+      },
+      {
+        "file": "libs/taskbox/src/assets/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": ".github/workflows/chromatic.yml",
+        "hash": "4024283891172552022"
+      },
+      {
+        "file": "libs/taskbox/.gitignore",
+        "hash": "13044518069027839699"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "15904881119927760751"
+      },
+      {
+        "file": ".github/workflows/node.js.yml",
+        "hash": "3649451559952239465"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "3356760868306086659"
+      },
+      {
+        "file": "libs/taskbox/src/stories/assets/plugin.svg",
+        "hash": "17508760966257502997"
+      },
+      {
+        "file": "libs/taskbox/src/models/User.ts",
+        "hash": "6435412604301094702"
+      },
+      {
+        "file": "libs/taskbox/src/app/app.component.html",
+        "hash": "9751251144335046794"
+      },
+      {
+        "file": "libs/taskbox/src/stories/assets/code-brackets.svg",
+        "hash": "1112009941262053247"
+      },
+      {
+        "file": "libs/taskbox/src/stories/assets/colors.svg",
+        "hash": "70613787918346063"
+      },
+      {
+        "file": "libs/taskbox/.storybook/tsconfig.json",
+        "hash": "8925834623798574605"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "2134609832185159821"
+      },
+      {
+        "file": ".github/ISSUE_TEMPLATE/bug_report.md",
+        "hash": "15424388660508099364"
+      },
+      {
+        "file": "Commands.md",
+        "hash": "16948933742312889833"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "15388041757782744192"
+      },
+      {
+        "file": "libs/taskbox/src/pages/page.css",
+        "hash": "9171863330815678835"
+      },
+      {
+        "file": "libs/taskbox/tsconfig.app.json",
+        "hash": "11674506502668556549"
+      },
+      {
+        "file": "libs/taskbox/src/header/Header.stories.ts",
+        "hash": "628533689749772976"
+      },
+      {
+        "file": "libs/taskbox/src/stories/assets/comments.svg",
+        "hash": "9521503280802117255"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "9290651314386082910"
+      },
+      {
+        "file": "libs/taskbox/src/assets/font/OpenSans-Light-webfont.woff",
+        "hash": "13230354004337104944"
+      },
+      {
+        "file": "libs/taskbox/.storybook/preview.ts",
+        "hash": "6498295468661793429"
+      },
+      {
+        "file": "libs/taskbox/src/pages/Page.stories.ts",
+        "hash": "10378008065159187031"
+      },
+      {
+        "file": "docs/img_2.png",
+        "hash": "9290370410852492298"
+      },
+      {
         "file": "CODE_OF_CONDUCT.md",
         "hash": "362924274649002263"
       },
       {
-        "file": "libs/taskbox/src/app/app.module.ts",
-        "hash": "17743995452238510018"
+        "file": "apps/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "11870854792216396251"
+      },
+      {
+        "file": "libs/taskbox/src/task/pure-task-list.component.ts",
+        "hash": "9261469395647995457"
+      },
+      {
+        "file": "libs/taskbox/src/pages/page.component.ts",
+        "hash": "1549012900938890784"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9084884494335109525"
+      },
+      {
+        "file": "libs/taskbox/package.json",
+        "hash": "14308199031852446538"
+      },
+      {
+        "file": "libs/taskbox/src/assets/font/OpenSans-Regular-webfont.ttf",
+        "hash": "8849298556884403679"
+      },
+      {
+        "file": "libs/taskbox/src/assets/icon/percolate.svg",
+        "hash": "17640990790396274581"
+      },
+      {
+        "file": "libs/taskbox/src/header/header.component.ts",
+        "hash": "1158350374774038024"
+      },
+      {
+        "file": "libs/taskbox/.editorconfig",
+        "hash": "6686520031028425313"
+      },
+      {
+        "file": "libs/taskbox/src/component/components.module.ts",
+        "hash": "6980279268241983096"
+      },
+      {
+        "file": "libs/taskbox/src/assets/font/OpenSans-Light-webfont.svg",
+        "hash": "1390191217771912412"
+      },
+      {
+        "file": "libs/taskbox/src/environments/environment.prod.ts",
+        "hash": "10220522844224226756"
+      },
+      {
+        "file": "SECURITY.md",
+        "hash": "16303909172738556757"
+      },
+      {
+        "file": "libs/taskbox/src/stories/assets/stackalt.svg",
+        "hash": "1180133531210893970"
+      },
+      {
+        "file": "libs/taskbox/src/environments/environment.ts",
+        "hash": "17793792023430508628"
+      },
+      {
+        "file": "libs/taskbox/src/task/pure-inbox-screen.stories.ts",
+        "hash": "15341029032342675"
+      },
+      {
+        "file": "libs/taskbox/src/task/pure-task-list.stories.ts",
+        "hash": "16251444000111122645"
+      },
+      {
+        "file": "libs/taskbox/package-lock.json",
+        "hash": "766563923897863111"
+      },
+      {
+        "file": "libs/taskbox/src/stories/assets/flow.svg",
+        "hash": "18413723651031157086"
+      },
+      {
+        "file": "docs/img_7.png",
+        "hash": "9380007213185837752"
+      },
+      {
+        "file": "libs/taskbox/src/task/task.component.ts",
+        "hash": "2338552481887359952"
+      },
+      {
+        "file": "libs/taskbox/README.md",
+        "hash": "8096802999119147848"
+      },
+      {
+        "file": "docs/img_6.png",
+        "hash": "7483267552362712180"
+      },
+      {
+        "file": "libs/taskbox/src/task/task-list.component.ts",
+        "hash": "14431163303189693471"
+      },
+      {
+        "file": "documentation.json",
+        "hash": "2667156963467079004"
       }
     ],
     "projectFileMap": {
-      "storybook-static": [
-        {
-          "file": "libs/taskbox/storybook-static/21.c7e8d13f.iframe.bundle.js",
-          "hash": "6987208800308380932"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/224.e61ffd25.iframe.bundle.js",
-          "hash": "17825556336431651989",
-          "deps": [
-            [
-              "npm:util",
-              "dynamic"
-            ]
-          ]
-        },
-        {
-          "file": "libs/taskbox/storybook-static/224.e61ffd25.iframe.bundle.js.LICENSE.txt",
-          "hash": "13258922995653410944"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/224.e61ffd25.iframe.bundle.js.map",
-          "hash": "3214812560552404420"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/288.c7790dc6.iframe.bundle.js",
-          "hash": "10195502173840768538"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/381.d7fa1b68.iframe.bundle.js",
-          "hash": "16586789638043032272"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/40.82eb1f93.iframe.bundle.js",
-          "hash": "3400440779996921440"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/464.d581e85f.iframe.bundle.js",
-          "hash": "7965430667703528444"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/615.1dc70659.iframe.bundle.js",
-          "hash": "7357479032890002263"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/615.1dc70659.iframe.bundle.js.LICENSE.txt",
-          "hash": "2421531410713746976"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/615.1dc70659.iframe.bundle.js.map",
-          "hash": "5174533139561305004"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/732.0255aa13.iframe.bundle.js",
-          "hash": "5733154452964714572",
-          "deps": [
-            [
-              "npm:util",
-              "dynamic"
-            ]
-          ]
-        },
-        {
-          "file": "libs/taskbox/storybook-static/732.0255aa13.iframe.bundle.js.map",
-          "hash": "7463826500029102878"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/841.2ddd4272.iframe.bundle.js",
-          "hash": "3434403691338398693"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/841.2ddd4272.iframe.bundle.js.map",
-          "hash": "9236240935394382759"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/906.f2baee95.iframe.bundle.js",
-          "hash": "9551676676166515053"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/button-Button-stories.60441a90.iframe.bundle.js",
-          "hash": "18315374423277300360"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/favicon.svg",
-          "hash": "10676544082008852045"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/header-Header-stories.622a0d4d.iframe.bundle.js",
-          "hash": "15631192183177146476"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/iframe.html",
-          "hash": "6928418839016260601"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/index.html",
-          "hash": "4561149512542220184"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/index.json",
-          "hash": "7115202739599337900"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/main.ba441cda.iframe.bundle.js",
-          "hash": "2207023250129628935"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/main.fd7496a220e78a3a83f9.css",
-          "hash": "9875127308383728994"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/pages-Page-stories.cbbfdfa8.iframe.bundle.js",
-          "hash": "15368252241052999873"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/percolate.29451126d103398b.woff",
-          "hash": "16797934502539331207"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/percolate.3d9093989370b68a.svg",
-          "hash": "17640990790396274581"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/percolate.63090c278817081e.ttf",
-          "hash": "8800119679438948561"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/percolate.f52018f0d8e7bfe3.eot",
-          "hash": "8658131508729243255"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/project.json",
-          "hash": "4888994453811075307"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/runtime~main.2c6cc1bc.iframe.bundle.js",
-          "hash": "12827101840772605700"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/sb-addons/essentials-actions-2/manager-bundle.js",
-          "hash": "5493907910269472358"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/sb-addons/essentials-actions-2/manager-bundle.js.LEGAL.txt",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/sb-addons/essentials-backgrounds-3/manager-bundle.js",
-          "hash": "13960980089025224372"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/sb-addons/essentials-backgrounds-3/manager-bundle.js.LEGAL.txt",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/sb-addons/essentials-controls-1/manager-bundle.js",
-          "hash": "1964588958457885515",
-          "deps": [
-            [
-              "npm:util",
-              "dynamic"
-            ]
-          ]
-        },
-        {
-          "file": "libs/taskbox/storybook-static/sb-addons/essentials-controls-1/manager-bundle.js.LEGAL.txt",
-          "hash": "8108108414613228525"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/sb-addons/essentials-measure-6/manager-bundle.js",
-          "hash": "8317014680884651020"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/sb-addons/essentials-measure-6/manager-bundle.js.LEGAL.txt",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/sb-addons/essentials-outline-7/manager-bundle.js",
-          "hash": "3088803866951912100"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/sb-addons/essentials-outline-7/manager-bundle.js.LEGAL.txt",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/sb-addons/essentials-toolbars-5/manager-bundle.js",
-          "hash": "16338654052255709994"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/sb-addons/essentials-toolbars-5/manager-bundle.js.LEGAL.txt",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/sb-addons/essentials-viewport-4/manager-bundle.js",
-          "hash": "1817354189074902570"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/sb-addons/essentials-viewport-4/manager-bundle.js.LEGAL.txt",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/sb-addons/interactions-8/manager-bundle.js",
-          "hash": "5729234107579901947"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/sb-addons/interactions-8/manager-bundle.js.LEGAL.txt",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/sb-addons/links-0/manager-bundle.js",
-          "hash": "10880420032930652957"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/sb-addons/links-0/manager-bundle.js.LEGAL.txt",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/sb-common-assets/fonts.css",
-          "hash": "9281641633589321825"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/sb-common-assets/nunito-sans-bold-italic.woff2",
-          "hash": "16937166808963441226"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/sb-common-assets/nunito-sans-bold.woff2",
-          "hash": "14169727957364227"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/sb-common-assets/nunito-sans-italic.woff2",
-          "hash": "13111399484457157170"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/sb-common-assets/nunito-sans-regular.woff2",
-          "hash": "13367830169426244845"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/sb-manager/WithTooltip-V3YHNWJZ-LVYLGZW2.js",
-          "hash": "6542833472777580077"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/sb-manager/chunk-2IXBUOFS.js",
-          "hash": "13289513081113284295"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/sb-manager/chunk-INSKDKQB.js",
-          "hash": "16544270099753738984"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/sb-manager/chunk-NGTUFCUO.js",
-          "hash": "478149069060076673"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/sb-manager/chunk-UUEAOBSN.js",
-          "hash": "17557557778361038889",
-          "deps": [
-            [
-              "npm:util",
-              "dynamic"
-            ]
-          ]
-        },
-        {
-          "file": "libs/taskbox/storybook-static/sb-manager/chunk-ZEU7PDD3.js",
-          "hash": "9240036239342026411"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/sb-manager/formatter-SWP5E3XI-7BGIK6BL.js",
-          "hash": "10481266386923726462"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/sb-manager/globals-module-info.js",
-          "hash": "18339592826769132165"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/sb-manager/globals.js",
-          "hash": "7508935271521105577"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/sb-manager/index.js",
-          "hash": "11654253930550052890"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/sb-manager/runtime.js",
-          "hash": "302809707249151670"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/sb-manager/syntaxhighlighter-V7JZZA35-DXZCI2WR.js",
-          "hash": "12004999179954960579"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/sb-preview/globals.js",
-          "hash": "11365604799474032304"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/sb-preview/runtime.js",
-          "hash": "5720367101370585522",
-          "deps": [
-            [
-              "npm:util",
-              "dynamic"
-            ]
-          ]
-        },
-        {
-          "file": "libs/taskbox/storybook-static/static/media/code-brackets.2e1112d7.svg",
-          "hash": "1112009941262053247"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/static/media/colors.a4bd0486.svg",
-          "hash": "70613787918346063"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/static/media/comments.a3859089.svg",
-          "hash": "9521503280802117255"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/static/media/direction.b770f9af.svg",
-          "hash": "2992177702218565737"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/static/media/flow.edad2ac1.svg",
-          "hash": "18413723651031157086"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/static/media/plugin.d494b228.svg",
-          "hash": "17508760966257502997"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/static/media/repo.6d496322.svg",
-          "hash": "15497985304567474255"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/static/media/stackalt.dba9fbb3.svg",
-          "hash": "1180133531210893970"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/stories-Introduction-mdx.32b570e0.iframe.bundle.js",
-          "hash": "1407342994644901803"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/stories-Introduction-mdx.32b570e0.iframe.bundle.js.LICENSE.txt",
-          "hash": "12417283078458041024"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/stories.json",
-          "hash": "3639019542365009261"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/task-pure-inbox-screen-stories.640ff640.iframe.bundle.js",
-          "hash": "2429320213614804013"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/task-pure-task-list-stories.5e483bbf.iframe.bundle.js",
-          "hash": "15919687579101534188"
-        },
-        {
-          "file": "libs/taskbox/storybook-static/task-task-stories.486a1556.iframe.bundle.js",
-          "hash": "9778571430508799593"
-        }
-      ],
       "technologies": [
         {
           "file": "libs/technologies/.eslintrc.json",
@@ -1175,6 +811,77 @@
           "hash": "6658172359945877284"
         }
       ],
+      "lda-e2e": [
+        {
+          "file": "apps/lda-e2e/.eslintrc.json",
+          "hash": "15523834149352881398"
+        },
+        {
+          "file": "apps/lda-e2e/cypress.config.js",
+          "hash": "16321291555899808235",
+          "deps": [
+            "npm:cypress"
+          ]
+        },
+        {
+          "file": "apps/lda-e2e/project.json",
+          "hash": "6325535638916343441"
+        },
+        {
+          "file": "apps/lda-e2e/src/fixtures/example.json",
+          "hash": "11614668686582597233"
+        },
+        {
+          "file": "apps/lda-e2e/src/integration/app.spec.ts",
+          "hash": "17781385095845140099"
+        },
+        {
+          "file": "apps/lda-e2e/src/integration/homepage.feature",
+          "hash": "18400612820878423201"
+        },
+        {
+          "file": "apps/lda-e2e/src/integration/homepage.steps.ts",
+          "hash": "11580304655422608490",
+          "deps": [
+            "npm:@badeball/cypress-cucumber-preprocessor"
+          ]
+        },
+        {
+          "file": "apps/lda-e2e/src/server/data/products/index.js",
+          "hash": "4595049235158156744"
+        },
+        {
+          "file": "apps/lda-e2e/src/server/data/products/json/data.json",
+          "hash": "8179300122551222805"
+        },
+        {
+          "file": "apps/lda-e2e/src/server/data/products/json/db.json",
+          "hash": "8179300122551222805"
+        },
+        {
+          "file": "apps/lda-e2e/src/server/server.js",
+          "hash": "14021105144586500167",
+          "deps": [
+            "npm:json-server"
+          ]
+        },
+        {
+          "file": "apps/lda-e2e/src/support/app.po.ts",
+          "hash": "1787588571472906138"
+        },
+        {
+          "file": "apps/lda-e2e/src/support/commands.ts",
+          "hash": "3242550338084469255"
+        },
+        {
+          "file": "apps/lda-e2e/src/support/index.ts",
+          "hash": "3666078656922506009"
+        },
+        {
+          "file": "apps/lda-e2e/tsconfig.json",
+          "hash": "17327834683392158647"
+        }
+      ],
       "books": [
         {
           "file": "libs/books/.eslintrc.json",
@@ -1325,6 +1032,452 @@
         },
         {
           "file": "libs/books/tsconfig.spec.json",
+          "hash": "6658172359945877284"
+        }
+      ],
+      "pages": [
+        {
+          "file": "libs/pages/.eslintrc.json",
+          "hash": "9649859603143363425"
+        },
+        {
+          "file": "libs/pages/README.md",
+          "hash": "5402971229294707431"
+        },
+        {
+          "file": "libs/pages/jest.config.ts",
+          "hash": "3622229935726587293"
+        },
+        {
+          "file": "libs/pages/project.json",
+          "hash": "9059751900356370262"
+        },
+        {
+          "file": "libs/pages/src/index.ts",
+          "hash": "6792761368507796660"
+        },
+        {
+          "file": "libs/pages/src/lib/+state/pages.actions.ts",
+          "hash": "6277964211010837842",
+          "deps": [
+            "npm:@ngrx/store"
+          ]
+        },
+        {
+          "file": "libs/pages/src/lib/+state/pages.effects.ts",
+          "hash": "5191855876704988477",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@ngrx/effects",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "libs/pages/src/lib/+state/pages.reducer.ts",
+          "hash": "18380929209553951235",
+          "deps": [
+            "npm:@ngrx/store",
+            "npm:@ngrx/entity"
+          ]
+        },
+        {
+          "file": "libs/pages/src/lib/+state/pages.selector.ts",
+          "hash": "9239899729330628017",
+          "deps": [
+            "npm:@ngrx/store",
+            "npm:@ngrx/router-store"
+          ]
+        },
+        {
+          "file": "libs/pages/src/lib/about/About-Components/relay-on/relay-on.component.spec.ts",
+          "hash": "14351905519264535966",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/pages/src/lib/about/About-Components/relay-on/relay-on.component.ts",
+          "hash": "13562255541941513450",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/pages/src/lib/about/About-Components/top-content/top-content.component.spec.ts",
+          "hash": "10033049525199390848",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/pages/src/lib/about/About-Components/top-content/top-content.component.ts",
+          "hash": "12048387809693122304",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/pages/src/lib/about/about.component.css",
+          "hash": "7219026365658716667"
+        },
+        {
+          "file": "libs/pages/src/lib/about/about.component.ts",
+          "hash": "11159153729926079734",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "libs/pages/src/lib/blog/blog-details/blog-detail/blog-detail.component.spec.ts",
+          "hash": "10055232132415331164",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/pages/src/lib/blog/blog-details/blog-detail/blog-detail.component.ts",
+          "hash": "12327262112136126135",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router",
+            "components",
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "libs/pages/src/lib/blog/blog-details/blog-details.component.spec.ts",
+          "hash": "16405296175184449059",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/pages/src/lib/blog/blog-details/blog-details.component.ts",
+          "hash": "4647348766159290718",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@ngrx/store",
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "libs/pages/src/lib/blog/blog-list/blog-list.component.spec.ts",
+          "hash": "6845802668125644729",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/pages/src/lib/blog/blog-list/blog-list.component.ts",
+          "hash": "3328642758595416046",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router",
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "libs/pages/src/lib/blog/blog.component.spec.ts",
+          "hash": "7551885237299486965",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/pages/src/lib/blog/blog.component.ts",
+          "hash": "12307139743869617485",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@ngrx/store",
+            "npm:@ngneat/until-destroy"
+          ]
+        },
+        {
+          "file": "libs/pages/src/lib/data/blog-data.ts",
+          "hash": "10342642494067902911"
+        },
+        {
+          "file": "libs/pages/src/lib/data/sources-data.ts",
+          "hash": "16009322874753116308"
+        },
+        {
+          "file": "libs/pages/src/lib/layout/full/full.component.spec.ts",
+          "hash": "4711714224718601363",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/pages/src/lib/layout/full/full.component.ts",
+          "hash": "10748908439216875707",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "libs/pages/src/lib/login/login.component.css",
+          "hash": "4055606894390288348"
+        },
+        {
+          "file": "libs/pages/src/lib/login/login.component.html",
+          "hash": "12437428780624670172"
+        },
+        {
+          "file": "libs/pages/src/lib/login/login.component.spec.ts",
+          "hash": "17907434593268500275",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/pages/src/lib/login/login.component.ts",
+          "hash": "17361411273444436282",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/forms",
+            "technologies",
+            "npm:rxjs",
+            "npm:@angular/router",
+            "npm:@ngrx/store"
+          ]
+        },
+        {
+          "file": "libs/pages/src/lib/login/login.ts",
+          "hash": "13259879210773686399"
+        },
+        {
+          "file": "libs/pages/src/lib/model/blog-type.ts",
+          "hash": "1618943559861822271"
+        },
+        {
+          "file": "libs/pages/src/lib/model/source-type.ts",
+          "hash": "17453709793255045198"
+        },
+        {
+          "file": "libs/pages/src/lib/model/tech.model.ts",
+          "hash": "15165145507005566783"
+        },
+        {
+          "file": "libs/pages/src/lib/page404/page404.component.html",
+          "hash": "3082722440445752301"
+        },
+        {
+          "file": "libs/pages/src/lib/page404/page404.component.scss",
+          "hash": "5891213544383337766"
+        },
+        {
+          "file": "libs/pages/src/lib/page404/page404.component.spec.ts",
+          "hash": "8682963085533580443",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@coreui/angular",
+            "npm:@coreui/icons-angular"
+          ]
+        },
+        {
+          "file": "libs/pages/src/lib/page404/page404.component.ts",
+          "hash": "12580849041980176575",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/pages/src/lib/page500/page500.component.html",
+          "hash": "11903072613598359115"
+        },
+        {
+          "file": "libs/pages/src/lib/page500/page500.component.scss",
+          "hash": "3819826624574234230"
+        },
+        {
+          "file": "libs/pages/src/lib/page500/page500.component.spec.ts",
+          "hash": "15696642658222148460",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@coreui/angular",
+            "npm:@coreui/icons-angular"
+          ]
+        },
+        {
+          "file": "libs/pages/src/lib/page500/page500.component.ts",
+          "hash": "3509372461383493534",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/pages/src/lib/pages-routing.module.ts",
+          "hash": "6841968079176899029",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "libs/pages/src/lib/pages.module.ts",
+          "hash": "17881832909055948234",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router",
+            "npm:angular2-notifications",
+            "components",
+            "npm:@angular/material",
+            "npm:@angular/forms",
+            "npm:@ngrx/store",
+            "npm:angular-in-memory-web-api",
+            "npm:@ngrx/effects"
+          ]
+        },
+        {
+          "file": "libs/pages/src/lib/pages.store.ts",
+          "hash": "1388069248239795786",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@ngrx/component-store",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "libs/pages/src/lib/registration/registration.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "libs/pages/src/lib/registration/registration.component.html",
+          "hash": "13393172377147488428"
+        },
+        {
+          "file": "libs/pages/src/lib/registration/registration.component.spec.ts",
+          "hash": "6581133953405060361",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/pages/src/lib/registration/registration.component.ts",
+          "hash": "9837786581342964545",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/pages/src/lib/services/InMemoryDataService.service.ts",
+          "hash": "17677014673865330463",
+          "deps": [
+            "npm:@angular/core",
+            "npm:angular-in-memory-web-api"
+          ]
+        },
+        {
+          "file": "libs/pages/src/lib/services/blog-service.service.spec.ts",
+          "hash": "9329646283080194568"
+        },
+        {
+          "file": "libs/pages/src/lib/services/blog-service.service.ts",
+          "hash": "14376503066641071405",
+          "deps": [
+            "npm:@angular/core",
+            "npm:rxjs",
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "libs/pages/src/lib/services/loginService.ts",
+          "hash": "578177366220089392",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "libs/pages/src/lib/services/toast-service.service.ts",
+          "hash": "18005069075626373099",
+          "deps": [
+            "npm:@angular/core",
+            "npm:angular2-notifications"
+          ]
+        },
+        {
+          "file": "libs/pages/src/lib/shared/banner-content/banner-content.component.spec.ts",
+          "hash": "7221081953916919639",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/pages/src/lib/shared/banner-content/banner-content.component.ts",
+          "hash": "14407877867196374500",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/pages/src/lib/shared/banner-navigation/banner-navigation.component.spec.ts",
+          "hash": "10874557349016411390",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/pages/src/lib/shared/banner-navigation/banner-navigation.component.ts",
+          "hash": "1496975645859667680",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router",
+            "npm:@ngrx/store",
+            "npm:angular2-notifications"
+          ]
+        },
+        {
+          "file": "libs/pages/src/lib/shared/banner/banner.component.spec.ts",
+          "hash": "9247655074083117927",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/pages/src/lib/shared/banner/banner.component.ts",
+          "hash": "16236202407871216206",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/pages/src/lib/shared/footer/footer.component.spec.ts",
+          "hash": "9983519057068350389",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/pages/src/lib/shared/footer/footer.component.ts",
+          "hash": "16979835645063561527",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/animations"
+          ]
+        },
+        {
+          "file": "libs/pages/src/test-setup.ts",
+          "hash": "17711435995618823417",
+          "deps": [
+            "npm:jest-preset-angular"
+          ]
+        },
+        {
+          "file": "libs/pages/tsconfig.json",
+          "hash": "12234268620382124197"
+        },
+        {
+          "file": "libs/pages/tsconfig.lib.json",
+          "hash": "11590153721233036531"
+        },
+        {
+          "file": "libs/pages/tsconfig.spec.json",
           "hash": "6658172359945877284"
         }
       ],
@@ -1547,6 +1700,83 @@
         {
           "file": "libs/components/tsconfig.spec.json",
           "hash": "2927375835638640771"
+        }
+      ],
+      "my-counter": [
+        {
+          "file": "libs/my-counter/.eslintrc.json",
+          "hash": "12951784082091370075"
+        },
+        {
+          "file": "libs/my-counter/README.md",
+          "hash": "12041877840082973289"
+        },
+        {
+          "file": "libs/my-counter/jest.config.ts",
+          "hash": "16598374552458777409"
+        },
+        {
+          "file": "libs/my-counter/project.json",
+          "hash": "9918539026307400203"
+        },
+        {
+          "file": "libs/my-counter/src/index.ts",
+          "hash": "3146291927119974593"
+        },
+        {
+          "file": "libs/my-counter/src/lib/counter.action.ts",
+          "hash": "8963586049233236922",
+          "deps": [
+            "npm:@ngrx/store"
+          ]
+        },
+        {
+          "file": "libs/my-counter/src/lib/counter.reducer.ts",
+          "hash": "12889938467522932452",
+          "deps": [
+            "npm:@ngrx/store"
+          ]
+        },
+        {
+          "file": "libs/my-counter/src/lib/my-counter-comp/my-counter-comp.component.html",
+          "hash": "17153320744909177528"
+        },
+        {
+          "file": "libs/my-counter/src/lib/my-counter-comp/my-counter-comp.component.ts",
+          "hash": "18212412550658050572",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@ngrx/store",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "libs/my-counter/src/lib/my-counter.module.ts",
+          "hash": "13599682112774282503",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@ngrx/store"
+          ]
+        },
+        {
+          "file": "libs/my-counter/src/test-setup.ts",
+          "hash": "17711435995618823417",
+          "deps": [
+            "npm:jest-preset-angular"
+          ]
+        },
+        {
+          "file": "libs/my-counter/tsconfig.json",
+          "hash": "12234268620382124197"
+        },
+        {
+          "file": "libs/my-counter/tsconfig.lib.json",
+          "hash": "11590153721233036531"
+        },
+        {
+          "file": "libs/my-counter/tsconfig.spec.json",
+          "hash": "6658172359945877284"
         }
       ],
       "lda": [
@@ -2475,600 +2705,6 @@
         },
         {
           "file": "apps/lda/tsconfig.spec.json",
-          "hash": "6658172359945877284"
-        }
-      ],
-      "my-counter": [
-        {
-          "file": "libs/my-counter/.eslintrc.json",
-          "hash": "12951784082091370075"
-        },
-        {
-          "file": "libs/my-counter/README.md",
-          "hash": "12041877840082973289"
-        },
-        {
-          "file": "libs/my-counter/jest.config.ts",
-          "hash": "16598374552458777409"
-        },
-        {
-          "file": "libs/my-counter/project.json",
-          "hash": "9918539026307400203"
-        },
-        {
-          "file": "libs/my-counter/src/index.ts",
-          "hash": "3146291927119974593"
-        },
-        {
-          "file": "libs/my-counter/src/lib/counter.action.ts",
-          "hash": "8963586049233236922",
-          "deps": [
-            "npm:@ngrx/store"
-          ]
-        },
-        {
-          "file": "libs/my-counter/src/lib/counter.reducer.ts",
-          "hash": "12889938467522932452",
-          "deps": [
-            "npm:@ngrx/store"
-          ]
-        },
-        {
-          "file": "libs/my-counter/src/lib/my-counter-comp/my-counter-comp.component.html",
-          "hash": "17153320744909177528"
-        },
-        {
-          "file": "libs/my-counter/src/lib/my-counter-comp/my-counter-comp.component.ts",
-          "hash": "18212412550658050572",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@ngrx/store",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "libs/my-counter/src/lib/my-counter.module.ts",
-          "hash": "13599682112774282503",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@ngrx/store"
-          ]
-        },
-        {
-          "file": "libs/my-counter/src/test-setup.ts",
-          "hash": "17711435995618823417",
-          "deps": [
-            "npm:jest-preset-angular"
-          ]
-        },
-        {
-          "file": "libs/my-counter/tsconfig.json",
-          "hash": "12234268620382124197"
-        },
-        {
-          "file": "libs/my-counter/tsconfig.lib.json",
-          "hash": "11590153721233036531"
-        },
-        {
-          "file": "libs/my-counter/tsconfig.spec.json",
-          "hash": "6658172359945877284"
-        }
-      ],
-      "lda-e2e": [
-        {
-          "file": "apps/lda-e2e/.eslintrc.json",
-          "hash": "15523834149352881398"
-        },
-        {
-          "file": "apps/lda-e2e/cypress.config.js",
-          "hash": "16321291555899808235",
-          "deps": [
-            "npm:cypress"
-          ]
-        },
-        {
-          "file": "apps/lda-e2e/project.json",
-          "hash": "6325535638916343441"
-        },
-        {
-          "file": "apps/lda-e2e/src/fixtures/example.json",
-          "hash": "11614668686582597233"
-        },
-        {
-          "file": "apps/lda-e2e/src/integration/app.spec.ts",
-          "hash": "17781385095845140099"
-        },
-        {
-          "file": "apps/lda-e2e/src/integration/homepage.feature",
-          "hash": "18400612820878423201"
-        },
-        {
-          "file": "apps/lda-e2e/src/integration/homepage.steps.ts",
-          "hash": "11580304655422608490",
-          "deps": [
-            "npm:@badeball/cypress-cucumber-preprocessor"
-          ]
-        },
-        {
-          "file": "apps/lda-e2e/src/server/data/products/index.js",
-          "hash": "4595049235158156744"
-        },
-        {
-          "file": "apps/lda-e2e/src/server/data/products/json/data.json",
-          "hash": "8179300122551222805"
-        },
-        {
-          "file": "apps/lda-e2e/src/server/data/products/json/db.json",
-          "hash": "8179300122551222805"
-        },
-        {
-          "file": "apps/lda-e2e/src/server/server.js",
-          "hash": "14021105144586500167",
-          "deps": [
-            "npm:json-server"
-          ]
-        },
-        {
-          "file": "apps/lda-e2e/src/support/app.po.ts",
-          "hash": "1787588571472906138"
-        },
-        {
-          "file": "apps/lda-e2e/src/support/commands.ts",
-          "hash": "3242550338084469255"
-        },
-        {
-          "file": "apps/lda-e2e/src/support/index.ts",
-          "hash": "3666078656922506009"
-        },
-        {
-          "file": "apps/lda-e2e/tsconfig.json",
-          "hash": "17327834683392158647"
-        }
-      ],
-      "pages": [
-        {
-          "file": "libs/pages/.eslintrc.json",
-          "hash": "9649859603143363425"
-        },
-        {
-          "file": "libs/pages/README.md",
-          "hash": "5402971229294707431"
-        },
-        {
-          "file": "libs/pages/jest.config.ts",
-          "hash": "3622229935726587293"
-        },
-        {
-          "file": "libs/pages/project.json",
-          "hash": "9059751900356370262"
-        },
-        {
-          "file": "libs/pages/src/index.ts",
-          "hash": "6792761368507796660"
-        },
-        {
-          "file": "libs/pages/src/lib/+state/pages.actions.ts",
-          "hash": "6277964211010837842",
-          "deps": [
-            "npm:@ngrx/store"
-          ]
-        },
-        {
-          "file": "libs/pages/src/lib/+state/pages.effects.ts",
-          "hash": "5191855876704988477",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@ngrx/effects",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "libs/pages/src/lib/+state/pages.reducer.ts",
-          "hash": "18380929209553951235",
-          "deps": [
-            "npm:@ngrx/store",
-            "npm:@ngrx/entity"
-          ]
-        },
-        {
-          "file": "libs/pages/src/lib/+state/pages.selector.ts",
-          "hash": "9239899729330628017",
-          "deps": [
-            "npm:@ngrx/store",
-            "npm:@ngrx/router-store"
-          ]
-        },
-        {
-          "file": "libs/pages/src/lib/about/About-Components/relay-on/relay-on.component.spec.ts",
-          "hash": "14351905519264535966",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "libs/pages/src/lib/about/About-Components/relay-on/relay-on.component.ts",
-          "hash": "13562255541941513450",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "libs/pages/src/lib/about/About-Components/top-content/top-content.component.spec.ts",
-          "hash": "10033049525199390848",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "libs/pages/src/lib/about/About-Components/top-content/top-content.component.ts",
-          "hash": "12048387809693122304",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "libs/pages/src/lib/about/about.component.css",
-          "hash": "7219026365658716667"
-        },
-        {
-          "file": "libs/pages/src/lib/about/about.component.ts",
-          "hash": "11159153729926079734",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/router"
-          ]
-        },
-        {
-          "file": "libs/pages/src/lib/blog/blog-details/blog-detail/blog-detail.component.spec.ts",
-          "hash": "10055232132415331164",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "libs/pages/src/lib/blog/blog-details/blog-detail/blog-detail.component.ts",
-          "hash": "12327262112136126135",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/router",
-            "components",
-            "npm:@angular/common"
-          ]
-        },
-        {
-          "file": "libs/pages/src/lib/blog/blog-details/blog-details.component.spec.ts",
-          "hash": "16405296175184449059",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "libs/pages/src/lib/blog/blog-details/blog-details.component.ts",
-          "hash": "4647348766159290718",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@ngrx/store",
-            "npm:@angular/common"
-          ]
-        },
-        {
-          "file": "libs/pages/src/lib/blog/blog-list/blog-list.component.spec.ts",
-          "hash": "6845802668125644729",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "libs/pages/src/lib/blog/blog-list/blog-list.component.ts",
-          "hash": "3328642758595416046",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/router",
-            "npm:@angular/common"
-          ]
-        },
-        {
-          "file": "libs/pages/src/lib/blog/blog.component.spec.ts",
-          "hash": "7551885237299486965",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "libs/pages/src/lib/blog/blog.component.ts",
-          "hash": "12307139743869617485",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@ngrx/store",
-            "npm:@ngneat/until-destroy"
-          ]
-        },
-        {
-          "file": "libs/pages/src/lib/data/blog-data.ts",
-          "hash": "10342642494067902911"
-        },
-        {
-          "file": "libs/pages/src/lib/data/sources-data.ts",
-          "hash": "16009322874753116308"
-        },
-        {
-          "file": "libs/pages/src/lib/layout/full/full.component.spec.ts",
-          "hash": "4711714224718601363",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "libs/pages/src/lib/layout/full/full.component.ts",
-          "hash": "10748908439216875707",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/router"
-          ]
-        },
-        {
-          "file": "libs/pages/src/lib/login/login.component.css",
-          "hash": "4055606894390288348"
-        },
-        {
-          "file": "libs/pages/src/lib/login/login.component.html",
-          "hash": "12437428780624670172"
-        },
-        {
-          "file": "libs/pages/src/lib/login/login.component.spec.ts",
-          "hash": "17907434593268500275",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "libs/pages/src/lib/login/login.component.ts",
-          "hash": "17361411273444436282",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/forms",
-            "technologies",
-            "npm:rxjs",
-            "npm:@angular/router",
-            "npm:@ngrx/store"
-          ]
-        },
-        {
-          "file": "libs/pages/src/lib/login/login.ts",
-          "hash": "13259879210773686399"
-        },
-        {
-          "file": "libs/pages/src/lib/model/blog-type.ts",
-          "hash": "1618943559861822271"
-        },
-        {
-          "file": "libs/pages/src/lib/model/source-type.ts",
-          "hash": "17453709793255045198"
-        },
-        {
-          "file": "libs/pages/src/lib/model/tech.model.ts",
-          "hash": "15165145507005566783"
-        },
-        {
-          "file": "libs/pages/src/lib/page404/page404.component.html",
-          "hash": "3082722440445752301"
-        },
-        {
-          "file": "libs/pages/src/lib/page404/page404.component.scss",
-          "hash": "5891213544383337766"
-        },
-        {
-          "file": "libs/pages/src/lib/page404/page404.component.spec.ts",
-          "hash": "8682963085533580443",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@coreui/angular",
-            "npm:@coreui/icons-angular"
-          ]
-        },
-        {
-          "file": "libs/pages/src/lib/page404/page404.component.ts",
-          "hash": "12580849041980176575",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "libs/pages/src/lib/page500/page500.component.html",
-          "hash": "11903072613598359115"
-        },
-        {
-          "file": "libs/pages/src/lib/page500/page500.component.scss",
-          "hash": "3819826624574234230"
-        },
-        {
-          "file": "libs/pages/src/lib/page500/page500.component.spec.ts",
-          "hash": "15696642658222148460",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@coreui/angular",
-            "npm:@coreui/icons-angular"
-          ]
-        },
-        {
-          "file": "libs/pages/src/lib/page500/page500.component.ts",
-          "hash": "3509372461383493534",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "libs/pages/src/lib/pages-routing.module.ts",
-          "hash": "6841968079176899029",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/router"
-          ]
-        },
-        {
-          "file": "libs/pages/src/lib/pages.module.ts",
-          "hash": "17881832909055948234",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/router",
-            "npm:angular2-notifications",
-            "components",
-            "npm:@angular/material",
-            "npm:@angular/forms",
-            "npm:@ngrx/store",
-            "npm:angular-in-memory-web-api",
-            "npm:@ngrx/effects"
-          ]
-        },
-        {
-          "file": "libs/pages/src/lib/pages.store.ts",
-          "hash": "1388069248239795786",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@ngrx/component-store",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "libs/pages/src/lib/registration/registration.component.css",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "libs/pages/src/lib/registration/registration.component.html",
-          "hash": "13393172377147488428"
-        },
-        {
-          "file": "libs/pages/src/lib/registration/registration.component.spec.ts",
-          "hash": "6581133953405060361",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "libs/pages/src/lib/registration/registration.component.ts",
-          "hash": "9837786581342964545",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "libs/pages/src/lib/services/InMemoryDataService.service.ts",
-          "hash": "17677014673865330463",
-          "deps": [
-            "npm:@angular/core",
-            "npm:angular-in-memory-web-api"
-          ]
-        },
-        {
-          "file": "libs/pages/src/lib/services/blog-service.service.spec.ts",
-          "hash": "9329646283080194568"
-        },
-        {
-          "file": "libs/pages/src/lib/services/blog-service.service.ts",
-          "hash": "14376503066641071405",
-          "deps": [
-            "npm:@angular/core",
-            "npm:rxjs",
-            "npm:@angular/common"
-          ]
-        },
-        {
-          "file": "libs/pages/src/lib/services/loginService.ts",
-          "hash": "578177366220089392",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:rxjs",
-            "npm:@angular/router"
-          ]
-        },
-        {
-          "file": "libs/pages/src/lib/services/toast-service.service.ts",
-          "hash": "18005069075626373099",
-          "deps": [
-            "npm:@angular/core",
-            "npm:angular2-notifications"
-          ]
-        },
-        {
-          "file": "libs/pages/src/lib/shared/banner-content/banner-content.component.spec.ts",
-          "hash": "7221081953916919639",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "libs/pages/src/lib/shared/banner-content/banner-content.component.ts",
-          "hash": "14407877867196374500",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "libs/pages/src/lib/shared/banner-navigation/banner-navigation.component.spec.ts",
-          "hash": "10874557349016411390",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "libs/pages/src/lib/shared/banner-navigation/banner-navigation.component.ts",
-          "hash": "1496975645859667680",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/router",
-            "npm:@ngrx/store",
-            "npm:angular2-notifications"
-          ]
-        },
-        {
-          "file": "libs/pages/src/lib/shared/banner/banner.component.spec.ts",
-          "hash": "9247655074083117927",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "libs/pages/src/lib/shared/banner/banner.component.ts",
-          "hash": "16236202407871216206",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "libs/pages/src/lib/shared/footer/footer.component.spec.ts",
-          "hash": "9983519057068350389",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "libs/pages/src/lib/shared/footer/footer.component.ts",
-          "hash": "16979835645063561527",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/animations"
-          ]
-        },
-        {
-          "file": "libs/pages/src/test-setup.ts",
-          "hash": "17711435995618823417",
-          "deps": [
-            "npm:jest-preset-angular"
-          ]
-        },
-        {
-          "file": "libs/pages/tsconfig.json",
-          "hash": "12234268620382124197"
-        },
-        {
-          "file": "libs/pages/tsconfig.lib.json",
-          "hash": "11590153721233036531"
-        },
-        {
-          "file": "libs/pages/tsconfig.spec.json",
           "hash": "6658172359945877284"
         }
       ],
