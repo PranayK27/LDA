@@ -7,18 +7,22 @@ on: push
 
 # List of jobs
 jobs:
- test:
-   # Operating System
-   runs-on: ubuntu-latest
-   # Job steps
-   steps:
-     - uses: actions/checkout@v3
-       with:
-         fetch-depth: 0
-     - run: npm install
-       #👇 Adds Chromatic as a step in the workflow
-     - uses: chromaui/action@v1
-       # Options required for Chromatic's GitHub Action
-       with:
-         #👇 Chromatic projectToken, see https://storybook.js.org/tutorials/intro-to-storybook/angular/en/deploy/ to obtain it
-         projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
+  chromatic:
+    name: Run Chromatic
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 18.x
+      - name: Install dependencies
+        # ⚠️ See your package manager's documentation for the correct command to install dependencies in a CI environment.
+        run: npm ci
+      - name: Run Chromatic
+        uses: chromaui/action@latest
+        with:
+          # ⚠️ Make sure to configure a `CHROMATIC_PROJECT_TOKEN` repository secret
+          projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
