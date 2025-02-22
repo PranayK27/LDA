@@ -21351,3 +21351,32 @@ For more information about the usage of "namedInputs" see https://nx.dev/depreca
 [NX Daemon Server] - 2025-02-22T09:18:09.901Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 5.
 [NX Daemon Server] - 2025-02-22T09:18:14.559Z - [WATCHER]: Processing file changes in outputs
 [NX Daemon Server] - 2025-02-22T09:18:14.663Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-02-22T09:26:05.236Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-02-22T09:34:00.538Z - [WATCHER]: .github/workflows/node.js.yml was modified
+[NX Daemon Server] - 2025-02-22T09:34:00.541Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-02-22T09:34:00.645Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-02-22T09:34:00.646Z - [REQUEST]: .github/workflows/node.js.yml
+[NX Daemon Server] - 2025-02-22T09:34:00.646Z - [REQUEST]: 
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2025-02-22T09:34:00.734Z - Time taken for 'hash changed files from watcher' 3.2870420003309846ms
+[NX Daemon Server] - 2025-02-22T09:34:00.962Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-02-22T09:37:44.912Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-02-22T09:37:44.938Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2025-02-22T09:46:39.213Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-02-22T09:46:56.334Z - [WATCHER]: .github/workflows/node.js.yml was modified
+[NX Daemon Server] - 2025-02-22T09:46:56.335Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-02-22T09:46:56.538Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-02-22T09:46:56.538Z - [REQUEST]: .github/workflows/node.js.yml
+[NX Daemon Server] - 2025-02-22T09:46:56.538Z - [REQUEST]: 
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2025-02-22T09:46:56.605Z - Time taken for 'hash changed files from watcher' 0.9077079999260604ms
