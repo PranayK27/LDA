@@ -21406,3 +21406,15 @@ Use "namedInputs" instead. You can run "nx repair" to automatically migrate your
 For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
 
 [NX Daemon Server] - 2025-02-22T10:52:29.884Z - Time taken for 'hash changed files from watcher' 0.4165409989655018ms
+[NX Daemon Server] - 2025-02-22T10:53:10.340Z - [WATCHER]: .github/workflows/chromatic.yml was modified
+[NX Daemon Server] - 2025-02-22T10:53:10.341Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-02-22T10:53:10.544Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-02-22T10:53:10.544Z - [REQUEST]: .github/workflows/chromatic.yml
+[NX Daemon Server] - 2025-02-22T10:53:10.544Z - [REQUEST]: 
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2025-02-22T10:53:10.639Z - Time taken for 'hash changed files from watcher' 1.626834001392126ms
