@@ -24,7 +24,7 @@
     "build-storybook": "ng run taskbox:build-storybook",
     "init-msw": "msw init src/",
     "test-storybook": "test-storybook",
-    "chromatic": "npx chromatic --project-token=chpt_9b3f03b92ad80fb"
+    "chromatic": "npx chromatic --project-token=chpt_0e0da7532506dea"
   },
   "private": true,
   "dependencies": {
