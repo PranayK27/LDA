@@ -5,7 +5,6 @@
   "scripts": {
     "ng": "nx",
     "prettier": "prettier --write .",
-    "postinstall": "node ./decorate-angular-cli.js && --properties es2020 browser module main",
     "start": "npx nx run lda:serve",
     "build": "npx nx run lda:build",
     "test": "nx test",
