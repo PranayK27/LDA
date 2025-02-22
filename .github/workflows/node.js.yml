@@ -28,5 +28,5 @@ jobs:
        cache: 'npm'
    - run: npm install
    - run: npx nx run lda:build
-   - run: npx nx run lda:serve
+   # - run: npx nx run lda:serve
 #   - run: npm test
