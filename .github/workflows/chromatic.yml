@@ -15,6 +15,9 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          files: |
+            libs/taskbox/**
+            libs/.storybook/**
       - uses: actions/setup-node@v4
         with:
           node-version: 18.x
