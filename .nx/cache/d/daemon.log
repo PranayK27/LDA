@@ -21358,8 +21358,8 @@ For more information about the usage of "namedInputs" see https://nx.dev/depreca
 [NX Daemon Server] - 2025-02-22T12:51:32.477Z - Closed a connection. Number of open connections: 1
 [NX Daemon Server] - 2025-02-22T12:51:32.477Z - [REQUEST]: Client Request for Project Graph Received
 [NX Daemon Server] - 2025-02-22T12:51:32.486Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
-[NX Daemon Server] - 2025-02-22T12:51:32.487Z - [REQUEST]: 
-[NX Daemon Server] - 2025-02-22T12:51:32.487Z - [REQUEST]: 
+[NX Daemon Server] - 2025-02-22T12:51:32.487Z - [REQUEST]:
+[NX Daemon Server] - 2025-02-22T12:51:32.487Z - [REQUEST]:
 
  NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
 
@@ -21386,7 +21386,7 @@ For more information about the usage of "namedInputs" see https://nx.dev/depreca
 [NX Daemon Server] - 2025-02-22T12:52:10.318Z - [WATCHER]: libs/taskbox/package.json was modified
 [NX Daemon Server] - 2025-02-22T12:52:10.422Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
 [NX Daemon Server] - 2025-02-22T12:52:10.422Z - [REQUEST]: libs/taskbox/package.json
-[NX Daemon Server] - 2025-02-22T12:52:10.422Z - [REQUEST]: 
+[NX Daemon Server] - 2025-02-22T12:52:10.422Z - [REQUEST]:
 
  NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
 
@@ -21398,7 +21398,7 @@ For more information about the usage of "namedInputs" see https://nx.dev/depreca
 [NX Daemon Server] - 2025-02-22T12:52:15.970Z - [WATCHER]: Processing file changes in outputs
 [NX Daemon Server] - 2025-02-22T12:52:16.171Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
 [NX Daemon Server] - 2025-02-22T12:52:16.171Z - [REQUEST]: libs/taskbox/package-lock.json
-[NX Daemon Server] - 2025-02-22T12:52:16.171Z - [REQUEST]: 
+[NX Daemon Server] - 2025-02-22T12:52:16.171Z - [REQUEST]:
 
  NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
 
@@ -21410,7 +21410,7 @@ For more information about the usage of "namedInputs" see https://nx.dev/depreca
 [NX Daemon Server] - 2025-02-22T12:52:19.783Z - [WATCHER]: Processing file changes in outputs
 [NX Daemon Server] - 2025-02-22T12:52:20.186Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
 [NX Daemon Server] - 2025-02-22T12:52:20.186Z - [REQUEST]: package.json
-[NX Daemon Server] - 2025-02-22T12:52:20.186Z - [REQUEST]: 
+[NX Daemon Server] - 2025-02-22T12:52:20.186Z - [REQUEST]:
 
  NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
 
@@ -21434,8 +21434,8 @@ For more information about the usage of "namedInputs" see https://nx.dev/depreca
 [NX Daemon Server] - 2025-04-08T15:53:11.435Z - Closed a connection. Number of open connections: 1
 [NX Daemon Server] - 2025-04-08T15:53:11.436Z - [REQUEST]: Client Request for Project Graph Received
 [NX Daemon Server] - 2025-04-08T15:53:11.455Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
-[NX Daemon Server] - 2025-04-08T15:53:11.455Z - [REQUEST]: 
-[NX Daemon Server] - 2025-04-08T15:53:11.455Z - [REQUEST]: 
+[NX Daemon Server] - 2025-04-08T15:53:11.455Z - [REQUEST]:
+[NX Daemon Server] - 2025-04-08T15:53:11.455Z - [REQUEST]:
 
  NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
 
@@ -21479,7 +21479,7 @@ For more information about the usage of "namedInputs" see https://nx.dev/depreca
 [NX Daemon Server] - 2025-04-08T15:54:59.411Z - [WATCHER]: Processing file changes in outputs
 [NX Daemon Server] - 2025-04-08T15:54:59.460Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
 [NX Daemon Server] - 2025-04-08T15:54:59.460Z - [REQUEST]: libs/taskbox/storybook-static/sb-addons/essentials-measure-6/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-manager/globals-module-info.js,libs/taskbox/storybook-static/sb-addons/essentials-toolbars-5/manager-bundle.js,libs/taskbox/storybook-static/sb-manager/chunk-5QAFKPS7.js,libs/taskbox/storybook-static/sb-addons/essentials-measure-6/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/essentials-toolbars-5/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/essentials-viewport-4/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/essentials-controls-1/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-manager/runtime.js,libs/taskbox/storybook-static/sb-manager/chunk-7PRFHFSS.js,libs/taskbox/storybook-static/sb-manager/chunk-XE6LDGTE.js,libs/taskbox/storybook-static/sb-manager/WithTooltip-V3YHNWJZ-MXTFSDU5.js,libs/taskbox/storybook-static/sb-addons/interactions-8/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/interactions-8/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-manager/globals.js,libs/taskbox/storybook-static/index.html,libs/taskbox/storybook-static/sb-addons/essentials-controls-1/manager-bundle.js,libs/taskbox/storybook-static/sb-manager/formatter-SWP5E3XI-7BGIK6BL.js,libs/taskbox/storybook-static/sb-addons/essentials-actions-2/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/essentials-outline-7/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/essentials-actions-2/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/essentials-viewport-4/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-manager/chunk-ZEU7PDD3.js,libs/taskbox/storybook-static/sb-addons/essentials-backgrounds-3/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/essentials-backgrounds-3/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/links-0/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/links-0/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-manager/chunk-YDUB7CS6.js,libs/taskbox/storybook-static/sb-addons/essentials-outline-7/manager-bundle.js,libs/taskbox/storybook-static/sb-manager/index.js,libs/taskbox/storybook-static/sb-manager/syntaxhighlighter-MJWPISIS-JOSCT6CQ.js
-[NX Daemon Server] - 2025-04-08T15:54:59.461Z - [REQUEST]: 
+[NX Daemon Server] - 2025-04-08T15:54:59.461Z - [REQUEST]:
 
  NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
 
@@ -21493,7 +21493,7 @@ For more information about the usage of "namedInputs" see https://nx.dev/depreca
 [NX Daemon Server] - 2025-04-08T15:54:59.852Z - [WATCHER]: Processing file changes in outputs
 [NX Daemon Server] - 2025-04-08T15:54:59.858Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
 [NX Daemon Server] - 2025-04-08T15:54:59.858Z - [REQUEST]: libs/taskbox/storybook-static/favicon.svg,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-bold-italic.woff2,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-bold.woff2,libs/taskbox/storybook-static/index.json,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-regular.woff2,libs/taskbox/storybook-static/stories.json,libs/taskbox/storybook-static/sb-common-assets/fonts.css,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-italic.woff2
-[NX Daemon Server] - 2025-04-08T15:54:59.858Z - [REQUEST]: 
+[NX Daemon Server] - 2025-04-08T15:54:59.858Z - [REQUEST]:
 
  NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
 
@@ -21505,7 +21505,7 @@ For more information about the usage of "namedInputs" see https://nx.dev/depreca
 [NX Daemon Server] - 2025-04-08T15:55:03.234Z - [WATCHER]: Processing file changes in outputs
 [NX Daemon Server] - 2025-04-08T15:55:03.337Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
 [NX Daemon Server] - 2025-04-08T15:55:03.337Z - [REQUEST]: libs/taskbox/storybook-static/sb-common-assets/nunito-sans-bold-italic.woff2,libs/taskbox/storybook-static/sb-common-assets/fonts.css,libs/taskbox/storybook-static/project.json,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-bold.woff2,libs/taskbox/storybook-static/stories.json,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-regular.woff2,libs/taskbox/storybook-static/sb-preview/globals.js,libs/taskbox/storybook-static/sb-preview/runtime.js,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-italic.woff2,libs/taskbox/storybook-static/index.json
-[NX Daemon Server] - 2025-04-08T15:55:03.337Z - [REQUEST]: 
+[NX Daemon Server] - 2025-04-08T15:55:03.337Z - [REQUEST]:
 
  NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
 
@@ -21517,7 +21517,7 @@ For more information about the usage of "namedInputs" see https://nx.dev/depreca
 [NX Daemon Server] - 2025-04-08T15:55:13.181Z - [WATCHER]: Processing file changes in outputs
 [NX Daemon Server] - 2025-04-08T15:55:13.286Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
 [NX Daemon Server] - 2025-04-08T15:55:13.286Z - [REQUEST]: libs/taskbox/storybook-static/276.0313a09d.iframe.bundle.js,libs/taskbox/storybook-static/705.92aeb07e.iframe.bundle.js,libs/taskbox/storybook-static/stories-Introduction-mdx.a25d7a6f.iframe.bundle.js,libs/taskbox/storybook-static/944.26a81323.iframe.bundle.js,libs/taskbox/storybook-static/433.20195f12.iframe.bundle.js,libs/taskbox/storybook-static/151.b8faea74.iframe.bundle.js,libs/taskbox/storybook-static/231.7e5f9e71.iframe.bundle.js,libs/taskbox/storybook-static/stories-Introduction-mdx.a25d7a6f.iframe.bundle.js.LICENSE.txt,libs/taskbox/storybook-static/508.f71d76b4.iframe.bundle.js.map,libs/taskbox/storybook-static/main.3fb91fa5.iframe.bundle.js,libs/taskbox/storybook-static/static/media/stackalt.dba9fbb3.svg,libs/taskbox/storybook-static/percolate.63090c278817081e.ttf,libs/taskbox/storybook-static/508.f71d76b4.iframe.bundle.js,libs/taskbox/storybook-static/static/media/code-brackets.2e1112d7.svg,libs/taskbox/storybook-static/76.0d06efbd.iframe.bundle.js.LICENSE.txt,libs/taskbox/storybook-static/runtime~main.88c087b1.iframe.bundle.js,libs/taskbox/storybook-static/button-Button-stories.da006b44.iframe.bundle.js,libs/taskbox/storybook-static/task-pure-task-list-stories.edd744d6.iframe.bundle.js,libs/taskbox/storybook-static/percolate.f52018f0d8e7bfe3.eot,libs/taskbox/storybook-static/task-pure-inbox-screen-stories.e5f959c5.iframe.bundle.js,libs/taskbox/storybook-static/static/media/repo.6d496322.svg,libs/taskbox/storybook-static/231.7e5f9e71.iframe.bundle.js.map,libs/taskbox/storybook-static/static/media/direction.b770f9af.svg,libs/taskbox/storybook-static/231.7e5f9e71.iframe.bundle.js.LICENSE.txt,libs/taskbox/storybook-static/76.0d06efbd.iframe.bundle.js,libs/taskbox/storybook-static/main.fd7496a220e78a3a83f9.css,libs/taskbox/storybook-static/static/media/comments.a3859089.svg,libs/taskbox/storybook-static/433.20195f12.iframe.bundle.js.map,libs/taskbox/storybook-static/header-Header-stories.a0590e3c.iframe.bundle.js,libs/taskbox/storybook-static/task-task-stories.4f846e95.iframe.bundle.js,libs/taskbox/storybook-static/pages-Page-stories.29e6dc15.iframe.bundle.js,libs/taskbox/storybook-static/391.a271134b.iframe.bundle.js,libs/taskbox/storybook-static/914.deb37cee.iframe.bundle.js,libs/taskbox/storybook-static/static/media/plugin.d494b228.svg,libs/taskbox/storybook-static/iframe.html,libs/taskbox/storybook-static/static/media/colors.a4bd0486.svg,libs/taskbox/storybook-static/percolate.3d9093989370b68a.svg,libs/taskbox/storybook-static/76.0d06efbd.iframe.bundle.js.map,libs/taskbox/storybook-static/percolate.29451126d103398b.woff,libs/taskbox/storybook-static/static/media/flow.edad2ac1.svg
-[NX Daemon Server] - 2025-04-08T15:55:13.286Z - [REQUEST]: 
+[NX Daemon Server] - 2025-04-08T15:55:13.286Z - [REQUEST]:
 
  NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
 
@@ -21529,7 +21529,7 @@ For more information about the usage of "namedInputs" see https://nx.dev/depreca
 [NX Daemon Server] - 2025-04-08T15:55:37.432Z - [WATCHER]: Processing file changes in outputs
 [NX Daemon Server] - 2025-04-08T15:55:37.635Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
 [NX Daemon Server] - 2025-04-08T15:55:37.635Z - [REQUEST]: libs/taskbox/package-lock.json
-[NX Daemon Server] - 2025-04-08T15:55:37.635Z - [REQUEST]: 
+[NX Daemon Server] - 2025-04-08T15:55:37.635Z - [REQUEST]:
 
  NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
 
@@ -21546,8 +21546,8 @@ For more information about the usage of "namedInputs" see https://nx.dev/depreca
 [NX Daemon Server] - 2025-04-08T15:57:06.286Z - Closed a connection. Number of open connections: 1
 [NX Daemon Server] - 2025-04-08T15:57:06.287Z - [REQUEST]: Client Request for Project Graph Received
 [NX Daemon Server] - 2025-04-08T15:57:06.288Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
-[NX Daemon Server] - 2025-04-08T15:57:06.288Z - [REQUEST]: 
-[NX Daemon Server] - 2025-04-08T15:57:06.288Z - [REQUEST]: 
+[NX Daemon Server] - 2025-04-08T15:57:06.288Z - [REQUEST]:
+[NX Daemon Server] - 2025-04-08T15:57:06.288Z - [REQUEST]:
 
  NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
 
@@ -21629,7 +21629,7 @@ For more information about the usage of "namedInputs" see https://nx.dev/depreca
 [NX Daemon Server] - 2025-04-08T15:58:35.986Z - [WATCHER]: Processing file changes in outputs
 [NX Daemon Server] - 2025-04-08T15:58:36.088Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
 [NX Daemon Server] - 2025-04-08T15:58:36.088Z - [REQUEST]: package.json
-[NX Daemon Server] - 2025-04-08T15:58:36.088Z - [REQUEST]: 
+[NX Daemon Server] - 2025-04-08T15:58:36.088Z - [REQUEST]:
 
  NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
 
@@ -21642,7 +21642,7 @@ For more information about the usage of "namedInputs" see https://nx.dev/depreca
 [NX Daemon Server] - 2025-04-08T15:59:26.991Z - [WATCHER]: Processing file changes in outputs
 [NX Daemon Server] - 2025-04-08T15:59:27.192Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
 [NX Daemon Server] - 2025-04-08T15:59:27.192Z - [REQUEST]: package.json
-[NX Daemon Server] - 2025-04-08T15:59:27.192Z - [REQUEST]: 
+[NX Daemon Server] - 2025-04-08T15:59:27.192Z - [REQUEST]:
 
  NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
 
@@ -21660,8 +21660,8 @@ For more information about the usage of "namedInputs" see https://nx.dev/depreca
 [NX Daemon Server] - 2025-04-08T16:00:40.631Z - Established a connection. Number of open connections: 2
 [NX Daemon Server] - 2025-04-08T16:00:40.633Z - [REQUEST]: Client Request for Project Graph Received
 [NX Daemon Server] - 2025-04-08T16:00:40.641Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
-[NX Daemon Server] - 2025-04-08T16:00:40.641Z - [REQUEST]: 
-[NX Daemon Server] - 2025-04-08T16:00:40.641Z - [REQUEST]: 
+[NX Daemon Server] - 2025-04-08T16:00:40.641Z - [REQUEST]:
+[NX Daemon Server] - 2025-04-08T16:00:40.641Z - [REQUEST]:
 
  NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
 
@@ -21796,7 +21796,7 @@ For more information about the usage of "namedInputs" see https://nx.dev/depreca
 [NX Daemon Server] - 2025-04-08T16:01:39.879Z - [WATCHER]: Processing file changes in outputs
 [NX Daemon Server] - 2025-04-08T16:01:40.084Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
 [NX Daemon Server] - 2025-04-08T16:01:40.084Z - [REQUEST]: libs/taskbox/package.json
-[NX Daemon Server] - 2025-04-08T16:01:40.084Z - [REQUEST]: 
+[NX Daemon Server] - 2025-04-08T16:01:40.084Z - [REQUEST]:
 
  NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
 
@@ -21808,7 +21808,7 @@ For more information about the usage of "namedInputs" see https://nx.dev/depreca
 [NX Daemon Server] - 2025-04-08T16:02:02.256Z - [WATCHER]: Processing file changes in outputs
 [NX Daemon Server] - 2025-04-08T16:02:02.659Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
 [NX Daemon Server] - 2025-04-08T16:02:02.659Z - [REQUEST]: libs/taskbox/package-lock.json
-[NX Daemon Server] - 2025-04-08T16:02:02.659Z - [REQUEST]: 
+[NX Daemon Server] - 2025-04-08T16:02:02.659Z - [REQUEST]:
 
  NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
 
@@ -21820,7 +21820,7 @@ For more information about the usage of "namedInputs" see https://nx.dev/depreca
 [NX Daemon Server] - 2025-04-08T16:02:08.771Z - [WATCHER]: Processing file changes in outputs
 [NX Daemon Server] - 2025-04-08T16:02:09.575Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
 [NX Daemon Server] - 2025-04-08T16:02:09.575Z - [REQUEST]: libs/taskbox/documentation.json
-[NX Daemon Server] - 2025-04-08T16:02:09.575Z - [REQUEST]: 
+[NX Daemon Server] - 2025-04-08T16:02:09.575Z - [REQUEST]:
 
  NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
 
@@ -21832,7 +21832,7 @@ For more information about the usage of "namedInputs" see https://nx.dev/depreca
 [NX Daemon Server] - 2025-04-08T16:02:22.455Z - [WATCHER]: Processing file changes in outputs
 [NX Daemon Server] - 2025-04-08T16:02:24.058Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
 [NX Daemon Server] - 2025-04-08T16:02:24.058Z - [REQUEST]: libs/taskbox/documentation.json
-[NX Daemon Server] - 2025-04-08T16:02:24.058Z - [REQUEST]: 
+[NX Daemon Server] - 2025-04-08T16:02:24.058Z - [REQUEST]:
 
  NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
 
@@ -21843,7 +21843,7 @@ For more information about the usage of "namedInputs" see https://nx.dev/depreca
 [NX Daemon Server] - 2025-04-08T16:02:47.594Z - [WATCHER]: libs/taskbox/package-lock.json was deleted
 [NX Daemon Server] - 2025-04-08T16:02:47.595Z - [WATCHER]: Processing file changes in outputs
 [NX Daemon Server] - 2025-04-08T16:02:50.799Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
-[NX Daemon Server] - 2025-04-08T16:02:50.800Z - [REQUEST]: 
+[NX Daemon Server] - 2025-04-08T16:02:50.800Z - [REQUEST]:
 [NX Daemon Server] - 2025-04-08T16:02:50.800Z - [REQUEST]: libs/taskbox/package-lock.json
 
  NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
@@ -21856,7 +21856,7 @@ For more information about the usage of "namedInputs" see https://nx.dev/depreca
 [NX Daemon Server] - 2025-04-08T16:03:37.479Z - [WATCHER]: Processing file changes in outputs
 [NX Daemon Server] - 2025-04-08T16:03:37.580Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
 [NX Daemon Server] - 2025-04-08T16:03:37.580Z - [REQUEST]: libs/taskbox/package-lock.json
-[NX Daemon Server] - 2025-04-08T16:03:37.580Z - [REQUEST]: 
+[NX Daemon Server] - 2025-04-08T16:03:37.580Z - [REQUEST]:
 
  NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
 
@@ -21868,7 +21868,7 @@ For more information about the usage of "namedInputs" see https://nx.dev/depreca
 [NX Daemon Server] - 2025-04-08T16:03:53.044Z - [WATCHER]: Processing file changes in outputs
 [NX Daemon Server] - 2025-04-08T16:03:53.246Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
 [NX Daemon Server] - 2025-04-08T16:03:53.246Z - [REQUEST]: libs/taskbox/documentation.json
-[NX Daemon Server] - 2025-04-08T16:03:53.246Z - [REQUEST]: 
+[NX Daemon Server] - 2025-04-08T16:03:53.246Z - [REQUEST]:
 
  NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
 
@@ -21880,7 +21880,7 @@ For more information about the usage of "namedInputs" see https://nx.dev/depreca
 [NX Daemon Server] - 2025-04-08T16:04:18.208Z - [WATCHER]: Processing file changes in outputs
 [NX Daemon Server] - 2025-04-08T16:04:18.616Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
 [NX Daemon Server] - 2025-04-08T16:04:18.616Z - [REQUEST]: libs/taskbox/doctor-storybook.log
-[NX Daemon Server] - 2025-04-08T16:04:18.616Z - [REQUEST]: 
+[NX Daemon Server] - 2025-04-08T16:04:18.616Z - [REQUEST]:
 
  NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
 
@@ -21892,7 +21892,7 @@ For more information about the usage of "namedInputs" see https://nx.dev/depreca
 [NX Daemon Server] - 2025-04-08T16:04:42.370Z - [WATCHER]: Processing file changes in outputs
 [NX Daemon Server] - 2025-04-08T16:04:43.178Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
 [NX Daemon Server] - 2025-04-08T16:04:43.178Z - [REQUEST]: libs/taskbox/documentation.json
-[NX Daemon Server] - 2025-04-08T16:04:43.179Z - [REQUEST]: 
+[NX Daemon Server] - 2025-04-08T16:04:43.179Z - [REQUEST]:
 
  NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
 
@@ -21904,7 +21904,7 @@ For more information about the usage of "namedInputs" see https://nx.dev/depreca
 [NX Daemon Server] - 2025-04-08T16:14:24.715Z - [WATCHER]: libs/taskbox/documentation.json was modified
 [NX Daemon Server] - 2025-04-08T16:14:26.318Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
 [NX Daemon Server] - 2025-04-08T16:14:26.319Z - [REQUEST]: libs/taskbox/documentation.json
-[NX Daemon Server] - 2025-04-08T16:14:26.319Z - [REQUEST]: 
+[NX Daemon Server] - 2025-04-08T16:14:26.319Z - [REQUEST]:
 
  NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
 
@@ -21916,7 +21916,7 @@ For more information about the usage of "namedInputs" see https://nx.dev/depreca
 [NX Daemon Server] - 2025-04-08T16:15:53.615Z - [WATCHER]: Processing file changes in outputs
 [NX Daemon Server] - 2025-04-08T16:15:56.821Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
 [NX Daemon Server] - 2025-04-08T16:15:56.822Z - [REQUEST]: libs/taskbox/package.json
-[NX Daemon Server] - 2025-04-08T16:15:56.822Z - [REQUEST]: 
+[NX Daemon Server] - 2025-04-08T16:15:56.822Z - [REQUEST]:
 
  NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
 
@@ -21928,7 +21928,7 @@ For more information about the usage of "namedInputs" see https://nx.dev/depreca
 [NX Daemon Server] - 2025-04-08T16:16:01.748Z - [WATCHER]: Processing file changes in outputs
 [NX Daemon Server] - 2025-04-08T16:16:08.151Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
 [NX Daemon Server] - 2025-04-08T16:16:08.152Z - [REQUEST]: libs/taskbox/doctor-storybook.log
-[NX Daemon Server] - 2025-04-08T16:16:08.152Z - [REQUEST]: 
+[NX Daemon Server] - 2025-04-08T16:16:08.152Z - [REQUEST]:
 
  NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
 
@@ -21940,7 +21940,7 @@ For more information about the usage of "namedInputs" see https://nx.dev/depreca
 [NX Daemon Server] - 2025-04-08T16:16:51.567Z - [WATCHER]: Processing file changes in outputs
 [NX Daemon Server] - 2025-04-08T16:16:57.968Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
 [NX Daemon Server] - 2025-04-08T16:16:57.969Z - [REQUEST]: libs/taskbox/package.json
-[NX Daemon Server] - 2025-04-08T16:16:57.969Z - [REQUEST]: 
+[NX Daemon Server] - 2025-04-08T16:16:57.969Z - [REQUEST]:
 
  NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
 
@@ -21952,7 +21952,7 @@ For more information about the usage of "namedInputs" see https://nx.dev/depreca
 [NX Daemon Server] - 2025-04-08T16:16:59.741Z - [WATCHER]: Processing file changes in outputs
 [NX Daemon Server] - 2025-04-08T16:17:06.153Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
 [NX Daemon Server] - 2025-04-08T16:17:06.154Z - [REQUEST]: libs/taskbox/package-lock.json
-[NX Daemon Server] - 2025-04-08T16:17:06.154Z - [REQUEST]: 
+[NX Daemon Server] - 2025-04-08T16:17:06.154Z - [REQUEST]:
 
  NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
 
@@ -21991,7 +21991,7 @@ For more information about the usage of "namedInputs" see https://nx.dev/depreca
 [NX Daemon Server] - 2025-04-08T16:18:17.743Z - [WATCHER]: Processing file changes in outputs
 [NX Daemon Server] - 2025-04-08T16:18:17.774Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
 [NX Daemon Server] - 2025-04-08T16:18:17.774Z - [REQUEST]: libs/taskbox/documentation.json,libs/taskbox/storybook-static/sb-addons/essentials-docs-4/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/links-1/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/essentials-backgrounds-5/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/essentials-actions-3/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/essentials-outline-9/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/essentials-backgrounds-5/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/interactions-10/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/essentials-docs-4/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/essentials-controls-2/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/links-1/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/storybook-core-core-server-presets-0/common-manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/interactions-10/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/essentials-measure-8/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/essentials-measure-8/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/essentials-toolbars-7/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/essentials-actions-3/manager-bundle.js,libs/taskbox/storybook-static/index.html,libs/taskbox/storybook-static/sb-manager/runtime.js,libs/taskbox/storybook-static/sb-manager/globals.js,libs/taskbox/storybook-static/sb-manager/globals-module-info.js,libs/taskbox/storybook-static/sb-addons/essentials-viewport-6/manager-bundle.js,libs/taskbox/storybook-static/sb-manager/globals-runtime.js,libs/taskbox/storybook-static/sb-addons/essentials-controls-2/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/storybook-core-core-server-presets-0/common-manager-bundle.js,libs/taskbox/storybook-static/sb-addons/essentials-outline-9/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/essentials-toolbars-7/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/essentials-viewport-6/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/nunito-sans-bold-italic.woff2,libs/taskbox/storybook-static/nunito-sans-bold.woff2,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-bold-italic.woff2,libs/taskbox/storybook-static/index.json,libs/taskbox/storybook-static/nunito-sans-regular.woff2,libs/taskbox/storybook-static/favicon.svg,libs/taskbox/storybook-static/sb-preview/globals.js,libs/taskbox/storybook-static/sb-preview/runtime.js,libs/taskbox/storybook-static/sb-common-assets/favicon.svg,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-regular.woff2,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-bold.woff2,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-italic.woff2,libs/taskbox/storybook-static/nunito-sans-italic.woff2,libs/taskbox/storybook-static/project.json
-[NX Daemon Server] - 2025-04-08T16:18:17.774Z - [REQUEST]: 
+[NX Daemon Server] - 2025-04-08T16:18:17.774Z - [REQUEST]:
 
  NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
 
@@ -22013,7 +22013,7 @@ For more information about the usage of "namedInputs" see https://nx.dev/depreca
 [NX Daemon Server] - 2025-04-08T16:20:10.297Z - [WATCHER]: Processing file changes in outputs
 [NX Daemon Server] - 2025-04-08T16:20:10.499Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
 [NX Daemon Server] - 2025-04-08T16:20:10.499Z - [REQUEST]: libs/taskbox/package.json
-[NX Daemon Server] - 2025-04-08T16:20:10.499Z - [REQUEST]: 
+[NX Daemon Server] - 2025-04-08T16:20:10.499Z - [REQUEST]:
 
  NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
 
@@ -22025,7 +22025,7 @@ For more information about the usage of "namedInputs" see https://nx.dev/depreca
 [NX Daemon Server] - 2025-04-08T16:20:23.862Z - [WATCHER]: Processing file changes in outputs
 [NX Daemon Server] - 2025-04-08T16:20:24.270Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
 [NX Daemon Server] - 2025-04-08T16:20:24.270Z - [REQUEST]: libs/taskbox/package-lock.json
-[NX Daemon Server] - 2025-04-08T16:20:24.270Z - [REQUEST]: 
+[NX Daemon Server] - 2025-04-08T16:20:24.270Z - [REQUEST]:
 
  NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
 
@@ -22049,7 +22049,7 @@ For more information about the usage of "namedInputs" see https://nx.dev/depreca
 [NX Daemon Server] - 2025-04-08T16:22:27.942Z - [WATCHER]: Processing file changes in outputs
 [NX Daemon Server] - 2025-04-08T16:22:29.545Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
 [NX Daemon Server] - 2025-04-08T16:22:29.545Z - [REQUEST]: libs/taskbox/doctor-storybook.log
-[NX Daemon Server] - 2025-04-08T16:22:29.545Z - [REQUEST]: 
+[NX Daemon Server] - 2025-04-08T16:22:29.545Z - [REQUEST]:
 
  NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
 
@@ -22061,7 +22061,7 @@ For more information about the usage of "namedInputs" see https://nx.dev/depreca
 [NX Daemon Server] - 2025-04-08T16:22:56.302Z - [WATCHER]: Processing file changes in outputs
 [NX Daemon Server] - 2025-04-08T16:22:59.506Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
 [NX Daemon Server] - 2025-04-08T16:22:59.506Z - [REQUEST]: libs/taskbox/package.json
-[NX Daemon Server] - 2025-04-08T16:22:59.506Z - [REQUEST]: 
+[NX Daemon Server] - 2025-04-08T16:22:59.506Z - [REQUEST]:
 
  NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
 
@@ -22073,7 +22073,7 @@ For more information about the usage of "namedInputs" see https://nx.dev/depreca
 [NX Daemon Server] - 2025-04-08T16:23:40.839Z - [WATCHER]: Processing file changes in outputs
 [NX Daemon Server] - 2025-04-08T16:23:47.244Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
 [NX Daemon Server] - 2025-04-08T16:23:47.244Z - [REQUEST]: libs/taskbox/documentation.json
-[NX Daemon Server] - 2025-04-08T16:23:47.244Z - [REQUEST]: 
+[NX Daemon Server] - 2025-04-08T16:23:47.244Z - [REQUEST]:
 
  NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
 
@@ -22085,7 +22085,7 @@ For more information about the usage of "namedInputs" see https://nx.dev/depreca
 [NX Daemon Server] - 2025-04-08T16:23:50.647Z - [WATCHER]: Processing file changes in outputs
 [NX Daemon Server] - 2025-04-08T16:23:57.049Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
 [NX Daemon Server] - 2025-04-08T16:23:57.049Z - [REQUEST]: libs/taskbox/doctor-storybook.log
-[NX Daemon Server] - 2025-04-08T16:23:57.049Z - [REQUEST]: 
+[NX Daemon Server] - 2025-04-08T16:23:57.049Z - [REQUEST]:
 
  NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
 
@@ -22096,7 +22096,7 @@ For more information about the usage of "namedInputs" see https://nx.dev/depreca
 [NX Daemon Server] - 2025-04-08T16:24:12.144Z - [WATCHER]: libs/taskbox/package-lock.json was deleted
 [NX Daemon Server] - 2025-04-08T16:24:12.144Z - [WATCHER]: Processing file changes in outputs
 [NX Daemon Server] - 2025-04-08T16:24:18.547Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
-[NX Daemon Server] - 2025-04-08T16:24:18.547Z - [REQUEST]: 
+[NX Daemon Server] - 2025-04-08T16:24:18.547Z - [REQUEST]:
 [NX Daemon Server] - 2025-04-08T16:24:18.547Z - [REQUEST]: libs/taskbox/package-lock.json
 
  NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
@@ -22109,7 +22109,7 @@ For more information about the usage of "namedInputs" see https://nx.dev/depreca
 [NX Daemon Server] - 2025-04-08T16:24:20.405Z - [WATCHER]: Processing file changes in outputs
 [NX Daemon Server] - 2025-04-08T16:24:20.506Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
 [NX Daemon Server] - 2025-04-08T16:24:20.506Z - [REQUEST]: libs/taskbox/package-lock.json
-[NX Daemon Server] - 2025-04-08T16:24:20.506Z - [REQUEST]: 
+[NX Daemon Server] - 2025-04-08T16:24:20.506Z - [REQUEST]:
 
  NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
 
@@ -22121,7 +22121,7 @@ For more information about the usage of "namedInputs" see https://nx.dev/depreca
 [NX Daemon Server] - 2025-04-08T16:24:30.123Z - [WATCHER]: Processing file changes in outputs
 [NX Daemon Server] - 2025-04-08T16:24:30.325Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
 [NX Daemon Server] - 2025-04-08T16:24:30.325Z - [REQUEST]: libs/taskbox/documentation.json
-[NX Daemon Server] - 2025-04-08T16:24:30.325Z - [REQUEST]: 
+[NX Daemon Server] - 2025-04-08T16:24:30.325Z - [REQUEST]:
 
  NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
 
@@ -22133,7 +22133,7 @@ For more information about the usage of "namedInputs" see https://nx.dev/depreca
 [NX Daemon Server] - 2025-04-08T16:24:38.898Z - [WATCHER]: libs/taskbox/doctor-storybook.log was modified
 [NX Daemon Server] - 2025-04-08T16:24:39.301Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
 [NX Daemon Server] - 2025-04-08T16:24:39.301Z - [REQUEST]: libs/taskbox/doctor-storybook.log
-[NX Daemon Server] - 2025-04-08T16:24:39.302Z - [REQUEST]: 
+[NX Daemon Server] - 2025-04-08T16:24:39.302Z - [REQUEST]:
 
  NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
 
@@ -22144,7 +22144,7 @@ For more information about the usage of "namedInputs" see https://nx.dev/depreca
 [NX Daemon Server] - 2025-04-08T16:24:48.792Z - [WATCHER]: libs/taskbox/package-lock.json was deleted
 [NX Daemon Server] - 2025-04-08T16:24:48.793Z - [WATCHER]: Processing file changes in outputs
 [NX Daemon Server] - 2025-04-08T16:24:49.595Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
-[NX Daemon Server] - 2025-04-08T16:24:49.597Z - [REQUEST]: 
+[NX Daemon Server] - 2025-04-08T16:24:49.597Z - [REQUEST]:
 [NX Daemon Server] - 2025-04-08T16:24:49.597Z - [REQUEST]: libs/taskbox/package-lock.json
 
  NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
@@ -22157,7 +22157,7 @@ For more information about the usage of "namedInputs" see https://nx.dev/depreca
 [NX Daemon Server] - 2025-04-08T16:25:52.118Z - [WATCHER]: Processing file changes in outputs
 [NX Daemon Server] - 2025-04-08T16:25:53.720Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
 [NX Daemon Server] - 2025-04-08T16:25:53.721Z - [REQUEST]: libs/taskbox/package.json
-[NX Daemon Server] - 2025-04-08T16:25:53.721Z - [REQUEST]: 
+[NX Daemon Server] - 2025-04-08T16:25:53.721Z - [REQUEST]:
 
  NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
 
@@ -22169,7 +22169,7 @@ For more information about the usage of "namedInputs" see https://nx.dev/depreca
 [NX Daemon Server] - 2025-04-08T16:26:17.090Z - [WATCHER]: Processing file changes in outputs
 [NX Daemon Server] - 2025-04-08T16:26:17.192Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
 [NX Daemon Server] - 2025-04-08T16:26:17.192Z - [REQUEST]: libs/taskbox/package-lock.json
-[NX Daemon Server] - 2025-04-08T16:26:17.192Z - [REQUEST]: 
+[NX Daemon Server] - 2025-04-08T16:26:17.192Z - [REQUEST]:
 
  NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
 
@@ -22181,7 +22181,7 @@ For more information about the usage of "namedInputs" see https://nx.dev/depreca
 [NX Daemon Server] - 2025-04-08T16:27:32.092Z - [WATCHER]: Processing file changes in outputs
 [NX Daemon Server] - 2025-04-08T16:27:32.294Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
 [NX Daemon Server] - 2025-04-08T16:27:32.294Z - [REQUEST]: libs/taskbox/documentation.json
-[NX Daemon Server] - 2025-04-08T16:27:32.294Z - [REQUEST]: 
+[NX Daemon Server] - 2025-04-08T16:27:32.294Z - [REQUEST]:
 
  NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
 
@@ -22193,7 +22193,7 @@ For more information about the usage of "namedInputs" see https://nx.dev/depreca
 [NX Daemon Server] - 2025-04-08T16:27:33.295Z - [WATCHER]: Processing file changes in outputs
 [NX Daemon Server] - 2025-04-08T16:27:33.400Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
 [NX Daemon Server] - 2025-04-08T16:27:33.400Z - [REQUEST]: libs/taskbox/storybook-static/sb-addons/essentials-docs-3/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/interactions-9/manager-bundle.js,libs/taskbox/storybook-static/sb-manager/formatter-SWP5E3XI-7BGIK6BL.js,libs/taskbox/storybook-static/sb-addons/interactions-9/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/essentials-outline-8/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/essentials-backgrounds-4/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/links-0/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-manager/chunk-ZEU7PDD3.js,libs/taskbox/storybook-static/sb-addons/essentials-actions-2/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/essentials-measure-7/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-manager/chunk-7PRFHFSS.js,libs/taskbox/storybook-static/sb-manager/chunk-XE6LDGTE.js,libs/taskbox/storybook-static/sb-manager/globals-module-info.js,libs/taskbox/storybook-static/sb-addons/essentials-viewport-5/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/essentials-outline-8/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/essentials-docs-3/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/essentials-controls-1/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/essentials-viewport-5/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/essentials-toolbars-6/manager-bundle.js,libs/taskbox/storybook-static/index.html,libs/taskbox/storybook-static/sb-addons/essentials-actions-2/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-manager/index.js,libs/taskbox/storybook-static/sb-manager/chunk-YDUB7CS6.js,libs/taskbox/storybook-static/sb-addons/essentials-toolbars-6/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-manager/chunk-5QAFKPS7.js,libs/taskbox/storybook-static/sb-addons/essentials-controls-1/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/essentials-backgrounds-4/manager-bundle.js,libs/taskbox/storybook-static/sb-manager/runtime.js,libs/taskbox/storybook-static/sb-manager/WithTooltip-V3YHNWJZ-MXTFSDU5.js,libs/taskbox/storybook-static/sb-addons/essentials-measure-7/manager-bundle.js,libs/taskbox/storybook-static/sb-manager/globals.js,libs/taskbox/storybook-static/sb-manager/syntaxhighlighter-MJWPISIS-JOSCT6CQ.js,libs/taskbox/storybook-static/sb-addons/links-0/manager-bundle.js
-[NX Daemon Server] - 2025-04-08T16:27:33.400Z - [REQUEST]: 
+[NX Daemon Server] - 2025-04-08T16:27:33.400Z - [REQUEST]:
 
  NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
 
@@ -22205,7 +22205,7 @@ For more information about the usage of "namedInputs" see https://nx.dev/depreca
 [NX Daemon Server] - 2025-04-08T16:27:33.623Z - [WATCHER]: Processing file changes in outputs
 [NX Daemon Server] - 2025-04-08T16:27:33.725Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
 [NX Daemon Server] - 2025-04-08T16:27:33.725Z - [REQUEST]: libs/taskbox/storybook-static/favicon.svg
-[NX Daemon Server] - 2025-04-08T16:27:33.725Z - [REQUEST]: 
+[NX Daemon Server] - 2025-04-08T16:27:33.725Z - [REQUEST]:
 
  NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
 
@@ -22219,7 +22219,7 @@ For more information about the usage of "namedInputs" see https://nx.dev/depreca
 [NX Daemon Server] - 2025-04-08T16:27:33.802Z - [WATCHER]: Processing file changes in outputs
 [NX Daemon Server] - 2025-04-08T16:27:33.861Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
 [NX Daemon Server] - 2025-04-08T16:27:33.861Z - [REQUEST]: libs/taskbox/storybook-static/favicon.svg,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-bold.woff2,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-regular.woff2,libs/taskbox/storybook-static/sb-common-assets/fonts.css,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-italic.woff2,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-bold-italic.woff2,libs/taskbox/storybook-static/index.json,libs/taskbox/storybook-static/stories.json
-[NX Daemon Server] - 2025-04-08T16:27:33.861Z - [REQUEST]: 
+[NX Daemon Server] - 2025-04-08T16:27:33.861Z - [REQUEST]:
 
  NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
 
@@ -22231,7 +22231,7 @@ For more information about the usage of "namedInputs" see https://nx.dev/depreca
 [NX Daemon Server] - 2025-04-08T16:27:33.934Z - [WATCHER]: Processing file changes in outputs
 [NX Daemon Server] - 2025-04-08T16:27:34.036Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
 [NX Daemon Server] - 2025-04-08T16:27:34.036Z - [REQUEST]: libs/taskbox/storybook-static/sb-common-assets/nunito-sans-bold.woff2,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-italic.woff2,libs/taskbox/storybook-static/sb-common-assets/fonts.css,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-regular.woff2,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-bold-italic.woff2,libs/taskbox/storybook-static/index.json,libs/taskbox/storybook-static/stories.json
-[NX Daemon Server] - 2025-04-08T16:27:34.036Z - [REQUEST]: 
+[NX Daemon Server] - 2025-04-08T16:27:34.036Z - [REQUEST]:
 
  NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
 
@@ -22243,7 +22243,7 @@ For more information about the usage of "namedInputs" see https://nx.dev/depreca
 [NX Daemon Server] - 2025-04-08T16:27:37.215Z - [WATCHER]: 5 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
 [NX Daemon Server] - 2025-04-08T16:27:37.317Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
 [NX Daemon Server] - 2025-04-08T16:27:37.317Z - [REQUEST]: libs/taskbox/storybook-static/sb-common-assets/nunito-sans-italic.woff2,libs/taskbox/storybook-static/sb-preview/globals.js,libs/taskbox/storybook-static/project.json,libs/taskbox/storybook-static/sb-preview/runtime.js,libs/taskbox/storybook-static/sb-common-assets/fonts.css
-[NX Daemon Server] - 2025-04-08T16:27:37.317Z - [REQUEST]: 
+[NX Daemon Server] - 2025-04-08T16:27:37.317Z - [REQUEST]:
 
  NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
 
@@ -22265,7 +22265,7 @@ For more information about the usage of "namedInputs" see https://nx.dev/depreca
 [NX Daemon Server] - 2025-04-08T16:29:43.765Z - [WATCHER]: Processing file changes in outputs
 [NX Daemon Server] - 2025-04-08T16:29:43.966Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
 [NX Daemon Server] - 2025-04-08T16:29:43.966Z - [REQUEST]: libs/taskbox/package.json
-[NX Daemon Server] - 2025-04-08T16:29:43.966Z - [REQUEST]: 
+[NX Daemon Server] - 2025-04-08T16:29:43.966Z - [REQUEST]:
 
  NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
 
@@ -22277,7 +22277,7 @@ For more information about the usage of "namedInputs" see https://nx.dev/depreca
 [NX Daemon Server] - 2025-04-08T16:29:58.641Z - [WATCHER]: Processing file changes in outputs
 [NX Daemon Server] - 2025-04-08T16:29:59.044Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
 [NX Daemon Server] - 2025-04-08T16:29:59.044Z - [REQUEST]: libs/taskbox/package-lock.json
-[NX Daemon Server] - 2025-04-08T16:29:59.044Z - [REQUEST]: 
+[NX Daemon Server] - 2025-04-08T16:29:59.044Z - [REQUEST]:
 
  NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
 
@@ -22301,7 +22301,7 @@ For more information about the usage of "namedInputs" see https://nx.dev/depreca
 [NX Daemon Server] - 2025-04-08T16:30:14.113Z - [WATCHER]: Processing file changes in outputs
 [NX Daemon Server] - 2025-04-08T16:30:14.217Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
 [NX Daemon Server] - 2025-04-08T16:30:14.217Z - [REQUEST]: libs/taskbox/storybook-static/sb-manager/index.js,libs/taskbox/storybook-static/sb-addons/essentials-measure-6/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/links-0/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/links-0/manager-bundle.js,libs/taskbox/storybook-static/sb-manager/chunk-ZEU7PDD3.js,libs/taskbox/storybook-static/sb-manager/formatter-SWP5E3XI-7BGIK6BL.js,libs/taskbox/storybook-static/sb-manager/chunk-7PRFHFSS.js,libs/taskbox/storybook-static/sb-addons/essentials-measure-6/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/interactions-8/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/essentials-controls-1/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/essentials-backgrounds-3/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/index.html,libs/taskbox/storybook-static/sb-manager/chunk-5QAFKPS7.js,libs/taskbox/storybook-static/sb-addons/essentials-backgrounds-3/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/essentials-toolbars-5/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/essentials-viewport-4/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/essentials-actions-2/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/essentials-controls-1/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/interactions-8/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-manager/chunk-YDUB7CS6.js,libs/taskbox/storybook-static/sb-manager/globals.js,libs/taskbox/storybook-static/sb-addons/essentials-outline-7/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/essentials-viewport-4/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/essentials-outline-7/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-manager/WithTooltip-V3YHNWJZ-MXTFSDU5.js,libs/taskbox/storybook-static/sb-manager/globals-module-info.js,libs/taskbox/storybook-static/sb-addons/essentials-toolbars-5/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-manager/syntaxhighlighter-MJWPISIS-JOSCT6CQ.js,libs/taskbox/storybook-static/sb-manager/runtime.js,libs/taskbox/storybook-static/sb-manager/chunk-XE6LDGTE.js,libs/taskbox/storybook-static/sb-addons/essentials-actions-2/manager-bundle.js
-[NX Daemon Server] - 2025-04-08T16:30:14.217Z - [REQUEST]: 
+[NX Daemon Server] - 2025-04-08T16:30:14.217Z - [REQUEST]:
 
  NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
 
@@ -22315,7 +22315,7 @@ For more information about the usage of "namedInputs" see https://nx.dev/depreca
 [NX Daemon Server] - 2025-04-08T16:30:14.581Z - [WATCHER]: Processing file changes in outputs
 [NX Daemon Server] - 2025-04-08T16:30:14.611Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
 [NX Daemon Server] - 2025-04-08T16:30:14.611Z - [REQUEST]: libs/taskbox/storybook-static/favicon.svg,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-italic.woff2,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-regular.woff2,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-bold-italic.woff2,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-bold.woff2,libs/taskbox/storybook-static/sb-common-assets/fonts.css
-[NX Daemon Server] - 2025-04-08T16:30:14.611Z - [REQUEST]: 
+[NX Daemon Server] - 2025-04-08T16:30:14.611Z - [REQUEST]:
 
  NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
 
@@ -22327,7 +22327,7 @@ For more information about the usage of "namedInputs" see https://nx.dev/depreca
 [NX Daemon Server] - 2025-04-08T16:30:14.691Z - [WATCHER]: 2 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
 [NX Daemon Server] - 2025-04-08T16:30:14.793Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
 [NX Daemon Server] - 2025-04-08T16:30:14.793Z - [REQUEST]: libs/taskbox/storybook-static/stories.json,libs/taskbox/storybook-static/index.json
-[NX Daemon Server] - 2025-04-08T16:30:14.793Z - [REQUEST]: 
+[NX Daemon Server] - 2025-04-08T16:30:14.793Z - [REQUEST]:
 
  NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
 
@@ -22339,7 +22339,7 @@ For more information about the usage of "namedInputs" see https://nx.dev/depreca
 [NX Daemon Server] - 2025-04-08T16:30:17.884Z - [WATCHER]: Processing file changes in outputs
 [NX Daemon Server] - 2025-04-08T16:30:17.986Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
 [NX Daemon Server] - 2025-04-08T16:30:17.987Z - [REQUEST]: libs/taskbox/storybook-static/sb-common-assets/fonts.css,libs/taskbox/storybook-static/project.json,libs/taskbox/storybook-static/sb-preview/globals.js,libs/taskbox/storybook-static/sb-preview/runtime.js,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-bold.woff2,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-regular.woff2,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-bold-italic.woff2,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-italic.woff2,libs/taskbox/storybook-static/stories.json,libs/taskbox/storybook-static/index.json
-[NX Daemon Server] - 2025-04-08T16:30:17.987Z - [REQUEST]: 
+[NX Daemon Server] - 2025-04-08T16:30:17.987Z - [REQUEST]:
 
  NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
 
@@ -22352,7 +22352,7 @@ For more information about the usage of "namedInputs" see https://nx.dev/depreca
 [NX Daemon Server] - 2025-04-08T16:30:27.447Z - [WATCHER]: 40 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
 [NX Daemon Server] - 2025-04-08T16:30:27.551Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
 [NX Daemon Server] - 2025-04-08T16:30:27.551Z - [REQUEST]: libs/taskbox/storybook-static/task-pure-inbox-screen-stories.e5f959c5.iframe.bundle.js,libs/taskbox/storybook-static/static/media/repo.6d496322.svg,libs/taskbox/storybook-static/button-Button-stories.da006b44.iframe.bundle.js,libs/taskbox/storybook-static/iframe.html,libs/taskbox/storybook-static/percolate.29451126d103398b.woff,libs/taskbox/storybook-static/static/media/colors.a4bd0486.svg,libs/taskbox/storybook-static/391.a271134b.iframe.bundle.js,libs/taskbox/storybook-static/stories-Introduction-mdx.a25d7a6f.iframe.bundle.js,libs/taskbox/storybook-static/231.7e5f9e71.iframe.bundle.js,libs/taskbox/storybook-static/68.a9d02a09.iframe.bundle.js.LICENSE.txt,libs/taskbox/storybook-static/276.0313a09d.iframe.bundle.js,libs/taskbox/storybook-static/231.7e5f9e71.iframe.bundle.js.LICENSE.txt,libs/taskbox/storybook-static/runtime~main.88c087b1.iframe.bundle.js,libs/taskbox/storybook-static/pages-Page-stories.29e6dc15.iframe.bundle.js,libs/taskbox/storybook-static/static/media/flow.edad2ac1.svg,libs/taskbox/storybook-static/percolate.3d9093989370b68a.svg,libs/taskbox/storybook-static/static/media/direction.b770f9af.svg,libs/taskbox/storybook-static/705.92aeb07e.iframe.bundle.js,libs/taskbox/storybook-static/task-pure-task-list-stories.edd744d6.iframe.bundle.js,libs/taskbox/storybook-static/944.26a81323.iframe.bundle.js,libs/taskbox/storybook-static/static/media/stackalt.dba9fbb3.svg,libs/taskbox/storybook-static/stories-Introduction-mdx.a25d7a6f.iframe.bundle.js.LICENSE.txt,libs/taskbox/storybook-static/508.f71d76b4.iframe.bundle.js,libs/taskbox/storybook-static/68.a9d02a09.iframe.bundle.js,libs/taskbox/storybook-static/231.7e5f9e71.iframe.bundle.js.map,libs/taskbox/storybook-static/static/media/plugin.d494b228.svg,libs/taskbox/storybook-static/header-Header-stories.a0590e3c.iframe.bundle.js,libs/taskbox/storybook-static/static/media/comments.a3859089.svg,libs/taskbox/storybook-static/433.20195f12.iframe.bundle.js.map,libs/taskbox/storybook-static/68.a9d02a09.iframe.bundle.js.map,libs/taskbox/storybook-static/task-task-stories.4f846e95.iframe.bundle.js,libs/taskbox/storybook-static/static/media/code-brackets.2e1112d7.svg,libs/taskbox/storybook-static/percolate.63090c278817081e.ttf,libs/taskbox/storybook-static/main.fd7496a220e78a3a83f9.css,libs/taskbox/storybook-static/508.f71d76b4.iframe.bundle.js.map,libs/taskbox/storybook-static/914.deb37cee.iframe.bundle.js,libs/taskbox/storybook-static/151.b8faea74.iframe.bundle.js,libs/taskbox/storybook-static/main.a037e47b.iframe.bundle.js,libs/taskbox/storybook-static/433.20195f12.iframe.bundle.js,libs/taskbox/storybook-static/percolate.f52018f0d8e7bfe3.eot
-[NX Daemon Server] - 2025-04-08T16:30:27.551Z - [REQUEST]: 
+[NX Daemon Server] - 2025-04-08T16:30:27.551Z - [REQUEST]:
 
  NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
 
@@ -22365,7 +22365,7 @@ For more information about the usage of "namedInputs" see https://nx.dev/depreca
 [NX Daemon Server] - 2025-04-08T16:31:20.516Z - [WATCHER]: Processing file changes in outputs
 [NX Daemon Server] - 2025-04-08T16:31:20.580Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
 [NX Daemon Server] - 2025-04-08T16:31:20.580Z - [REQUEST]: libs/taskbox/documentation.json
-[NX Daemon Server] - 2025-04-08T16:31:20.580Z - [REQUEST]: 
+[NX Daemon Server] - 2025-04-08T16:31:20.580Z - [REQUEST]:
 
  NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
 
@@ -22380,3 +22380,1002 @@ For more information about the usage of "namedInputs" see https://nx.dev/depreca
 [NX Daemon Server] - 2025-04-08T16:34:33.656Z - [WATCHER]: Stopping the watcher for /Users/pranay/IdeaProjects/LDA (sources)
 [NX Daemon Server] - 2025-04-08T16:34:33.656Z - [WATCHER]: Stopping the watcher for /Users/pranay/IdeaProjects/LDA (outputs)
 [NX Daemon Server] - 2025-04-08T16:34:33.657Z - Server stopped because: "Stopping the daemon the set of ignored files changed (native)"
+[NX Daemon Server] - 2025-04-08T15:53:11.427Z - Started listening on: /var/folders/l8/3kcvz7_n5gv7d1xp1lqf83bc0000gn/T/991f07af6c3f8073e5e8/d.sock
+[NX Daemon Server] - 2025-04-08T15:53:11.428Z - [WATCHER]: Subscribed to changes within: /Users/pranay/IdeaProjects/LDA (native)
+[NX Daemon Server] - 2025-04-08T15:53:11.434Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-04-08T15:53:11.434Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2025-04-08T15:53:11.435Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-04-08T15:53:11.436Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2025-04-08T15:53:11.455Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-04-08T15:53:11.455Z - [REQUEST]:
+[NX Daemon Server] - 2025-04-08T15:53:11.455Z - [REQUEST]:
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2025-04-08T15:53:11.742Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2025-04-08T15:53:11.744Z - Time taken for 'total for creating and serializing project graph' 305.8737500011921ms
+[NX Daemon Server] - 2025-04-08T15:53:11.746Z - Done responding to the client project-graph
+[NX Daemon Server] - 2025-04-08T15:53:11.746Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 306. Response time: 4.
+[NX Daemon Server] - 2025-04-08T15:53:11.875Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2025-04-08T15:53:11.875Z - Time taken for 'Load Nx Plugin: /Users/pranay/IdeaProjects/LDA/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 0.34200000017881393ms
+[NX Daemon Server] - 2025-04-08T15:53:11.875Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2025-04-08T15:53:11.875Z - Handled HASH_TASKS. Handling time: 18. Response time: 0.
+[NX Daemon Server] - 2025-04-08T15:53:13.727Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2025-04-08T15:53:13.727Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-04-08T15:53:13.727Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2025-04-08T15:53:13.728Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2025-04-08T15:53:13.729Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2025-04-08T15:53:13.731Z - Time taken for 'total for creating and serializing project graph' 0.4971249997615814ms
+[NX Daemon Server] - 2025-04-08T15:53:13.733Z - Done responding to the client project-graph
+[NX Daemon Server] - 2025-04-08T15:53:13.733Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 4.
+[NX Daemon Server] - 2025-04-08T15:53:18.655Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T15:53:18.726Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T15:53:20.249Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T15:54:58.862Z - [WATCHER]: 0 file(s) created or restored, 1 file(s) modified, 82 file(s) deleted
+[NX Daemon Server] - 2025-04-08T15:54:58.863Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T15:54:58.965Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-04-08T15:54:58.965Z - [REQUEST]: libs/taskbox/documentation.json
+[NX Daemon Server] - 2025-04-08T15:54:58.965Z - [REQUEST]: libs/taskbox/storybook-static/stories-Introduction-mdx.a25d7a6f.iframe.bundle.js,libs/taskbox/storybook-static/button-Button-stories.da006b44.iframe.bundle.js,libs/taskbox/storybook-static/percolate.f52018f0d8e7bfe3.eot,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-regular.woff2,libs/taskbox/storybook-static/pages-Page-stories.29e6dc15.iframe.bundle.js,libs/taskbox/storybook-static/sb-manager/WithTooltip-V3YHNWJZ-MXTFSDU5.js,libs/taskbox/storybook-static/static/media/plugin.d494b228.svg,libs/taskbox/storybook-static/stories-Introduction-mdx.a25d7a6f.iframe.bundle.js.LICENSE.txt,libs/taskbox/storybook-static/sb-addons/essentials-outline-7/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/essentials-outline-7/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/76.0d06efbd.iframe.bundle.js.map,libs/taskbox/storybook-static/header-Header-stories.a0590e3c.iframe.bundle.js,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-italic.woff2,libs/taskbox/storybook-static/static/media/direction.b770f9af.svg,libs/taskbox/storybook-static/sb-common-assets/fonts.css,libs/taskbox/storybook-static/sb-manager/chunk-ZEU7PDD3.js,libs/taskbox/storybook-static/sb-addons/interactions-8/manager-bundle.js,libs/taskbox/storybook-static/task-task-stories.4f846e95.iframe.bundle.js,libs/taskbox/storybook-static/static/media/comments.a3859089.svg,libs/taskbox/storybook-static/static/media/flow.edad2ac1.svg,libs/taskbox/storybook-static/sb-addons/links-0/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/508.f71d76b4.iframe.bundle.js,libs/taskbox/storybook-static/sb-addons/essentials-measure-6/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/iframe.html,libs/taskbox/storybook-static/944.26a81323.iframe.bundle.js,libs/taskbox/storybook-static/project.json,libs/taskbox/storybook-static/sb-addons/essentials-controls-1/manager-bundle.js,libs/taskbox/storybook-static/task-pure-inbox-screen-stories.e5f959c5.iframe.bundle.js,libs/taskbox/storybook-static/percolate.29451126d103398b.woff,libs/taskbox/storybook-static/sb-manager/runtime.js,libs/taskbox/storybook-static/main.fd7496a220e78a3a83f9.css,libs/taskbox/storybook-static/sb-addons/essentials-toolbars-5/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/links-0/manager-bundle.js,libs/taskbox/storybook-static/percolate.3d9093989370b68a.svg,libs/taskbox/storybook-static/sb-addons/essentials-controls-1/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/essentials-measure-6/manager-bundle.js,libs/taskbox/storybook-static/runtime~main.88c087b1.iframe.bundle.js,libs/taskbox/storybook-static/sb-addons/essentials-viewport-4/manager-bundle.js,libs/taskbox/storybook-static/sb-manager/globals.js,libs/taskbox/storybook-static/sb-addons/essentials-backgrounds-3/manager-bundle.js,libs/taskbox/storybook-static/main.3fb91fa5.iframe.bundle.js,libs/taskbox/storybook-static/percolate.63090c278817081e.ttf,libs/taskbox/storybook-static/sb-manager/index.js,libs/taskbox/storybook-static/static/media/colors.a4bd0486.svg,libs/taskbox/storybook-static/stories.json,libs/taskbox/storybook-static/508.f71d76b4.iframe.bundle.js.map,libs/taskbox/storybook-static/914.deb37cee.iframe.bundle.js,libs/taskbox/storybook-static/sb-preview/runtime.js,libs/taskbox/storybook-static/sb-addons/essentials-backgrounds-3/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/76.0d06efbd.iframe.bundle.js.LICENSE.txt,libs/taskbox/storybook-static/sb-preview/globals.js,libs/taskbox/storybook-static/static/media/code-brackets.2e1112d7.svg,libs/taskbox/storybook-static/391.a271134b.iframe.bundle.js,libs/taskbox/storybook-static/sb-manager/formatter-SWP5E3XI-7BGIK6BL.js,libs/taskbox/storybook-static/sb-manager/chunk-5QAFKPS7.js,libs/taskbox/storybook-static/static/media/stackalt.dba9fbb3.svg,libs/taskbox/storybook-static/276.0313a09d.iframe.bundle.js,libs/taskbox/storybook-static/sb-addons/essentials-actions-2/manager-bundle.js,libs/taskbox/storybook-static/433.20195f12.iframe.bundle.js.map,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-bold-italic.woff2,libs/taskbox/storybook-static/sb-manager/chunk-7PRFHFSS.js,libs/taskbox/storybook-static/sb-manager/chunk-XE6LDGTE.js,libs/taskbox/storybook-static/static/media/repo.6d496322.svg,libs/taskbox/storybook-static/76.0d06efbd.iframe.bundle.js,libs/taskbox/storybook-static/index.json,libs/taskbox/storybook-static/sb-addons/essentials-actions-2/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/interactions-8/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/151.b8faea74.iframe.bundle.js,libs/taskbox/storybook-static/sb-manager/globals-module-info.js,libs/taskbox/storybook-static/433.20195f12.iframe.bundle.js,libs/taskbox/storybook-static/sb-manager/chunk-YDUB7CS6.js,libs/taskbox/storybook-static/favicon.svg,libs/taskbox/storybook-static/231.7e5f9e71.iframe.bundle.js.map,libs/taskbox/storybook-static/sb-manager/syntaxhighlighter-MJWPISIS-JOSCT6CQ.js,libs/taskbox/storybook-static/231.7e5f9e71.iframe.bundle.js.LICENSE.txt,libs/taskbox/storybook-static/task-pure-task-list-stories.edd744d6.iframe.bundle.js,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-bold.woff2,libs/taskbox/storybook-static/index.html,libs/taskbox/storybook-static/sb-addons/essentials-viewport-4/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/705.92aeb07e.iframe.bundle.js,libs/taskbox/storybook-static/sb-addons/essentials-toolbars-5/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/231.7e5f9e71.iframe.bundle.js
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2025-04-08T15:54:59.033Z - Time taken for 'Load Nx Plugin: /Users/pranay/IdeaProjects/LDA/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 0.42545899748802185ms
+[NX Daemon Server] - 2025-04-08T15:54:59.357Z - [WATCHER]: 29 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2025-04-08T15:54:59.358Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T15:54:59.411Z - [WATCHER]: 7 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2025-04-08T15:54:59.411Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T15:54:59.460Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-04-08T15:54:59.460Z - [REQUEST]: libs/taskbox/storybook-static/sb-addons/essentials-measure-6/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-manager/globals-module-info.js,libs/taskbox/storybook-static/sb-addons/essentials-toolbars-5/manager-bundle.js,libs/taskbox/storybook-static/sb-manager/chunk-5QAFKPS7.js,libs/taskbox/storybook-static/sb-addons/essentials-measure-6/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/essentials-toolbars-5/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/essentials-viewport-4/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/essentials-controls-1/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-manager/runtime.js,libs/taskbox/storybook-static/sb-manager/chunk-7PRFHFSS.js,libs/taskbox/storybook-static/sb-manager/chunk-XE6LDGTE.js,libs/taskbox/storybook-static/sb-manager/WithTooltip-V3YHNWJZ-MXTFSDU5.js,libs/taskbox/storybook-static/sb-addons/interactions-8/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/interactions-8/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-manager/globals.js,libs/taskbox/storybook-static/index.html,libs/taskbox/storybook-static/sb-addons/essentials-controls-1/manager-bundle.js,libs/taskbox/storybook-static/sb-manager/formatter-SWP5E3XI-7BGIK6BL.js,libs/taskbox/storybook-static/sb-addons/essentials-actions-2/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/essentials-outline-7/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/essentials-actions-2/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/essentials-viewport-4/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-manager/chunk-ZEU7PDD3.js,libs/taskbox/storybook-static/sb-addons/essentials-backgrounds-3/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/essentials-backgrounds-3/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/links-0/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/links-0/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-manager/chunk-YDUB7CS6.js,libs/taskbox/storybook-static/sb-addons/essentials-outline-7/manager-bundle.js,libs/taskbox/storybook-static/sb-manager/index.js,libs/taskbox/storybook-static/sb-manager/syntaxhighlighter-MJWPISIS-JOSCT6CQ.js
+[NX Daemon Server] - 2025-04-08T15:54:59.461Z - [REQUEST]:
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2025-04-08T15:54:59.515Z - Time taken for 'Load Nx Plugin: /Users/pranay/IdeaProjects/LDA/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 0.2763749994337559ms
+[NX Daemon Server] - 2025-04-08T15:54:59.757Z - [WATCHER]: libs/taskbox/storybook-static/favicon.svg was created or restored
+[NX Daemon Server] - 2025-04-08T15:54:59.757Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T15:54:59.851Z - [WATCHER]: 8 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2025-04-08T15:54:59.852Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T15:54:59.858Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-04-08T15:54:59.858Z - [REQUEST]: libs/taskbox/storybook-static/favicon.svg,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-bold-italic.woff2,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-bold.woff2,libs/taskbox/storybook-static/index.json,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-regular.woff2,libs/taskbox/storybook-static/stories.json,libs/taskbox/storybook-static/sb-common-assets/fonts.css,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-italic.woff2
+[NX Daemon Server] - 2025-04-08T15:54:59.858Z - [REQUEST]:
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2025-04-08T15:54:59.898Z - Time taken for 'Load Nx Plugin: /Users/pranay/IdeaProjects/LDA/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 0.27866700291633606ms
+[NX Daemon Server] - 2025-04-08T15:55:03.234Z - [WATCHER]: 10 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2025-04-08T15:55:03.234Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T15:55:03.337Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-04-08T15:55:03.337Z - [REQUEST]: libs/taskbox/storybook-static/sb-common-assets/nunito-sans-bold-italic.woff2,libs/taskbox/storybook-static/sb-common-assets/fonts.css,libs/taskbox/storybook-static/project.json,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-bold.woff2,libs/taskbox/storybook-static/stories.json,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-regular.woff2,libs/taskbox/storybook-static/sb-preview/globals.js,libs/taskbox/storybook-static/sb-preview/runtime.js,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-italic.woff2,libs/taskbox/storybook-static/index.json
+[NX Daemon Server] - 2025-04-08T15:55:03.337Z - [REQUEST]:
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2025-04-08T15:55:03.409Z - Time taken for 'Load Nx Plugin: /Users/pranay/IdeaProjects/LDA/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 0.2792910002171993ms
+[NX Daemon Server] - 2025-04-08T15:55:13.181Z - [WATCHER]: 40 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2025-04-08T15:55:13.181Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T15:55:13.286Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-04-08T15:55:13.286Z - [REQUEST]: libs/taskbox/storybook-static/276.0313a09d.iframe.bundle.js,libs/taskbox/storybook-static/705.92aeb07e.iframe.bundle.js,libs/taskbox/storybook-static/stories-Introduction-mdx.a25d7a6f.iframe.bundle.js,libs/taskbox/storybook-static/944.26a81323.iframe.bundle.js,libs/taskbox/storybook-static/433.20195f12.iframe.bundle.js,libs/taskbox/storybook-static/151.b8faea74.iframe.bundle.js,libs/taskbox/storybook-static/231.7e5f9e71.iframe.bundle.js,libs/taskbox/storybook-static/stories-Introduction-mdx.a25d7a6f.iframe.bundle.js.LICENSE.txt,libs/taskbox/storybook-static/508.f71d76b4.iframe.bundle.js.map,libs/taskbox/storybook-static/main.3fb91fa5.iframe.bundle.js,libs/taskbox/storybook-static/static/media/stackalt.dba9fbb3.svg,libs/taskbox/storybook-static/percolate.63090c278817081e.ttf,libs/taskbox/storybook-static/508.f71d76b4.iframe.bundle.js,libs/taskbox/storybook-static/static/media/code-brackets.2e1112d7.svg,libs/taskbox/storybook-static/76.0d06efbd.iframe.bundle.js.LICENSE.txt,libs/taskbox/storybook-static/runtime~main.88c087b1.iframe.bundle.js,libs/taskbox/storybook-static/button-Button-stories.da006b44.iframe.bundle.js,libs/taskbox/storybook-static/task-pure-task-list-stories.edd744d6.iframe.bundle.js,libs/taskbox/storybook-static/percolate.f52018f0d8e7bfe3.eot,libs/taskbox/storybook-static/task-pure-inbox-screen-stories.e5f959c5.iframe.bundle.js,libs/taskbox/storybook-static/static/media/repo.6d496322.svg,libs/taskbox/storybook-static/231.7e5f9e71.iframe.bundle.js.map,libs/taskbox/storybook-static/static/media/direction.b770f9af.svg,libs/taskbox/storybook-static/231.7e5f9e71.iframe.bundle.js.LICENSE.txt,libs/taskbox/storybook-static/76.0d06efbd.iframe.bundle.js,libs/taskbox/storybook-static/main.fd7496a220e78a3a83f9.css,libs/taskbox/storybook-static/static/media/comments.a3859089.svg,libs/taskbox/storybook-static/433.20195f12.iframe.bundle.js.map,libs/taskbox/storybook-static/header-Header-stories.a0590e3c.iframe.bundle.js,libs/taskbox/storybook-static/task-task-stories.4f846e95.iframe.bundle.js,libs/taskbox/storybook-static/pages-Page-stories.29e6dc15.iframe.bundle.js,libs/taskbox/storybook-static/391.a271134b.iframe.bundle.js,libs/taskbox/storybook-static/914.deb37cee.iframe.bundle.js,libs/taskbox/storybook-static/static/media/plugin.d494b228.svg,libs/taskbox/storybook-static/iframe.html,libs/taskbox/storybook-static/static/media/colors.a4bd0486.svg,libs/taskbox/storybook-static/percolate.3d9093989370b68a.svg,libs/taskbox/storybook-static/76.0d06efbd.iframe.bundle.js.map,libs/taskbox/storybook-static/percolate.29451126d103398b.woff,libs/taskbox/storybook-static/static/media/flow.edad2ac1.svg
+[NX Daemon Server] - 2025-04-08T15:55:13.286Z - [REQUEST]:
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2025-04-08T15:55:13.408Z - Time taken for 'Load Nx Plugin: /Users/pranay/IdeaProjects/LDA/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 0.4286249987781048ms
+[NX Daemon Server] - 2025-04-08T15:55:37.431Z - [WATCHER]: libs/taskbox/package-lock.json was modified
+[NX Daemon Server] - 2025-04-08T15:55:37.432Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T15:55:37.635Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-04-08T15:55:37.635Z - [REQUEST]: libs/taskbox/package-lock.json
+[NX Daemon Server] - 2025-04-08T15:55:37.635Z - [REQUEST]:
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2025-04-08T15:55:37.685Z - Time taken for 'Load Nx Plugin: /Users/pranay/IdeaProjects/LDA/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 0.5045420005917549ms
+[NX Daemon Server] - 2025-04-08T15:56:31.883Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T15:56:31.961Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T15:57:06.281Z - Started listening on: /var/folders/l8/3kcvz7_n5gv7d1xp1lqf83bc0000gn/T/991f07af6c3f8073e5e8/d.sock
+[NX Daemon Server] - 2025-04-08T15:57:06.282Z - [WATCHER]: Subscribed to changes within: /Users/pranay/IdeaProjects/LDA (native)
+[NX Daemon Server] - 2025-04-08T15:57:06.285Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-04-08T15:57:06.286Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2025-04-08T15:57:06.286Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-04-08T15:57:06.287Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2025-04-08T15:57:06.288Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-04-08T15:57:06.288Z - [REQUEST]:
+[NX Daemon Server] - 2025-04-08T15:57:06.288Z - [REQUEST]:
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2025-04-08T15:57:06.355Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2025-04-08T15:57:06.358Z - Time taken for 'total for creating and serializing project graph' 68.26312500238419ms
+[NX Daemon Server] - 2025-04-08T15:57:06.360Z - Done responding to the client project-graph
+[NX Daemon Server] - 2025-04-08T15:57:06.360Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 68. Response time: 5.
+[NX Daemon Server] - 2025-04-08T15:57:06.447Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2025-04-08T15:57:06.447Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2025-04-08T15:57:06.447Z - Handled HASH_TASKS. Handling time: 13. Response time: 0.
+[NX Daemon Server] - 2025-04-08T15:57:06.672Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2025-04-08T15:57:06.673Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2025-04-08T15:57:06.673Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2025-04-08T15:57:06.863Z - [REQUEST]: Responding to the client. PROCESS_IN_BACKGROUND
+[NX Daemon Server] - 2025-04-08T15:57:06.863Z - Done responding to the client PROCESS_IN_BACKGROUND
+[NX Daemon Server] - 2025-04-08T15:57:06.863Z - Handled PROCESS_IN_BACKGROUND. Handling time: 61. Response time: 0.
+[NX Daemon Server] - 2025-04-08T15:57:06.864Z - Uploading file artifacts
+[NX Daemon Server] - 2025-04-08T15:57:06.867Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2025-04-08T15:57:07.775Z - Done uploading file artifacts
+[NX Daemon Server] - 2025-04-08T15:57:07.775Z - Sending EndRun request
+[NX Daemon Server] - 2025-04-08T15:57:07.954Z - Done sending EndRun request
+[NX Daemon Server] - 2025-04-08T15:57:15.274Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-04-08T15:57:15.274Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2025-04-08T15:57:15.274Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-04-08T15:57:15.276Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2025-04-08T15:57:15.276Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2025-04-08T15:57:15.278Z - Time taken for 'total for creating and serializing project graph' 0.1102910004556179ms
+[NX Daemon Server] - 2025-04-08T15:57:15.280Z - Done responding to the client project-graph
+[NX Daemon Server] - 2025-04-08T15:57:15.280Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 4.
+[NX Daemon Server] - 2025-04-08T15:57:15.327Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2025-04-08T15:57:15.328Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2025-04-08T15:57:15.328Z - Handled HASH_TASKS. Handling time: 6. Response time: 1.
+[NX Daemon Server] - 2025-04-08T15:57:15.529Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2025-04-08T15:57:15.529Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2025-04-08T15:57:15.529Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2025-04-08T15:57:15.662Z - [REQUEST]: Responding to the client. PROCESS_IN_BACKGROUND
+[NX Daemon Server] - 2025-04-08T15:57:15.662Z - Done responding to the client PROCESS_IN_BACKGROUND
+[NX Daemon Server] - 2025-04-08T15:57:15.662Z - Handled PROCESS_IN_BACKGROUND. Handling time: 16. Response time: 0.
+[NX Daemon Server] - 2025-04-08T15:57:15.663Z - Uploading file artifacts
+[NX Daemon Server] - 2025-04-08T15:57:15.666Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2025-04-08T15:57:16.683Z - Done uploading file artifacts
+[NX Daemon Server] - 2025-04-08T15:57:16.683Z - Sending EndRun request
+[NX Daemon Server] - 2025-04-08T15:57:16.868Z - Done sending EndRun request
+[NX Daemon Server] - 2025-04-08T15:57:28.532Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-04-08T15:57:28.532Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2025-04-08T15:57:28.533Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-04-08T15:57:28.535Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2025-04-08T15:57:28.535Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2025-04-08T15:57:28.537Z - Time taken for 'total for creating and serializing project graph' 0.1400419995188713ms
+[NX Daemon Server] - 2025-04-08T15:57:28.539Z - Done responding to the client project-graph
+[NX Daemon Server] - 2025-04-08T15:57:28.539Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 4.
+[NX Daemon Server] - 2025-04-08T15:57:28.604Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2025-04-08T15:57:28.605Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2025-04-08T15:57:28.605Z - Handled HASH_TASKS. Handling time: 4. Response time: 1.
+[NX Daemon Server] - 2025-04-08T15:57:28.931Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2025-04-08T15:57:28.931Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-04-08T15:57:28.931Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2025-04-08T15:57:28.932Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2025-04-08T15:57:28.932Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2025-04-08T15:57:28.936Z - Time taken for 'total for creating and serializing project graph' 0.05633299797773361ms
+[NX Daemon Server] - 2025-04-08T15:57:28.938Z - Done responding to the client project-graph
+[NX Daemon Server] - 2025-04-08T15:57:28.938Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 6.
+[NX Daemon Server] - 2025-04-08T15:57:29.590Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-04-08T15:57:29.600Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2025-04-08T15:57:29.600Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2025-04-08T15:57:29.600Z - Handled RECORD_OUTPUTS_HASH. Handling time: 7. Response time: 0.
+[NX Daemon Server] - 2025-04-08T15:57:29.649Z - [REQUEST]: Responding to the client. PROCESS_IN_BACKGROUND
+[NX Daemon Server] - 2025-04-08T15:57:29.649Z - Done responding to the client PROCESS_IN_BACKGROUND
+[NX Daemon Server] - 2025-04-08T15:57:29.649Z - Handled PROCESS_IN_BACKGROUND. Handling time: 14. Response time: 0.
+[NX Daemon Server] - 2025-04-08T15:57:29.650Z - Uploading file artifacts
+[NX Daemon Server] - 2025-04-08T15:57:29.650Z - Done uploading file artifacts
+[NX Daemon Server] - 2025-04-08T15:57:29.650Z - Sending EndRun request
+[NX Daemon Server] - 2025-04-08T15:57:29.653Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2025-04-08T15:57:29.833Z - Done sending EndRun request
+[NX Daemon Server] - 2025-04-08T15:58:35.985Z - [WATCHER]: package.json was modified
+[NX Daemon Server] - 2025-04-08T15:58:35.986Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T15:58:36.088Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-04-08T15:58:36.088Z - [REQUEST]: package.json
+[NX Daemon Server] - 2025-04-08T15:58:36.088Z - [REQUEST]:
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2025-04-08T15:58:36.145Z - Time taken for 'hash changed files from watcher' 0.7351250015199184ms
+[NX Daemon Server] - 2025-04-08T15:58:36.555Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T15:59:26.990Z - [WATCHER]: package.json was modified
+[NX Daemon Server] - 2025-04-08T15:59:26.991Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T15:59:27.192Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-04-08T15:59:27.192Z - [REQUEST]: package.json
+[NX Daemon Server] - 2025-04-08T15:59:27.192Z - [REQUEST]:
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2025-04-08T15:59:27.246Z - Time taken for 'hash changed files from watcher' 0.5532080009579659ms
+[NX Daemon Server] - 2025-04-08T15:59:41.148Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T15:59:41.148Z - [WATCHER]: Stopping the watcher for /Users/pranay/IdeaProjects/LDA (sources)
+[NX Daemon Server] - 2025-04-08T15:59:41.148Z - [WATCHER]: Stopping the watcher for /Users/pranay/IdeaProjects/LDA (outputs)
+[NX Daemon Server] - 2025-04-08T15:59:41.148Z - Server stopped because: "Lock file changed"
+[NX Daemon Server] - 2025-04-08T16:00:40.628Z - Started listening on: /var/folders/l8/3kcvz7_n5gv7d1xp1lqf83bc0000gn/T/991f07af6c3f8073e5e8/d.sock
+[NX Daemon Server] - 2025-04-08T16:00:40.630Z - [WATCHER]: Subscribed to changes within: /Users/pranay/IdeaProjects/LDA (native)
+[NX Daemon Server] - 2025-04-08T16:00:40.631Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-04-08T16:00:40.631Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2025-04-08T16:00:40.633Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2025-04-08T16:00:40.641Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-04-08T16:00:40.641Z - [REQUEST]:
+[NX Daemon Server] - 2025-04-08T16:00:40.641Z - [REQUEST]:
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2025-04-08T16:00:40.780Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2025-04-08T16:00:40.782Z - Time taken for 'total for creating and serializing project graph' 146.07570799812675ms
+[NX Daemon Server] - 2025-04-08T16:00:40.782Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-04-08T16:00:40.784Z - Done responding to the client project-graph
+[NX Daemon Server] - 2025-04-08T16:00:40.784Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 146. Response time: 5.
+[NX Daemon Server] - 2025-04-08T16:00:40.880Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2025-04-08T16:00:40.880Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2025-04-08T16:00:40.880Z - Handled HASH_TASKS. Handling time: 15. Response time: 0.
+[NX Daemon Server] - 2025-04-08T16:00:41.242Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2025-04-08T16:00:41.242Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-04-08T16:00:41.242Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2025-04-08T16:00:41.243Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2025-04-08T16:00:41.243Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2025-04-08T16:00:41.245Z - Time taken for 'total for creating and serializing project graph' 0.06054199859499931ms
+[NX Daemon Server] - 2025-04-08T16:00:41.247Z - Done responding to the client project-graph
+[NX Daemon Server] - 2025-04-08T16:00:41.247Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 4.
+[NX Daemon Server] - 2025-04-08T16:00:44.743Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:00:44.798Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:00:44.850Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:00:44.916Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:00:45.244Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:00:45.306Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:00:45.418Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:00:45.482Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:00:46.056Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:00:46.217Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:00:46.283Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:00:46.350Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:00:46.408Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:00:46.480Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:00:46.559Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:00:46.645Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:00:46.821Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:00:46.943Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:00:47.132Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:00:47.246Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:00:47.402Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:00:47.471Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:00:47.526Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:00:47.579Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:00:47.678Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:00:47.744Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:00:47.798Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:00:47.856Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:00:48.005Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:00:48.058Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:00:48.137Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:00:48.198Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:00:48.250Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:00:48.319Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:00:48.387Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:00:48.448Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:00:48.505Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:00:48.557Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:00:48.644Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:00:48.696Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:00:48.750Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:00:48.806Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:00:48.866Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:00:48.930Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:00:48.983Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:00:49.054Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:00:49.107Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:00:49.167Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:00:49.916Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:00:51.027Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:00:51.095Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:00:51.115Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-04-08T16:00:51.122Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2025-04-08T16:00:51.122Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2025-04-08T16:00:51.122Z - Handled RECORD_OUTPUTS_HASH. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2025-04-08T16:00:51.284Z - [REQUEST]: Responding to the client. PROCESS_IN_BACKGROUND
+[NX Daemon Server] - 2025-04-08T16:00:51.284Z - Done responding to the client PROCESS_IN_BACKGROUND
+[NX Daemon Server] - 2025-04-08T16:00:51.284Z - Handled PROCESS_IN_BACKGROUND. Handling time: 96. Response time: 0.
+[NX Daemon Server] - 2025-04-08T16:00:51.288Z - Uploading file artifacts
+[NX Daemon Server] - 2025-04-08T16:00:51.292Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2025-04-08T16:00:52.240Z - Done uploading file artifacts
+[NX Daemon Server] - 2025-04-08T16:00:52.241Z - Sending EndRun request
+[NX Daemon Server] - 2025-04-08T16:00:52.431Z - Done sending EndRun request
+[NX Daemon Server] - 2025-04-08T16:00:57.494Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-04-08T16:00:57.495Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2025-04-08T16:00:57.495Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-04-08T16:00:57.497Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2025-04-08T16:00:57.497Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2025-04-08T16:00:57.499Z - Time taken for 'total for creating and serializing project graph' 0.11783299967646599ms
+[NX Daemon Server] - 2025-04-08T16:00:57.501Z - Done responding to the client project-graph
+[NX Daemon Server] - 2025-04-08T16:00:57.501Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 4.
+[NX Daemon Server] - 2025-04-08T16:00:57.564Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2025-04-08T16:00:57.564Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2025-04-08T16:00:57.564Z - Handled HASH_TASKS. Handling time: 5. Response time: 0.
+[NX Daemon Server] - 2025-04-08T16:00:57.919Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2025-04-08T16:00:57.919Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-04-08T16:00:57.919Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2025-04-08T16:00:57.920Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2025-04-08T16:00:57.921Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2025-04-08T16:00:57.923Z - Time taken for 'total for creating and serializing project graph' 0.3671249970793724ms
+[NX Daemon Server] - 2025-04-08T16:00:57.928Z - Done responding to the client project-graph
+[NX Daemon Server] - 2025-04-08T16:00:57.928Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 7.
+[NX Daemon Server] - 2025-04-08T16:01:01.022Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:01:01.117Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:01:01.371Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:01:01.453Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:01:01.538Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:01:01.733Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:01:02.036Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:01:02.105Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:01:02.384Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:01:02.459Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:01:05.356Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:01:05.426Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:01:16.239Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:01:16.243Z - [WATCHER]: 0 file(s) created or restored, 1 file(s) modified, 51 file(s) deleted
+[NX Daemon Server] - 2025-04-08T16:01:16.292Z - [WATCHER]: 0 file(s) created or restored, 0 file(s) modified, 31 file(s) deleted
+[NX Daemon Server] - 2025-04-08T16:01:16.292Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:01:16.345Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-04-08T16:01:16.345Z - [REQUEST]: libs/taskbox/documentation.json
+[NX Daemon Server] - 2025-04-08T16:01:16.345Z - [REQUEST]: libs/taskbox/storybook-static/sb-manager/WithTooltip-V3YHNWJZ-MXTFSDU5.js,libs/taskbox/storybook-static/sb-preview/runtime.js,libs/taskbox/storybook-static/task-pure-inbox-screen-stories.e5f959c5.iframe.bundle.js,libs/taskbox/storybook-static/sb-manager/formatter-SWP5E3XI-7BGIK6BL.js,libs/taskbox/storybook-static/508.f71d76b4.iframe.bundle.js,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-regular.woff2,libs/taskbox/storybook-static/508.f71d76b4.iframe.bundle.js.map,libs/taskbox/storybook-static/sb-preview/globals.js,libs/taskbox/storybook-static/task-pure-task-list-stories.edd744d6.iframe.bundle.js,libs/taskbox/storybook-static/231.7e5f9e71.iframe.bundle.js.LICENSE.txt,libs/taskbox/storybook-static/percolate.3d9093989370b68a.svg,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-bold.woff2,libs/taskbox/storybook-static/iframe.html,libs/taskbox/storybook-static/index.html,libs/taskbox/storybook-static/button-Button-stories.da006b44.iframe.bundle.js,libs/taskbox/storybook-static/944.26a81323.iframe.bundle.js,libs/taskbox/storybook-static/76.0d06efbd.iframe.bundle.js,libs/taskbox/storybook-static/main.fd7496a220e78a3a83f9.css,libs/taskbox/storybook-static/sb-manager/chunk-5QAFKPS7.js,libs/taskbox/storybook-static/pages-Page-stories.29e6dc15.iframe.bundle.js,libs/taskbox/storybook-static/header-Header-stories.a0590e3c.iframe.bundle.js,libs/taskbox/storybook-static/percolate.63090c278817081e.ttf,libs/taskbox/storybook-static/sb-manager/chunk-ZEU7PDD3.js,libs/taskbox/storybook-static/sb-manager/chunk-7PRFHFSS.js,libs/taskbox/storybook-static/76.0d06efbd.iframe.bundle.js.LICENSE.txt,libs/taskbox/storybook-static/705.92aeb07e.iframe.bundle.js,libs/taskbox/storybook-static/percolate.f52018f0d8e7bfe3.eot,libs/taskbox/storybook-static/favicon.svg,libs/taskbox/storybook-static/index.json,libs/taskbox/storybook-static/276.0313a09d.iframe.bundle.js,libs/taskbox/storybook-static/main.3fb91fa5.iframe.bundle.js,libs/taskbox/storybook-static/stories-Introduction-mdx.a25d7a6f.iframe.bundle.js,libs/taskbox/storybook-static/sb-manager/chunk-XE6LDGTE.js,libs/taskbox/storybook-static/task-task-stories.4f846e95.iframe.bundle.js,libs/taskbox/storybook-static/runtime~main.88c087b1.iframe.bundle.js,libs/taskbox/storybook-static/sb-manager/chunk-YDUB7CS6.js,libs/taskbox/storybook-static/231.7e5f9e71.iframe.bundle.js,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-bold-italic.woff2,libs/taskbox/storybook-static/433.20195f12.iframe.bundle.js.map,libs/taskbox/storybook-static/stories-Introduction-mdx.a25d7a6f.iframe.bundle.js.LICENSE.txt,libs/taskbox/storybook-static/sb-common-assets/fonts.css,libs/taskbox/storybook-static/391.a271134b.iframe.bundle.js,libs/taskbox/storybook-static/231.7e5f9e71.iframe.bundle.js.map,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-italic.woff2,libs/taskbox/storybook-static/percolate.29451126d103398b.woff,libs/taskbox/storybook-static/914.deb37cee.iframe.bundle.js,libs/taskbox/storybook-static/151.b8faea74.iframe.bundle.js,libs/taskbox/storybook-static/76.0d06efbd.iframe.bundle.js.map,libs/taskbox/storybook-static/433.20195f12.iframe.bundle.js,libs/taskbox/storybook-static/project.json,libs/taskbox/storybook-static/stories.json,libs/taskbox/storybook-static/sb-addons/links-0/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/essentials-controls-1/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/essentials-toolbars-5/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/essentials-viewport-4/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/essentials-measure-6/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/essentials-actions-2/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/essentials-actions-2/manager-bundle.js,libs/taskbox/storybook-static/static/media/direction.b770f9af.svg,libs/taskbox/storybook-static/sb-manager/runtime.js,libs/taskbox/storybook-static/static/media/code-brackets.2e1112d7.svg,libs/taskbox/storybook-static/static/media/flow.edad2ac1.svg,libs/taskbox/storybook-static/sb-addons/interactions-8/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/essentials-outline-7/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/essentials-viewport-4/manager-bundle.js,libs/taskbox/storybook-static/sb-manager/index.js,libs/taskbox/storybook-static/sb-manager/globals-module-info.js,libs/taskbox/storybook-static/static/media/repo.6d496322.svg,libs/taskbox/storybook-static/sb-addons/essentials-toolbars-5/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-manager/globals.js,libs/taskbox/storybook-static/sb-addons/interactions-8/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/essentials-controls-1/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-manager/syntaxhighlighter-MJWPISIS-JOSCT6CQ.js,libs/taskbox/storybook-static/static/media/comments.a3859089.svg,libs/taskbox/storybook-static/static/media/colors.a4bd0486.svg,libs/taskbox/storybook-static/static/media/stackalt.dba9fbb3.svg,libs/taskbox/storybook-static/sb-addons/essentials-backgrounds-3/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/essentials-outline-7/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/essentials-measure-6/manager-bundle.js,libs/taskbox/storybook-static/static/media/plugin.d494b228.svg,libs/taskbox/storybook-static/sb-addons/essentials-backgrounds-3/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/links-0/manager-bundle.js
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2025-04-08T16:01:16.527Z - Time taken for 'hash changed files from watcher' 0.759332999587059ms
+[NX Daemon Server] - 2025-04-08T16:01:39.878Z - [WATCHER]: libs/taskbox/package.json was modified
+[NX Daemon Server] - 2025-04-08T16:01:39.879Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:01:40.084Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-04-08T16:01:40.084Z - [REQUEST]: libs/taskbox/package.json
+[NX Daemon Server] - 2025-04-08T16:01:40.084Z - [REQUEST]:
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2025-04-08T16:01:40.212Z - Time taken for 'hash changed files from watcher' 1.5409169979393482ms
+[NX Daemon Server] - 2025-04-08T16:02:02.256Z - [WATCHER]: libs/taskbox/package-lock.json was modified
+[NX Daemon Server] - 2025-04-08T16:02:02.256Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:02:02.659Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-04-08T16:02:02.659Z - [REQUEST]: libs/taskbox/package-lock.json
+[NX Daemon Server] - 2025-04-08T16:02:02.659Z - [REQUEST]:
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2025-04-08T16:02:02.710Z - Time taken for 'hash changed files from watcher' 1.0408330000936985ms
+[NX Daemon Server] - 2025-04-08T16:02:08.770Z - [WATCHER]: libs/taskbox/documentation.json was modified
+[NX Daemon Server] - 2025-04-08T16:02:08.771Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:02:09.575Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-04-08T16:02:09.575Z - [REQUEST]: libs/taskbox/documentation.json
+[NX Daemon Server] - 2025-04-08T16:02:09.575Z - [REQUEST]:
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2025-04-08T16:02:09.650Z - Time taken for 'hash changed files from watcher' 2.5506669990718365ms
+[NX Daemon Server] - 2025-04-08T16:02:22.455Z - [WATCHER]: libs/taskbox/documentation.json was modified
+[NX Daemon Server] - 2025-04-08T16:02:22.455Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:02:24.058Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-04-08T16:02:24.058Z - [REQUEST]: libs/taskbox/documentation.json
+[NX Daemon Server] - 2025-04-08T16:02:24.058Z - [REQUEST]:
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2025-04-08T16:02:24.140Z - Time taken for 'hash changed files from watcher' 1.9368750005960464ms
+[NX Daemon Server] - 2025-04-08T16:02:47.594Z - [WATCHER]: libs/taskbox/package-lock.json was deleted
+[NX Daemon Server] - 2025-04-08T16:02:47.595Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:02:50.799Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-04-08T16:02:50.800Z - [REQUEST]:
+[NX Daemon Server] - 2025-04-08T16:02:50.800Z - [REQUEST]: libs/taskbox/package-lock.json
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2025-04-08T16:02:50.887Z - Time taken for 'hash changed files from watcher' 1.9434580020606518ms
+[NX Daemon Server] - 2025-04-08T16:03:37.478Z - [WATCHER]: libs/taskbox/package-lock.json was created or restored
+[NX Daemon Server] - 2025-04-08T16:03:37.479Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:03:37.580Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-04-08T16:03:37.580Z - [REQUEST]: libs/taskbox/package-lock.json
+[NX Daemon Server] - 2025-04-08T16:03:37.580Z - [REQUEST]:
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2025-04-08T16:03:37.637Z - Time taken for 'hash changed files from watcher' 0.7817090004682541ms
+[NX Daemon Server] - 2025-04-08T16:03:53.043Z - [WATCHER]: libs/taskbox/documentation.json was modified
+[NX Daemon Server] - 2025-04-08T16:03:53.044Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:03:53.246Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-04-08T16:03:53.246Z - [REQUEST]: libs/taskbox/documentation.json
+[NX Daemon Server] - 2025-04-08T16:03:53.246Z - [REQUEST]:
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2025-04-08T16:03:53.311Z - Time taken for 'hash changed files from watcher' 1.0417909994721413ms
+[NX Daemon Server] - 2025-04-08T16:04:18.208Z - [WATCHER]: libs/taskbox/doctor-storybook.log was modified
+[NX Daemon Server] - 2025-04-08T16:04:18.208Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:04:18.616Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-04-08T16:04:18.616Z - [REQUEST]: libs/taskbox/doctor-storybook.log
+[NX Daemon Server] - 2025-04-08T16:04:18.616Z - [REQUEST]:
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2025-04-08T16:04:18.692Z - Time taken for 'hash changed files from watcher' 1.3465420007705688ms
+[NX Daemon Server] - 2025-04-08T16:04:42.369Z - [WATCHER]: libs/taskbox/documentation.json was modified
+[NX Daemon Server] - 2025-04-08T16:04:42.370Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:04:43.178Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-04-08T16:04:43.178Z - [REQUEST]: libs/taskbox/documentation.json
+[NX Daemon Server] - 2025-04-08T16:04:43.179Z - [REQUEST]:
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2025-04-08T16:04:43.263Z - Time taken for 'hash changed files from watcher' 1.7687499970197678ms
+[NX Daemon Server] - 2025-04-08T16:14:24.711Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:14:24.715Z - [WATCHER]: libs/taskbox/documentation.json was modified
+[NX Daemon Server] - 2025-04-08T16:14:26.318Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-04-08T16:14:26.319Z - [REQUEST]: libs/taskbox/documentation.json
+[NX Daemon Server] - 2025-04-08T16:14:26.319Z - [REQUEST]:
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2025-04-08T16:14:26.378Z - Time taken for 'hash changed files from watcher' 1.7694579996168613ms
+[NX Daemon Server] - 2025-04-08T16:15:53.613Z - [WATCHER]: libs/taskbox/package.json was modified
+[NX Daemon Server] - 2025-04-08T16:15:53.615Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:15:56.821Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-04-08T16:15:56.822Z - [REQUEST]: libs/taskbox/package.json
+[NX Daemon Server] - 2025-04-08T16:15:56.822Z - [REQUEST]:
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2025-04-08T16:15:56.898Z - Time taken for 'hash changed files from watcher' 1.837083999067545ms
+[NX Daemon Server] - 2025-04-08T16:16:01.748Z - [WATCHER]: libs/taskbox/doctor-storybook.log was modified
+[NX Daemon Server] - 2025-04-08T16:16:01.748Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:16:08.151Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-04-08T16:16:08.152Z - [REQUEST]: libs/taskbox/doctor-storybook.log
+[NX Daemon Server] - 2025-04-08T16:16:08.152Z - [REQUEST]:
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2025-04-08T16:16:08.223Z - Time taken for 'hash changed files from watcher' 1.8589170016348362ms
+[NX Daemon Server] - 2025-04-08T16:16:51.566Z - [WATCHER]: libs/taskbox/package.json was modified
+[NX Daemon Server] - 2025-04-08T16:16:51.567Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:16:57.968Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-04-08T16:16:57.969Z - [REQUEST]: libs/taskbox/package.json
+[NX Daemon Server] - 2025-04-08T16:16:57.969Z - [REQUEST]:
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2025-04-08T16:16:58.030Z - Time taken for 'hash changed files from watcher' 0.4713749997317791ms
+[NX Daemon Server] - 2025-04-08T16:16:59.741Z - [WATCHER]: libs/taskbox/package-lock.json was modified
+[NX Daemon Server] - 2025-04-08T16:16:59.741Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:17:06.153Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-04-08T16:17:06.154Z - [REQUEST]: libs/taskbox/package-lock.json
+[NX Daemon Server] - 2025-04-08T16:17:06.154Z - [REQUEST]:
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2025-04-08T16:17:06.228Z - Time taken for 'hash changed files from watcher' 8.867665998637676ms
+[NX Daemon Server] - 2025-04-08T16:18:11.369Z - [WATCHER]: libs/taskbox/documentation.json was modified
+[NX Daemon Server] - 2025-04-08T16:18:11.370Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:18:12.005Z - [WATCHER]: 27 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2025-04-08T16:18:12.006Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:18:12.302Z - [WATCHER]: libs/taskbox/storybook-static/nunito-sans-bold-italic.woff2 was created or restored
+[NX Daemon Server] - 2025-04-08T16:18:12.302Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:18:12.425Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2025-04-08T16:18:12.425Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:18:12.529Z - [WATCHER]: libs/taskbox/storybook-static/sb-common-assets/nunito-sans-bold-italic.woff2 was created or restored
+[NX Daemon Server] - 2025-04-08T16:18:12.529Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:18:12.677Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:18:12.678Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2025-04-08T16:18:15.051Z - [WATCHER]: 9 file(s) created or restored, 1 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2025-04-08T16:18:15.052Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:18:15.104Z - [WATCHER]: libs/taskbox/storybook-static/project.json was created or restored
+[NX Daemon Server] - 2025-04-08T16:18:15.104Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:18:15.592Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:18:15.659Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:18:15.959Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:18:16.017Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:18:16.084Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:18:16.162Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:18:16.223Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:18:17.066Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:18:17.252Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:18:17.341Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:18:17.394Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:18:17.683Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:18:17.743Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:18:17.774Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-04-08T16:18:17.774Z - [REQUEST]: libs/taskbox/documentation.json,libs/taskbox/storybook-static/sb-addons/essentials-docs-4/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/links-1/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/essentials-backgrounds-5/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/essentials-actions-3/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/essentials-outline-9/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/essentials-backgrounds-5/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/interactions-10/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/essentials-docs-4/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/essentials-controls-2/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/links-1/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/storybook-core-core-server-presets-0/common-manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/interactions-10/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/essentials-measure-8/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/essentials-measure-8/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/essentials-toolbars-7/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/essentials-actions-3/manager-bundle.js,libs/taskbox/storybook-static/index.html,libs/taskbox/storybook-static/sb-manager/runtime.js,libs/taskbox/storybook-static/sb-manager/globals.js,libs/taskbox/storybook-static/sb-manager/globals-module-info.js,libs/taskbox/storybook-static/sb-addons/essentials-viewport-6/manager-bundle.js,libs/taskbox/storybook-static/sb-manager/globals-runtime.js,libs/taskbox/storybook-static/sb-addons/essentials-controls-2/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/storybook-core-core-server-presets-0/common-manager-bundle.js,libs/taskbox/storybook-static/sb-addons/essentials-outline-9/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/essentials-toolbars-7/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/essentials-viewport-6/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/nunito-sans-bold-italic.woff2,libs/taskbox/storybook-static/nunito-sans-bold.woff2,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-bold-italic.woff2,libs/taskbox/storybook-static/index.json,libs/taskbox/storybook-static/nunito-sans-regular.woff2,libs/taskbox/storybook-static/favicon.svg,libs/taskbox/storybook-static/sb-preview/globals.js,libs/taskbox/storybook-static/sb-preview/runtime.js,libs/taskbox/storybook-static/sb-common-assets/favicon.svg,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-regular.woff2,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-bold.woff2,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-italic.woff2,libs/taskbox/storybook-static/nunito-sans-italic.woff2,libs/taskbox/storybook-static/project.json
+[NX Daemon Server] - 2025-04-08T16:18:17.774Z - [REQUEST]:
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2025-04-08T16:18:17.889Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:18:17.890Z - Time taken for 'hash changed files from watcher' 3.2168750017881393ms
+[NX Daemon Server] - 2025-04-08T16:18:17.928Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:18:18.170Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:18:18.441Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:18:18.522Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:18:18.605Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:18:18.741Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:18:18.793Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:18:18.977Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:18:19.511Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:20:10.295Z - [WATCHER]: libs/taskbox/package.json was modified
+[NX Daemon Server] - 2025-04-08T16:20:10.297Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:20:10.499Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-04-08T16:20:10.499Z - [REQUEST]: libs/taskbox/package.json
+[NX Daemon Server] - 2025-04-08T16:20:10.499Z - [REQUEST]:
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2025-04-08T16:20:10.574Z - Time taken for 'hash changed files from watcher' 1.1416670009493828ms
+[NX Daemon Server] - 2025-04-08T16:20:23.862Z - [WATCHER]: libs/taskbox/package-lock.json was modified
+[NX Daemon Server] - 2025-04-08T16:20:23.862Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:20:24.270Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-04-08T16:20:24.270Z - [REQUEST]: libs/taskbox/package-lock.json
+[NX Daemon Server] - 2025-04-08T16:20:24.270Z - [REQUEST]:
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2025-04-08T16:20:24.349Z - Time taken for 'hash changed files from watcher' 6.067125000059605ms
+[NX Daemon Server] - 2025-04-08T16:22:12.923Z - [WATCHER]: 0 file(s) created or restored, 1 file(s) modified, 41 file(s) deleted
+[NX Daemon Server] - 2025-04-08T16:22:12.923Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:22:13.725Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-04-08T16:22:13.725Z - [REQUEST]: libs/taskbox/documentation.json
+[NX Daemon Server] - 2025-04-08T16:22:13.725Z - [REQUEST]: libs/taskbox/storybook-static/sb-addons/essentials-toolbars-7/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/nunito-sans-bold-italic.woff2,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-regular.woff2,libs/taskbox/storybook-static/favicon.svg,libs/taskbox/storybook-static/sb-addons/interactions-10/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/essentials-viewport-6/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/essentials-actions-3/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/essentials-measure-8/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/essentials-docs-4/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/links-1/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/interactions-10/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/essentials-actions-3/manager-bundle.js,libs/taskbox/storybook-static/index.html,libs/taskbox/storybook-static/sb-manager/globals.js,libs/taskbox/storybook-static/sb-addons/essentials-measure-8/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/project.json,libs/taskbox/storybook-static/nunito-sans-bold.woff2,libs/taskbox/storybook-static/sb-addons/essentials-controls-2/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-preview/globals.js,libs/taskbox/storybook-static/sb-addons/essentials-controls-2/manager-bundle.js,libs/taskbox/storybook-static/nunito-sans-italic.woff2,libs/taskbox/storybook-static/sb-manager/globals-module-info.js,libs/taskbox/storybook-static/index.json,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-italic.woff2,libs/taskbox/storybook-static/sb-addons/essentials-backgrounds-5/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/storybook-core-core-server-presets-0/common-manager-bundle.js,libs/taskbox/storybook-static/sb-preview/runtime.js,libs/taskbox/storybook-static/sb-addons/essentials-outline-9/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/essentials-outline-9/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-manager/globals-runtime.js,libs/taskbox/storybook-static/sb-addons/essentials-docs-4/manager-bundle.js,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-bold.woff2,libs/taskbox/storybook-static/sb-common-assets/favicon.svg,libs/taskbox/storybook-static/sb-addons/essentials-backgrounds-5/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/essentials-toolbars-7/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/essentials-viewport-6/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-manager/runtime.js,libs/taskbox/storybook-static/sb-addons/links-1/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/nunito-sans-regular.woff2,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-bold-italic.woff2,libs/taskbox/storybook-static/sb-addons/storybook-core-core-server-presets-0/common-manager-bundle.js.LEGAL.txt
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2025-04-08T16:22:13.789Z - Time taken for 'hash changed files from watcher' 0.6445000022649765ms
+[NX Daemon Server] - 2025-04-08T16:22:27.942Z - [WATCHER]: libs/taskbox/doctor-storybook.log was modified
+[NX Daemon Server] - 2025-04-08T16:22:27.942Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:22:29.545Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-04-08T16:22:29.545Z - [REQUEST]: libs/taskbox/doctor-storybook.log
+[NX Daemon Server] - 2025-04-08T16:22:29.545Z - [REQUEST]:
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2025-04-08T16:22:29.607Z - Time taken for 'hash changed files from watcher' 1.4887920022010803ms
+[NX Daemon Server] - 2025-04-08T16:22:56.302Z - [WATCHER]: libs/taskbox/package.json was modified
+[NX Daemon Server] - 2025-04-08T16:22:56.302Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:22:59.506Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-04-08T16:22:59.506Z - [REQUEST]: libs/taskbox/package.json
+[NX Daemon Server] - 2025-04-08T16:22:59.506Z - [REQUEST]:
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2025-04-08T16:22:59.594Z - Time taken for 'hash changed files from watcher' 2.1749170012772083ms
+[NX Daemon Server] - 2025-04-08T16:23:40.839Z - [WATCHER]: libs/taskbox/documentation.json was modified
+[NX Daemon Server] - 2025-04-08T16:23:40.839Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:23:47.244Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-04-08T16:23:47.244Z - [REQUEST]: libs/taskbox/documentation.json
+[NX Daemon Server] - 2025-04-08T16:23:47.244Z - [REQUEST]:
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2025-04-08T16:23:47.314Z - Time taken for 'hash changed files from watcher' 2.6534160003066063ms
+[NX Daemon Server] - 2025-04-08T16:23:50.646Z - [WATCHER]: libs/taskbox/doctor-storybook.log was modified
+[NX Daemon Server] - 2025-04-08T16:23:50.647Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:23:57.049Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-04-08T16:23:57.049Z - [REQUEST]: libs/taskbox/doctor-storybook.log
+[NX Daemon Server] - 2025-04-08T16:23:57.049Z - [REQUEST]:
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2025-04-08T16:23:57.124Z - Time taken for 'hash changed files from watcher' 1.044250000268221ms
+[NX Daemon Server] - 2025-04-08T16:24:12.144Z - [WATCHER]: libs/taskbox/package-lock.json was deleted
+[NX Daemon Server] - 2025-04-08T16:24:12.144Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:24:18.547Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-04-08T16:24:18.547Z - [REQUEST]:
+[NX Daemon Server] - 2025-04-08T16:24:18.547Z - [REQUEST]: libs/taskbox/package-lock.json
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2025-04-08T16:24:18.635Z - Time taken for 'hash changed files from watcher' 1.0391249991953373ms
+[NX Daemon Server] - 2025-04-08T16:24:20.405Z - [WATCHER]: libs/taskbox/package-lock.json was created or restored
+[NX Daemon Server] - 2025-04-08T16:24:20.405Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:24:20.506Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-04-08T16:24:20.506Z - [REQUEST]: libs/taskbox/package-lock.json
+[NX Daemon Server] - 2025-04-08T16:24:20.506Z - [REQUEST]:
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2025-04-08T16:24:20.543Z - Time taken for 'hash changed files from watcher' 0.5809170007705688ms
+[NX Daemon Server] - 2025-04-08T16:24:30.123Z - [WATCHER]: libs/taskbox/documentation.json was modified
+[NX Daemon Server] - 2025-04-08T16:24:30.123Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:24:30.325Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-04-08T16:24:30.325Z - [REQUEST]: libs/taskbox/documentation.json
+[NX Daemon Server] - 2025-04-08T16:24:30.325Z - [REQUEST]:
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2025-04-08T16:24:30.362Z - Time taken for 'hash changed files from watcher' 0.5122079998254776ms
+[NX Daemon Server] - 2025-04-08T16:24:38.896Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:24:38.898Z - [WATCHER]: libs/taskbox/doctor-storybook.log was modified
+[NX Daemon Server] - 2025-04-08T16:24:39.301Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-04-08T16:24:39.301Z - [REQUEST]: libs/taskbox/doctor-storybook.log
+[NX Daemon Server] - 2025-04-08T16:24:39.302Z - [REQUEST]:
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2025-04-08T16:24:39.364Z - Time taken for 'hash changed files from watcher' 2.0430410020053387ms
+[NX Daemon Server] - 2025-04-08T16:24:48.792Z - [WATCHER]: libs/taskbox/package-lock.json was deleted
+[NX Daemon Server] - 2025-04-08T16:24:48.793Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:24:49.595Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-04-08T16:24:49.597Z - [REQUEST]:
+[NX Daemon Server] - 2025-04-08T16:24:49.597Z - [REQUEST]: libs/taskbox/package-lock.json
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2025-04-08T16:24:49.646Z - Time taken for 'hash changed files from watcher' 0.7486669979989529ms
+[NX Daemon Server] - 2025-04-08T16:25:52.118Z - [WATCHER]: libs/taskbox/package.json was modified
+[NX Daemon Server] - 2025-04-08T16:25:52.118Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:25:53.720Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-04-08T16:25:53.721Z - [REQUEST]: libs/taskbox/package.json
+[NX Daemon Server] - 2025-04-08T16:25:53.721Z - [REQUEST]:
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2025-04-08T16:25:53.776Z - Time taken for 'hash changed files from watcher' 0.6944159977138042ms
+[NX Daemon Server] - 2025-04-08T16:26:17.089Z - [WATCHER]: libs/taskbox/package-lock.json was created or restored
+[NX Daemon Server] - 2025-04-08T16:26:17.090Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:26:17.192Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-04-08T16:26:17.192Z - [REQUEST]: libs/taskbox/package-lock.json
+[NX Daemon Server] - 2025-04-08T16:26:17.192Z - [REQUEST]:
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2025-04-08T16:26:17.252Z - Time taken for 'hash changed files from watcher' 1.1919999979436398ms
+[NX Daemon Server] - 2025-04-08T16:27:32.092Z - [WATCHER]: libs/taskbox/documentation.json was modified
+[NX Daemon Server] - 2025-04-08T16:27:32.092Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:27:32.294Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-04-08T16:27:32.294Z - [REQUEST]: libs/taskbox/documentation.json
+[NX Daemon Server] - 2025-04-08T16:27:32.294Z - [REQUEST]:
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2025-04-08T16:27:32.347Z - Time taken for 'hash changed files from watcher' 0.47166600078344345ms
+[NX Daemon Server] - 2025-04-08T16:27:33.295Z - [WATCHER]: 33 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2025-04-08T16:27:33.295Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:27:33.400Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-04-08T16:27:33.400Z - [REQUEST]: libs/taskbox/storybook-static/sb-addons/essentials-docs-3/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/interactions-9/manager-bundle.js,libs/taskbox/storybook-static/sb-manager/formatter-SWP5E3XI-7BGIK6BL.js,libs/taskbox/storybook-static/sb-addons/interactions-9/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/essentials-outline-8/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/essentials-backgrounds-4/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/links-0/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-manager/chunk-ZEU7PDD3.js,libs/taskbox/storybook-static/sb-addons/essentials-actions-2/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/essentials-measure-7/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-manager/chunk-7PRFHFSS.js,libs/taskbox/storybook-static/sb-manager/chunk-XE6LDGTE.js,libs/taskbox/storybook-static/sb-manager/globals-module-info.js,libs/taskbox/storybook-static/sb-addons/essentials-viewport-5/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/essentials-outline-8/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/essentials-docs-3/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/essentials-controls-1/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/essentials-viewport-5/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/essentials-toolbars-6/manager-bundle.js,libs/taskbox/storybook-static/index.html,libs/taskbox/storybook-static/sb-addons/essentials-actions-2/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-manager/index.js,libs/taskbox/storybook-static/sb-manager/chunk-YDUB7CS6.js,libs/taskbox/storybook-static/sb-addons/essentials-toolbars-6/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-manager/chunk-5QAFKPS7.js,libs/taskbox/storybook-static/sb-addons/essentials-controls-1/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/essentials-backgrounds-4/manager-bundle.js,libs/taskbox/storybook-static/sb-manager/runtime.js,libs/taskbox/storybook-static/sb-manager/WithTooltip-V3YHNWJZ-MXTFSDU5.js,libs/taskbox/storybook-static/sb-addons/essentials-measure-7/manager-bundle.js,libs/taskbox/storybook-static/sb-manager/globals.js,libs/taskbox/storybook-static/sb-manager/syntaxhighlighter-MJWPISIS-JOSCT6CQ.js,libs/taskbox/storybook-static/sb-addons/links-0/manager-bundle.js
+[NX Daemon Server] - 2025-04-08T16:27:33.400Z - [REQUEST]:
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2025-04-08T16:27:33.437Z - Time taken for 'hash changed files from watcher' 3.281791001558304ms
+[NX Daemon Server] - 2025-04-08T16:27:33.623Z - [WATCHER]: libs/taskbox/storybook-static/favicon.svg was created or restored
+[NX Daemon Server] - 2025-04-08T16:27:33.623Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:27:33.725Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-04-08T16:27:33.725Z - [REQUEST]: libs/taskbox/storybook-static/favicon.svg
+[NX Daemon Server] - 2025-04-08T16:27:33.725Z - [REQUEST]:
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2025-04-08T16:27:33.759Z - [WATCHER]: 6 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2025-04-08T16:27:33.759Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:27:33.759Z - Time taken for 'hash changed files from watcher' 0.41608400270342827ms
+[NX Daemon Server] - 2025-04-08T16:27:33.802Z - [WATCHER]: 2 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2025-04-08T16:27:33.802Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:27:33.861Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-04-08T16:27:33.861Z - [REQUEST]: libs/taskbox/storybook-static/favicon.svg,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-bold.woff2,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-regular.woff2,libs/taskbox/storybook-static/sb-common-assets/fonts.css,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-italic.woff2,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-bold-italic.woff2,libs/taskbox/storybook-static/index.json,libs/taskbox/storybook-static/stories.json
+[NX Daemon Server] - 2025-04-08T16:27:33.861Z - [REQUEST]:
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2025-04-08T16:27:33.899Z - Time taken for 'hash changed files from watcher' 0.9423750005662441ms
+[NX Daemon Server] - 2025-04-08T16:27:33.934Z - [WATCHER]: 7 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2025-04-08T16:27:33.934Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:27:34.036Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-04-08T16:27:34.036Z - [REQUEST]: libs/taskbox/storybook-static/sb-common-assets/nunito-sans-bold.woff2,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-italic.woff2,libs/taskbox/storybook-static/sb-common-assets/fonts.css,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-regular.woff2,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-bold-italic.woff2,libs/taskbox/storybook-static/index.json,libs/taskbox/storybook-static/stories.json
+[NX Daemon Server] - 2025-04-08T16:27:34.036Z - [REQUEST]:
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2025-04-08T16:27:34.072Z - Time taken for 'hash changed files from watcher' 0.7917080000042915ms
+[NX Daemon Server] - 2025-04-08T16:27:37.214Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:27:37.215Z - [WATCHER]: 5 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2025-04-08T16:27:37.317Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-04-08T16:27:37.317Z - [REQUEST]: libs/taskbox/storybook-static/sb-common-assets/nunito-sans-italic.woff2,libs/taskbox/storybook-static/sb-preview/globals.js,libs/taskbox/storybook-static/project.json,libs/taskbox/storybook-static/sb-preview/runtime.js,libs/taskbox/storybook-static/sb-common-assets/fonts.css
+[NX Daemon Server] - 2025-04-08T16:27:37.317Z - [REQUEST]:
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2025-04-08T16:27:37.429Z - Time taken for 'hash changed files from watcher' 0.9403750002384186ms
+[NX Daemon Server] - 2025-04-08T16:27:37.578Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:27:38.634Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:27:39.150Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:27:39.529Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:27:39.736Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:27:39.794Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:27:40.026Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:27:40.114Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:27:40.655Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:27:40.939Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:29:43.764Z - [WATCHER]: libs/taskbox/package.json was modified
+[NX Daemon Server] - 2025-04-08T16:29:43.765Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:29:43.966Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-04-08T16:29:43.966Z - [REQUEST]: libs/taskbox/package.json
+[NX Daemon Server] - 2025-04-08T16:29:43.966Z - [REQUEST]:
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2025-04-08T16:29:44.019Z - Time taken for 'hash changed files from watcher' 0.9684999994933605ms
+[NX Daemon Server] - 2025-04-08T16:29:58.640Z - [WATCHER]: libs/taskbox/package-lock.json was modified
+[NX Daemon Server] - 2025-04-08T16:29:58.641Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:29:59.044Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-04-08T16:29:59.044Z - [REQUEST]: libs/taskbox/package-lock.json
+[NX Daemon Server] - 2025-04-08T16:29:59.044Z - [REQUEST]:
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2025-04-08T16:29:59.110Z - Time taken for 'hash changed files from watcher' 1.5073750019073486ms
+[NX Daemon Server] - 2025-04-08T16:30:13.121Z - [WATCHER]: 0 file(s) created or restored, 1 file(s) modified, 44 file(s) deleted
+[NX Daemon Server] - 2025-04-08T16:30:13.121Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:30:13.924Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-04-08T16:30:13.924Z - [REQUEST]: libs/taskbox/documentation.json
+[NX Daemon Server] - 2025-04-08T16:30:13.924Z - [REQUEST]: libs/taskbox/storybook-static/sb-addons/essentials-viewport-5/manager-bundle.js,libs/taskbox/storybook-static/sb-manager/chunk-ZEU7PDD3.js,libs/taskbox/storybook-static/sb-addons/essentials-outline-8/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/essentials-actions-2/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-manager/chunk-7PRFHFSS.js,libs/taskbox/storybook-static/sb-addons/essentials-controls-1/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/essentials-backgrounds-4/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/essentials-toolbars-6/manager-bundle.js,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-bold-italic.woff2,libs/taskbox/storybook-static/sb-addons/interactions-9/manager-bundle.js,libs/taskbox/storybook-static/sb-manager/chunk-XE6LDGTE.js,libs/taskbox/storybook-static/sb-addons/essentials-outline-8/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/essentials-toolbars-6/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/essentials-controls-1/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/project.json,libs/taskbox/storybook-static/index.json,libs/taskbox/storybook-static/sb-preview/runtime.js,libs/taskbox/storybook-static/sb-manager/globals-module-info.js,libs/taskbox/storybook-static/sb-manager/chunk-YDUB7CS6.js,libs/taskbox/storybook-static/sb-addons/essentials-measure-7/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-italic.woff2,libs/taskbox/storybook-static/sb-preview/globals.js,libs/taskbox/storybook-static/sb-addons/interactions-9/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-manager/syntaxhighlighter-MJWPISIS-JOSCT6CQ.js,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-regular.woff2,libs/taskbox/storybook-static/sb-common-assets/fonts.css,libs/taskbox/storybook-static/sb-manager/formatter-SWP5E3XI-7BGIK6BL.js,libs/taskbox/storybook-static/sb-manager/index.js,libs/taskbox/storybook-static/sb-addons/essentials-viewport-5/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/essentials-actions-2/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/essentials-docs-3/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/links-0/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/essentials-backgrounds-4/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-manager/chunk-5QAFKPS7.js,libs/taskbox/storybook-static/favicon.svg,libs/taskbox/storybook-static/sb-manager/runtime.js,libs/taskbox/storybook-static/sb-addons/essentials-docs-3/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/essentials-measure-7/manager-bundle.js,libs/taskbox/storybook-static/stories.json,libs/taskbox/storybook-static/index.html,libs/taskbox/storybook-static/sb-manager/globals.js,libs/taskbox/storybook-static/sb-manager/WithTooltip-V3YHNWJZ-MXTFSDU5.js,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-bold.woff2,libs/taskbox/storybook-static/sb-addons/links-0/manager-bundle.js.LEGAL.txt
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2025-04-08T16:30:14.030Z - Time taken for 'hash changed files from watcher' 0.9166669994592667ms
+[NX Daemon Server] - 2025-04-08T16:30:14.112Z - [WATCHER]: 31 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2025-04-08T16:30:14.113Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:30:14.217Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-04-08T16:30:14.217Z - [REQUEST]: libs/taskbox/storybook-static/sb-manager/index.js,libs/taskbox/storybook-static/sb-addons/essentials-measure-6/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/links-0/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/links-0/manager-bundle.js,libs/taskbox/storybook-static/sb-manager/chunk-ZEU7PDD3.js,libs/taskbox/storybook-static/sb-manager/formatter-SWP5E3XI-7BGIK6BL.js,libs/taskbox/storybook-static/sb-manager/chunk-7PRFHFSS.js,libs/taskbox/storybook-static/sb-addons/essentials-measure-6/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/interactions-8/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/essentials-controls-1/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/essentials-backgrounds-3/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/index.html,libs/taskbox/storybook-static/sb-manager/chunk-5QAFKPS7.js,libs/taskbox/storybook-static/sb-addons/essentials-backgrounds-3/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/essentials-toolbars-5/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/essentials-viewport-4/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/essentials-actions-2/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/essentials-controls-1/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/interactions-8/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-manager/chunk-YDUB7CS6.js,libs/taskbox/storybook-static/sb-manager/globals.js,libs/taskbox/storybook-static/sb-addons/essentials-outline-7/manager-bundle.js,libs/taskbox/storybook-static/sb-addons/essentials-viewport-4/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-addons/essentials-outline-7/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-manager/WithTooltip-V3YHNWJZ-MXTFSDU5.js,libs/taskbox/storybook-static/sb-manager/globals-module-info.js,libs/taskbox/storybook-static/sb-addons/essentials-toolbars-5/manager-bundle.js.LEGAL.txt,libs/taskbox/storybook-static/sb-manager/syntaxhighlighter-MJWPISIS-JOSCT6CQ.js,libs/taskbox/storybook-static/sb-manager/runtime.js,libs/taskbox/storybook-static/sb-manager/chunk-XE6LDGTE.js,libs/taskbox/storybook-static/sb-addons/essentials-actions-2/manager-bundle.js
+[NX Daemon Server] - 2025-04-08T16:30:14.217Z - [REQUEST]:
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2025-04-08T16:30:14.284Z - Time taken for 'hash changed files from watcher' 2.043708000332117ms
+[NX Daemon Server] - 2025-04-08T16:30:14.509Z - [WATCHER]: libs/taskbox/storybook-static/favicon.svg was created or restored
+[NX Daemon Server] - 2025-04-08T16:30:14.509Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:30:14.580Z - [WATCHER]: 6 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2025-04-08T16:30:14.581Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:30:14.611Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-04-08T16:30:14.611Z - [REQUEST]: libs/taskbox/storybook-static/favicon.svg,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-italic.woff2,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-regular.woff2,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-bold-italic.woff2,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-bold.woff2,libs/taskbox/storybook-static/sb-common-assets/fonts.css
+[NX Daemon Server] - 2025-04-08T16:30:14.611Z - [REQUEST]:
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2025-04-08T16:30:14.645Z - Time taken for 'hash changed files from watcher' 0.7835419997572899ms
+[NX Daemon Server] - 2025-04-08T16:30:14.690Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:30:14.691Z - [WATCHER]: 2 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2025-04-08T16:30:14.793Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-04-08T16:30:14.793Z - [REQUEST]: libs/taskbox/storybook-static/stories.json,libs/taskbox/storybook-static/index.json
+[NX Daemon Server] - 2025-04-08T16:30:14.793Z - [REQUEST]:
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2025-04-08T16:30:14.829Z - Time taken for 'hash changed files from watcher' 1.141916997730732ms
+[NX Daemon Server] - 2025-04-08T16:30:17.884Z - [WATCHER]: 8 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2025-04-08T16:30:17.884Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:30:17.986Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-04-08T16:30:17.987Z - [REQUEST]: libs/taskbox/storybook-static/sb-common-assets/fonts.css,libs/taskbox/storybook-static/project.json,libs/taskbox/storybook-static/sb-preview/globals.js,libs/taskbox/storybook-static/sb-preview/runtime.js,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-bold.woff2,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-regular.woff2,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-bold-italic.woff2,libs/taskbox/storybook-static/sb-common-assets/nunito-sans-italic.woff2,libs/taskbox/storybook-static/stories.json,libs/taskbox/storybook-static/index.json
+[NX Daemon Server] - 2025-04-08T16:30:17.987Z - [REQUEST]:
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2025-04-08T16:30:18.055Z - Time taken for 'hash changed files from watcher' 1.0041670016944408ms
+[NX Daemon Server] - 2025-04-08T16:30:18.825Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:30:27.446Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:30:27.447Z - [WATCHER]: 40 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2025-04-08T16:30:27.551Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-04-08T16:30:27.551Z - [REQUEST]: libs/taskbox/storybook-static/task-pure-inbox-screen-stories.e5f959c5.iframe.bundle.js,libs/taskbox/storybook-static/static/media/repo.6d496322.svg,libs/taskbox/storybook-static/button-Button-stories.da006b44.iframe.bundle.js,libs/taskbox/storybook-static/iframe.html,libs/taskbox/storybook-static/percolate.29451126d103398b.woff,libs/taskbox/storybook-static/static/media/colors.a4bd0486.svg,libs/taskbox/storybook-static/391.a271134b.iframe.bundle.js,libs/taskbox/storybook-static/stories-Introduction-mdx.a25d7a6f.iframe.bundle.js,libs/taskbox/storybook-static/231.7e5f9e71.iframe.bundle.js,libs/taskbox/storybook-static/68.a9d02a09.iframe.bundle.js.LICENSE.txt,libs/taskbox/storybook-static/276.0313a09d.iframe.bundle.js,libs/taskbox/storybook-static/231.7e5f9e71.iframe.bundle.js.LICENSE.txt,libs/taskbox/storybook-static/runtime~main.88c087b1.iframe.bundle.js,libs/taskbox/storybook-static/pages-Page-stories.29e6dc15.iframe.bundle.js,libs/taskbox/storybook-static/static/media/flow.edad2ac1.svg,libs/taskbox/storybook-static/percolate.3d9093989370b68a.svg,libs/taskbox/storybook-static/static/media/direction.b770f9af.svg,libs/taskbox/storybook-static/705.92aeb07e.iframe.bundle.js,libs/taskbox/storybook-static/task-pure-task-list-stories.edd744d6.iframe.bundle.js,libs/taskbox/storybook-static/944.26a81323.iframe.bundle.js,libs/taskbox/storybook-static/static/media/stackalt.dba9fbb3.svg,libs/taskbox/storybook-static/stories-Introduction-mdx.a25d7a6f.iframe.bundle.js.LICENSE.txt,libs/taskbox/storybook-static/508.f71d76b4.iframe.bundle.js,libs/taskbox/storybook-static/68.a9d02a09.iframe.bundle.js,libs/taskbox/storybook-static/231.7e5f9e71.iframe.bundle.js.map,libs/taskbox/storybook-static/static/media/plugin.d494b228.svg,libs/taskbox/storybook-static/header-Header-stories.a0590e3c.iframe.bundle.js,libs/taskbox/storybook-static/static/media/comments.a3859089.svg,libs/taskbox/storybook-static/433.20195f12.iframe.bundle.js.map,libs/taskbox/storybook-static/68.a9d02a09.iframe.bundle.js.map,libs/taskbox/storybook-static/task-task-stories.4f846e95.iframe.bundle.js,libs/taskbox/storybook-static/static/media/code-brackets.2e1112d7.svg,libs/taskbox/storybook-static/percolate.63090c278817081e.ttf,libs/taskbox/storybook-static/main.fd7496a220e78a3a83f9.css,libs/taskbox/storybook-static/508.f71d76b4.iframe.bundle.js.map,libs/taskbox/storybook-static/914.deb37cee.iframe.bundle.js,libs/taskbox/storybook-static/151.b8faea74.iframe.bundle.js,libs/taskbox/storybook-static/main.a037e47b.iframe.bundle.js,libs/taskbox/storybook-static/433.20195f12.iframe.bundle.js,libs/taskbox/storybook-static/percolate.f52018f0d8e7bfe3.eot
+[NX Daemon Server] - 2025-04-08T16:30:27.551Z - [REQUEST]:
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2025-04-08T16:30:27.645Z - Time taken for 'hash changed files from watcher' 2.4525000005960464ms
+[NX Daemon Server] - 2025-04-08T16:31:20.377Z - [WATCHER]: libs/taskbox/documentation.json was modified
+[NX Daemon Server] - 2025-04-08T16:31:20.378Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:31:20.516Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:31:20.580Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-04-08T16:31:20.580Z - [REQUEST]: libs/taskbox/documentation.json
+[NX Daemon Server] - 2025-04-08T16:31:20.580Z - [REQUEST]:
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2025-04-08T16:31:20.650Z - Time taken for 'hash changed files from watcher' 1.1181659996509552ms
+[NX Daemon Server] - 2025-04-08T16:31:36.241Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-04-08T16:31:36.274Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2025-04-08T16:34:33.655Z - [WATCHER]: .gitignore was modified
+[NX Daemon Server] - 2025-04-08T16:34:33.656Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:34:33.656Z - [WATCHER]: Stopping the watcher for /Users/pranay/IdeaProjects/LDA (sources)
+[NX Daemon Server] - 2025-04-08T16:34:33.656Z - [WATCHER]: Stopping the watcher for /Users/pranay/IdeaProjects/LDA (outputs)
+[NX Daemon Server] - 2025-04-08T16:34:33.657Z - Server stopped because: "Stopping the daemon the set of ignored files changed (native)"
+[NX Daemon Server] - 2025-04-08T16:56:05.542Z - Started listening on: /var/folders/l8/3kcvz7_n5gv7d1xp1lqf83bc0000gn/T/991f07af6c3f8073e5e8/d.sock
+[NX Daemon Server] - 2025-04-08T16:56:05.545Z - [WATCHER]: Subscribed to changes within: /Users/pranay/IdeaProjects/LDA (native)
+[NX Daemon Server] - 2025-04-08T16:56:05.553Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-04-08T16:56:05.553Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2025-04-08T16:56:05.554Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-04-08T16:56:05.555Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2025-04-08T16:56:05.555Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-04-08T16:56:05.556Z - [REQUEST]: 
+[NX Daemon Server] - 2025-04-08T16:56:05.556Z - [REQUEST]: 
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2025-04-08T16:56:05.814Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2025-04-08T16:56:05.816Z - Time taken for 'total for creating and serializing project graph' 258.9005410000682ms
+[NX Daemon Server] - 2025-04-08T16:56:05.819Z - Done responding to the client project-graph
+[NX Daemon Server] - 2025-04-08T16:56:05.819Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 259. Response time: 5.
+[NX Daemon Server] - 2025-04-08T16:56:05.924Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2025-04-08T16:56:05.924Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2025-04-08T16:56:05.924Z - Handled HASH_TASKS. Handling time: 12. Response time: 0.
+[NX Daemon Server] - 2025-04-08T16:56:07.144Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2025-04-08T16:56:07.144Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-04-08T16:56:07.144Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2025-04-08T16:56:07.145Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2025-04-08T16:56:07.145Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2025-04-08T16:56:07.147Z - Time taken for 'total for creating and serializing project graph' 0.0555419996380806ms
+[NX Daemon Server] - 2025-04-08T16:56:07.149Z - Done responding to the client project-graph
+[NX Daemon Server] - 2025-04-08T16:56:07.149Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 4.
+[NX Daemon Server] - 2025-04-08T16:56:11.656Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:56:11.738Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:56:14.205Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:56:14.253Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:56:23.692Z - [WATCHER]: libs/taskbox/documentation.json was modified
+[NX Daemon Server] - 2025-04-08T16:56:23.693Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-04-08T16:56:23.795Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-04-08T16:56:23.795Z - [REQUEST]: libs/taskbox/documentation.json
+[NX Daemon Server] - 2025-04-08T16:56:23.795Z - [REQUEST]: 
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2025-04-08T16:56:23.853Z - Time taken for 'hash changed files from watcher' 0.5447920002043247ms
