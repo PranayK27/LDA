@@ -15,6 +15,7 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "string",
+                    "indexKey": "",
                     "optional": true,
                     "description": "",
                     "line": 2
@@ -24,6 +25,7 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "string",
+                    "indexKey": "",
                     "optional": true,
                     "description": "",
                     "line": 4
@@ -33,6 +35,7 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "string",
+                    "indexKey": "",
                     "optional": true,
                     "description": "",
                     "line": 3
@@ -57,6 +60,7 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "boolean",
+                    "indexKey": "",
                     "optional": false,
                     "description": "",
                     "line": 44
@@ -66,6 +70,7 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "\"idle\" | \"loading\" | \"success\" | \"error\"",
+                    "indexKey": "",
                     "optional": false,
                     "description": "",
                     "line": 43
@@ -75,6 +80,7 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Task[]",
+                    "indexKey": "",
                     "optional": false,
                     "description": "",
                     "line": 42
@@ -99,6 +105,7 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "string",
+                    "indexKey": "",
                     "optional": false,
                     "description": "",
                     "line": 3
@@ -392,6 +399,7 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "boolean",
+                    "indexKey": "",
                     "optional": false,
                     "description": "",
                     "line": 29,
@@ -405,6 +413,7 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "",
+                    "indexKey": "",
                     "optional": false,
                     "description": "",
                     "line": 28,
@@ -462,6 +471,7 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "string",
+                    "indexKey": "",
                     "optional": false,
                     "description": "",
                     "line": 17,
@@ -475,6 +485,7 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "",
+                    "indexKey": "",
                     "optional": false,
                     "description": "",
                     "line": 15,
@@ -532,6 +543,7 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "string",
+                    "indexKey": "",
                     "optional": false,
                     "description": "",
                     "line": 23,
@@ -545,6 +557,7 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "",
+                    "indexKey": "",
                     "optional": false,
                     "description": "",
                     "line": 21,
@@ -588,6 +601,7 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "string",
+                    "indexKey": "",
                     "optional": false,
                     "description": "",
                     "line": 11
@@ -647,17 +661,18 @@
                         {
                             "pos": 828,
                             "end": 841,
+                            "kind": 327,
+                            "id": 0,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
-                            "kind": 334,
                             "tagName": {
                                 "pos": 829,
                                 "end": 837,
-                                "flags": 16842752,
-                                "modifierFlagsCache": 0,
-                                "transformFlags": 0,
                                 "kind": 80,
+                                "id": 0,
+                                "flags": 16842752,
+                                "transformFlags": 0,
                                 "escapedText": "required"
                             },
                             "comment": ""
@@ -744,7 +759,7 @@
         },
         {
             "name": "HeaderComponent",
-            "id": "component-HeaderComponent-0ebdaf94fc5afba7d30eff2a5f5c325b65db19b60c93b60e77becdcca888fdf952f926d5a2543b5b0980f878f063c1713beecf143799785ab23e9f19dc24ae3a",
+            "id": "component-HeaderComponent-864d6a481c56fc5bbd6ea62646d883b70f059ed3ff240e213e538adc77a1ebb8230d5dc53e50b334fe711ff59abe0e255278c14190bd8540f8a94bba8cb2192c",
             "file": "src/header/header.component.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -765,7 +780,7 @@
                     "name": "user",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 71,
+                    "line": 73,
                     "type": "User | undefined",
                     "decorators": []
                 }
@@ -776,7 +791,7 @@
                     "defaultValue": "new EventEmitter<Event>()",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 80,
+                    "line": 82,
                     "type": "EventEmitter"
                 },
                 {
@@ -784,7 +799,7 @@
                     "defaultValue": "new EventEmitter<Event>()",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 74,
+                    "line": 76,
                     "type": "EventEmitter"
                 },
                 {
@@ -792,7 +807,7 @@
                     "defaultValue": "new EventEmitter<Event>()",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 77,
+                    "line": 79,
                     "type": "EventEmitter"
                 }
             ],
@@ -807,12 +822,15 @@
                 {
                     "name": "ButtonComponent",
                     "type": "component"
+                },
+                {
+                    "name": "NgIf"
                 }
             ],
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import { Component, Input, Output, EventEmitter } from '@angular/core';\nimport type { User } from '../models/User';\nimport ButtonComponent from \"../button/button.component\";\n\n@Component({\n  selector: 'lda-storybook-header',\n  template: `\n    <header>\n      <div class=\"wrapper\">\n        <div>\n          <svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" xmlns=\"http://www.w3.org/2000/svg\">\n            <g fill=\"none\" fillRule=\"evenodd\">\n              <path\n                d=\"M10 0h12a10 10 0 0110 10v12a10 10 0 01-10 10H10A10 10 0 010 22V10A10 10 0 0110 0z\"\n                fill=\"#FFF\"\n              />\n              <path\n                d=\"M5.3 10.6l10.4 6v11.1l-10.4-6v-11zm11.4-6.2l9.7 5.5-9.7 5.6V4.4z\"\n                fill=\"#555AB9\"\n              />\n              <path\n                d=\"M27.2 10.6v11.2l-10.5 6V16.5l10.5-6zM15.7 4.4v11L6 10l9.7-5.5z\"\n                fill=\"#91BAF8\"\n              />\n            </g>\n          </svg>\n          <h1>LDA</h1>\n        </div>\n        <div>\n          <div *ngIf=\"user\">\n          <span class=\"welcome\">\n            Welcome, <b>{{ user.name }}</b\n          >!\n          </span>\n            <lda-storybook-button\n              *ngIf=\"user\"\n              size=\"small\"\n              (onClick)=\"onLogout.emit($event)\"\n              label=\"Log out\"\n            ></lda-storybook-button>\n          </div>\n          <div *ngIf=\"!user\">\n            <lda-storybook-button\n              *ngIf=\"!user\"\n              size=\"small\"\n              class=\"margin-left\"\n              (onClick)=\"onLogin.emit($event)\"\n              label=\"Log in\"\n            ></lda-storybook-button>\n            <lda-storybook-button\n              *ngIf=\"!user\"\n              primary\n              size=\"small\"\n              primary=\"true\"\n              class=\"margin-left\"\n              (onClick)=\"onCreateAccount.emit($event)\"\n              label=\"Sign up\"\n            ></lda-storybook-button>\n          </div>\n        </div>\n      </div>\n    </header>`,\n  styleUrls: ['./header.css'],\n  imports: [\n    ButtonComponent\n  ],\n  standalone: true\n})\nexport default class HeaderComponent {\n  @Input()\n  user: User | undefined;\n\n  @Output()\n  onLogin = new EventEmitter<Event>();\n\n  @Output()\n  onLogout = new EventEmitter<Event>();\n\n  @Output()\n  onCreateAccount = new EventEmitter<Event>();\n}\n",
+            "sourceCode": "import { Component, Input, Output, EventEmitter } from '@angular/core';\nimport type { User } from '../models/User';\nimport ButtonComponent from \"../button/button.component\";\nimport {NgIf} from \"@angular/common\";\n\n@Component({\n  selector: 'lda-storybook-header',\n  template: `\n    <header>\n      <div class=\"wrapper\">\n        <div>\n          <svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" xmlns=\"http://www.w3.org/2000/svg\">\n            <g fill=\"none\" fillRule=\"evenodd\">\n              <path\n                d=\"M10 0h12a10 10 0 0110 10v12a10 10 0 01-10 10H10A10 10 0 010 22V10A10 10 0 0110 0z\"\n                fill=\"#FFF\"\n              />\n              <path\n                d=\"M5.3 10.6l10.4 6v11.1l-10.4-6v-11zm11.4-6.2l9.7 5.5-9.7 5.6V4.4z\"\n                fill=\"#555AB9\"\n              />\n              <path\n                d=\"M27.2 10.6v11.2l-10.5 6V16.5l10.5-6zM15.7 4.4v11L6 10l9.7-5.5z\"\n                fill=\"#91BAF8\"\n              />\n            </g>\n          </svg>\n          <h1>LDA</h1>\n        </div>\n        <div>\n          <div *ngIf=\"user\">\n          <span class=\"welcome\">\n            Welcome, <b>{{ user.name }}</b\n          >!\n          </span>\n            <lda-storybook-button\n              *ngIf=\"user\"\n              size=\"small\"\n              (onClick)=\"onLogout.emit($event)\"\n              label=\"Log out\"\n            ></lda-storybook-button>\n          </div>\n          <div *ngIf=\"!user\">\n            <lda-storybook-button\n              *ngIf=\"!user\"\n              size=\"small\"\n              class=\"margin-left\"\n              (onClick)=\"onLogin.emit($event)\"\n              label=\"Log in\"\n            ></lda-storybook-button>\n            <lda-storybook-button\n              *ngIf=\"!user\"\n              primary\n              size=\"small\"\n              primary=\"true\"\n              class=\"margin-left\"\n              (onClick)=\"onCreateAccount.emit($event)\"\n              label=\"Sign up\"\n            ></lda-storybook-button>\n          </div>\n        </div>\n      </div>\n    </header>`,\n  styleUrls: ['./header.css'],\n  imports: [\n    ButtonComponent,\n    NgIf\n  ],\n  standalone: true\n})\nexport default class HeaderComponent {\n  @Input()\n  user: User | undefined;\n\n  @Output()\n  onLogin = new EventEmitter<Event>();\n\n  @Output()\n  onLogout = new EventEmitter<Event>();\n\n  @Output()\n  onCreateAccount = new EventEmitter<Event>();\n}\n",
             "assetsDirs": [],
             "styleUrlsData": [
                 {
@@ -847,6 +865,7 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Observable<boolean>",
+                    "indexKey": "",
                     "optional": false,
                     "description": "",
                     "line": 13
@@ -920,6 +939,7 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "User | undefined",
+                    "indexKey": "",
                     "optional": false,
                     "description": "",
                     "line": 70
@@ -1215,6 +1235,7 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Observable<any>",
+                    "indexKey": "",
                     "optional": true,
                     "description": "",
                     "line": 19
@@ -1729,16 +1750,6 @@
                 "name": "meta",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/button/Button.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "Meta<Button>",
-                "defaultValue": "{\n  title: 'Example/Button',\n  component: Button,\n  tags: ['autodocs'],\n  render: (args: Button) => ({\n    props: {\n      backgroundColor: null,\n      ...args,\n    },\n  }),\n  argTypes: {\n    backgroundColor: {\n      control: 'color',\n    },\n  },\n}"
-            },
-            {
-                "name": "meta",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
                 "file": "src/header/Header.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
@@ -1754,6 +1765,16 @@
                 "deprecationMessage": "",
                 "type": "Meta<Page>",
                 "defaultValue": "{\n  title: 'Example/Page',\n  component: Page,\n  parameters: {\n    // More on how to position stories at: https://storybook.js.org/docs/angular/configure/story-layout\n    layout: 'fullscreen',\n  },\n  decorators: [\n    moduleMetadata({\n      declarations: [],\n      imports: [CommonModule],\n    }),\n  ],\n}"
+            },
+            {
+                "name": "meta",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/button/Button.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Meta<Button>",
+                "defaultValue": "{\n  title: 'Example/Button',\n  component: Button,\n  tags: ['autodocs'],\n  render: (args: Button) => ({\n    props: {\n      backgroundColor: null,\n      ...args,\n    },\n  }),\n  argTypes: {\n    backgroundColor: {\n      control: 'color',\n    },\n  },\n}"
             },
             {
                 "name": "meta",
@@ -1862,17 +1883,6 @@
                 "name": "Story",
                 "ctype": "miscellaneous",
                 "subtype": "typealias",
-                "rawtype": "StoryObj<Button>",
-                "file": "src/button/Button.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "description": "",
-                "kind": 183
-            },
-            {
-                "name": "Story",
-                "ctype": "miscellaneous",
-                "subtype": "typealias",
                 "rawtype": "StoryObj<Header>",
                 "file": "src/header/Header.stories.ts",
                 "deprecated": false,
@@ -1886,6 +1896,17 @@
                 "subtype": "typealias",
                 "rawtype": "StoryObj<Page>",
                 "file": "src/pages/Page.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "description": "",
+                "kind": 183
+            },
+            {
+                "name": "Story",
+                "ctype": "miscellaneous",
+                "subtype": "typealias",
+                "rawtype": "StoryObj<Button>",
+                "file": "src/button/Button.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "description": "",
@@ -2271,19 +2292,6 @@
         "groupedFunctions": {},
         "groupedEnumerations": {},
         "groupedTypeAliases": {
-            "src/button/Button.stories.ts": [
-                {
-                    "name": "Story",
-                    "ctype": "miscellaneous",
-                    "subtype": "typealias",
-                    "rawtype": "StoryObj<Button>",
-                    "file": "src/button/Button.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "description": "",
-                    "kind": 183
-                }
-            ],
             "src/header/Header.stories.ts": [
                 {
                     "name": "Story",
@@ -2304,6 +2312,19 @@
                     "subtype": "typealias",
                     "rawtype": "StoryObj<Page>",
                     "file": "src/pages/Page.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "description": "",
+                    "kind": 183
+                }
+            ],
+            "src/button/Button.stories.ts": [
+                {
+                    "name": "Story",
+                    "ctype": "miscellaneous",
+                    "subtype": "typealias",
+                    "rawtype": "StoryObj<Button>",
+                    "file": "src/button/Button.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "description": "",
@@ -2353,7 +2374,7 @@
     },
     "routes": [],
     "coverage": {
-        "count": 3,
+        "count": 2,
         "status": "low",
         "files": [
             {
@@ -2426,6 +2447,16 @@
                 "status": "low"
             },
             {
+                "filePath": "src/button/Button.stories.ts",
+                "type": "type alias",
+                "linktype": "miscellaneous",
+                "linksubtype": "typealias",
+                "name": "Story",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
                 "filePath": "src/button/button.component.ts",
                 "type": "component",
                 "linktype": "component",
@@ -2485,6 +2516,16 @@
                 "status": "low"
             },
             {
+                "filePath": "src/header/Header.stories.ts",
+                "type": "type alias",
+                "linktype": "miscellaneous",
+                "linksubtype": "typealias",
+                "name": "Story",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
                 "filePath": "src/header/header.component.ts",
                 "type": "component",
                 "linktype": "component",
@@ -2537,6 +2578,16 @@
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
                 "name": "meta",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/pages/Page.stories.ts",
+                "type": "type alias",
+                "linktype": "miscellaneous",
+                "linksubtype": "typealias",
+                "name": "Story",
                 "coveragePercent": 0,
                 "coverageCount": "0/1",
                 "status": "low"
@@ -2674,6 +2725,16 @@
                 "status": "low"
             },
             {
+                "filePath": "src/task/pure-inbox-screen.stories.ts",
+                "type": "type alias",
+                "linktype": "miscellaneous",
+                "linksubtype": "typealias",
+                "name": "Story",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
                 "filePath": "src/task/pure-task-list.component.ts",
                 "type": "component",
                 "linktype": "component",
@@ -2728,6 +2789,16 @@
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
                 "name": "WithPinnedTasks",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/task/pure-task-list.stories.ts",
+                "type": "type alias",
+                "linktype": "miscellaneous",
+                "linksubtype": "typealias",
+                "name": "Story",
                 "coveragePercent": 0,
                 "coverageCount": "0/1",
                 "status": "low"
@@ -2816,6 +2887,16 @@
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
                 "name": "Pinned",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/task/task.stories.ts",
+                "type": "type alias",
+                "linktype": "miscellaneous",
+                "linksubtype": "typealias",
+                "name": "Story",
                 "coveragePercent": 0,
                 "coverageCount": "0/1",
                 "status": "low"

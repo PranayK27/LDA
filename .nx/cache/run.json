@@ -1,0 +1,21 @@
+{
+  "run": {
+    "command": "nx run lda:build",
+    "startTime": "2025-04-08T16:00:40.979Z",
+    "endTime": "2025-04-08T16:00:51.123Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "lda:build:development",
+      "target": "build",
+      "projectName": "lda",
+      "hash": "1248364274237702655",
+      "startTime": "2025-04-08T16:00:40.985Z",
+      "endTime": "2025-04-08T16:00:51.122Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    }
+  ]
+}
