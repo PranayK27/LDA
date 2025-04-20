@@ -1,0 +1,296 @@
+
+> taskbox@0.3.0 build-storybook
+> ng run taskbox:build-storybook --output-dir=/var/folders/l8/3kcvz7_n5gv7d1xp1lqf83bc0000gn/T/chromatic--4254-vKsH85LgZ7uQ
+
+[0m
+[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
+[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
+[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
+[48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m
+[48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m
+[48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m
+[48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m
+[48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m
+[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
+[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
+[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
+
+1.1.25
+
+TypeScript version used by Compodoc : 5.4.2
+
+TypeScript version of current project : 5.2.2
+
+Node.js version : v18.19.0
+
+Operating system : macOS Unknown
+
+[16:27:07] No configuration file found, switching to CLI flags.
+[16:27:07] Using tsconfig file : /Users/pranay/IdeaProjects/LDA/libs/taskbox/.storybook/tsconfig.json
+[16:27:07] Including      : /Users/pranay/IdeaProjects/LDA/libs/taskbox/.storybook/preview.ts
+[16:27:07] Including      : /Users/pranay/IdeaProjects/LDA/libs/taskbox/.storybook/typings.d.ts
+[16:27:07] Excluding      : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/favicon.ico
+[16:27:07] Excluding      : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/index.html
+[16:27:07] Including      : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/main.ts
+[16:27:07] Including      : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/polyfills.ts
+[16:27:07] Excluding      : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/styles.css
+[16:27:07] Excluding      : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/app/app.component.css
+[16:27:07] Excluding      : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/app/app.component.html
+[16:27:07] Including      : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/app/app.component.ts
+[16:27:07] Including      : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/app/app.module.ts
+[16:27:07] Including      : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/component/components.module.ts
+[16:27:07] Including      : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/button/Button.stories.ts
+[16:27:07] Including      : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/button/button.component.ts
+[16:27:07] Excluding      : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/button/button.css
+[16:27:07] Including      : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/button/button.module.ts
+[16:27:07] Including      : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/environments/environment.prod.ts
+[16:27:07] Including      : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/environments/environment.ts
+[16:27:07] Including      : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/header/Header.stories.ts
+[16:27:07] Including      : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/header/header.component.ts
+[16:27:07] Excluding      : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/header/header.css
+[16:27:07] Including      : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/models/User.ts
+[16:27:07] Including      : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/models/task.model.ts
+[16:27:07] Including      : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/pages/Page.stories.ts
+[16:27:07] Including      : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/pages/page.component.ts
+[16:27:07] Excluding      : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/pages/page.css
+[16:27:07] Including      : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/state/task.state.ts
+[16:27:07] Excluding      : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/stories/Introduction.mdx
+[16:27:07] Including      : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/task/inbox-screen.component.ts
+[16:27:07] Including      : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/task/pure-inbox-screen.component.ts
+[16:27:07] Including      : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/task/pure-inbox-screen.stories.ts
+[16:27:07] Including      : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/task/pure-task-list.component.ts
+[16:27:07] Including      : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/task/pure-task-list.stories.ts
+[16:27:07] Including      : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/task/task-list.component.ts
+[16:27:07] Including      : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/task/task.component.ts
+[16:27:07] Including      : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/task/task.module.ts
+[16:27:07] Including      : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/task/task.stories.ts
+[16:27:07] Excluding      : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/assets/font/OpenSans-Light-webfont.eot
+[16:27:07] Excluding      : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/assets/font/OpenSans-Light-webfont.svg
+[16:27:07] Excluding      : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/assets/font/OpenSans-Light-webfont.ttf
+[16:27:07] Excluding      : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/assets/font/OpenSans-Light-webfont.woff
+[16:27:07] Excluding      : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/assets/font/OpenSans-Regular-webfont.eot
+[16:27:07] Excluding      : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/assets/font/OpenSans-Regular-webfont.svg
+[16:27:07] Excluding      : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/assets/font/OpenSans-Regular-webfont.ttf
+[16:27:07] Excluding      : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/assets/font/OpenSans-Regular-webfont.woff
+[16:27:07] Excluding      : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/assets/icon/percolate.eot
+[16:27:07] Excluding      : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/assets/icon/percolate.svg
+[16:27:07] Excluding      : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/assets/icon/percolate.ttf
+[16:27:07] Excluding      : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/assets/icon/percolate.woff
+[16:27:07] Excluding      : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/stories/assets/code-brackets.svg
+[16:27:07] Excluding      : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/stories/assets/colors.svg
+[16:27:07] Excluding      : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/stories/assets/comments.svg
+[16:27:07] Excluding      : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/stories/assets/direction.svg
+[16:27:07] Excluding      : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/stories/assets/flow.svg
+[16:27:07] Excluding      : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/stories/assets/plugin.svg
+[16:27:07] Excluding      : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/stories/assets/repo.svg
+[16:27:07] Excluding      : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/stories/assets/stackalt.svg
+[16:27:07] Searching package.json file
+[16:27:08] package.json file found
+[16:27:08] Processing package.json dependencies
+[16:27:08] Searching README.md, CHANGELOG.md, CONTRIBUTING.md, LICENSE.md, TODO.md files
+[16:27:08] README.md file found
+[16:27:08] Error during /Users/pranay/IdeaProjects/LDA/libs/taskbox/CHANGELOG read
+[16:27:08] Continuing without CHANGELOG.md file
+[16:27:08] Error during /Users/pranay/IdeaProjects/LDA/libs/taskbox/CONTRIBUTING read
+[16:27:08] Continuing without CONTRIBUTING.md file
+[16:27:08] LICENSE.md file found
+[16:27:08] Error during /Users/pranay/IdeaProjects/LDA/libs/taskbox/TODO read
+[16:27:08] Continuing without TODO.md file
+[16:27:08] Get dependencies data
+[16:27:08] parsing        : /Users/pranay/IdeaProjects/LDA/libs/taskbox/.storybook/preview.ts
+[16:27:08] found          : preview
+[16:27:08] parsing        : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/main.ts
+[16:27:08] parsing        : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/polyfills.ts
+[16:27:08] parsing        : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/app/app.component.ts
+[16:27:08] found          : AppComponent
+[16:27:08] parsing        : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/app/app.module.ts
+[16:27:08] found          : AppModule
+[16:27:08]                : - imports:
+[16:27:08]                : 	- BrowserModule
+[16:27:08]                : 	- TaskModule
+[16:27:08]                : 	- NgxsModule
+[16:27:08]                : 	- NgxsReduxDevtoolsPluginModule
+[16:27:08]                : 	- NgxsLoggerPluginModule
+[16:27:08]                : - declarations:
+[16:27:08]                : 	- AppComponent
+[16:27:08]                : 	- InboxScreenComponent
+[16:27:08]                : 	- PureInboxScreenComponent
+[16:27:08]                : - bootstrap:
+[16:27:08]                : 	- AppComponent
+[16:27:08] parsing        : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/component/components.module.ts
+[16:27:08] found          : ComponentsModule
+[16:27:08]                : - imports:
+[16:27:08]                : 	- CommonModule
+[16:27:08]                : 	- ButtonModule
+[16:27:08]                : 	- PageComponent
+[16:27:08]                : 	- HeaderComponent
+[16:27:08]                : - exports:
+[16:27:08]                : 	- ButtonModule
+[16:27:08]                : 	- PageComponent
+[16:27:08]                : 	- HeaderComponent
+[16:27:08] parsing        : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/button/Button.stories.ts
+[16:27:08] found          : meta
+[16:27:08] found          : Story
+[16:27:08] found          : Primary
+[16:27:08] found          : Secondary
+[16:27:08] found          : Large
+[16:27:08] found          : Small
+[16:27:08] parsing        : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/button/button.component.ts
+[16:27:08] found          : ButtonComponent
+[16:27:08]                : - imports:
+[16:27:08]                : 	- CommonModule
+[16:27:08] parsing        : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/button/button.module.ts
+[16:27:08] found          : ButtonModule
+[16:27:08]                : - imports:
+[16:27:08]                : 	- CommonModule
+[16:27:08]                : 	- ButtonComponent
+[16:27:08]                : - exports:
+[16:27:08]                : 	- ButtonComponent
+[16:27:08] parsing        : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/environments/environment.prod.ts
+[16:27:08] found          : environment
+[16:27:08] parsing        : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/environments/environment.ts
+[16:27:08] found          : environment
+[16:27:08] parsing        : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/header/Header.stories.ts
+[16:27:08] found          : meta
+[16:27:08] found          : Story
+[16:27:08] found          : LoggedIn
+[16:27:08] found          : LoggedOut
+[16:27:08] parsing        : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/header/header.component.ts
+[16:27:08] found          : HeaderComponent
+[16:27:08]                : - imports:
+[16:27:08]                : 	- ButtonComponent
+[16:27:08]                : 	- NgIf
+[16:27:08] parsing        : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/models/User.ts
+[16:27:08] found          : User
+[16:27:08] parsing        : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/models/task.model.ts
+[16:27:08] found          : Task
+[16:27:08] parsing        : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/pages/Page.stories.ts
+[16:27:08] found          : meta
+[16:27:08] found          : Story
+[16:27:08] found          : LoggedOut
+[16:27:08] found          : LoggedIn
+[16:27:08] parsing        : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/pages/page.component.ts
+[16:27:08] found          : PageComponent
+[16:27:08]                : - imports:
+[16:27:08]                : 	- HeaderComponent
+[16:27:08] parsing        : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/state/task.state.ts
+[16:27:08] found          : actions
+[16:27:08] found          : ArchiveTask
+[16:27:08] found          : PinTask
+[16:27:08] found          : AppError
+[16:27:08] found          : defaultTasks
+[16:27:08] found          : TaskStateModel
+[16:27:08] found          : TasksState
+[16:27:08] parsing        : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/task/inbox-screen.component.ts
+[16:27:08] found          : InboxScreenComponent
+[16:27:08] parsing        : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/task/pure-inbox-screen.component.ts
+[16:27:08] found          : PureInboxScreenComponent
+[16:27:08] parsing        : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/task/pure-inbox-screen.stories.ts
+[16:27:08] found          : meta
+[16:27:08] found          : Story
+[16:27:08] found          : Default
+[16:27:08] found          : Error
+[16:27:08] found          : WithInteractions
+[16:27:08] parsing        : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/task/pure-task-list.component.ts
+[16:27:08] found          : PureTaskListComponent
+[16:27:08] parsing        : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/task/pure-task-list.stories.ts
+[16:27:08] found          : meta
+[16:27:08] found          : Story
+[16:27:08] found          : Default
+[16:27:08] found          : WithPinnedTasks
+[16:27:08] found          : Loading
+[16:27:08] found          : Empty
+[16:27:08] parsing        : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/task/task-list.component.ts
+[16:27:08] found          : TaskListComponent
+[16:27:08] parsing        : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/task/task.component.ts
+[16:27:08] found          : TaskComponent
+[16:27:08] parsing        : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/task/task.module.ts
+[16:27:08] found          : TaskModule
+[16:27:08]                : - imports:
+[16:27:08]                : 	- CommonModule
+[16:27:08]                : 	- NgxsModule
+[16:27:08]                : - exports:
+[16:27:08]                : 	- TaskComponent
+[16:27:08]                : 	- TaskListComponent
+[16:27:08]                : - declarations:
+[16:27:08]                : 	- TaskComponent
+[16:27:08]                : 	- TaskListComponent
+[16:27:08]                : 	- PureTaskListComponent
+[16:27:08] parsing        : /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/task/task.stories.ts
+[16:27:08] found          : actionsData
+[16:27:08] found          : meta
+[16:27:08] found          : Story
+[16:27:08] found          : Default
+[16:27:08] found          : Pinned
+[16:27:08] found          : Archived
+[16:27:08] found          : longTitleString
+[16:27:08] found          : LongTitle
+[16:27:08] -------------------
+[16:27:08] Project statistics 
+[16:27:08] - files      : 29
+[16:27:08] - module     : 4
+[16:27:08] - component  : 9
+[16:27:08] - injectable : 1
+[16:27:08] - class      : 3
+[16:27:08] - interface  : 3
+[16:27:08] -------------------
+[16:27:08] Prepare components
+[16:27:08]  ButtonComponent has styleUrls, include them
+[16:27:08]  HeaderComponent has styleUrls, include them
+[16:27:08]  PageComponent has styleUrls, include them
+[16:27:08] Prepare modules
+[16:27:08] Prepare injectables
+[16:27:08] Prepare classes
+[16:27:08] Prepare interfaces
+[16:27:08] Prepare miscellaneous
+[16:27:08] Process documentation coverage report
+[16:27:08] Generating documentation in export format json
+[16:27:08] Documentation generated in ./ in 0.163 seconds
+info => Cleaning outputDir: /var/folders/l8/3kcvz7_n5gv7d1xp1lqf83bc0000gn/T/chromatic--4254-vKsH85LgZ7uQ
+
+info => Loading presets
+info => Building manager..
+info => Manager built (114 ms)
+info => Building preview..
+info => Copying static files: /Users/pranay/IdeaProjects/LDA/libs/taskbox/node_modules/@storybook/manager/static at /var/folders/l8/3kcvz7_n5gv7d1xp1lqf83bc0000gn/T/chromatic--4254-vKsH85LgZ7uQ/sb-common-assets
+info Using Babel compiler
+info Addon-docs: using MDX2
+info => Using implicit CSS loaders
+info => Using angular browser target options from "taskbox:build"
+info => Using angular project with "tsConfig:/Users/pranay/IdeaProjects/LDA/libs/taskbox/.storybook/tsconfig.json"
+info => Using default Webpack5 setup
+WARN /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/app/app.component.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/app/app.module.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/button/button.module.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/component/components.module.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/environments/environment.prod.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/environments/environment.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/main.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/polyfills.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/pranay/IdeaProjects/LDA/libs/taskbox/src/task/inbox-screen.component.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+WARN This can impact web performance.
+WARN Assets: 
+WARN   433.20195f12.iframe.bundle.js (583 KiB)
+WARN   231.6f519aba.iframe.bundle.js (821 KiB)
+WARN   508.e1c45b2d.iframe.bundle.js (818 KiB)
+WARN   68.4fc8f0e5.iframe.bundle.js (2.52 MiB)
+WARN entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+WARN Entrypoints:
+WARN   main (2.65 MiB)
+WARN       runtime~main.808938e5.iframe.bundle.js
+WARN       68.4fc8f0e5.iframe.bundle.js
+WARN       main.0149e7836391d26a2dfe.css
+WARN       main.15543bdf.iframe.bundle.js
+WARN 
+info => Preview built (20 s)
+info => Output directory: /var/folders/l8/3kcvz7_n5gv7d1xp1lqf83bc0000gn/T/chromatic--4254-vKsH85LgZ7uQ
