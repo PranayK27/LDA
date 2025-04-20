@@ -46,10 +46,3 @@ libs/taskbox/.angular
 libs/taskbox/dist
 libs/taskbox/node_modules
 libs/taskbox/doctor-storybook.log
-.idea
-.nx
-libs/taskbox/storybook-static
-libs/taskbox/.angular
-libs/taskbox/dist
-libs/taskbox/node_modules
-libs/taskbox/doctor-storybook.log

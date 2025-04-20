@@ -15,7 +15,6 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "string",
-                    "indexKey": "",
                     "optional": true,
                     "description": "",
                     "line": 2
@@ -25,7 +24,6 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "string",
-                    "indexKey": "",
                     "optional": true,
                     "description": "",
                     "line": 4
@@ -35,7 +33,6 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "string",
-                    "indexKey": "",
                     "optional": true,
                     "description": "",
                     "line": 3
@@ -60,7 +57,6 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "boolean",
-                    "indexKey": "",
                     "optional": false,
                     "description": "",
                     "line": 44
@@ -70,7 +66,6 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "\"idle\" | \"loading\" | \"success\" | \"error\"",
-                    "indexKey": "",
                     "optional": false,
                     "description": "",
                     "line": 43
@@ -80,7 +75,6 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Task[]",
-                    "indexKey": "",
                     "optional": false,
                     "description": "",
                     "line": 42
@@ -105,7 +99,6 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "string",
-                    "indexKey": "",
                     "optional": false,
                     "description": "",
                     "line": 3
@@ -399,7 +392,6 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "boolean",
-                    "indexKey": "",
                     "optional": false,
                     "description": "",
                     "line": 29,
@@ -413,7 +405,6 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "",
-                    "indexKey": "",
                     "optional": false,
                     "description": "",
                     "line": 28,
@@ -471,7 +462,6 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "string",
-                    "indexKey": "",
                     "optional": false,
                     "description": "",
                     "line": 17,
@@ -485,7 +475,6 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "",
-                    "indexKey": "",
                     "optional": false,
                     "description": "",
                     "line": 15,
@@ -543,7 +532,6 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "string",
-                    "indexKey": "",
                     "optional": false,
                     "description": "",
                     "line": 23,
@@ -557,7 +545,6 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "",
-                    "indexKey": "",
                     "optional": false,
                     "description": "",
                     "line": 21,
@@ -601,7 +588,6 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "string",
-                    "indexKey": "",
                     "optional": false,
                     "description": "",
                     "line": 11
@@ -661,18 +647,17 @@
                         {
                             "pos": 828,
                             "end": 841,
-                            "kind": 327,
-                            "id": 0,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
+                            "kind": 334,
                             "tagName": {
                                 "pos": 829,
                                 "end": 837,
-                                "kind": 80,
-                                "id": 0,
                                 "flags": 16842752,
+                                "modifierFlagsCache": 0,
                                 "transformFlags": 0,
+                                "kind": 80,
                                 "escapedText": "required"
                             },
                             "comment": ""
@@ -865,7 +850,6 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Observable<boolean>",
-                    "indexKey": "",
                     "optional": false,
                     "description": "",
                     "line": 13
@@ -939,7 +923,6 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "User | undefined",
-                    "indexKey": "",
                     "optional": false,
                     "description": "",
                     "line": 70
@@ -1235,7 +1218,6 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Observable<any>",
-                    "indexKey": "",
                     "optional": true,
                     "description": "",
                     "line": 19
@@ -2374,7 +2356,7 @@
     },
     "routes": [],
     "coverage": {
-        "count": 2,
+        "count": 3,
         "status": "low",
         "files": [
             {
@@ -2447,16 +2429,6 @@
                 "status": "low"
             },
             {
-                "filePath": "src/button/Button.stories.ts",
-                "type": "type alias",
-                "linktype": "miscellaneous",
-                "linksubtype": "typealias",
-                "name": "Story",
-                "coveragePercent": 0,
-                "coverageCount": "0/1",
-                "status": "low"
-            },
-            {
                 "filePath": "src/button/button.component.ts",
                 "type": "component",
                 "linktype": "component",
@@ -2516,16 +2488,6 @@
                 "status": "low"
             },
             {
-                "filePath": "src/header/Header.stories.ts",
-                "type": "type alias",
-                "linktype": "miscellaneous",
-                "linksubtype": "typealias",
-                "name": "Story",
-                "coveragePercent": 0,
-                "coverageCount": "0/1",
-                "status": "low"
-            },
-            {
                 "filePath": "src/header/header.component.ts",
                 "type": "component",
                 "linktype": "component",
@@ -2578,16 +2540,6 @@
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
                 "name": "meta",
-                "coveragePercent": 0,
-                "coverageCount": "0/1",
-                "status": "low"
-            },
-            {
-                "filePath": "src/pages/Page.stories.ts",
-                "type": "type alias",
-                "linktype": "miscellaneous",
-                "linksubtype": "typealias",
-                "name": "Story",
                 "coveragePercent": 0,
                 "coverageCount": "0/1",
                 "status": "low"
@@ -2725,16 +2677,6 @@
                 "status": "low"
             },
             {
-                "filePath": "src/task/pure-inbox-screen.stories.ts",
-                "type": "type alias",
-                "linktype": "miscellaneous",
-                "linksubtype": "typealias",
-                "name": "Story",
-                "coveragePercent": 0,
-                "coverageCount": "0/1",
-                "status": "low"
-            },
-            {
                 "filePath": "src/task/pure-task-list.component.ts",
                 "type": "component",
                 "linktype": "component",
@@ -2789,16 +2731,6 @@
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
                 "name": "WithPinnedTasks",
-                "coveragePercent": 0,
-                "coverageCount": "0/1",
-                "status": "low"
-            },
-            {
-                "filePath": "src/task/pure-task-list.stories.ts",
-                "type": "type alias",
-                "linktype": "miscellaneous",
-                "linksubtype": "typealias",
-                "name": "Story",
                 "coveragePercent": 0,
                 "coverageCount": "0/1",
                 "status": "low"
@@ -2887,16 +2819,6 @@
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
                 "name": "Pinned",
-                "coveragePercent": 0,
-                "coverageCount": "0/1",
-                "status": "low"
-            },
-            {
-                "filePath": "src/task/task.stories.ts",
-                "type": "type alias",
-                "linktype": "miscellaneous",
-                "linksubtype": "typealias",
-                "name": "Story",
                 "coveragePercent": 0,
                 "coverageCount": "0/1",
                 "status": "low"

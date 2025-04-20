@@ -5,7 +5,6 @@ const routes: Routes = [
   { path:'',
     children: [
       // { path: '', redirectTo: '/apps', pathMatch: 'full' },
-      // eslint-disable-next-line @nrwl/nx/enforce-module-boundaries
       { path: '', loadChildren: () => import('../../../../libs/technologies/src/lib/technologies.module').then(m => m.TechnologiesModule) }
     ]}
 ];

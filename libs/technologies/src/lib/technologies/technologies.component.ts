@@ -1,7 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-// eslint-disable-next-line @nrwl/nx/enforce-module-boundaries
-import {BannerComponent} from "../../../../pages/src/lib/shared/banner/banner.component";
-// eslint-disable-next-line @nrwl/nx/enforce-module-boundaries
+import {BannerComponent} from "@lda/pages";
 import PageComponent from "../../../../components/src/pages/page.component";
 
 @Component({

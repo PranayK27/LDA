@@ -10,7 +10,6 @@ const routes: Routes = [
   //{ path:"tech/counter", component:MyCounterComponent, pathMatch: "full" }, or BooksComponent
   { path:"tech/blog",
     children: [
-      // eslint-disable-next-line @nrwl/nx/enforce-module-boundaries
       { path: "", loadChildren: () => import('../../../pages/src/lib/pages.module').then(m => m.PagesModule) }
     ]}
 ];

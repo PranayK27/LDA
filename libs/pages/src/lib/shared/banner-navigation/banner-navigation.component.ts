@@ -26,6 +26,9 @@ import {SimpleNotificationsModule} from "angular2-notifications";
             <li class="nav-item">
               <a class="nav-link" [href]=about (click)="sameUrlAbout()">About</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" [href]=list (click)="sameUrlList()">List</a>
+            </li>
             @if (!showLoginPage && !showRegPage){
             <li class="nav-item">
               <a class="nav-link" [href]=login (click)="sameUrlLogin()">Login</a>
@@ -101,9 +104,16 @@ export class BannerNavigationComponent {
       this.showToast('Blog Page');
     }
   }
+
   sameUrlAbout(){
     if (this.currentPage === this.about[0].replace('/#/', '/')){
       this.showToast('About Page');
+    }
+  }
+
+  sameUrlList(){
+    if (this.currentPage === this.list[0].replace('/#/', '/')){
+      this.showToast('List Page');
     }
   }
 
