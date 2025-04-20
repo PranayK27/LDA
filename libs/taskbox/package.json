@@ -20,8 +20,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "jest --no-cache",
-    "storybook": "ng run taskbox:storybook",
     "build-storybook": "ng run taskbox:build-storybook",
+    "storybook": "ng run taskbox:storybook",
     "init-msw": "msw init src/",
     "test-storybook": "test-storybook",
     "chromatic": "npx chromatic --project-token=chpt_0e0da7532506dea"
