@@ -94,7 +94,7 @@
             "browserTarget": "taskbox:build",
             "compodoc": true,
             "compodocArgs": ["-e", "json", "-d", "."],
-            "outputDir": "../../dist/storybook"
+            "outputDir": "../../dist/"
           }
         }
       }
