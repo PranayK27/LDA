@@ -1732,6 +1732,16 @@
                 "name": "meta",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
+                "file": "src/button/Button.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Meta<Button>",
+                "defaultValue": "{\n  title: 'Example/Button',\n  component: Button,\n  tags: ['autodocs'],\n  render: (args: Button) => ({\n    props: {\n      backgroundColor: null,\n      ...args,\n    },\n  }),\n  argTypes: {\n    backgroundColor: {\n      control: 'color',\n    },\n  },\n}"
+            },
+            {
+                "name": "meta",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
                 "file": "src/header/Header.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
@@ -2274,13 +2284,13 @@
         "groupedFunctions": {},
         "groupedEnumerations": {},
         "groupedTypeAliases": {
-            "src/header/Header.stories.ts": [
+            "src/button/Button.stories.ts": [
                 {
                     "name": "Story",
                     "ctype": "miscellaneous",
                     "subtype": "typealias",
-                    "rawtype": "StoryObj<Header>",
-                    "file": "src/header/Header.stories.ts",
+                    "rawtype": "StoryObj<Button>",
+                    "file": "src/button/Button.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "description": "",
