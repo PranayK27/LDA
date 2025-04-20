@@ -15,7 +15,7 @@ import {animate} from "@angular/animations";
       <a routerLink="#" class="link"><i class="fa fa-instagram"></i></a>
     </div>
     <div class="mt-3 copyright">
-      All Rights Reserved by Pranay Kekre.
+      <i class="copyright"></i>All Rights Reserved by Pranay Kekre.
     </div>
   </div>
 </div>

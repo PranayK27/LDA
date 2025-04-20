@@ -17,7 +17,6 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@LDA/components": ["libs/components/src/index.ts"],
       "@lda/books": ["libs/books/src/index.ts"],
       "@lda/common": ["libs/components/src/index.ts"],
       "@lda/my-counter": ["libs/my-counter/src/index.ts"],

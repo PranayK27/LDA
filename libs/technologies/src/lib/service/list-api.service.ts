@@ -1,16 +1,18 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import {Router} from "@angular/router";
+import {ApiMapperService} from "./api-mapper.service";
 
 @Injectable({
   providedIn: 'root'
 })
 export class ListApiService {
 
-  private baseUrl = 'http://localhost:8081/tech/api/v1/list';
+  constructor(public http: HttpClient, public apiMapper: ApiMapperService) { }
 
-  constructor(public http: HttpClient) { }
+  // private baseUrl = 'http://localhost:8081/tech/api/v1/list'; // for LDA backend
+
+  private baseUrl= "https://api.mockae.com/fakeapi/products"; //this.apiMapper.getData();
 
   getData(id: number): Observable<any> {
     return this.http.get(`${this.baseUrl}/${id}`);
@@ -28,7 +30,7 @@ export class ListApiService {
     return this.http.delete(`${this.baseUrl}/${id}`, { responseType: 'text' });
   }
 
-  getDataList(): Observable<any> {
-    return this.http.get(`${this.baseUrl}`);
+  async getDataList(){
+    return await this.apiMapper.getData();
   }
 }

@@ -2,15 +2,13 @@ import {Component, Input, OnInit, Signal} from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Blog } from '../../../model/blog-type';
 import {BlogService} from "../../../services/blog-service.service";
-// eslint-disable-next-line @nrwl/nx/enforce-module-boundaries
-import ButtonComponent from "../../../../../../components/src/button/button.component";
 import {ComponentsModule} from "@lda/common";
 import {NgIf} from "@angular/common";
 
 @Component({
   standalone: true,
   selector: 'lda-blog-detail',
-  imports: [ButtonComponent, ComponentsModule, NgIf],
+  imports: [ComponentsModule, NgIf],
   template: `<div
     class="banner-innerpage"
   >

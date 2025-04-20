@@ -15,7 +15,6 @@ import {MatInputModule} from "@angular/material/input";
 import {MatButtonModule} from "@angular/material/button";
 import {MatTableModule} from "@angular/material/table";
 import {MatPaginatorModule} from "@angular/material/paginator";
-// eslint-disable-next-line @nrwl/nx/enforce-module-boundaries
 import {TechnologiesModule} from "@lda/technologies";
 import {StoreModule} from "@ngrx/store";
 import {StoreDevtoolsModule} from "@ngrx/store-devtools";

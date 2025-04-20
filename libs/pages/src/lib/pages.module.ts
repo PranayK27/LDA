@@ -9,10 +9,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatCardModule } from '@angular/material/card';
 import { ReactiveFormsModule } from '@angular/forms';
 import { MatInputModule } from '@angular/material/input';
-// eslint-disable-next-line @nrwl/nx/enforce-module-boundaries
-import { FormControlModule } from '../../../components/src/form-control';
 import { RegistrationComponent } from './registration/registration.component';
-// eslint-disable-next-line @nrwl/nx/enforce-module-boundaries
 import {Page500Component} from "./page500/page500.component";
 import {StoreModule} from "@ngrx/store";
 import {pagesReducer} from "./+state/pages.reducer";
@@ -33,7 +30,6 @@ import {PagesEffects} from "./+state/pages.effects";
     MatCardModule,
     ReactiveFormsModule,
     MatInputModule,
-    FormControlModule,
     HttpClientModule,
     HttpClientInMemoryWebApiModule.forRoot(InMemoryDataService),
     StoreModule.forFeature('pages', pagesReducer),
@@ -46,6 +42,7 @@ import {PagesEffects} from "./+state/pages.effects";
     LoginComponent,
     RegistrationComponent,
     Page500Component,
+
   ],
 })
 export class PagesModule {}

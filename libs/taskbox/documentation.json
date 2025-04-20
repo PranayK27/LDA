@@ -744,7 +744,7 @@
         },
         {
             "name": "HeaderComponent",
-            "id": "component-HeaderComponent-0ebdaf94fc5afba7d30eff2a5f5c325b65db19b60c93b60e77becdcca888fdf952f926d5a2543b5b0980f878f063c1713beecf143799785ab23e9f19dc24ae3a",
+            "id": "component-HeaderComponent-864d6a481c56fc5bbd6ea62646d883b70f059ed3ff240e213e538adc77a1ebb8230d5dc53e50b334fe711ff59abe0e255278c14190bd8540f8a94bba8cb2192c",
             "file": "src/header/header.component.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -765,7 +765,7 @@
                     "name": "user",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 71,
+                    "line": 73,
                     "type": "User | undefined",
                     "decorators": []
                 }
@@ -776,7 +776,7 @@
                     "defaultValue": "new EventEmitter<Event>()",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 80,
+                    "line": 82,
                     "type": "EventEmitter"
                 },
                 {
@@ -784,7 +784,7 @@
                     "defaultValue": "new EventEmitter<Event>()",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 74,
+                    "line": 76,
                     "type": "EventEmitter"
                 },
                 {
@@ -792,7 +792,7 @@
                     "defaultValue": "new EventEmitter<Event>()",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 77,
+                    "line": 79,
                     "type": "EventEmitter"
                 }
             ],
@@ -807,12 +807,15 @@
                 {
                     "name": "ButtonComponent",
                     "type": "component"
+                },
+                {
+                    "name": "NgIf"
                 }
             ],
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import { Component, Input, Output, EventEmitter } from '@angular/core';\nimport type { User } from '../models/User';\nimport ButtonComponent from \"../button/button.component\";\n\n@Component({\n  selector: 'lda-storybook-header',\n  template: `\n    <header>\n      <div class=\"wrapper\">\n        <div>\n          <svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" xmlns=\"http://www.w3.org/2000/svg\">\n            <g fill=\"none\" fillRule=\"evenodd\">\n              <path\n                d=\"M10 0h12a10 10 0 0110 10v12a10 10 0 01-10 10H10A10 10 0 010 22V10A10 10 0 0110 0z\"\n                fill=\"#FFF\"\n              />\n              <path\n                d=\"M5.3 10.6l10.4 6v11.1l-10.4-6v-11zm11.4-6.2l9.7 5.5-9.7 5.6V4.4z\"\n                fill=\"#555AB9\"\n              />\n              <path\n                d=\"M27.2 10.6v11.2l-10.5 6V16.5l10.5-6zM15.7 4.4v11L6 10l9.7-5.5z\"\n                fill=\"#91BAF8\"\n              />\n            </g>\n          </svg>\n          <h1>LDA</h1>\n        </div>\n        <div>\n          <div *ngIf=\"user\">\n          <span class=\"welcome\">\n            Welcome, <b>{{ user.name }}</b\n          >!\n          </span>\n            <lda-storybook-button\n              *ngIf=\"user\"\n              size=\"small\"\n              (onClick)=\"onLogout.emit($event)\"\n              label=\"Log out\"\n            ></lda-storybook-button>\n          </div>\n          <div *ngIf=\"!user\">\n            <lda-storybook-button\n              *ngIf=\"!user\"\n              size=\"small\"\n              class=\"margin-left\"\n              (onClick)=\"onLogin.emit($event)\"\n              label=\"Log in\"\n            ></lda-storybook-button>\n            <lda-storybook-button\n              *ngIf=\"!user\"\n              primary\n              size=\"small\"\n              primary=\"true\"\n              class=\"margin-left\"\n              (onClick)=\"onCreateAccount.emit($event)\"\n              label=\"Sign up\"\n            ></lda-storybook-button>\n          </div>\n        </div>\n      </div>\n    </header>`,\n  styleUrls: ['./header.css'],\n  imports: [\n    ButtonComponent\n  ],\n  standalone: true\n})\nexport default class HeaderComponent {\n  @Input()\n  user: User | undefined;\n\n  @Output()\n  onLogin = new EventEmitter<Event>();\n\n  @Output()\n  onLogout = new EventEmitter<Event>();\n\n  @Output()\n  onCreateAccount = new EventEmitter<Event>();\n}\n",
+            "sourceCode": "import { Component, Input, Output, EventEmitter } from '@angular/core';\nimport type { User } from '../models/User';\nimport ButtonComponent from \"../button/button.component\";\nimport {NgIf} from \"@angular/common\";\n\n@Component({\n  selector: 'lda-storybook-header',\n  template: `\n    <header>\n      <div class=\"wrapper\">\n        <div>\n          <svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" xmlns=\"http://www.w3.org/2000/svg\">\n            <g fill=\"none\" fillRule=\"evenodd\">\n              <path\n                d=\"M10 0h12a10 10 0 0110 10v12a10 10 0 01-10 10H10A10 10 0 010 22V10A10 10 0 0110 0z\"\n                fill=\"#FFF\"\n              />\n              <path\n                d=\"M5.3 10.6l10.4 6v11.1l-10.4-6v-11zm11.4-6.2l9.7 5.5-9.7 5.6V4.4z\"\n                fill=\"#555AB9\"\n              />\n              <path\n                d=\"M27.2 10.6v11.2l-10.5 6V16.5l10.5-6zM15.7 4.4v11L6 10l9.7-5.5z\"\n                fill=\"#91BAF8\"\n              />\n            </g>\n          </svg>\n          <h1>LDA</h1>\n        </div>\n        <div>\n          <div *ngIf=\"user\">\n          <span class=\"welcome\">\n            Welcome, <b>{{ user.name }}</b\n          >!\n          </span>\n            <lda-storybook-button\n              *ngIf=\"user\"\n              size=\"small\"\n              (onClick)=\"onLogout.emit($event)\"\n              label=\"Log out\"\n            ></lda-storybook-button>\n          </div>\n          <div *ngIf=\"!user\">\n            <lda-storybook-button\n              *ngIf=\"!user\"\n              size=\"small\"\n              class=\"margin-left\"\n              (onClick)=\"onLogin.emit($event)\"\n              label=\"Log in\"\n            ></lda-storybook-button>\n            <lda-storybook-button\n              *ngIf=\"!user\"\n              primary\n              size=\"small\"\n              primary=\"true\"\n              class=\"margin-left\"\n              (onClick)=\"onCreateAccount.emit($event)\"\n              label=\"Sign up\"\n            ></lda-storybook-button>\n          </div>\n        </div>\n      </div>\n    </header>`,\n  styleUrls: ['./header.css'],\n  imports: [\n    ButtonComponent,\n    NgIf\n  ],\n  standalone: true\n})\nexport default class HeaderComponent {\n  @Input()\n  user: User | undefined;\n\n  @Output()\n  onLogin = new EventEmitter<Event>();\n\n  @Output()\n  onLogout = new EventEmitter<Event>();\n\n  @Output()\n  onCreateAccount = new EventEmitter<Event>();\n}\n",
             "assetsDirs": [],
             "styleUrlsData": [
                 {
@@ -1749,6 +1752,16 @@
                 "name": "meta",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
+                "file": "src/button/Button.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Meta<Button>",
+                "defaultValue": "{\n  title: 'Example/Button',\n  component: Button,\n  tags: ['autodocs'],\n  render: (args: Button) => ({\n    props: {\n      backgroundColor: null,\n      ...args,\n    },\n  }),\n  argTypes: {\n    backgroundColor: {\n      control: 'color',\n    },\n  },\n}"
+            },
+            {
+                "name": "meta",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
                 "file": "src/pages/Page.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
@@ -1862,8 +1875,8 @@
                 "name": "Story",
                 "ctype": "miscellaneous",
                 "subtype": "typealias",
-                "rawtype": "StoryObj<Button>",
-                "file": "src/button/Button.stories.ts",
+                "rawtype": "StoryObj<Header>",
+                "file": "src/header/Header.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "description": "",
@@ -1873,8 +1886,8 @@
                 "name": "Story",
                 "ctype": "miscellaneous",
                 "subtype": "typealias",
-                "rawtype": "StoryObj<Header>",
-                "file": "src/header/Header.stories.ts",
+                "rawtype": "StoryObj<Button>",
+                "file": "src/button/Button.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "description": "",
@@ -2284,13 +2297,13 @@
                     "kind": 183
                 }
             ],
-            "src/header/Header.stories.ts": [
+            "src/button/Button.stories.ts": [
                 {
                     "name": "Story",
                     "ctype": "miscellaneous",
                     "subtype": "typealias",
-                    "rawtype": "StoryObj<Header>",
-                    "file": "src/header/Header.stories.ts",
+                    "rawtype": "StoryObj<Button>",
+                    "file": "src/button/Button.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "description": "",
