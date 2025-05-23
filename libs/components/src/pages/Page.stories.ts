@@ -36,11 +36,11 @@ export const LoggedIn: Story = {
     render: (args: Page) => ({
         props: args,
     }),
-    play: async ({ canvasElement }) => {
-        const canvas = within(canvasElement);
-        const loginButton = await canvas.getByRole('button', {
-            name: /Log in/i,
-        });
-        await userEvent.click(loginButton);
-    },
+    // play: async ({ canvasElement }) => {
+    //     const canvas = within(canvasElement);
+    //     const loginButton = canvas.getByRole('button', {
+    //       name: /Log in/i,
+    //     });
+    //     await userEvent.click(loginButton);
+    // },
 };

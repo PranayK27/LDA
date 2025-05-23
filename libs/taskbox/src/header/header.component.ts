@@ -4,6 +4,7 @@ import ButtonComponent from "../button/button.component";
 import {NgIf} from "@angular/common";
 
 @Component({
+  standalone: true,
   selector: 'lda-storybook-header',
   template: `
     <header>
@@ -50,9 +51,8 @@ import {NgIf} from "@angular/common";
             ></lda-storybook-button>
             <lda-storybook-button
               *ngIf="!user"
-              primary
               size="small"
-              primary="true"
+              [primary]="true"
               class="margin-left"
               (onClick)="onCreateAccount.emit($event)"
               label="Sign up"
@@ -65,12 +65,14 @@ import {NgIf} from "@angular/common";
   imports: [
     ButtonComponent,
     NgIf
-  ],
-  standalone: true
+  ]
 })
 export default class HeaderComponent {
   @Input()
   user: User | undefined;
+
+  @Output()
+  redirect = new EventEmitter<Event>();
 
   @Output()
   onLogin = new EventEmitter<Event>();

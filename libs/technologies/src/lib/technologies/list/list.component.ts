@@ -2,7 +2,7 @@ import { ListApiService } from "../../service/list-api.service";
 import {Component, OnInit, ViewChild} from "@angular/core";
 import { Router } from '@angular/router';
 import {MatPaginator} from "@angular/material/paginator";
-import { ComponentsModule } from "@lda/common";
+import { ComponentsModule } from "@lda/taskbox";
 import { PagesModule } from "@lda/pages";
 import {
   MatCell, MatCellDef,

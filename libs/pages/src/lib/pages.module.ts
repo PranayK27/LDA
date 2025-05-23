@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { RouterLinkActive, RouterOutlet } from '@angular/router';
 import { PagesRoutingModule } from './pages-routing.module';
 import { SimpleNotificationsModule } from 'angular2-notifications';
-import { ComponentsModule } from '@lda/common';
+import { ComponentsModule } from '@lda/taskbox';
 import { LoginComponent } from './login/login.component';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatCardModule } from '@angular/material/card';

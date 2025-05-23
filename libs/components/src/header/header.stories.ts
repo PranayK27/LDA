@@ -10,7 +10,7 @@ const meta: Meta<Header> = {
     component: Header,
     // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/angular/writing-docs/autodocs
     tags: ['autodocs'],
-    render: (args) => ({ props: args }),
+    render: (args: any) => ({ props: args }),
     decorators: [
         moduleMetadata({
             declarations: [Button],

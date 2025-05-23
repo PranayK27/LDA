@@ -3,6 +3,7 @@ import type { User } from '../models/User';
 import HeaderComponent from "../header/header.component";
 
 @Component({
+  standalone: true,
   selector: 'storybook-page',
   template: `
     <article>
@@ -64,7 +65,6 @@ import HeaderComponent from "../header/header.component";
   imports: [
     HeaderComponent
   ],
-  standalone: true
 })
 export default class PageComponent {
   user: User | undefined;

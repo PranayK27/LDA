@@ -2,7 +2,7 @@ import {Component, Input, OnInit, Signal} from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Blog } from '../../../model/blog-type';
 import {BlogService} from "../../../services/blog-service.service";
-import {ComponentsModule} from "@lda/common";
+import {ComponentsModule} from "@lda/taskbox";
 import {NgIf} from "@angular/common";
 
 @Component({

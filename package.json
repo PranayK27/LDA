@@ -10,8 +10,9 @@
     "test": "nx test",
     "docs:json": "cd libs/taskbox/ && compodoc -p ./tsconfig.app.json -e json -d .",
     "storybook": "cd libs/taskbox/ && npm run storybook",
-    "build-storybook": "cd libs/taskbox/ && npm run build-storybook",
-    "test-storybook": "cd libs/taskbox/ && npm run test-storybook"
+    "build-storybook": "cd libs/taskbox/ && compodoc -p ./tsconfig.app.json -e json -d . && npm run build-storybook",
+    "test-storybook": "cd libs/taskbox/ && npm run test-storybook",
+    "chromatic": "cd libs/taskbox/ && npm run chromatic"
   },
   "private": true,
   "dependencies": {
@@ -28,6 +29,7 @@
     "@angular/router": "^17.2.3",
     "@badeball/cypress-cucumber-preprocessor": "^22.0.1",
     "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "@coreui/icons-angular": "^5.4.13",
     "@icon/themify-icons": "^1.0.1-alpha.3",
     "@mui/icons-material": "^5.15.12",
     "@ng-bootstrap/ng-bootstrap": "^16.0.0",

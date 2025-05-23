@@ -21,10 +21,10 @@ declare namespace Cypress {
 //   console.log('Custom command example: Login', email, password);
 // });
 
-Cypress.Commands.add('Home Page is visible', () => {
-  cy.visit('http://localhost:4200/tech');
-  console.log('Custom command example: Home Page');
-});
+// Cypress.Commands.add('Home Page is visible', () => {
+//   cy.visit('http://localhost:4200/tech');
+//   console.log('Custom command example: Home Page');
+// });
 //
 // -- This is a child command --
 // Cypress.Commands.add("drag", { prevSubject: 'element'}, (subject, options) => { ... })

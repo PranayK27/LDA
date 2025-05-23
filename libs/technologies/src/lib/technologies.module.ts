@@ -7,7 +7,7 @@ import {ListComponent} from "./technologies/list/list.component";
 import {TechnologiesComponent} from "./technologies/technologies.component";
 import {HttpClientModule} from "@angular/common/http";
 import { SimpleNotificationsModule } from 'angular2-notifications';
-import {ComponentsModule} from "@lda/common";
+import {ComponentsModule} from "@lda/taskbox";
 
 @NgModule({
   imports: [
