@@ -34,8 +34,10 @@ import {NgIf} from "@angular/common";
             Welcome, <b>{{ user.name }}</b
           >!
           </span>
+            <!-- TODO: show logout if user is available so remove the negation on log out when login module is done.-->
+            <!-- TODO: move to taskbox and discard this module -->
             <lda-storybook-button
-              *ngIf="user"
+              *ngIf="!user"
               size="small"
               (onClick)="onLogout.emit($event)"
               label="Log out"
@@ -52,7 +54,6 @@ import {NgIf} from "@angular/common";
             <lda-storybook-button
               *ngIf="!user"
               size="small"
-              [primary]="true"
               class="margin-left"
               (onClick)="onCreateAccount.emit($event)"
               label="Sign up"

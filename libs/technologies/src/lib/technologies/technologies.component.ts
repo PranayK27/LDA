@@ -95,9 +95,10 @@ import PageComponent from "../../../../components/src/pages/page.component";
     </div>
     <div class="footer-info">
       <p>
-        &copy;  All Rights Reserved by
+        &copy; 2014-{{ year }} All Rights Reserved by
         Pranay Kekre<br><br>
       </p>
+      <p>Version {{ version }}</p>
     </div>
   </div>
 </footer>
@@ -116,4 +117,12 @@ import PageComponent from "../../../../components/src/pages/page.component";
     './assets/css/font-awesome.min.css'
   ]
 })
-export class TechnologiesComponent {}
+export class TechnologiesComponent implements OnInit {
+  year = "2014";
+  version = "25.5.2";
+
+  async ngOnInit() {
+    this.year = new Date().getFullYear().toString();
+    this.version = new Date().getFullYear().toString() +"."+ new Date().getDate() +"."+ new Date().getMonth().toString();
+  }
+}

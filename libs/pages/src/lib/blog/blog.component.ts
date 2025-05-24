@@ -6,12 +6,13 @@ import {selectTechDesc, selectTechErrorMessage, selectTechLoading} from "../+sta
 import {PagesStore} from "../pages.store";
 import {Page404Component} from "../page404/page404.component";
 import {BlogListComponent} from "./blog-list/blog-list.component";
+import {SpinnerComponent} from "../../../../taskbox/src/spinner/spinner.component";
 
 @UntilDestroy()
 @Component({
   standalone: true,
   selector: 'lda-blog',
-  imports: [Page404Component, BlogListComponent],
+  imports: [Page404Component, BlogListComponent, SpinnerComponent],
   template: `
       @if (!loading() && errorMessage() === '') {
       <div
@@ -61,8 +62,10 @@ import {BlogListComponent} from "./blog-list/blog-list.component";
           </lda-blog-list>
         </div>
       </div>
-      }
-      @else if(loading() && errorMessage()) {
+      } @else if(loading()) {
+        <lda-spinner [isLoading]="true" [message]="'Please wait...'"></lda-spinner>
+        <div>Please wait...</div>
+      } @else if (errorMessage()){
         <!-- Error Message -->
         <lda-page404></lda-page404>
       }
@@ -92,6 +95,9 @@ export class BlogComponent implements OnInit {
     this.store.dispatch(loadTech());
     // from component store
     this.pagesStore.getBlogs();
+    setTimeout(() => {
+      this.loading();
+    }, 3000);
   }
 
   toggleShowTechDesc() {

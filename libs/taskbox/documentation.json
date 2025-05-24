@@ -755,7 +755,7 @@
         },
         {
             "name": "HeaderComponent",
-            "id": "component-HeaderComponent-35e013f19582577b8bd86a39be43ef15222228d5f1fe27bcbaa5109cb4d2a4a5a4b08ecca9adc684d9ac520778a5359e852e74f5df276f6a74b01b9a04898950",
+            "id": "component-HeaderComponent-b079186fdc64271f2c2e673f84f07a14afb5eb895dd7bf1f4f26d70cef8ae29a06a18ce0c901d737e05c55dc28eafdcc0f9f066190df790a4a10a8ee3ec6bf71",
             "file": "src/header/header.component.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -767,7 +767,7 @@
                 "./header.css"
             ],
             "styles": [],
-            "template": "<header>\n  <div class=\"wrapper\">\n    <div>\n      <svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" xmlns=\"http://www.w3.org/2000/svg\">\n        <g fill=\"none\" fillRule=\"evenodd\">\n          <path\n            d=\"M10 0h12a10 10 0 0110 10v12a10 10 0 01-10 10H10A10 10 0 010 22V10A10 10 0 0110 0z\"\n            fill=\"#FFF\"\n          />\n          <path\n            d=\"M5.3 10.6l10.4 6v11.1l-10.4-6v-11zm11.4-6.2l9.7 5.5-9.7 5.6V4.4z\"\n            fill=\"#555AB9\"\n          />\n          <path\n            d=\"M27.2 10.6v11.2l-10.5 6V16.5l10.5-6zM15.7 4.4v11L6 10l9.7-5.5z\"\n            fill=\"#91BAF8\"\n          />\n        </g>\n      </svg>\n      <h1>LDA</h1>\n    </div>\n    <div>\n      <div *ngIf=\"user\">\n      <span class=\"welcome\">\n        Welcome, <b>{{ user.name }}</b\n      >!\n      </span>\n        <lda-storybook-button\n          *ngIf=\"user\"\n          size=\"small\"\n          (onClick)=\"onLogout.emit($event)\"\n          label=\"Log out\"\n        ></lda-storybook-button>\n      </div>\n      <div *ngIf=\"!user\">\n        <lda-storybook-button\n          *ngIf=\"!user\"\n          size=\"small\"\n          class=\"margin-left\"\n          (onClick)=\"onLogin.emit($event)\"\n          label=\"Log in\"\n        ></lda-storybook-button>\n        <lda-storybook-button\n          *ngIf=\"!user\"\n          size=\"small\"\n          [primary]=\"true\"\n          class=\"margin-left\"\n          (onClick)=\"onCreateAccount.emit($event)\"\n          label=\"Sign up\"\n        ></lda-storybook-button>\n      </div>\n    </div>\n  </div>\n</header>",
+            "template": "<header>\n  <div class=\"wrapper\">\n    <div>\n      <svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" xmlns=\"http://www.w3.org/2000/svg\">\n        <g fill=\"none\" fillRule=\"evenodd\">\n          <path\n            d=\"M10 0h12a10 10 0 0110 10v12a10 10 0 01-10 10H10A10 10 0 010 22V10A10 10 0 0110 0z\"\n            fill=\"#FFF\"\n          />\n          <path\n            d=\"M5.3 10.6l10.4 6v11.1l-10.4-6v-11zm11.4-6.2l9.7 5.5-9.7 5.6V4.4z\"\n            fill=\"#555AB9\"\n          />\n          <path\n            d=\"M27.2 10.6v11.2l-10.5 6V16.5l10.5-6zM15.7 4.4v11L6 10l9.7-5.5z\"\n            fill=\"#91BAF8\"\n          />\n        </g>\n      </svg>\n      <h1>LDA</h1>\n    </div>\n    <div>\n      <div *ngIf=\"user\">\n      <span class=\"welcome\">\n        Welcome, <b>{{ user.name }}</b\n      >!\n      </span>\n        <!-- TODO: show logout if user is available so remove the negation on log out when login module is done.-->\n        <!-- TODO: move to taskbox and discard this module -->\n        <lda-storybook-button\n          *ngIf=\"!user\"\n          size=\"small\"\n          (onClick)=\"onLogout.emit($event)\"\n          label=\"Log out\"\n        ></lda-storybook-button>\n      </div>\n      <div *ngIf=\"!user\">\n        <lda-storybook-button\n          *ngIf=\"!user\"\n          size=\"small\"\n          class=\"margin-left\"\n          (onClick)=\"onLogin.emit($event)\"\n          label=\"Log in\"\n        ></lda-storybook-button>\n        <lda-storybook-button\n          *ngIf=\"!user\"\n          size=\"small\"\n          class=\"margin-left\"\n          (onClick)=\"onCreateAccount.emit($event)\"\n          label=\"Sign up\"\n        ></lda-storybook-button>\n      </div>\n    </div>\n  </div>\n</header>",
             "templateUrl": [],
             "viewProviders": [],
             "hostDirectives": [],
@@ -776,7 +776,7 @@
                     "name": "user",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 72,
+                    "line": 73,
                     "type": "User | undefined",
                     "decorators": []
                 }
@@ -787,7 +787,7 @@
                     "defaultValue": "new EventEmitter<Event>()",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 84,
+                    "line": 85,
                     "type": "EventEmitter"
                 },
                 {
@@ -795,7 +795,7 @@
                     "defaultValue": "new EventEmitter<Event>()",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 78,
+                    "line": 79,
                     "type": "EventEmitter"
                 },
                 {
@@ -803,7 +803,7 @@
                     "defaultValue": "new EventEmitter<Event>()",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 81,
+                    "line": 82,
                     "type": "EventEmitter"
                 },
                 {
@@ -811,7 +811,7 @@
                     "defaultValue": "new EventEmitter<Event>()",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 75,
+                    "line": 76,
                     "type": "EventEmitter"
                 }
             ],
@@ -834,7 +834,7 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import { Component, Input, Output, EventEmitter } from '@angular/core';\nimport type { User } from '../models/User';\nimport ButtonComponent from \"../button/button.component\";\nimport {NgIf} from \"@angular/common\";\n\n@Component({\n  standalone: true,\n  selector: 'lda-storybook-header',\n  template: `\n    <header>\n      <div class=\"wrapper\">\n        <div>\n          <svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" xmlns=\"http://www.w3.org/2000/svg\">\n            <g fill=\"none\" fillRule=\"evenodd\">\n              <path\n                d=\"M10 0h12a10 10 0 0110 10v12a10 10 0 01-10 10H10A10 10 0 010 22V10A10 10 0 0110 0z\"\n                fill=\"#FFF\"\n              />\n              <path\n                d=\"M5.3 10.6l10.4 6v11.1l-10.4-6v-11zm11.4-6.2l9.7 5.5-9.7 5.6V4.4z\"\n                fill=\"#555AB9\"\n              />\n              <path\n                d=\"M27.2 10.6v11.2l-10.5 6V16.5l10.5-6zM15.7 4.4v11L6 10l9.7-5.5z\"\n                fill=\"#91BAF8\"\n              />\n            </g>\n          </svg>\n          <h1>LDA</h1>\n        </div>\n        <div>\n          <div *ngIf=\"user\">\n          <span class=\"welcome\">\n            Welcome, <b>{{ user.name }}</b\n          >!\n          </span>\n            <lda-storybook-button\n              *ngIf=\"user\"\n              size=\"small\"\n              (onClick)=\"onLogout.emit($event)\"\n              label=\"Log out\"\n            ></lda-storybook-button>\n          </div>\n          <div *ngIf=\"!user\">\n            <lda-storybook-button\n              *ngIf=\"!user\"\n              size=\"small\"\n              class=\"margin-left\"\n              (onClick)=\"onLogin.emit($event)\"\n              label=\"Log in\"\n            ></lda-storybook-button>\n            <lda-storybook-button\n              *ngIf=\"!user\"\n              size=\"small\"\n              [primary]=\"true\"\n              class=\"margin-left\"\n              (onClick)=\"onCreateAccount.emit($event)\"\n              label=\"Sign up\"\n            ></lda-storybook-button>\n          </div>\n        </div>\n      </div>\n    </header>`,\n  styleUrls: ['./header.css'],\n  imports: [\n    ButtonComponent,\n    NgIf\n  ]\n})\nexport default class HeaderComponent {\n  @Input()\n  user: User | undefined;\n\n  @Output()\n  redirect = new EventEmitter<Event>();\n\n  @Output()\n  onLogin = new EventEmitter<Event>();\n\n  @Output()\n  onLogout = new EventEmitter<Event>();\n\n  @Output()\n  onCreateAccount = new EventEmitter<Event>();\n}\n",
+            "sourceCode": "import { Component, Input, Output, EventEmitter } from '@angular/core';\nimport type { User } from '../models/User';\nimport ButtonComponent from \"../button/button.component\";\nimport {NgIf} from \"@angular/common\";\n\n@Component({\n  standalone: true,\n  selector: 'lda-storybook-header',\n  template: `\n    <header>\n      <div class=\"wrapper\">\n        <div>\n          <svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" xmlns=\"http://www.w3.org/2000/svg\">\n            <g fill=\"none\" fillRule=\"evenodd\">\n              <path\n                d=\"M10 0h12a10 10 0 0110 10v12a10 10 0 01-10 10H10A10 10 0 010 22V10A10 10 0 0110 0z\"\n                fill=\"#FFF\"\n              />\n              <path\n                d=\"M5.3 10.6l10.4 6v11.1l-10.4-6v-11zm11.4-6.2l9.7 5.5-9.7 5.6V4.4z\"\n                fill=\"#555AB9\"\n              />\n              <path\n                d=\"M27.2 10.6v11.2l-10.5 6V16.5l10.5-6zM15.7 4.4v11L6 10l9.7-5.5z\"\n                fill=\"#91BAF8\"\n              />\n            </g>\n          </svg>\n          <h1>LDA</h1>\n        </div>\n        <div>\n          <div *ngIf=\"user\">\n          <span class=\"welcome\">\n            Welcome, <b>{{ user.name }}</b\n          >!\n          </span>\n            <!-- TODO: show logout if user is available so remove the negation on log out when login module is done.-->\n            <!-- TODO: move to taskbox and discard this module -->\n            <lda-storybook-button\n              *ngIf=\"!user\"\n              size=\"small\"\n              (onClick)=\"onLogout.emit($event)\"\n              label=\"Log out\"\n            ></lda-storybook-button>\n          </div>\n          <div *ngIf=\"!user\">\n            <lda-storybook-button\n              *ngIf=\"!user\"\n              size=\"small\"\n              class=\"margin-left\"\n              (onClick)=\"onLogin.emit($event)\"\n              label=\"Log in\"\n            ></lda-storybook-button>\n            <lda-storybook-button\n              *ngIf=\"!user\"\n              size=\"small\"\n              class=\"margin-left\"\n              (onClick)=\"onCreateAccount.emit($event)\"\n              label=\"Sign up\"\n            ></lda-storybook-button>\n          </div>\n        </div>\n      </div>\n    </header>`,\n  styleUrls: ['./header.css'],\n  imports: [\n    ButtonComponent,\n    NgIf\n  ]\n})\nexport default class HeaderComponent {\n  @Input()\n  user: User | undefined;\n\n  @Output()\n  redirect = new EventEmitter<Event>();\n\n  @Output()\n  onLogin = new EventEmitter<Event>();\n\n  @Output()\n  onLogout = new EventEmitter<Event>();\n\n  @Output()\n  onCreateAccount = new EventEmitter<Event>();\n}\n",
             "assetsDirs": [],
             "styleUrlsData": [
                 {
@@ -918,19 +918,19 @@
         },
         {
             "name": "PageComponent",
-            "id": "component-PageComponent-093015e5615ce161cd5c29d868a8efe1e319373e2646d8c9723d01e8330463bdf38f7f3a9f563bc1ea15bdede1a3bb0c91df69d5db5de3a18897e8327e01bec3",
+            "id": "component-PageComponent-3c82d521c023a81a1b05d430c3e55c8bdf4a65fdb446a765f1531e756e99a275fc88b94415181369487c947970969fb1813b5f5cf4fc8a3abe8213cc7041c896",
             "file": "src/pages/page.component.ts",
             "encapsulation": [],
             "entryComponents": [],
             "inputs": [],
             "outputs": [],
             "providers": [],
-            "selector": "storybook-page",
+            "selector": "lda-storybook-page",
             "styleUrls": [
                 "./page.css"
             ],
             "styles": [],
-            "template": "<article>\n  <lda-storybook-header\n    [user]=\"user\"\n    (onLogout)=\"doLogout()\"\n    (onLogin)=\"doLogin()\"\n    (onCreateAccount)=\"doCreateAccount()\"\n  ></lda-storybook-header>\n  <section>\n    <h2>Pages in Storybook</h2>\n    <p>\n      We recommend building UIs with a\n      <a href=\"https://componentdriven.org\" target=\"_blank\" rel=\"noopener noreferrer\">\n        <strong>component-driven</strong>\n      </a>\n      process starting with atomic components and ending with pages.\n    </p>\n    <p>\n      Render pages with mock data. This makes it easy to build and review page states without\n      needing to navigate to them in your app. Here are some handy patterns for managing page data\n      in Storybook:\n    </p>\n    <ul>\n      <li>\n        Use a higher-level connected component. Storybook helps you compose such data from the\n        \"args\" of child component stories\n      </li>\n      <li>\n        Assemble data in the page component from your services. You can mock these services out\n        using Storybook.\n      </li>\n    </ul>\n    <p>\n      Get a guided tutorial on component-driven development at\n      <a href=\"https://storybook.js.org/tutorials/\" target=\"_blank\" rel=\"noopener noreferrer\">\n        Storybook tutorials\n      </a>\n      . Read more in the\n      <a href=\"https://storybook.js.org/docs\" target=\"_blank\" rel=\"noopener noreferrer\"> docs </a>\n      .\n    </p>\n    <div class=\"tip-wrapper\">\n      <span class=\"tip\">Tip</span> Adjust the width of the canvas with the\n      <svg width=\"10\" height=\"10\" viewBox=\"0 0 12 12\" xmlns=\"http://www.w3.org/2000/svg\">\n        <g fill=\"none\" fillRule=\"evenodd\">\n          <path\n            d=\"M1.5 5.2h4.8c.3 0 .5.2.5.4v5.1c-.1.2-.3.3-.4.3H1.4a.5.5 0 01-.5-.4V5.7c0-.3.2-.5.5-.5zm0-2.1h6.9c.3 0 .5.2.5.4v7a.5.5 0 01-1 0V4H1.5a.5.5 0 010-1zm0-2.1h9c.3 0 .5.2.5.4v9.1a.5.5 0 01-1 0V2H1.5a.5.5 0 010-1zm4.3 5.2H2V10h3.8V6.2z\"\n            id=\"a\"\n            fill=\"#999\"\n          />\n        </g>\n      </svg>\n      Viewports addon in the toolbar\n    </div>\n  </section>\n</article>",
+            "template": "<article>    <section class=\"storybook-page\">\n      <h2>Pages in Storybook</h2>\n      <p>\n        I recommend building UIs with a\n        <a target=\"_blank\" rel=\"noopener noreferrer\">\n          <strong>component-driven</strong>\n        </a>\n        process starting with atomic components and ending with pages.\n      </p>\n      <p>\n        Render pages with mock data. This makes it easy to build and review page states without\n        needing to navigate to them in your app. Here are some handy patterns for managing page data\n        in Storybook:\n      </p>\n      <ul>\n        <li>\n          Use a higher-level connected component. Storybook helps you compose such data from the\n          \"args\" of child component stories\n        </li>\n        <li>\n          Assemble data in the page component from your services. You can mock these services out\n          using Storybook.\n        </li>\n      </ul>\n      <div class=\"tip-wrapper\">\n        <span class=\"tip\">Tip</span> Adjust the width of the canvas with the\n        <svg width=\"10\" height=\"10\" viewBox=\"0 0 12 12\" xmlns=\"http://www.w3.org/2000/svg\">\n          <g fill=\"none\" fillRule=\"evenodd\">\n            <path\n              d=\"M1.5 5.2h4.8c.3 0 .5.2.5.4v5.1c-.1.2-.3.3-.4.3H1.4a.5.5 0 01-.5-.4V5.7c0-.3.2-.5.5-.5zm0-2.1h6.9c.3 0 .5.2.5.4v7a.5.5 0 01-1 0V4H1.5a.5.5 0 010-1zm0-2.1h9c.3 0 .5.2.5.4v9.1a.5.5 0 01-1 0V2H1.5a.5.5 0 010-1zm4.3 5.2H2V10h3.8V6.2z\"\n              id=\"a\"\n              fill=\"#999\"\n            />\n          </g>\n        </svg>\n        Viewports addon in the toolbar\n      </div>\n    </section>\n  </article>",
             "templateUrl": [],
             "viewProviders": [],
             "hostDirectives": [],
@@ -944,7 +944,7 @@
                     "type": "User | undefined",
                     "optional": false,
                     "description": "",
-                    "line": 70
+                    "line": 50
                 }
             ],
             "methodsClass": [
@@ -954,7 +954,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 80,
+                    "line": 60,
                     "deprecated": false,
                     "deprecationMessage": ""
                 },
@@ -964,7 +964,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 76,
+                    "line": 56,
                     "deprecated": false,
                     "deprecationMessage": ""
                 },
@@ -974,7 +974,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 72,
+                    "line": 52,
                     "deprecated": false,
                     "deprecationMessage": ""
                 }
@@ -984,16 +984,11 @@
             "hostBindings": [],
             "hostListeners": [],
             "standalone": true,
-            "imports": [
-                {
-                    "name": "HeaderComponent",
-                    "type": "component"
-                }
-            ],
+            "imports": [],
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import { Component } from '@angular/core';\nimport type { User } from '../models/User';\nimport HeaderComponent from \"../header/header.component\";\n\n@Component({\n  standalone: true,\n  selector: 'storybook-page',\n  template: `\n    <article>\n      <lda-storybook-header\n        [user]=\"user\"\n        (onLogout)=\"doLogout()\"\n        (onLogin)=\"doLogin()\"\n        (onCreateAccount)=\"doCreateAccount()\"\n      ></lda-storybook-header>\n      <section>\n        <h2>Pages in Storybook</h2>\n        <p>\n          We recommend building UIs with a\n          <a href=\"https://componentdriven.org\" target=\"_blank\" rel=\"noopener noreferrer\">\n            <strong>component-driven</strong>\n          </a>\n          process starting with atomic components and ending with pages.\n        </p>\n        <p>\n          Render pages with mock data. This makes it easy to build and review page states without\n          needing to navigate to them in your app. Here are some handy patterns for managing page data\n          in Storybook:\n        </p>\n        <ul>\n          <li>\n            Use a higher-level connected component. Storybook helps you compose such data from the\n            \"args\" of child component stories\n          </li>\n          <li>\n            Assemble data in the page component from your services. You can mock these services out\n            using Storybook.\n          </li>\n        </ul>\n        <p>\n          Get a guided tutorial on component-driven development at\n          <a href=\"https://storybook.js.org/tutorials/\" target=\"_blank\" rel=\"noopener noreferrer\">\n            Storybook tutorials\n          </a>\n          . Read more in the\n          <a href=\"https://storybook.js.org/docs\" target=\"_blank\" rel=\"noopener noreferrer\"> docs </a>\n          .\n        </p>\n        <div class=\"tip-wrapper\">\n          <span class=\"tip\">Tip</span> Adjust the width of the canvas with the\n          <svg width=\"10\" height=\"10\" viewBox=\"0 0 12 12\" xmlns=\"http://www.w3.org/2000/svg\">\n            <g fill=\"none\" fillRule=\"evenodd\">\n              <path\n                d=\"M1.5 5.2h4.8c.3 0 .5.2.5.4v5.1c-.1.2-.3.3-.4.3H1.4a.5.5 0 01-.5-.4V5.7c0-.3.2-.5.5-.5zm0-2.1h6.9c.3 0 .5.2.5.4v7a.5.5 0 01-1 0V4H1.5a.5.5 0 010-1zm0-2.1h9c.3 0 .5.2.5.4v9.1a.5.5 0 01-1 0V2H1.5a.5.5 0 010-1zm4.3 5.2H2V10h3.8V6.2z\"\n                id=\"a\"\n                fill=\"#999\"\n              />\n            </g>\n          </svg>\n          Viewports addon in the toolbar\n        </div>\n      </section>\n    </article>`,\n  styleUrls: ['./page.css'],\n  imports: [\n    HeaderComponent\n  ],\n})\nexport default class PageComponent {\n  user: User | undefined;\n\n  doLogout() {\n    this.user = { name: ''};\n  }\n\n  doLogin() {\n    this.user = { name: 'Pranay Kekre' };\n  }\n\n  doCreateAccount() {\n    this.user = { name: 'Pranay Kekre' };\n  }\n}\n",
+            "sourceCode": "import { Component } from '@angular/core';\nimport type { User } from '../models/User';\n\n@Component({\n  standalone: true,\n  selector: 'lda-storybook-page',\n  template: `<article>\n    <section class=\"storybook-page\">\n      <h2>Pages in Storybook</h2>\n      <p>\n        I recommend building UIs with a\n        <a target=\"_blank\" rel=\"noopener noreferrer\">\n          <strong>component-driven</strong>\n        </a>\n        process starting with atomic components and ending with pages.\n      </p>\n      <p>\n        Render pages with mock data. This makes it easy to build and review page states without\n        needing to navigate to them in your app. Here are some handy patterns for managing page data\n        in Storybook:\n      </p>\n      <ul>\n        <li>\n          Use a higher-level connected component. Storybook helps you compose such data from the\n          \"args\" of child component stories\n        </li>\n        <li>\n          Assemble data in the page component from your services. You can mock these services out\n          using Storybook.\n        </li>\n      </ul>\n      <div class=\"tip-wrapper\">\n        <span class=\"tip\">Tip</span> Adjust the width of the canvas with the\n        <svg width=\"10\" height=\"10\" viewBox=\"0 0 12 12\" xmlns=\"http://www.w3.org/2000/svg\">\n          <g fill=\"none\" fillRule=\"evenodd\">\n            <path\n              d=\"M1.5 5.2h4.8c.3 0 .5.2.5.4v5.1c-.1.2-.3.3-.4.3H1.4a.5.5 0 01-.5-.4V5.7c0-.3.2-.5.5-.5zm0-2.1h6.9c.3 0 .5.2.5.4v7a.5.5 0 01-1 0V4H1.5a.5.5 0 010-1zm0-2.1h9c.3 0 .5.2.5.4v9.1a.5.5 0 01-1 0V2H1.5a.5.5 0 010-1zm4.3 5.2H2V10h3.8V6.2z\"\n              id=\"a\"\n              fill=\"#999\"\n            />\n          </g>\n        </svg>\n        Viewports addon in the toolbar\n      </div>\n    </section>\n  </article>`,\n  styleUrls: ['./page.css'],\n})\nexport default class PageComponent {\n  user: User | undefined;\n\n  doLogout() {\n    this.user = { name: ''};\n  }\n\n  doLogin() {\n    this.user = { name: 'Pranay Kekre' };\n  }\n\n  doCreateAccount() {\n    this.user = { name: 'Pranay Kekre' };\n  }\n}\n",
             "assetsDirs": [],
             "styleUrlsData": [
                 {

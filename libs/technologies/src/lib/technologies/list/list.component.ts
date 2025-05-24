@@ -3,7 +3,7 @@ import {Component, OnInit, ViewChild} from "@angular/core";
 import { Router } from '@angular/router';
 import {MatPaginator} from "@angular/material/paginator";
 import { ComponentsModule } from "@lda/taskbox";
-import { PagesModule } from "@lda/pages";
+import {BannerComponent, PagesModule} from "@lda/pages";
 import {
   MatCell, MatCellDef,
   MatColumnDef,
@@ -14,18 +14,17 @@ import {
   MatTable
 } from "@angular/material/table";
 import {FooterComponent} from "@lda/pages";
-const listImports= [ComponentsModule, PagesModule, MatPaginator, MatTable, MatHeaderCell, MatColumnDef, MatCell, MatHeaderCellDef, MatHeaderRow, MatRow, MatCellDef, MatRowDef, MatHeaderRowDef];
+const listImports= [ComponentsModule, FooterComponent, PagesModule, MatPaginator, MatTable, MatHeaderCell, MatColumnDef, MatCell, MatHeaderCellDef, MatHeaderRow, MatRow, MatCellDef, MatRowDef, MatHeaderRowDef];
 @Component({
   standalone: true,
   selector: 'lda-list',
-  imports: [listImports, FooterComponent],
+  imports: [listImports, BannerComponent],
   template: `
-    <lda-storybook-header [user]="user" (redirect)="redirect()" (onLogout)="redirect()"></lda-storybook-header>
+    <lda-banner></lda-banner>
     <div class="panel panel-primary">
       <div class="card">
         <div class="card-body">
           <div class="panel-body">
-            <lda-storybook-button [label]="'home'" (onClick)="redirect()"></lda-storybook-button>
             <table mat-table [dataSource]="lists" class="mat-elevation-z8">
 
               <!--- Note that these columns can be defined in any order.
@@ -63,9 +62,12 @@ const listImports= [ComponentsModule, PagesModule, MatPaginator, MatTable, MatHe
       </div>
     </div>
     <lda-footer></lda-footer>
-
   `,
-  styles: [``],
+  styles: [`
+    .panel {
+      padding: 90px;
+    }
+  `],
 })
 export class ListComponent implements OnInit {
 

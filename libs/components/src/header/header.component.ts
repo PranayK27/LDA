@@ -49,8 +49,7 @@ import {NgIf} from "@angular/common";
   styleUrls: ['./header.css'],
   imports: [
     ButtonComponent,
-    NgIf,
-    ButtonComponent
+    NgIf
   ]
 })
 export default class HeaderComponent {
