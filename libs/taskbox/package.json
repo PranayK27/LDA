@@ -45,16 +45,16 @@
     "zone.js": "~0.14.0"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^17.0.8",
+    "@angular-devkit/build-angular": "^19.2.13",
     "@angular/cli": "^17.0.8",
     "@angular/compiler-cli": "^17.0.0",
     "@compodoc/compodoc": "^1.1.25",
     "@storybook/addon-a11y": "^7.6.6",
-    "@storybook/addon-essentials": "^7.6.6",
+    "@storybook/addon-essentials": "^8.6.14",
     "@storybook/addon-interactions": "^7.6.6",
     "@storybook/addon-links": "^7.6.6",
-    "@storybook/angular": "^7.6.1",
-    "@storybook/blocks": "^7.6.6",
+    "@storybook/angular": "^8.6.14",
+    "@storybook/blocks": "^8.6.14",
     "@storybook/test": "^7.6.6",
     "@storybook/test-runner": "^0.17.0",
     "@types/jasmine": "~4.3.0",
@@ -72,7 +72,7 @@
     "msw-storybook-addon": "^2.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "storybook": "^7.6.6",
+    "storybook": "^8.6.14",
     "typescript": "~5.2.2"
   },
   "homepage": "https://github.com/chromaui/intro-storybook-angular-template#readme"
