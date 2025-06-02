@@ -77,10 +77,10 @@
       "executor": "@angular-devkit/build-angular:dev-server",
       "configurations": {
         "production": {
-          "browserTarget": "lda:build:production"
+          "buildTarget": "lda:build:production"
         },
         "development": {
-          "browserTarget": "lda:build:development"
+          "buildTarget": "lda:build:development"
         }
       },
       "defaultConfiguration": "development"
@@ -88,7 +88,7 @@
     "extract-i18n": {
       "executor": "@angular-devkit/build-angular:extract-i18n",
       "options": {
-        "browserTarget": "lda:build"
+        "buildTarget": "lda:build"
       }
     },
     "lint": {

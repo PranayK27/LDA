@@ -2,12 +2,11 @@ import {Component, EventEmitter, Input, Output, Signal} from '@angular/core';
 import {Blog} from "../../model/blog-type";
 import {BlogService} from "../../services/blog-service.service";
 import {Router} from "@angular/router";
-import {NgIf} from "@angular/common";
 
 @Component({
   standalone: true,
   selector: 'lda-blog-list',
-  imports: [NgIf],
+  imports: [],
   template: `<div>
     <input
       id="showTechUsage"
@@ -33,9 +32,11 @@ import {NgIf} from "@angular/common";
             <h5 class="font-medium cursor-pointer" (click)="viewDetail(bl.id)">
               {{ bl.heading.substring(0, 50) }}..
             </h5>
-            <p class="m-t-20" *ngIf="showTechDesc">
+            @if(showTechDesc){
+            <p class="m-t-20">
               {{ bl.subHeading }}
             </p>
+            }
           </div>
           <div class="col-md-3 no-trans">
             <a class="linking font-medium text-themecolor m-t-10 cursor-pointer">

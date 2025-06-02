@@ -5,9 +5,10 @@ import {counterReducer} from "./counter.reducer";
 import {StoreModule} from "@ngrx/store";
 
 @NgModule({
-  declarations: [MyCounterComponent],
-  exports: [MyCounterComponent],
+  declarations: [],
+  exports: [],
   imports: [
+    MyCounterComponent,
     AsyncPipe,
     StoreModule.forRoot({count: counterReducer})
   ],
