@@ -34,15 +34,13 @@ import {PagesEffects} from "./+state/pages.effects";
     HttpClientInMemoryWebApiModule.forRoot(InMemoryDataService),
     StoreModule.forFeature('pages', pagesReducer),
     EffectsModule.forFeature([PagesEffects]),
+    Page500Component,
+    LoginComponent,
+    RegistrationComponent,
   ],
   exports: [
     PagesRoutingModule,
   ],
-  declarations: [
-    LoginComponent,
-    RegistrationComponent,
-    Page500Component,
-
-  ],
+  declarations: [],
 })
 export class PagesModule {}

@@ -23,10 +23,9 @@ import {EffectsModule} from "@ngrx/effects";
 import {routerReducer, StoreRouterConnectingModule} from "@ngrx/router-store";
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
+  declarations: [],
   imports: [
+    AppComponent,
     StoreModule.forRoot(),
     EffectsModule.forRoot([]),
     StoreModule.forRoot({router: routerReducer}),

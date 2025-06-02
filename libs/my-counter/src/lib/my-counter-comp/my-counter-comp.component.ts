@@ -2,11 +2,16 @@ import { Component } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { Observable } from 'rxjs';
 import { increment, decrement, reset } from '../counter.action';
+import {AsyncPipe} from "@angular/common";
 
 @Component({
   selector: 'lda-my-counter',
   templateUrl: './my-counter-comp.component.html',
   styleUrls: [],
+  imports: [
+    AsyncPipe
+  ],
+  standalone: true
 })
 
 export class MyCounterComponent {

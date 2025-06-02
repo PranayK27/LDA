@@ -1,15 +1,21 @@
 import {Component, EventEmitter, OnInit, Output} from '@angular/core';
-import {FormControl, FormGroup, Validators} from "@angular/forms";
+import {FormControl, FormGroup, ReactiveFormsModule, Validators} from "@angular/forms";
 import {ListApiService} from "../../../../technologies/src/lib/service/list-api.service";
 import {LoginService} from "../services/loginService";
 import {Subscription} from "rxjs";
 import {Router} from "@angular/router";
 import {Store} from "@ngrx/store";
+import ButtonComponent from "../../../../taskbox/src/button/button.component";
 
 @Component({
   selector: 'lda-login',
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.css'],
+  imports: [
+    ButtonComponent,
+    ReactiveFormsModule
+  ],
+  standalone: true
 })
 export class LoginComponent implements OnInit {
 

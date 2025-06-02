@@ -19,10 +19,9 @@ import {ComponentsModule} from "@lda/taskbox";
     ComponentsModule,
     TechnologiesComponent,
     ListComponent,
-  ],
-  declarations: [
     CategoryDetailsComponent,
   ],
+  declarations: [],
   exports: [],
 })
 export class TechnologiesModule {}

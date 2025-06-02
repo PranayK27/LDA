@@ -4,6 +4,7 @@ import { Component } from '@angular/core';
   selector: 'lda-registration',
   templateUrl: './registration.component.html',
   styleUrls: ['./registration.component.css'],
+  standalone: true
 })
 export class RegistrationComponent {
 

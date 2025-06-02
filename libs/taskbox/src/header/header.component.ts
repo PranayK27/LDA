@@ -1,7 +1,6 @@
 import { Component, Input, Output, EventEmitter } from '@angular/core';
 import type { User } from '../models/User';
 import ButtonComponent from "../button/button.component";
-import {NgIf} from "@angular/common";
 
 @Component({
   standalone: true,
@@ -29,7 +28,8 @@ import {NgIf} from "@angular/common";
           <h1>LDA</h1>
         </div>
         <div>
-          <div *ngIf="user">
+          @if(user){
+          <div>
           <span class="welcome">
             Welcome, <b>{{ user.name }}</b
           >!
@@ -43,7 +43,8 @@ import {NgIf} from "@angular/common";
               label="Log out"
             ></lda-storybook-button>
           </div>
-          <div *ngIf="!user">
+          } @else {
+          <div>
             <lda-storybook-button
               *ngIf="!user"
               size="small"
@@ -59,13 +60,13 @@ import {NgIf} from "@angular/common";
               label="Sign up"
             ></lda-storybook-button>
           </div>
+          }
         </div>
       </div>
     </header>`,
   styleUrls: ['./header.css'],
   imports: [
-    ButtonComponent,
-    NgIf
+    ButtonComponent
   ]
 })
 export default class HeaderComponent {

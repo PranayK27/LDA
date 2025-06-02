@@ -1,14 +1,13 @@
 import {Component, Input, OnInit, Signal} from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
+import {ActivatedRoute, Router, RouterLink} from '@angular/router';
 import { Blog } from '../../../model/blog-type';
 import {BlogService} from "../../../services/blog-service.service";
 import {ComponentsModule} from "@lda/taskbox";
-import {NgIf} from "@angular/common";
 
 @Component({
   standalone: true,
   selector: 'lda-blog-detail',
-  imports: [ComponentsModule, NgIf],
+  imports: [ComponentsModule, RouterLink],
   template: `<div
     class="banner-innerpage"
   >
@@ -63,11 +62,13 @@ import {NgIf} from "@angular/common";
               [label]="back"
               (click)="backToBlog()">
             </lda-storybook-button>
-            <div *ngIf="infoPanelVisible">
+            @if (infoPanelVisible){
+            <div>
               <span></span>
               <br/>
               <a [href]="detail?.link" target="_blank" class="link"><i class="ti-link"></i>{{ detail?.heading }}</a>
             </div>
+            }
           </div>
         </div>
       </div>

@@ -14,7 +14,7 @@ import {
   MatTable
 } from "@angular/material/table";
 import {FooterComponent} from "@lda/pages";
-const listImports= [ComponentsModule, FooterComponent, PagesModule, MatPaginator, MatTable, MatHeaderCell, MatColumnDef, MatCell, MatHeaderCellDef, MatHeaderRow, MatRow, MatCellDef, MatRowDef, MatHeaderRowDef];
+const listImports= [ComponentsModule, FooterComponent, PagesModule, MatTable, MatHeaderCell, MatColumnDef, MatCell, MatHeaderCellDef, MatHeaderRow, MatRow, MatCellDef, MatRowDef, MatHeaderRowDef];
 @Component({
   standalone: true,
   selector: 'lda-list',
