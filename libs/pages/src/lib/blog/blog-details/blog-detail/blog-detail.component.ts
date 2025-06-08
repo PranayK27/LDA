@@ -2,12 +2,12 @@ import {Component, Input, OnInit, Signal} from '@angular/core';
 import {ActivatedRoute, Router, RouterLink} from '@angular/router';
 import { Blog } from '../../../model/blog-type';
 import {BlogService} from "../../../services/blog-service.service";
-import {ComponentsModule} from "@lda/taskbox";
+// import {ComponentsModule} from "@lda/taskbox";
 
 @Component({
   standalone: true,
   selector: 'lda-blog-detail',
-  imports: [ComponentsModule, RouterLink],
+  imports: [RouterLink],
   template: `<div
     class="banner-innerpage"
   >
@@ -50,18 +50,33 @@ import {ComponentsModule} from "@lda/taskbox";
           </p>
 
           <div class="m-t-30">
-            <lda-storybook-button
-              [primary]=true
-              [label]="explore"
-              (click)="toggleInfoPanel()">
-            </lda-storybook-button>
-            &nbsp;
-            <lda-storybook-button
-              [icon]="true"
-              [primary]=false
-              [label]="back"
-              (click)="backToBlog()">
-            </lda-storybook-button>
+            <!-- TODO: work with library button sinc eit throws binding Index issue -->
+<!--            <button-->
+<!--              class="btn btn-lg btn-info-gradiant explore"-->
+<!--              label="explore"-->
+<!--              aria-label="Explore"-->
+<!--              (click)="toggleInfoPanel()">-->
+<!--              <label>explore</label>-->
+<!--            </button>-->
+<!--            <button-->
+<!--              class="btn btn-lg btn-info-gradiant back"-->
+<!--              label="back"-->
+<!--              aria-label="Back"-->
+<!--              (click)="backToBlog()">-->
+<!--              <label>back</label>-->
+<!--            </button>-->
+            <!-- TODO: remove below if binding index issue is gone-->
+            <div class="col-md-6 no-trans">
+              <a class="linking font-medium text-themecolor m-t-10 m-r-10 cursor-pointer">
+                <span (click)="toggleInfoPanel()">Explore</span>
+                <i class="ti-arrow-circle-down"></i>
+              </a>
+              <a class="linking font-medium text-themecolor m-t-10 m-l-10 cursor-pointer">
+                <span (click)="backToBlog()">Back</span>
+                <i class="ti-arrow-left"></i>
+              </a>
+            </div>
+
             @if (infoPanelVisible){
             <div>
               <span></span>
