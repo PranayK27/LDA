@@ -4,7 +4,7 @@ import {NgClass, NgIf} from "@angular/common";
 @Component({
   standalone: true,
   // Needs to be a different name to the CLI template button
-  selector: 'lda-storybook-button',
+  selector: 'lda-storybook-button-discarded',
   imports: [NgIf, NgClass],
   template: `
     <button
