@@ -2,8 +2,8 @@
 import { Component, Input } from '@angular/core';
 
 @Component({
-  selector: 'app-pure-inbox-screen',
-  template: `
+    selector: 'app-pure-inbox-screen',
+    template: `
     <div *ngIf="error" class="page lists-show">
       <div class="wrapper-message">
         <span class="icon-face-sad"></span>
@@ -19,6 +19,7 @@ import { Component, Input } from '@angular/core';
       <app-task-list></app-task-list>
     </div>
   `,
+    standalone: false
 })
 export default class PureInboxScreenComponent {
   @Input() error: any;

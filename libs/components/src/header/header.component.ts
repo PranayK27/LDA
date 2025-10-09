@@ -20,28 +20,28 @@ import {NgIf} from "@angular/common";
           </span>
 <!-- TODO: show logout if user is available so remove the negation on log out when login module is done.-->
 <!-- TODO: move to taskbox and discard this module -->
-            <lda-storybook-button
+            <lda-storybook-button-discarded
               *ngIf="!user"
               size="small"
               (onClick)="onLogout.emit($event)"
               label="Log out"
-            ></lda-storybook-button>
+            ></lda-storybook-button-discarded>
           </div>
           <div *ngIf="!user">
-            <lda-storybook-button
+            <lda-storybook-button-discarded
               *ngIf="!user"
               size="small"
               class="margin-left"
               (onClick)="onLogin.emit($event)"
               label="Log in"
-            ></lda-storybook-button>
-            <lda-storybook-button
+            ></lda-storybook-button-discarded>
+            <lda-storybook-button-discarded
               *ngIf="!user"
               size="small"
               class="margin-left"
               (onClick)="onCreateAccount.emit($event)"
               label="Sign up"
-            ></lda-storybook-button>
+            ></lda-storybook-button-discarded>
           </div>
         </div>
       </div>

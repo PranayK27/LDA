@@ -1,9 +1,12 @@
 {
   "extends": "../tsconfig.app.json",
   "compilerOptions": {
+    "target": "ES2022",
     "types": ["node"],
+    "lib": ["ES2022", "dom"],
     "allowSyntheticDefaultImports": true,
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "skipLibCheck": true
   },
   "exclude": ["../src/test.ts", "../src/**/*.spec.ts"],
   "include": ["../src/**/*", "./preview.ts"],

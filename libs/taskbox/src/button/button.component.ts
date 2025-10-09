@@ -12,10 +12,10 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
       [class]="classes"
       [style]="{ 'background-color': backgroundColor }"
     >
-      @if(icon){
-      <i class="ti-arrow-left"></i>
-      }
       {{ label }}
+      @if (icon){
+        <i class="ti-arrow-right"></i>
+      }
     </button>`,
   styleUrls: ['./button.css'],
 })

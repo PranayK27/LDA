@@ -3,8 +3,8 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { Task } from '../models/task.model';
 
 @Component({
-  selector: 'app-task',
-  template: `
+    selector: 'app-task',
+    template: `
     <div class="list-item {{ task?.state }}">
       <label
         [attr.aria-label]="'archiveTask-' + task?.id"
@@ -45,6 +45,7 @@ import { Task } from '../models/task.model';
       </button>
     </div>
   `,
+    standalone: false
 })
 export default class TaskComponent {
   /**

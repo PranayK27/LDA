@@ -4,10 +4,11 @@ import { Store } from '@ngxs/store';
 import { Observable } from 'rxjs';
 
 @Component({
-  selector: 'lda-inbox-screen',
-  template: `
+    selector: 'lda-inbox-screen',
+    template: `
     <app-pure-inbox-screen [error]="error$ | async"></app-pure-inbox-screen>
   `,
+    standalone: false
 })
 export default class InboxScreenComponent {
   error$: Observable<boolean>;
