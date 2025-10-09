@@ -29,7 +29,7 @@ import {SimpleNotificationsModule} from "angular2-notifications";
             <li class="nav-item">
               <a class="nav-link" [href]=list (click)="sameUrlList()">List</a>
             </li>
-            @if (!showLoginPage && !showRegPage){
+            @if (showLoginPage && showRegPage){
             <li class="nav-item">
               <a class="nav-link" [href]=login (click)="sameUrlLogin()">Login</a>
             </li>

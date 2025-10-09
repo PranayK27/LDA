@@ -2,9 +2,8 @@ import { Component, Input } from '@angular/core';
 import {NgIf} from "@angular/common";
 
 @Component({
-  standalone: true,
-  selector: 'lda-spinner',
-  template: `
+    selector: 'lda-spinner',
+    template: `
     <div class="spinner-overlay" *ngIf="isLoading">
       <div class="spinner-container">
         <div class="loader"></div>
@@ -13,10 +12,10 @@ import {NgIf} from "@angular/common";
     </div>
 
   `,
-  imports: [
-    NgIf
-  ],
-  styles: `
+    imports: [
+        NgIf
+    ],
+    styles: `
     .spinner-overlay {
       position: fixed;
       top: 0;

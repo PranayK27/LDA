@@ -565,7 +565,7 @@
     "components": [
         {
             "name": "AppComponent",
-            "id": "component-AppComponent-aeec37633a82c05ce93649bdd960ae1d573c54df184273e92da3b6affda63b4a147631a2be6d65092b77f2d99481d537c59ee97849cac7a7ed67f926cd3d23a1",
+            "id": "component-AppComponent-4b83f96a53cc8cbd3187194424ddb12863012c032cdc24bd10c0786b29e7baa9ec2e04a34c2577ed451d25ce51fe950deb4affc8cd7586130e4c4130a597b471",
             "file": "src/app/app.component.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -590,7 +590,7 @@
                     "type": "string",
                     "optional": false,
                     "description": "",
-                    "line": 11
+                    "line": 12
                 }
             ],
             "methodsClass": [],
@@ -603,7 +603,7 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import { Component } from '@angular/core';\n\n@Component({\n  selector: 'app-root',\n  template: `\n   <lda-inbox-screen></lda-inbox-screen>\n `,\n})\nexport class AppComponent {\n  title = 'taskbox';\n}\n",
+            "sourceCode": "import { Component } from '@angular/core';\n\n@Component({\n    selector: 'app-root',\n    template: `\n   <lda-inbox-screen></lda-inbox-screen>\n `,\n    standalone: false\n})\nexport class AppComponent {\n  title = 'taskbox';\n}\n",
             "assetsDirs": [],
             "styleUrlsData": "",
             "stylesData": "",
@@ -839,7 +839,7 @@
         },
         {
             "name": "InboxScreenComponent",
-            "id": "component-InboxScreenComponent-f2d6f2850c91355948df91b65cee6c0d527da38f8f99b5bc1472086c81f824486ba308ee4cd9ec5aa7a98166102e15a5902deb72016b469b4fd2cab8fc88d01e",
+            "id": "component-InboxScreenComponent-27e3d21512fb677664f80369ef17f8df1dd84d53bd5a32f595e544fdcfe07123aff0a2a097250e05f17ded9c1ec7e41650b85193fd1dcd42fb991e8bb797c441",
             "file": "src/task/inbox-screen.component.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -863,7 +863,7 @@
                     "type": "Observable<boolean>",
                     "optional": false,
                     "description": "",
-                    "line": 13
+                    "line": 14
                 }
             ],
             "methodsClass": [],
@@ -876,7 +876,7 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import { Component } from '@angular/core';\nimport { Store } from '@ngxs/store';\nimport { Observable } from 'rxjs';\n\n@Component({\n  selector: 'lda-inbox-screen',\n  template: `\n    <app-pure-inbox-screen [error]=\"error$ | async\"></app-pure-inbox-screen>\n  `,\n})\nexport default class InboxScreenComponent {\n  error$: Observable<boolean>;\n  constructor(private store: Store) {\n    this.error$ = store.select((state) => state.taskbox.error);\n  }\n}\n",
+            "sourceCode": "import { Component } from '@angular/core';\nimport { Store } from '@ngxs/store';\nimport { Observable } from 'rxjs';\n\n@Component({\n    selector: 'lda-inbox-screen',\n    template: `\n    <app-pure-inbox-screen [error]=\"error$ | async\"></app-pure-inbox-screen>\n  `,\n    standalone: false\n})\nexport default class InboxScreenComponent {\n  error$: Observable<boolean>;\n  constructor(private store: Store) {\n    this.error$ = store.select((state) => state.taskbox.error);\n  }\n}\n",
             "assetsDirs": [],
             "styleUrlsData": "",
             "stylesData": "",
@@ -893,7 +893,7 @@
                         "deprecationMessage": ""
                     }
                 ],
-                "line": 13,
+                "line": 14,
                 "jsdoctags": [
                     {
                         "name": "store",
@@ -993,7 +993,7 @@
         },
         {
             "name": "PureInboxScreenComponent",
-            "id": "component-PureInboxScreenComponent-e62cc8a82a82d8c52345be54a845a3204e61e8aed968f9d952702a571c5ec9a1d529d27db982f25508677a20b2d183dc00154383568c8f04fbf25189f1ec5050",
+            "id": "component-PureInboxScreenComponent-a5c3f22318afad357bbe69224848333fe83badde86b40ab9bbb15adeb0f5132bb589dd278eb4b216715f2d2f76a2ecd1eb6a6c713d8bc1970f036ef487e01dfb",
             "file": "src/task/pure-inbox-screen.component.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -1012,7 +1012,7 @@
                     "name": "error",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 24,
+                    "line": 25,
                     "type": "any",
                     "decorators": []
                 }
@@ -1029,7 +1029,7 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import { Component, Input } from '@angular/core';\n\n@Component({\n  selector: 'app-pure-inbox-screen',\n  template: `\n    <div *ngIf=\"error\" class=\"page lists-show\">\n      <div class=\"wrapper-message\">\n        <span class=\"icon-face-sad\"></span>\n        <p class=\"title-message\">Oh no!</p>\n        <p class=\"subtitle-message\">Something went wrong</p>\n      </div>\n    </div>\n\n    <div *ngIf=\"!error\" class=\"page lists-show\">\n      <nav>\n        <h1 class=\"title-page\">Taskbox</h1>\n      </nav>\n      <app-task-list></app-task-list>\n    </div>\n  `,\n})\nexport default class PureInboxScreenComponent {\n  @Input() error: any;\n}\n",
+            "sourceCode": "import { Component, Input } from '@angular/core';\n\n@Component({\n    selector: 'app-pure-inbox-screen',\n    template: `\n    <div *ngIf=\"error\" class=\"page lists-show\">\n      <div class=\"wrapper-message\">\n        <span class=\"icon-face-sad\"></span>\n        <p class=\"title-message\">Oh no!</p>\n        <p class=\"subtitle-message\">Something went wrong</p>\n      </div>\n    </div>\n\n    <div *ngIf=\"!error\" class=\"page lists-show\">\n      <nav>\n        <h1 class=\"title-page\">Taskbox</h1>\n      </nav>\n      <app-task-list></app-task-list>\n    </div>\n  `,\n    standalone: false\n})\nexport default class PureInboxScreenComponent {\n  @Input() error: any;\n}\n",
             "assetsDirs": [],
             "styleUrlsData": "",
             "stylesData": "",
@@ -1037,7 +1037,7 @@
         },
         {
             "name": "PureTaskListComponent",
-            "id": "component-PureTaskListComponent-5a76aead03e8c1f7d3c91f21abc2e8d0fca4022a586cd10cda431b361772e3ea3f66ad421cfe6466b77f102217ca8774d4164aedf6133df68de9124d49b45f18",
+            "id": "component-PureTaskListComponent-74143ec3b7632e5ef196a92a7e911d4b5b8afcf3b2d1aa44718fe4b9b5228e2a0672e16207e21bc83bb966be23ea2ab725fa4d93a28c8a370e2670fa02eb95b0",
             "file": "src/task/pure-task-list.component.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -1057,7 +1057,7 @@
                     "defaultValue": "false",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 41,
+                    "line": 42,
                     "type": "boolean",
                     "decorators": []
                 },
@@ -1065,7 +1065,7 @@
                     "name": "tasks",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 50,
+                    "line": 51,
                     "type": "Task[]",
                     "decorators": []
                 }
@@ -1076,7 +1076,7 @@
                     "defaultValue": "new EventEmitter()",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 47,
+                    "line": 48,
                     "type": "EventEmitter<any>"
                 },
                 {
@@ -1084,7 +1084,7 @@
                     "defaultValue": "new EventEmitter()",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 44,
+                    "line": 45,
                     "type": "EventEmitter<any>"
                 }
             ],
@@ -1099,7 +1099,7 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import { Component, Input, Output, EventEmitter } from '@angular/core';\nimport { Task } from '../models/task.model';\n@Component({\n  selector: 'app-pure-task-list',\n  template: `\n    <div class=\"list-items\">\n      <app-task\n        *ngFor=\"let task of tasksInOrder\"\n        [task]=\"task\"\n        (onArchiveTask)=\"onArchiveTask.emit($event)\"\n        (onPinTask)=\"onPinTask.emit($event)\"\n      >\n      </app-task>\n      <div\n        *ngIf=\"tasksInOrder.length === 0 && !loading\"\n        class=\"wrapper-message\"\n      >\n        <span class=\"icon-check\"></span>\n        <p class=\"title-message\">You have no tasks</p>\n        <p class=\"subtitle-message\">Sit back and relax</p>\n      </div>\n      <div *ngIf=\"loading\">\n        <div *ngFor=\"let i of [1, 2, 3, 4, 5, 6]\" class=\"loading-item\">\n          <span class=\"glow-checkbox\"></span>\n          <span class=\"glow-text\">\n            <span>Loading</span> <span>cool</span> <span>state</span>\n          </span>\n        </div>\n      </div>\n    </div>\n  `,\n})\nexport default class PureTaskListComponent {\n  /**\n   * @ignore\n   * Component property to define ordering of tasks\n   */\n  tasksInOrder: Task[] = [];\n\n  @Input() loading = false;\n\n  // tslint:disable-next-line: no-output-on-prefix\n  @Output() onPinTask: EventEmitter<any> = new EventEmitter();\n\n  // tslint:disable-next-line: no-output-on-prefix\n  @Output() onArchiveTask: EventEmitter<any> = new EventEmitter();\n\n  @Input()\n  set tasks(arr: Task[]) {\n    const initialTasks = [\n      ...arr.filter((t) => t.state === 'TASK_PINNED'),\n      ...arr.filter((t) => t.state !== 'TASK_PINNED'),\n    ];\n    const filteredTasks = initialTasks.filter(\n      (t) => t.state === 'TASK_INBOX' || t.state === 'TASK_PINNED'\n    );\n    this.tasksInOrder = filteredTasks.filter(\n      (t) => t.state === 'TASK_INBOX' || t.state === 'TASK_PINNED'\n    );\n  }\n}\n",
+            "sourceCode": "import { Component, Input, Output, EventEmitter } from '@angular/core';\nimport { Task } from '../models/task.model';\n@Component({\n    selector: 'app-pure-task-list',\n    template: `\n    <div class=\"list-items\">\n      <app-task\n        *ngFor=\"let task of tasksInOrder\"\n        [task]=\"task\"\n        (onArchiveTask)=\"onArchiveTask.emit($event)\"\n        (onPinTask)=\"onPinTask.emit($event)\"\n      >\n      </app-task>\n      <div\n        *ngIf=\"tasksInOrder.length === 0 && !loading\"\n        class=\"wrapper-message\"\n      >\n        <span class=\"icon-check\"></span>\n        <p class=\"title-message\">You have no tasks</p>\n        <p class=\"subtitle-message\">Sit back and relax</p>\n      </div>\n      <div *ngIf=\"loading\">\n        <div *ngFor=\"let i of [1, 2, 3, 4, 5, 6]\" class=\"loading-item\">\n          <span class=\"glow-checkbox\"></span>\n          <span class=\"glow-text\">\n            <span>Loading</span> <span>cool</span> <span>state</span>\n          </span>\n        </div>\n      </div>\n    </div>\n  `,\n    standalone: false\n})\nexport default class PureTaskListComponent {\n  /**\n   * @ignore\n   * Component property to define ordering of tasks\n   */\n  tasksInOrder: Task[] = [];\n\n  @Input() loading = false;\n\n  // tslint:disable-next-line: no-output-on-prefix\n  @Output() onPinTask: EventEmitter<any> = new EventEmitter();\n\n  // tslint:disable-next-line: no-output-on-prefix\n  @Output() onArchiveTask: EventEmitter<any> = new EventEmitter();\n\n  @Input()\n  set tasks(arr: Task[]) {\n    const initialTasks = [\n      ...arr.filter((t) => t.state === 'TASK_PINNED'),\n      ...arr.filter((t) => t.state !== 'TASK_PINNED'),\n    ];\n    const filteredTasks = initialTasks.filter(\n      (t) => t.state === 'TASK_INBOX' || t.state === 'TASK_PINNED'\n    );\n    this.tasksInOrder = filteredTasks.filter(\n      (t) => t.state === 'TASK_INBOX' || t.state === 'TASK_PINNED'\n    );\n  }\n}\n",
             "assetsDirs": [],
             "styleUrlsData": "",
             "stylesData": "",
@@ -1121,7 +1121,7 @@
                             }
                         ],
                         "returnType": "void",
-                        "line": 50,
+                        "line": 51,
                         "jsdoctags": [
                             {
                                 "name": "arr",
@@ -1139,7 +1139,7 @@
         },
         {
             "name": "SpinnerComponent",
-            "id": "component-SpinnerComponent-a4f796708a8de3cd6d6ce49bc7f6d246dd49a87f51cc1db80e4823cbfcdf4b87e92c3685fe3b525d7930773195ac7b222ccac1720a09212b67780c03eaf9cc52",
+            "id": "component-SpinnerComponent-ad4b3eb849f9f177e4a019cac05f4250fa6ccc9425058e2130207f1d202e121ba1b4d6bd8bb63307ac5d540450f1cf35633a300928824bac6dc939c1e39606a5",
             "file": "src/spinner/spinner.component.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -1161,7 +1161,7 @@
                     "defaultValue": "false",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 58,
+                    "line": 57,
                     "type": "boolean",
                     "decorators": []
                 },
@@ -1170,7 +1170,7 @@
                     "defaultValue": "'Loading...'",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 59,
+                    "line": 58,
                     "type": "string",
                     "decorators": []
                 }
@@ -1182,7 +1182,7 @@
             "deprecationMessage": "",
             "hostBindings": [],
             "hostListeners": [],
-            "standalone": true,
+            "standalone": false,
             "imports": [
                 {
                     "name": "NgIf"
@@ -1191,7 +1191,7 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import { Component, Input } from '@angular/core';\nimport {NgIf} from \"@angular/common\";\n\n@Component({\n  standalone: true,\n  selector: 'lda-spinner',\n  template: `\n    <div class=\"spinner-overlay\" *ngIf=\"isLoading\">\n      <div class=\"spinner-container\">\n        <div class=\"loader\"></div>\n        <p>{{ message }}</p>\n      </div>\n    </div>\n\n  `,\n  imports: [\n    NgIf\n  ],\n  styles: `\n    .spinner-overlay {\n      position: fixed;\n      top: 0;\n      left: 0;\n      width: 100%;\n      height: 100%;\n      background: rgba(255, 255, 255, 0.7);\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      z-index: 9999;\n    }\n\n    .spinner-container {\n      text-align: center;\n    }\n\n    .loader {\n      border: 8px solid #f3f3f3;\n      border-top: 8px solid #3498db;\n      border-radius: 50%;\n      width: 60px;\n      height: 60px;\n      animation: spin 1s linear infinite;\n      margin: 0 auto;\n    }\n\n    @keyframes spin {\n      0% {\n        transform: rotate(0deg);\n      }\n      100% {\n        transform: rotate(360deg);\n      }\n    }\n  `\n})\nexport class SpinnerComponent {\n  @Input() isLoading = false;\n  @Input() message = 'Loading...';\n}\n",
+            "sourceCode": "import { Component, Input } from '@angular/core';\nimport {NgIf} from \"@angular/common\";\n\n@Component({\n    selector: 'lda-spinner',\n    template: `\n    <div class=\"spinner-overlay\" *ngIf=\"isLoading\">\n      <div class=\"spinner-container\">\n        <div class=\"loader\"></div>\n        <p>{{ message }}</p>\n      </div>\n    </div>\n\n  `,\n    imports: [\n        NgIf\n    ],\n    styles: `\n    .spinner-overlay {\n      position: fixed;\n      top: 0;\n      left: 0;\n      width: 100%;\n      height: 100%;\n      background: rgba(255, 255, 255, 0.7);\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      z-index: 9999;\n    }\n\n    .spinner-container {\n      text-align: center;\n    }\n\n    .loader {\n      border: 8px solid #f3f3f3;\n      border-top: 8px solid #3498db;\n      border-radius: 50%;\n      width: 60px;\n      height: 60px;\n      animation: spin 1s linear infinite;\n      margin: 0 auto;\n    }\n\n    @keyframes spin {\n      0% {\n        transform: rotate(0deg);\n      }\n      100% {\n        transform: rotate(360deg);\n      }\n    }\n  `\n})\nexport class SpinnerComponent {\n  @Input() isLoading = false;\n  @Input() message = 'Loading...';\n}\n",
             "assetsDirs": [],
             "styleUrlsData": "",
             "stylesData": "\n    .spinner-overlay {\n      position: fixed;\n      top: 0;\n      left: 0;\n      width: 100%;\n      height: 100%;\n      background: rgba(255, 255, 255, 0.7);\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      z-index: 9999;\n    }\n\n    .spinner-container {\n      text-align: center;\n    }\n\n    .loader {\n      border: 8px solid #f3f3f3;\n      border-top: 8px solid #3498db;\n      border-radius: 50%;\n      width: 60px;\n      height: 60px;\n      animation: spin 1s linear infinite;\n      margin: 0 auto;\n    }\n\n    @keyframes spin {\n      0% {\n        transform: rotate(0deg);\n      }\n      100% {\n        transform: rotate(360deg);\n      }\n    }\n  \n",
@@ -1199,7 +1199,7 @@
         },
         {
             "name": "TaskComponent",
-            "id": "component-TaskComponent-dd93d72efc99edf5426977bb9b920166bdba9253eeb1f46a1151888d6ce49017045185d4074675aabe79eef91ea4d0d94c72e7a5a92a955794ac6a3296594acc",
+            "id": "component-TaskComponent-d364f31d32c31151c8ece98b1cd4597d9df8387a634ab1d8a031801559c50008c8acec98f768b2de99a898ff971842f90faa074b0716f9072ad47e688fe4cc65",
             "file": "src/task/task.component.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -1220,7 +1220,7 @@
                     "deprecationMessage": "",
                     "rawdescription": "\n\nThe shape of the task object\n",
                     "description": "<p>The shape of the task object</p>\n",
-                    "line": 53,
+                    "line": 54,
                     "type": "Task",
                     "decorators": []
                 }
@@ -1231,7 +1231,7 @@
                     "defaultValue": "new EventEmitter<Event>()",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 61,
+                    "line": 62,
                     "type": "EventEmitter"
                 },
                 {
@@ -1239,7 +1239,7 @@
                     "defaultValue": "new EventEmitter<Event>()",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 57,
+                    "line": 58,
                     "type": "EventEmitter"
                 }
             ],
@@ -1254,7 +1254,7 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import { Component, Input, Output, EventEmitter } from '@angular/core';\nimport { Task } from '../models/task.model';\n\n@Component({\n  selector: 'app-task',\n  template: `\n    <div class=\"list-item {{ task?.state }}\">\n      <label\n        [attr.aria-label]=\"'archiveTask-' + task?.id\"\n        for=\"checked-{{ task?.id }}\"\n        class=\"checkbox\"\n      >\n        <input\n          type=\"checkbox\"\n          disabled=\"true\"\n          [defaultChecked]=\"task?.state === 'TASK_ARCHIVED'\"\n          name=\"checked-{{ task?.id }}\"\n          id=\"checked-{{ task?.id }}\"\n        />\n        <span class=\"checkbox-custom\" (click)=\"onArchive(task?.id)\"></span>\n      </label>\n      <label\n        [attr.aria-label]=\"task?.title + ''\"\n        for=\"title-{{ task?.id }}\"\n        class=\"title\"\n      >\n        <input\n          type=\"text\"\n          [value]=\"task?.title\"\n          readonly=\"true\"\n          id=\"title-{{ task?.id }}\"\n          name=\"title-{{ task?.id }}\"\n          placeholder=\"Input title\"\n          style=\"text-overflow: ellipsis;\"\n        />\n      </label>\n      <button\n        *ngIf=\"task?.state !== 'TASK_ARCHIVED'\"\n        class=\"pin-button\"\n        [attr.aria-label]=\"'pinTask-' + task?.id\"\n        (click)=\"onPin(task?.id)\"\n      >\n        <span class=\"icon-star\"></span>\n      </button>\n    </div>\n  `,\n})\nexport default class TaskComponent {\n  /**\n   * The shape of the task object\n   */\n  @Input() task?: Task;\n\n  // tslint:disable-next-line: no-output-on-prefix\n  @Output()\n  onPinTask = new EventEmitter<Event>();\n\n  // tslint:disable-next-line: no-output-on-prefix\n  @Output()\n  onArchiveTask = new EventEmitter<Event>();\n\n  /**\n   * @ignore\n   * Component method to trigger the onPin event\n   * @param id string\n   */\n  onPin(id: any) {\n    this.onPinTask.emit(id);\n  }\n  /**\n   * @ignore\n   * Component method to trigger the onArchive event\n   * @param id string\n   */\n  onArchive(id: any) {\n    this.onArchiveTask.emit(id);\n  }\n}\n",
+            "sourceCode": "import { Component, Input, Output, EventEmitter } from '@angular/core';\nimport { Task } from '../models/task.model';\n\n@Component({\n    selector: 'app-task',\n    template: `\n    <div class=\"list-item {{ task?.state }}\">\n      <label\n        [attr.aria-label]=\"'archiveTask-' + task?.id\"\n        for=\"checked-{{ task?.id }}\"\n        class=\"checkbox\"\n      >\n        <input\n          type=\"checkbox\"\n          disabled=\"true\"\n          [defaultChecked]=\"task?.state === 'TASK_ARCHIVED'\"\n          name=\"checked-{{ task?.id }}\"\n          id=\"checked-{{ task?.id }}\"\n        />\n        <span class=\"checkbox-custom\" (click)=\"onArchive(task?.id)\"></span>\n      </label>\n      <label\n        [attr.aria-label]=\"task?.title + ''\"\n        for=\"title-{{ task?.id }}\"\n        class=\"title\"\n      >\n        <input\n          type=\"text\"\n          [value]=\"task?.title\"\n          readonly=\"true\"\n          id=\"title-{{ task?.id }}\"\n          name=\"title-{{ task?.id }}\"\n          placeholder=\"Input title\"\n          style=\"text-overflow: ellipsis;\"\n        />\n      </label>\n      <button\n        *ngIf=\"task?.state !== 'TASK_ARCHIVED'\"\n        class=\"pin-button\"\n        [attr.aria-label]=\"'pinTask-' + task?.id\"\n        (click)=\"onPin(task?.id)\"\n      >\n        <span class=\"icon-star\"></span>\n      </button>\n    </div>\n  `,\n    standalone: false\n})\nexport default class TaskComponent {\n  /**\n   * The shape of the task object\n   */\n  @Input() task?: Task;\n\n  // tslint:disable-next-line: no-output-on-prefix\n  @Output()\n  onPinTask = new EventEmitter<Event>();\n\n  // tslint:disable-next-line: no-output-on-prefix\n  @Output()\n  onArchiveTask = new EventEmitter<Event>();\n\n  /**\n   * @ignore\n   * Component method to trigger the onPin event\n   * @param id string\n   */\n  onPin(id: any) {\n    this.onPinTask.emit(id);\n  }\n  /**\n   * @ignore\n   * Component method to trigger the onArchive event\n   * @param id string\n   */\n  onArchive(id: any) {\n    this.onArchiveTask.emit(id);\n  }\n}\n",
             "assetsDirs": [],
             "styleUrlsData": "",
             "stylesData": "",
@@ -1262,7 +1262,7 @@
         },
         {
             "name": "TaskListComponent",
-            "id": "component-TaskListComponent-3db5ec43b68a8351a256f346f565c5f6c38e219d9c8b9ca2e6f36a7556f2f51a43d8c277bfaeaf040110372435ecdb68d688f6b14938ab67af6e28ae451499f9",
+            "id": "component-TaskListComponent-63fc019d51b142fb004ed1d902bd1fdc91e52f38d18666c80962ad0b76d4623d4cc2eafab0fadb7753f36233a75c44dce0c02302e0e419fbf146a1306ada66ad",
             "file": "src/task/task-list.component.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -1286,7 +1286,7 @@
                     "type": "Observable<any>",
                     "optional": true,
                     "description": "",
-                    "line": 19
+                    "line": 20
                 }
             ],
             "methodsClass": [
@@ -1303,7 +1303,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 28,
+                    "line": 29,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "rawdescription": "\n\nComponent method to trigger the archiveTask event\n",
@@ -1333,7 +1333,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 35,
+                    "line": 36,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "rawdescription": "\n\nComponent method to trigger the pinTask event\n",
@@ -1360,7 +1360,7 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import {Component, Input} from '@angular/core';\nimport { Store } from '@ngxs/store';\nimport { ArchiveTask, PinTask } from '../state/task.state';\nimport { Observable } from 'rxjs';\nimport { Task } from 'src/models/task.model';\n\n@Component({\n  selector: 'app-task-list',\n  template: `\n    <app-pure-task-list\n      [tasks]=\"tasks$ | async\"\n      (onArchiveTask)=\"archiveTask($event)\"\n      (onPinTask)=\"pinTask($event)\"\n    ></app-pure-task-list>\n  `,\n})\nexport default class TaskListComponent {\n  tasks$?: Observable<any>;\n\n  constructor(private store: Store) {\n    this.tasks$ = store.select((state) => state.taskbox.tasks);\n  }\n\n  /**\n   * Component method to trigger the archiveTask event\n   */\n  archiveTask(id: string) {\n    this.store.dispatch(new ArchiveTask(id));\n  }\n\n  /**\n   * Component method to trigger the pinTask event\n   */\n  pinTask(id: string) {\n    this.store.dispatch(new PinTask(id));\n  }\n}\n",
+            "sourceCode": "import {Component, Input} from '@angular/core';\nimport { Store } from '@ngxs/store';\nimport { ArchiveTask, PinTask } from '../state/task.state';\nimport { Observable } from 'rxjs';\nimport { Task } from 'src/models/task.model';\n\n@Component({\n    selector: 'app-task-list',\n    template: `\n    <app-pure-task-list\n      [tasks]=\"tasks$ | async\"\n      (onArchiveTask)=\"archiveTask($event)\"\n      (onPinTask)=\"pinTask($event)\"\n    ></app-pure-task-list>\n  `,\n    standalone: false\n})\nexport default class TaskListComponent {\n  tasks$?: Observable<any>;\n\n  constructor(private store: Store) {\n    this.tasks$ = store.select((state) => state.taskbox.tasks);\n  }\n\n  /**\n   * Component method to trigger the archiveTask event\n   */\n  archiveTask(id: string) {\n    this.store.dispatch(new ArchiveTask(id));\n  }\n\n  /**\n   * Component method to trigger the pinTask event\n   */\n  pinTask(id: string) {\n    this.store.dispatch(new PinTask(id));\n  }\n}\n",
             "assetsDirs": [],
             "styleUrlsData": "",
             "stylesData": "",
@@ -1377,7 +1377,7 @@
                         "deprecationMessage": ""
                     }
                 ],
-                "line": 19,
+                "line": 20,
                 "jsdoctags": [
                     {
                         "name": "store",

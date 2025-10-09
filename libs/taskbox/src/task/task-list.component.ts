@@ -6,14 +6,15 @@ import { Observable } from 'rxjs';
 import { Task } from 'src/models/task.model';
 
 @Component({
-  selector: 'app-task-list',
-  template: `
+    selector: 'app-task-list',
+    template: `
     <app-pure-task-list
       [tasks]="tasks$ | async"
       (onArchiveTask)="archiveTask($event)"
       (onPinTask)="pinTask($event)"
     ></app-pure-task-list>
   `,
+    standalone: false
 })
 export default class TaskListComponent {
   tasks$?: Observable<any>;

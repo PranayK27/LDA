@@ -2,8 +2,8 @@
 import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { Task } from '../models/task.model';
 @Component({
-  selector: 'app-pure-task-list',
-  template: `
+    selector: 'app-pure-task-list',
+    template: `
     <div class="list-items">
       <app-task
         *ngFor="let task of tasksInOrder"
@@ -30,6 +30,7 @@ import { Task } from '../models/task.model';
       </div>
     </div>
   `,
+    standalone: false
 })
 export default class PureTaskListComponent {
   /**
