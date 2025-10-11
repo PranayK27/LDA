@@ -1,11 +1,14 @@
 import { Component, OnInit } from '@angular/core';
-import {BannerComponent} from "@lda/pages";
-import PageComponent from "../../../../components/src/pages/page.component";
+import { BannerComponent } from '@lda/pages';
+import PageComponent from '../../../../taskbox/src/pages/page.component';
 
 @Component({
   standalone: true,
   selector: 'lda-technologies',
-  imports: [BannerComponent, PageComponent],
+  imports: [
+    BannerComponent,
+    PageComponent
+  ],
   template: `
   <!DOCTYPE html>
 <html>

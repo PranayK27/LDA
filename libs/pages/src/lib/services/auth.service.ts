@@ -10,7 +10,13 @@ export class AuthService {
   constructor(private http: HttpClient) {}
 
   register(user: User): Observable<any> {
-    return this.http.post(`${this.baseUrl}/register`, user);
+    console.log(user);
+    return this.http.post(`${this.baseUrl}/register`, user).pipe(
+      tap({
+        next: (res) => console.log(res, user),
+        error: (err) => console.error('❌ Registration failed:', err, user)
+      })
+    );
   }
 
   login(username: string, password: string): Observable<{ token: string }> {
@@ -36,7 +42,9 @@ export class AuthService {
   }
 
   getToken(): string | null {
-    return sessionStorage.getItem('token');
+    console.log(localStorage.getItem('jwtToken') || localStorage.getItem('Token'));
+    console.log(sessionStorage);
+    return sessionStorage.getItem('jwtToken') || sessionStorage.getItem('Token');
   }
 
   logout() {

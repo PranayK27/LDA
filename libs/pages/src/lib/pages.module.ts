@@ -46,7 +46,7 @@ import { AuthInterceptor } from './interceptors/auth.interceptor';
   ],
   declarations: [],
   providers: [
-    { provide: HTTP_INTERCEPTORS, useClass: AuthInterceptor, multi: true }
+    // { provide: HTTP_INTERCEPTORS, useClass: AuthInterceptor, multi: true }
   ],
 })
 export class PagesModule {}

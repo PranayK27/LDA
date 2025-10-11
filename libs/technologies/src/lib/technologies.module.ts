@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { TechnologiesRoutingModule } from './technologies-routing.module';
 import { CategoryDetailsComponent } from './technologies/category-details/category-details.component';
+// eslint-disable-next-line @nrwl/nx/enforce-module-boundaries
 import {PagesModule} from "@lda/pages";
 import {ListComponent} from "./technologies/list/list.component";
 import {TechnologiesComponent} from "./technologies/technologies.component";

@@ -3,7 +3,7 @@ import type { User } from '../shared/User';
 
 @Component({
     standalone: true,
-    selector: 'lda-storybook-page',
+    selector: 'lda-storybook-page-discarded',
     template: `<article>
     <section class="storybook-page">
       <h2>Pages in Storybook</h2>
