@@ -90,7 +90,7 @@ export class ListComponent implements OnInit {
   // }
 
   async getData() {
-    this.lists = await this.listApiService.getDataList();
+    this.lists = await this.listApiService.getData();
   }
 
   deleteData(id: number | undefined) {

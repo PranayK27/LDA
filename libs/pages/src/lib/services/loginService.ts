@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import {catchError, Observable, retry, throwError} from 'rxjs';
-import {Login} from "../login/login";
+import {User} from "../model/user";
 import {Router} from "@angular/router";
 
 @Injectable({
@@ -51,7 +51,7 @@ export class LoginService {
     return this.http.delete(`${this.baseUrl}/${id}`, { responseType: 'text' });
   }
 
-  getDataList(): Observable<Login[]> {
-    return this.http.get<Login[]>(`${this.baseUrl}/cred`);
+  getDataList(): Observable<User[]> {
+    return this.http.get<User[]>(`${this.baseUrl}/cred`);
   }
 }

@@ -611,7 +611,7 @@
         },
         {
             "name": "ButtonComponent",
-            "id": "component-ButtonComponent-12b9650ad9e20f7ad5bccfeb304f4c9f297f54b2c9c7dfe263e18f2c3ef840286d6c196baf50f1bfaf6cea468b6fa8797e281dc9433b8e1fb38d70dc3584ae46",
+            "id": "component-ButtonComponent-ddc6c5c57a9dd4401ecdcd05ad87bd7280affc780ad8a3957d9cec9a6a3f4958fc3148c81f70f33f6c2b825a5d8bb8a5877fcc46612b5b2e97c9963d7d84053d",
             "file": "src/button/button.component.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -623,7 +623,7 @@
                 "./button.css"
             ],
             "styles": [],
-            "template": "<button\n  type=\"button\"\n  (click)=\"onClick.emit($event)\"\n  [class]=\"classes\"\n  [style]=\"{ 'background-color': backgroundColor }\"\n>\n  @if(icon){\n  <i class=\"ti-arrow-left\"></i>\n  }\n  {{ label }}\n</button>",
+            "template": "<button\n  type=\"button\"\n  (click)=\"onClick.emit($event)\"\n  [class]=\"classes\"\n  [style]=\"{ 'background-color': backgroundColor }\"\n>\n  {{ label }}\n  @if (icon){\n    <i class=\"ti-arrow-right\"></i>\n  }\n</button>",
             "templateUrl": [],
             "viewProviders": [],
             "hostDirectives": [],
@@ -656,15 +656,15 @@
                     "deprecationMessage": "",
                     "jsdoctags": [
                         {
-                            "pos": 886,
-                            "end": 899,
+                            "pos": 890,
+                            "end": 903,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
                             "kind": 334,
                             "tagName": {
-                                "pos": 887,
-                                "end": 895,
+                                "pos": 891,
+                                "end": 899,
                                 "flags": 16842752,
                                 "modifierFlagsCache": 0,
                                 "transformFlags": 0,
@@ -726,7 +726,7 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import { Component, Input, Output, EventEmitter } from '@angular/core';\n\n@Component({\n  standalone: true,\n  // Needs to be a different name to the CLI template button\n  selector: 'lda-storybook-button',\n  imports: [],\n  template: `\n    <button\n      type=\"button\"\n      (click)=\"onClick.emit($event)\"\n      [class]=\"classes\"\n      [style]=\"{ 'background-color': backgroundColor }\"\n    >\n      @if(icon){\n      <i class=\"ti-arrow-left\"></i>\n      }\n      {{ label }}\n    </button>`,\n  styleUrls: ['./button.css'],\n})\nexport default class ButtonComponent {\n  /**\n   * Is this the principal call to action on the page?\n   */\n  @Input()\n  primary = false;\n\n  /**\n   * What background color to use\n   */\n  @Input()\n  backgroundColor?: string;\n\n  /**\n   * How large should the button be?\n   */\n  @Input()\n  size: 'small' | 'medium' | 'large' = 'medium';\n\n  /**\n   * Button contents\n   *\n   * @required\n   */\n  @Input()\n  label = 'Button';\n\n  /**\n   * Button with icon\n   *\n   */\n  @Input()\n  icon = false\n\n  /**\n   * Optional click handler\n   */\n  @Output()\n  onClick = new EventEmitter<Event>();\n\n  public get classes(): string[] {\n    const mode = this.primary ? 'storybook-button--primary' : 'storybook-button--secondary';\n\n    return ['storybook-button', `storybook-button--${this.size}`, mode];\n  }\n}\n",
+            "sourceCode": "import { Component, Input, Output, EventEmitter } from '@angular/core';\n\n@Component({\n  standalone: true,\n  // Needs to be a different name to the CLI template button\n  selector: 'lda-storybook-button',\n  imports: [],\n  template: `\n    <button\n      type=\"button\"\n      (click)=\"onClick.emit($event)\"\n      [class]=\"classes\"\n      [style]=\"{ 'background-color': backgroundColor }\"\n    >\n      {{ label }}\n      @if (icon){\n        <i class=\"ti-arrow-right\"></i>\n      }\n    </button>`,\n  styleUrls: ['./button.css'],\n})\nexport default class ButtonComponent {\n  /**\n   * Is this the principal call to action on the page?\n   */\n  @Input()\n  primary = false;\n\n  /**\n   * What background color to use\n   */\n  @Input()\n  backgroundColor?: string;\n\n  /**\n   * How large should the button be?\n   */\n  @Input()\n  size: 'small' | 'medium' | 'large' = 'medium';\n\n  /**\n   * Button contents\n   *\n   * @required\n   */\n  @Input()\n  label = 'Button';\n\n  /**\n   * Button with icon\n   *\n   */\n  @Input()\n  icon = false\n\n  /**\n   * Optional click handler\n   */\n  @Output()\n  onClick = new EventEmitter<Event>();\n\n  public get classes(): string[] {\n    const mode = this.primary ? 'storybook-button--primary' : 'storybook-button--secondary';\n\n    return ['storybook-button', `storybook-button--${this.size}`, mode];\n  }\n}\n",
             "assetsDirs": [],
             "styleUrlsData": [
                 {

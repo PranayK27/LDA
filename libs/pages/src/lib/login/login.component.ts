@@ -1,11 +1,14 @@
 import {Component, EventEmitter, OnInit, Output} from '@angular/core';
-import {FormControl, FormGroup, ReactiveFormsModule, Validators} from "@angular/forms";
+import { FormControl, FormGroup, ReactiveFormsModule, UntypedFormGroup, Validators } from '@angular/forms';
+// eslint-disable-next-line @nrwl/nx/enforce-module-boundaries
 import {ListApiService} from "../../../../technologies/src/lib/service/list-api.service";
 import {LoginService} from "../services/loginService";
 import {Subscription} from "rxjs";
 import {Router} from "@angular/router";
 import {Store} from "@ngrx/store";
+// eslint-disable-next-line @nrwl/nx/enforce-module-boundaries
 import ButtonComponent from "../../../../taskbox/src/button/button.component";
+import {AuthService} from "../services/auth.service";
 
 @Component({
   selector: 'lda-login',
@@ -28,12 +31,14 @@ export class LoginComponent implements OnInit {
   constructor(private readonly router: Router,
               private readonly listService: ListApiService,
               private readonly loginService: LoginService,
+              protected readonly auth: AuthService,
               private readonly store: Store) {
     this.store.subscribe((store) => console.log(store));
+    console.log(auth.getToken());
   }
 
   ngOnInit() {
-    this.loginForm = new FormGroup({
+    this.loginForm = new UntypedFormGroup({
       username: new FormControl('', [Validators.required]),
       password: new FormControl('', [Validators.required]),
     });
@@ -41,7 +46,15 @@ export class LoginComponent implements OnInit {
 
   onSubmit() {
     if (this.loginForm.valid) {
-      this.loginService.login(this.loginForm.value.username, this.loginForm.value.password);
+      console.log(this.loginForm.value);
+      console.log(this.loginForm.value.username, this.loginForm.value.password);
+      this.auth.login(this.loginForm.value.username, this.loginForm.value.password).subscribe({
+        next: res => {
+          this.auth.saveToken(res.token);
+          this.router.navigate(["/tech/dashboard"]);
+        },
+        error: err => alert("Invalid Credentials!")
+      });
     } else {
       this.router.navigate(["/tech/internalserver"]);
     }

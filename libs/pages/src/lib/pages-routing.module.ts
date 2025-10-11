@@ -8,6 +8,8 @@ import {LoginComponent} from "./login/login.component";
 import {Page404Component} from "./page404/page404.component";
 import {Page500Component} from "./page500/page500.component";
 import {BlogDetailsComponent} from "./blog/blog-details/blog-details.component";
+import {AuthGuard} from "./services/AuthGuard";
+import {DashboardComponent} from "./dashboard/dashboard.component";
 
 const routes: Routes = [
   {
@@ -18,6 +20,7 @@ const routes: Routes = [
       { path: "blogDetail/:id", component: BlogDetailsComponent },
       { path: "tech/about", component: AboutComponent },
       { path: "tech/login", component: LoginComponent },
+      { path: "tech/dashboard", component: DashboardComponent, canActivate: [AuthGuard] },
       { path: "tech/register", component: RegistrationComponent },
       { path: "tech/pagenotfound", component: Page404Component },
       { path: "tech/internalserver", component: Page500Component },

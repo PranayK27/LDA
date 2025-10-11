@@ -10,19 +10,23 @@ export class ListApiService {
 
   constructor(public http: HttpClient, public apiMapper: ApiMapperService) { }
 
-  // private baseUrl = 'http://localhost:8081/tech/api/v1/list'; // for LDA backend
+  private baseUrl = 'http://localhost:8081/tech/api/v1/list'; // for LDA backend
 
-  private baseUrl= "https://api.mockae.com/fakeapi/products"; //this.apiMapper.getData();
+  // private baseUrl= "https://api.mockae.com/fakeapi/products"; //this.apiMapper.getData();
 
-  getData(id: number): Observable<any> {
+  getData() {
+    return this.http.get(`${this.baseUrl}`);
+  }
+
+  getDataById(id: number): Observable<any> {
     return this.http.get(`${this.baseUrl}/${id}`);
   }
 
-  createData(data: Object): Observable<Object> {
+  createData(data: NonNullable<unknown>): Observable<NonNullable<unknown>> {
     return this.http.post(`${this.baseUrl}`, data);
   }
 
-  updateData(id: number, value: any): Observable<Object> {
+  updateData(id: number, value: any): Observable<NonNullable<unknown>> {
     return this.http.put(`${this.baseUrl}/${id}`, value);
   }
 

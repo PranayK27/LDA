@@ -13,11 +13,13 @@ import { RegistrationComponent } from './registration/registration.component';
 import {Page500Component} from "./page500/page500.component";
 import {StoreModule} from "@ngrx/store";
 import {pagesReducer} from "./+state/pages.reducer";
-import {HttpClientModule} from "@angular/common/http";
+import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import {InMemoryDataService} from "./services/InMemoryDataService.service";
 import {EffectsModule} from "@ngrx/effects";
 import {PagesEffects} from "./+state/pages.effects";
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { AuthInterceptor } from './interceptors/auth.interceptor';
 
 @NgModule({
   imports: [
@@ -37,10 +39,14 @@ import {PagesEffects} from "./+state/pages.effects";
     Page500Component,
     LoginComponent,
     RegistrationComponent,
+    DashboardComponent,
   ],
   exports: [
     PagesRoutingModule,
   ],
   declarations: [],
+  providers: [
+    { provide: HTTP_INTERCEPTORS, useClass: AuthInterceptor, multi: true }
+  ],
 })
 export class PagesModule {}
